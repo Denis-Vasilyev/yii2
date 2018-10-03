@@ -1,0 +1,559 @@
+.like-block {
+    position: absolute;
+    right: 15px;
+    top: 17px;
+}
+
+.like-block-icon {
+    font-size: 39px;
+    /*color: #00a551;*/
+}
+
+.like-block-icon.icon-recommend2,
+.like-block-icon.icon-recommend {
+    color: #00a551;
+    font-size: 39px;
+}
+
+.like-block-icon.icon-not-recommend2,
+.like-block-icon.icon-not-recommend {
+    color: #da4c4c;
+    font-size: 39px;
+}
+
+.add-rev__wrap {
+    position: relative;
+}
+
+.add-rev--left {
+    display: inline-block;
+    vertical-align: top;
+    width: 69%;
+}
+
+.add-rev--right {
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    margin-top: 36px;
+    float: right;
+}
+
+.add-rev__inp-date {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    width: 293px;
+}
+
+
+
+.add-rev__date-block  {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.add-rev__date-block .bth__inp-lbl {
+    z-index: 8;
+}
+.add-rev__date-block .SumoSelect > .CaptionCont.search span {
+    margin-top: 2px;
+}
+
+.add-rev__date-block .SumoSelect + .bth__inp-lbl {
+    opacity: 0;
+}
+
+.add-rev__date-block .SumoSelect > .CaptionCont > span.placeholder {
+    color: #999;
+    font-weight: normal;
+}
+
+.add-rev__date-block .SumoSelect.open + .bth__inp-lbl {
+    opacity: 1;
+    top: -21px;
+}
+
+.bth__inp-lbl.active {
+    top: -21px;
+}
+
+.add-rev__date-block .SumoSelect + .bth__inp-lbl.active {
+    opacity: 1;
+}
+
+.section.add-rev-with  {
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+.add-rev__btn-block .cbx-block {
+    display: inline-block;
+    margin-right: 5px;
+    width: auto;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.add-rev__btn-block .cbx + .label-cbx {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 8px 10px 5px 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.add-rev__btn-block .cbx + .label-cbx .cbx-cnt {
+    color: #ff8e41;
+}
+
+.add-rev__btn-block .cbx + .label-cbx::after,
+.add-rev__btn-block .cbx + .label-cbx::before {
+    display: none;
+}
+
+.add-rev__btn-block .cbx:checked + .label-cbx {
+    background: #ff8e41;
+}
+
+.add-rev__btn-block .cbx:checked + .label-cbx .cbx-cnt {
+    color: #fff;
+}
+
+.cbx-mark__block  {
+    margin-top: 10px;
+}
+
+.cbx-mark__block .cbx-block {
+    display: inline-block;
+    margin-right: 5px;
+    width: 45px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 10px;
+
+}
+
+.cbx-mark__block .cbx-block.mark0 {
+    width: 140px;
+}
+
+.cbx-mark__block .cbx + .label-cbx {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-top: 3px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.cbx-mark__block .cbx + .label-cbx .cbx-cnt {
+    font-size: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.cbx-mark__block .mark5m .cbx + .label-cbx .cbx-cnt {
+    color: #00a651;
+}
+
+
+.cbx-mark__block .mark5 .cbx + .label-cbx .cbx-cnt {
+    color: #75b71f;
+}
+
+
+.cbx-mark__block .mark4 .cbx + .label-cbx .cbx-cnt {
+    color: #a9ca0a;
+}
+
+
+.cbx-mark__block .mark3 .cbx + .label-cbx .cbx-cnt {
+    color: #dfa918;
+}
+
+.cbx-mark__block .mark2 .cbx + .label-cbx .cbx-cnt {
+    color: #da4c4c;
+}
+
+.cbx-mark__block .mark1 .cbx + .label-cbx .cbx-cnt {
+    color: #000;
+}
+
+.cbx-mark__block .mark0 .cbx + .label-cbx .cbx-cnt {
+    color: #999;
+}
+
+
+
+.cbx-mark__block .mark5m .cbx:checked + .label-cbx {
+    background: #00a651;
+}
+
+
+.cbx-mark__block .mark5 .cbx:checked + .label-cbx {
+    background: #75b71f;
+}
+
+
+.cbx-mark__block .mark4 .cbx:checked + .label-cbx {
+    background: #a9ca0a;
+}
+
+
+.cbx-mark__block .mark3 .cbx:checked + .label-cbx {
+    background: #dfa918;
+}
+
+.cbx-mark__block .mark2 .cbx:checked + .label-cbx {
+    background: #da4c4c;
+}
+
+
+
+
+
+.cbx-mark__block .mark1 .cbx:checked + .label-cbx {
+    background: #000;
+}
+
+.cbx-mark__block .mark0 .cbx:checked + .label-cbx {
+    background: #999;
+}
+
+
+
+.cbx-mark__block .cbx:checked + .label-cbx .cbx-cnt {
+    color: #fff;
+}
+
+.cbx-mark__block .cbx + .label-cbx::after,
+.cbx-mark__block .cbx + .label-cbx::before {
+    display: none;
+}
+
+
+.add-rev__btn {
+    background: #ff8e41;
+    width: 250px;
+    color: #fff;
+    padding: 15px 0px 15px 0px;
+    border: none;
+}
+
+.add-rev__btn:hover {
+    background: #e27200;
+
+}
+
+.add-review-about {
+    position: relative;
+    display: block;
+    /* padding: 10px; */
+}
+
+.add-review-total {
+    position: relative;
+    /* border: 1px solid #cccccc; */
+    padding: 20px 15px 15px;
+    background: #e4e5ea;
+}
+
+.add-review-total__top {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+}
+
+
+
+.add-review-total__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.add-review-total__num {
+    display: inline-block;
+    vertical-align: middle;
+    background: #fff;
+    border-radius: 3px;
+    padding: 0px 10px;
+    text-align: center;
+    margin-right: 3px;
+}
+
+.add-review-total__num.green-mark {
+    border: 1px solid #00a650;
+    /* background: rgb(229, 246, 237); */
+}
+
+.add-review-total__num.yellow-mark {
+    border: 1px solid #dfa918;
+    /* background: rgb(250, 246, 229); */
+}
+
+.add-review-total__num.red-mark {
+    border: 1px solid #DA4C4C;
+    /* background: rgb(249, 235, 234); */
+}
+
+.add-review-total__item .hint-block {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.add-review--section {
+    padding-bottom: 25px;
+}
+
+.add-rev__inp-block,
+.add-rev__ta-block {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.big-ta {
+    position: absolute;
+    right: 7px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.big-ta-icon {
+    color: #666;
+    font-size: 18px;
+}
+
+.right-text {
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+
+.section.photo-hotel {
+    padding: 25px 15px;
+}
+.add-rev__photos {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.add-rev__photo {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    width: 90px;
+    height: 53px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.add-rev__photo.add-photo {
+    background: #ffffff;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+.add-photo-icon {
+    font-size: 30px;
+    color: #318cc6;
+    margin-top: 11px;
+}
+
+.photo-total-block-null,
+.photo-total-block {
+    position: absolute;
+    right: 19px;
+    bottom: 19px;
+}
+
+.section.add-rev__mark-total {
+    padding: 0px 15px 1px 15px;
+}
+
+.mark-total__tbl .bth__cell {
+    border-bottom: 1px solid #fff;
+    padding: 9px 7px;
+    vertical-align: top;
+}
+
+.mark-total__tbl .bth__cell:first-child {
+    padding-left: 0;
+}
+
+.mark-total__tbl .bth__cell:nth-child(2) {
+    width: 120px;
+}
+
+.mark-total__tbl .bth__cell:last-child {
+    width: 120px;
+    text-align: right;
+    padding-right: 0px;
+}
+
+.mark-total__tbl .bth__row:last-child .bth__cell {
+    border-bottom: none;
+}
+
+.bth__inp-block.internet {
+    display: none;
+    width: 100%;
+    margin-top: 25px;
+}
+.section.add-rew__room  {
+    padding: 25px 15px 20px;
+}
+
+.bth__inp-block.num-room {
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.btn-block .add-rev__btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.bth__btn.add-rev__btn.preview {
+    border: 1px solid #ff8e41;
+    background: #fff;
+    color: #ff8e41;
+}
+
+.btn-block .back-link {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -3px;
+}
+
+.bth__btn.add-rev__btn.btn--center {
+    display: inline-block;
+}
+
+.section.booking-section {
+    padding: 25px 15px 15px;
+}
+
+.section.booking-section .rbt-block  {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1279px){
+    .mark-total__tbl .bth__cell:nth-child(2) {
+        width: 80px;
+    }
+    .add-rev__btn {
+        width: 215px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .add-rev--right {
+        display: none;
+    }
+    .add-rev--left {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .like-block {
+        display: none;
+    }
+    .mark-total__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 2px 0;
+    }
+    .mark-total__tbl .bth__cell:first-child {
+        padding-top: 7px;
+    }
+    .mark-total__tbl .bth__cell:nth-child(2) {
+        width: 100%;
+    }
+    .mark-total__tbl .bth__cell:last-child {
+        width: 100%;
+        padding-left: 0;
+        border-bottom: 1px solid #fff;
+        text-align: left;
+        padding-bottom: 7px;
+    }
+    .section.add-rev__mark-total {
+        padding: 5px 15px 5px 15px;
+    }
+    .right-text {
+        position: relative;
+        right: auto;
+        top: auto;
+        /*margin-top: 5px;*/
+    }
+}
+
+@media screen and (max-width: 639px) {
+    #addPlusPanel .color-section .rbt-block {
+        display: block;
+        margin-bottom: 10px;
+    }
+    #addPlusPanel .color-section .rbt-block:nth-child(3) {
+        margin-bottom: 0;
+    }
+    .add-rev__inp-date {
+        width: 100%;
+    }
+    .add-rev__tr-date {
+        margin-top: 25px;
+    }
+    .bth__inp-block.num-room {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .btn-block .add-rev__btn {
+        display: block;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .btn-block {
+        display: inline-block;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .cbx-mark__block .cbx-block {
+        margin-right: 1px;
+        width: 39px;
+        height: 39px;
+    }
+    .btn-block {
+        width: 100%;
+    }
+    .btn-block .add-rev__btn,
+    .add-rev__btn {
+        width: 100%;
+    }
+    .add-rev__photos {
+        display: none;
+    }
+    .add-rev__photo.add-photo {
+        display: inline-block;
+    }
+    .add-review-total__item {
+        display: block;
+    }
+}

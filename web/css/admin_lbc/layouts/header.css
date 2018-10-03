@@ -1,0 +1,223 @@
+.header {
+    background: linear-gradient(to right, #fdbe42 0%, #fcaf17 25%);
+}
+
+.header-inner {
+    position: relative;
+    height: 60px;
+    padding: 9px 30px 0;
+}
+
+.header-mid {
+    position: relative;
+    height: 60px;
+}
+
+.header-mid-logo {
+    position: absolute;
+    float: none;
+    width: 46px;
+    height: 38px;
+    right: 20px;
+    top: 9px;
+    background-image: url(/i/lightsoft-white-logo.png);
+    background-repeat: no-repeat;
+}
+
+.site-nav {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    font-family: 'apercu_pro', sans-serif;
+    margin: 0px 30px 0px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.site-nav__item {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;color: #ff8e41;
+    padding: 15px 0px;
+    font-family: 'apercu_pro', sans-serif;
+    margin-right: 20px;
+}
+
+.site-nav__item.active {
+    position: relative;
+    color: #475669;
+}
+
+.site-nav__item.active::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #475669;
+    color: #475669;
+}
+
+.site-nav__item.active a {
+    color: #475669;
+}
+
+.header__user-block,
+.header__ava-block,
+.header__info-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+.header__user-block {
+    position: relative;    padding-right: 20px;
+}
+
+.header__exit {
+    font-size: 24px;
+    position: absolute;
+    color: #475669;
+    right: -10px;
+    top: 11px;
+}
+
+.header__exit:hover {
+    color: #475669;
+}
+.header__ava-block {
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
+    position: relative;
+    border-radius: 50px;
+}
+
+.header__ava {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header__ava-block img {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50px;
+}
+
+.title-h1 {
+    color: #475669;
+}
+
+.user-name {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 25px;
+    line-height: 31px;
+}
+
+.site-nav__authorization {
+    float: right;
+    display: inline-block;
+    padding-top: 15px;
+    color: #999;
+    font-size: 15px;
+}
+
+.site-nav__authorization:hover {
+    text-decoration: underline;
+}
+
+
+.site-nav > div {
+    display: inline-block;
+}
+
+.header__ttl {
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'apercu_pro', sans-serif;
+    float: right;
+    padding-top: 10px;
+    margin-right: 55px;
+}
+
+@media screen and (max-width: 1023px) {
+    .header-inner {
+        padding: 10px 10px;
+    }
+
+    .header__user {
+        padding: 10px 15px;
+        margin-top: 20px;
+    }
+
+    .menu-switch {
+        display: inline-block;
+        vertical-align: top;
+        background: linear-gradient(to bottom, #ffffff 0%, #ffffff 15%, transparent 10%, transparent 45%, #ffffff 50%, #ffffff 60%, transparent 0%, transparent 85%, #ffffff 90%, #ffffff 100%);
+        width: 30px;
+        height: 23px;
+        margin-top: 11px;
+        margin-right: 12px;
+    }
+
+    .header__user-profie {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .header__nav {
+        display: none;
+    }
+
+    .header__logo {
+        margin: 0 auto;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 659px) {
+    .site-nav {
+        margin: 0px 15px 0px;;
+    }
+
+    .header__info-block {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+
+    .header-inner {
+        padding: 9px 20px 0;
+    }
+
+    .header-mid-logo {
+        right: 20px;
+    }
+
+    .user-name {
+        font-size: 21px;
+    }
+
+    .header-inner {
+        padding: 9px 20px 0;
+    }
+
+    .header-mid-logo {
+        right: 20px;
+    }
+}

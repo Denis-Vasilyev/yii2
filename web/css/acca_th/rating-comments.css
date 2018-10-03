@@ -1,0 +1,161 @@
+.rating-comments-tbl td:nth-child(2) {
+    width: 55%;
+}
+
+.rating-comments-tbl td:nth-child(2) .user-block-info:last-of-type {
+    max-width: 78%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rating-comments-tbl td:nth-child(1) {
+    width: 35px;
+}
+
+.rating-comments-tbl .total-row-sm td {
+    font-size: 17px;
+}
+
+.rating-comments-tbl .relative {
+    overflow: visible;
+}
+
+.rating-comments-tbl .relative .hint {
+    top: 32px;
+}
+
+.user-block-info--ava-empty {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 33px;
+    background-color: #ff8e41;
+    color: white;
+    padding-top: 19px;
+    margin-right: 5px;
+}
+
+.rating-comments-tbl td:last-child {
+    text-align: right;
+}
+
+.rating-stat-tbl td:last-child,
+.rating-stat-tbl th:last-child {
+    text-align: left;
+}
+
+#statPanel .section.section--grey .label-rbt-e-cnt {
+    position: static;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.rating-stat-tbl td:first-of-type {
+    width: 250px;
+}
+
+/*Адаптив таблиц*/
+@media screen and (max-width: 659px) {
+    .rating-comments-tbl tr:not(.total-row-sm) td:first-of-type:before {
+        content: '№';
+    }
+
+    .rating-comments-tbl tr:not(.total-row-sm) td:nth-child(2):before {
+        content: 'Отельер';
+    }
+
+    .rating-comments-tbl td:nth-child(3):before {
+        content: 'За месяц';
+    }
+
+    .rating-comments-tbl td:nth-child(4):before {
+        content: 'Все время';
+    }
+
+    .rating-comments-tbl tr:not(.total-row-sm) td:nth-child(5):before {
+        content: 'Последний ответ';
+    }
+
+    .rating-comments-tbl .total-row-sm td:first-of-type {
+        display: none;
+    }
+
+    .rating-comments-tbl .total-row-sm td:last-child {
+        padding: 0;
+    }
+
+    .rating-comments-tbl td:nth-child(2) {
+        width: auto;
+        padding-top: 25px;
+    }
+
+    .rating-comments-tbl tr td:last-of-type div {
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+    .rating-stat-tbl .title-row td:first-of-type:before {
+        content: 'Неделя';
+    }
+
+    .rating-stat-tbl td:first-of-type:before {
+        content: 'День ';
+    }
+
+    .rating-stat-tbl.byWeek td:first-of-type:before {
+        content: 'Неделя ';
+    }
+
+    .rating-stat-tbl.byWeek .title-row td:first-of-type:before {
+        content: 'Месяц ';
+    }
+
+
+    .rating-stat-tbl.byMonth td:first-of-type:before {
+        content: 'Месяц ';
+    }
+
+    .rating-stat-tbl.byMonth .title-row td:first-of-type:before {
+        content: 'Год ';
+    }
+
+    .rating-stat-tbl td:nth-child(2):before {
+        content: 'Отелей / отельеров';
+    }
+
+    .rating-stat-tbl td:nth-child(3):before {
+        content: 'Ответы';
+    }
+
+    .rating-stat-tbl td:nth-child(4):before {
+        content: 'Комментарии';
+    }
+
+    .rating-stat-tbl td:first-of-type {
+        width: auto;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .rating-comments-tbl.rating-comments-tbl--last tr:not(.total-row-sm) td:nth-child(5):before {
+        content: 'Последний комментарий';
+    }
+
+}
+
+@media screen and (max-width: 411px) {
+    .rating-comments-tbl .user-block-info a.s-grey {
+        max-width: 205px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
+
+    }
+}
+

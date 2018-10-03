@@ -1,0 +1,276 @@
+.block-card {
+    border: 2px solid #bcbcbc;
+    margin-bottom: 15px;
+    margin-top: 12px;
+    width: 100%;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 16px;
+    color: #475669;
+}
+
+.block-card__item {
+    padding: 10px 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.block-card__tbl td {
+    border-bottom: 0;
+}
+
+.block-card__rblock-card__r {
+    float: right;
+}
+
+.tape-newView__tbl a:hover {
+    color: #3687c5 !important;
+}
+
+.block-card__in-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block-card__r {
+    float: right;
+}
+
+.block-card__item--flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-card__big-txt {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.block-card .user-block-info img {
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.block-card__tbl {
+    margin-top: 0;
+}
+
+.block-card__tbl td {
+    padding: 10px;
+    border: none;
+}
+
+.block-card__tbl .block-card__tbl-big-cell {
+    width: 50%;
+}
+
+.block-card__item--flex-b {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.circle-ava {
+    border-radius: 50px;
+}
+
+.imgBorder-2px {
+    border-radius: 2px;
+}
+
+.block-card__item--text {
+    display: flex;
+    align-items: start;
+    position: relative;
+}
+
+.block-card--b-green {
+    border-color: #4e97728a;
+}
+
+.block-card--b-red {
+    border-color: rgba(224, 58, 58, 0.52);
+}
+
+.block-card--b-orange {
+    border-color: rgba(255, 142, 65, 0.42);
+}
+
+.block-card__right-icons-timer {
+    width: 60px;
+}
+
+.block-card__msg {
+    margin-left: 10px;
+    max-height: 44px;
+    overflow: hidden;
+}
+
+.block-card__msg.active {
+    max-height: none;
+    overflow: visible;
+    padding-bottom: 15px;
+}
+.block-card__msg .task__cnt-hint {
+    position: static;
+}
+.block-card__msg  .task__cnt-hint:hover .hint  {
+    top: 29px;
+}
+.block-card__red-clock:hover .hint {
+    display: block;
+    left: 0;
+    top: 36px;
+}
+
+.block-card__right-icons {
+    text-align: right;
+}
+
+.block-card__right-icons > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block-card__stars {
+    position: relative;
+    display: inline-block;
+}
+
+.block-card__stars .hint {
+    right: 0;
+    top: 20px;
+}
+
+.block-card .hint.hint--left {
+    right: -103px;
+    top: 57px;
+}
+
+.block-card__stars:hover .hint {
+    display: block;
+}
+
+.block-card__stars i {
+    font-size: 18px;
+}
+
+.block-card__more-abs {
+    position: absolute;
+    left: 70px;
+    cursor: pointer;
+    bottom: 5px;
+    font-weight: normal;
+    font-size: 13px;
+    color: #ff8e41;
+}
+
+.block-card .block-card__flag {
+    vertical-align: baseline;
+    margin-right: 5px;
+}
+
+.block-card__plus-circle {
+    font-family: sans-serif;
+    font-size: 34px;
+    border: 1px solid #475669;
+    border-radius: 50px;
+    padding-top: 12px;
+    width: 45px;
+    height: 45px;
+    color: #475669;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.block-card.relative:hover .hint {
+    display: block;
+}
+
+.block-card__type-block {
+    font-size: 13px;
+    width: 60px;
+    height: 32px;
+    text-align: center;
+    padding-top: 7px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 2px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+}
+
+.block-card__type-block:hover .hint {
+    display: block;
+    top: 35px;
+    right: 0;
+}
+
+.block-card__type-block--red {
+    background-color: #c34343;
+}
+
+.block-card__type-block--gray {
+    background-color: #a7a7a7;
+}
+
+.block-card__type-block--orange {
+    background-color: #ff8e41;
+}
+
+.block-card__circle-ava {
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.block-card__red-clock {
+    font-size: 18px;
+    color: #e03a3a;
+    position: relative;
+    margin-right: 10px;
+}
+
+.block-card__red-clock i {
+    font-size: 37px
+}
+
+.block-card__red-clock > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.block-card__red-clock .hint {
+    display: none;
+}
+
+@media screen and (max-width: 773px) {
+    .block-card__r {
+        float: none;
+        text-align: left;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .block-card .block-card__tbl tr td {
+        width: 100%;
+        padding-top: 19px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .block-card__item--flex-b {
+        flex-direction: column;
+        justify-content: start;
+        width: 93%;
+    }
+
+    .block-card__right-icons {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+}

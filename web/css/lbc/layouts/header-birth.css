@@ -1,0 +1,44 @@
+
+.header--red {
+    background: #FC5918;
+}
+
+.header--purple {
+    background: #C984EF;
+}
+
+.headerBirth-title {
+
+}
+
+.headerBirth-title {
+    position: relative;
+    width: 711px;
+    display: inline-block;
+    vertical-align: top;
+    height: 61px;
+    background-image: url("/images/lbc/birthday.png");
+    background-repeat: no-repeat;    margin-top: -9px;
+}
+
+
+@media screen and (max-width: 1075px) {
+    .headerBirth-title {
+        width: 56%;
+    }
+}
+
+@media screen and (max-width: 942px) {
+    .headerBirth-title {
+        width: 227px;
+        background-image: url("/images/lbc/birthday-sm.png");
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .headerBirth-title {
+     display: none;
+    }
+}
+

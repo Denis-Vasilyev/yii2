@@ -1,0 +1,53 @@
+.service-associations-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.service-associations-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.service-associations-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 127px;
+    height: 3px;
+    background: #475669;
+}
+
+.service-associations-tab.active {
+    color: #475669;
+}
+
+.associate-log th:nth-child(3) {
+    width: 40%;
+}
+
+.associate-log img {
+    border-radius: 50px;
+}
+
+.associate-log tbody tr td:nth-child(3) {
+    white-space: normal;
+}
+
+.associate-log td:first-of-type {
+    width: 60px;
+}
+
+.associate-log td:nth-child(2) {
+    width: 65%
+}

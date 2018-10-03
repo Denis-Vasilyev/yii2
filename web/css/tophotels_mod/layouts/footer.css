@@ -1,0 +1,56 @@
+.tape-footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-top: 1px solid #ccc;
+    padding: 15px 25px;
+}
+
+.tape-footer__cnt {
+    color: #475669;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.tape-footer__right-block {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
+
+.tape-footer__link {
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #318cc6;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1023px) {
+    .tape-footer {
+        padding: 15px 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tape-footer__right-block {
+        position: relative;
+        right: initial;
+        top: initial;
+        margin-top: 10px;
+    }
+    .tape-footer__link {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .tape-footer__link {
+        display: block;
+        margin-left: 0;
+    }
+}
+

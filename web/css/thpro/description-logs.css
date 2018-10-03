@@ -1,0 +1,77 @@
+.description-logs-line {
+    position: absolute;
+    bottom: -1px;
+    left: 520px;
+    width: 38px;
+    height: 3px;
+    background: #475669;
+}
+
+.logs__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+    vertical-align: top;
+}
+
+.logs__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.logs__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.logs__tbl .bth__cell:first-child {
+    width: 80px;
+}
+
+.logs__tbl .bth__cell:nth-child(2) {
+    width: 240px;
+}
+
+.logs__tbl .bth__cell:nth-child(3) {
+    width: 180px;
+}
+
+.logs__tbl .bth__cell:last-child {
+    text-align: left;
+}
+
+.logs__tbl .bth__link.user-name {
+    display: inline-block;
+    max-width: 160px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+
+@media screen and (max-width: 768px){
+    .logs__tbl .head__tbl {
+        display: none;
+    }
+    .logs__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0;
+    }
+    .logs__tbl .bth__cell:first-child {
+        width: 100%;
+        padding-top: 7px;
+    }
+    .logs__tbl .bth__cell:nth-child(2),
+    .logs__tbl .bth__cell:nth-child(3) {
+        width: 100%;
+    }
+    .logs__tbl .bth__cell:last-child {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+    }
+    .logs__tbl .bth__link.user-name {
+        max-width: 100%;
+    }
+}
+

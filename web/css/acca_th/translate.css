@@ -1,0 +1,102 @@
+.translate-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.translate-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.translate-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 53px;
+    height: 3px;
+    background: #475669;
+}
+
+.translate-tab.active {
+    color: #475669;
+}
+
+@media screen and (max-width: 659px) {
+    .translate-new.tape-short__tbl td:nth-child(1):before,
+    .translate-closed td:nth-child(1):before {
+        content: 'Дата';
+    }
+
+    .translate-new.tape-short__tbl td:nth-child(2):before,
+    .translate-closed td:nth-child(2):before {
+        content: 'Перевод';
+    }
+
+    .translate-new.tape-short__tbl td:nth-child(3):before,
+    .translate-closed td:nth-child(3):before {
+        content: 'Тип обращениия';
+    }
+
+    .translate-new.tape-short__tbl td:nth-child(4):before,
+    .translate-closed td:nth-child(4):before {
+        content: 'Отель';
+    }
+
+    .translate-new.tape-short__tbl td:nth-child(5):before,
+    .translate-closed td:nth-child(5):before {
+        content: 'От кого';
+    }
+
+    .translate-new.tape-short__tbl td:nth-child(6):before,
+    .big-table.translate-new.tape-long__tbl td:nth-child(3):before {
+        content: 'Статус';
+    }
+
+    .big-table.translate-new.tape-long__tbl td:nth-child(1):before {
+        content: 'Время';
+    }
+
+    .translate-closed td:nth-child(6):before {
+        content: 'Обработал';
+    }
+
+    .translate-statistics td:nth-child(2):before {
+        content: 'Обработчик';
+    }
+
+    .translate-statistics td:nth-child(3):before {
+        content: 'В течении дня';
+    }
+
+    .translate-statistics td:nth-child(4):before {
+        content: '2-х дней';
+    }
+
+    .translate-statistics td:nth-child(5):before {
+        content: '3-х дней';
+    }
+
+    .translate-statistics td:nth-child(6):before {
+        content: '4-х дней';
+    }
+
+    .translate-statistics td:nth-child(7):before {
+        content: '5-ти дней';
+    }
+
+    .translate-statistics td:nth-child(8):before {
+        content: 'Общее количесто';
+    }
+
+}

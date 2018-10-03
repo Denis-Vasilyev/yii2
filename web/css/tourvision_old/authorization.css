@@ -1,0 +1,237 @@
+.page {
+    background: rgb(228, 229, 234);
+}
+
+.auth-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+    /*margin-top: 20px;*/
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.auth-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 15px 0px;
+    margin-right: 35px;
+    color: #318cc6 ;
+}
+
+
+.auth-tab.active {
+    color: #475669 ;
+}
+
+
+.auth-line {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 110px;
+    height: 3px;
+    background: #475669;
+}
+
+.auth-form__item {
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    margin-bottom: 38px;
+}
+
+.auth-form__field {
+    position: relative;
+    display: inline-block;
+}
+
+.auth-form__input {
+    margin-top: 0;
+    display: block;
+    width: 450px;
+    height: 56px;
+    outline: none;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    padding: 0 13px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    transition: border-color .3s ease;
+}
+
+.auth-form__label {
+    display: block;
+    font-weight: 600;
+    color: #475669;
+    font-size: 16px;
+    position: absolute;
+    margin-left: 12px;
+    top: 19px;
+    transition: 0.3s;
+}
+
+.auth-form__eye {
+    position: absolute;
+    top: 23px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    width: 20px;
+    height: 8px;
+    right: 10px;
+    background: url(/i/tourvision/closed-eye-fine.png) no-repeat;
+}
+
+.auth-form__eye.active {
+    background: url(/i/tourvision/opened-eye-fine.png) no-repeat;
+}
+
+.auth-form__field.complete .auth-form__label,
+.auth-form__field .auth-form__input:focus + .auth-form__label,
+.auth-form__label.active,
+input:-webkit-autofill + label {
+    top: -19px;
+}
+
+#authorizationPanel .hint-block {
+    position: absolute;
+    right: 10px;
+    top: 19px;
+}
+
+#authorizationPanel .question-error {
+    display: block;
+    color: #a5a5a5;
+    background: #fff;
+    font-size: 19px;
+}
+
+#authorizationPanel .hint {
+    position: absolute;
+    display: none;
+    padding: 5px 9px 6px 9px;
+    background: rgba(255, 255, 255, 1);
+    color: #475669;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    border-radius: 3px;
+    top: 24px;
+    right: 0;
+    width: 245px;
+    text-align: left;
+}
+
+#authorizationPanel .hint-block:hover .hint {
+    display: block;
+}
+
+.auth-form__submit {
+    position: relative;
+    display: block;
+    width: 200px;
+    line-height: 56px;
+    height: 56px;
+    border: 1px solid #dfdfdf;
+    outline: none;
+    background: #fff;
+    color: #ff8e41;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-right: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.auth-form__submit:hover {
+    background: #ff8e41;
+    border-color: #e4e5ea;
+    color: #fff;
+}
+
+.auth-form__submit i {
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    top: 1px;
+    right: -6px;
+    background: url(/i/tourvision/next-18.png) no-repeat center;
+}
+
+.auth-form__submit:hover i {
+    background: url(/i/tourvision/next_2-18.png) no-repeat center;
+}
+
+
+.auth__btn {
+    display: block;
+    width: 240px;
+    background: #ff8e41;
+    border: 1px solid #ff8e41;
+    padding: 17px 0px 17px 0px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Open Sans", Roboto, sans-serif;;
+}
+
+.auth__btn:hover {
+    background: #e27200;
+}
+
+@media screen and (max-width: 1023px){
+    .auth-tab {
+        /*font-size: 12px;*/
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .auth-tab {
+        display: block;
+        text-align: left;
+        padding: 5px 0;
+    }
+    .auth-tabs-bar {
+        padding-bottom: 10px;
+    }
+    .auth-line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .auth-form__item {
+        width: 100%;
+    }
+    .auth-form__input {
+        width: 100%;
+    }
+    .auth-form__field {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .auth-form__submit {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,144 @@
+.analysis-reviews-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.analysis-reviews-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.analysis-reviews-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 97px;
+    height: 3px;
+    background: #475669;
+}
+
+.analysis-reviews-tab.active {
+    color: #475669;
+}
+
+.contact {
+    padding-left: 20px;
+
+    position: relative;
+}
+
+.contact__plus:before {
+    content: '\271A';
+    color: green;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1px;
+}
+
+.contact__minus:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background-color: #da4c4c;
+    left: 1px;
+    top: 8px;
+}
+
+.analysis-reviews .log__item {
+    color: #475669;
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+}
+
+.analysis-reviews {
+    padding: 10px 11px;
+    position: relative;
+    color: #475669;
+    border: 1px solid #bcbcbc;
+    font-family: 'apercu_pro', sans-serif;
+    margin-top: 20px;
+}
+
+.analysis-reviews .border-line {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #bcbcbc;
+    padding-bottom: 5px;
+
+}
+
+.analysis-reviews img {
+    border-radius: 2px;
+}
+
+.analysis-reviews .log__item.right {
+    float: right;
+}
+
+.analysis-reviews .log__title {
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.log__title img {
+    border-radius: 50px;
+}
+
+.analysis-reviews .log__status {
+    background-color: #F4CBCB;
+    padding: 10px 11px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.analysis-reviews .log__title div {
+    display: inline-block;
+}
+
+.analysis-reviews .log__item-data div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.analysis-reviews .log__item-data {
+    display: inline-block;
+}
+
+.contact {
+    position: relative;
+    padding-left: 20px;
+
+}
+
+.contact__plus:before {
+    content: '\271A';
+    color: green;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 4px;
+}
+
+.contact__minus:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background-color: #da4c4c;
+    left: 4px;
+    top: 8px;
+}

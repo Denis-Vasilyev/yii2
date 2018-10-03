@@ -1,0 +1,68 @@
+.potential-link__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+    vertical-align: top;
+}
+
+.potential-link__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.potential-link__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px
+}
+
+.potential-link__tbl .bth__cell:last-child {
+    width: 135px;
+    text-align: center;
+}
+
+.potential-link__tbl .bth__cell:first-child {
+    width: 320px;
+}
+
+.potential-link__tbl .btn__block {
+    display: inline-block;
+    width: auto;
+}
+
+.potential-link__tbl .add-user__link-del {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+}
+.potential-link__user-ava {
+    display: inline-block;
+    vertical-align: top;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px){
+    .potential-link__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0;
+    }
+    .potential-link__tbl .head__tbl {
+        display: none;
+    }
+    .potential-link__tbl .bth__cell:first-child {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .potential-link__tbl .bth__cell:last-child {
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+}
+
+

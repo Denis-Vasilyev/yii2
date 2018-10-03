@@ -1,0 +1,42 @@
+.topline-agent .topline-tourist__tbl .agent-name {
+    font-size: 31px;
+    color: #475669;    line-height: 32px;
+    font-weight: bold;
+}
+
+.topline-agent .topline-tourist__tbl  .bth__cell:first-child {
+    width: 350px;
+}
+
+.topline-agent  .topline-tourist__tbl  .agent-status {
+    font-size: 18px;
+    color: #475669;
+    line-height: 24px;
+    font-family: 'apercu_pro', sans-serif;
+    margin-top: 10px;
+}
+
+.topline-agent-status  {
+    height: 39px;
+    width: 33px;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    padding-top: 2px;
+    margin-bottom: 6px;
+    background-size:  contain;
+    display: inline-block;
+}
+.topline-agent-status.topline-agent-status--pro {
+    background-image: url(/i/tophotels/pro-icon-30.png);    width: 35px;
+    margin-right: 10px;
+}
+
+.topline-agent-status.topline-agent-status--bronze {
+    background-image: url(/i/tophotels/pos_bronze_v2.png);
+}

@@ -1,0 +1,117 @@
+.bth-banner {
+    position: relative;
+    margin-top: 20px;
+    background: url("/images/bth-banner-bg2.jpg");
+    background-size: cover;
+    padding: 14px 20px 17px 20px;
+}
+
+.bth-banner__txt {
+    font-size: 19px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #fff;
+}
+
+.bth-banner__txt--right {
+    margin-left: 20%;
+}
+
+.bth-banner__btn {
+    position: absolute;
+    right: 150px;
+    top: 10px;
+    background: #B96C9C;
+    color: #fff;
+    width: 153px;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    line-height: 31px;
+    text-align: center;
+    padding-right: 35px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'apercu_pro', sans-serif;
+    cursor: pointer;
+}
+
+.bth-banner__btn:hover {
+    text-decoration: none;
+    background: #a25485;
+}
+
+.bth-banner__btn:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    background: #7D4167 url("/i/arrow-fff.png") no-repeat center;
+    height: 35px;
+    width: 37px;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+}
+
+.bth-balans-bnr__block {
+    position: relative;
+    padding: 10px 10px 13px 10px;
+    margin-bottom: 8px;
+    background: url("/images/bth-banner-bg5.jpg");
+    background-size: cover;
+}
+
+.bth-balans-bnr__block:before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 8px;
+    bottom: -7px;
+    left: 36px;
+    opacity: 0.7;
+    background: url("/i/bth-bnr-tr.png");
+
+}
+
+.bth-balans-bnr_txt {
+    font-size: 21px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+}
+
+.bth-balans-bnr_txt--red {
+    color: #EB5757;
+    font-weight: bold;;
+}
+
+@media screen and (max-width: 768px) {
+    .bth-banner__btn {
+        right: 15px;
+        top: 10px
+    }
+}
+@media screen and (max-width: 639px) {
+
+    .bth-banner__txt--right {
+        margin-left: 0;
+    }
+    .bth-banner {
+        padding: 14px 15px 17px 15px;
+    }
+    .bth-banner__txt {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .bth-banner__txt {
+        display: block;
+    }
+    .bth-banner__btn {
+        position: relative;
+        display: block;
+        top: 0;
+        right: 0 ;
+        margin: 20px auto 0;
+        width:100%;
+    }
+}

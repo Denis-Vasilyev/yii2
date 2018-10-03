@@ -1,0 +1,117 @@
+
+
+.reports-tab.tab-hide {
+    display: none;
+}
+
+.micro-report span.bold {
+    width: 47px;
+    display: inline-block;
+}
+
+.about-report {
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+}
+
+.about-report__ttl {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about-report__item {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.about-report p {
+    margin-bottom: 25px;
+}
+
+.about-report__bottom {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.add-report {
+    color: #ff8e41;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 15px;
+}
+
+.add-report:hover {
+    text-decoration: underline;
+}
+
+.add-report-form div textarea {
+    resize: vertical;
+    width: 60%;
+    min-height: 58px;
+}
+
+.add-report-form div input {
+    width: 60%;
+}
+
+.add-report-form div .add-report__inp {
+    width: 60px;
+}
+
+.add-report-form div label {
+    width: 230px;
+}
+
+
+.add-report-form fieldset > div {
+    margin-bottom: 24px;
+}
+
+.add-report-form div .add-report__lb-bt {
+    display: inline-block;
+    width: auto;
+}
+
+
+.add-wrap.field {
+    margin-top: 20px;
+}
+
+.add-wrap.field textarea {
+    height: 100px;
+}
+
+.add-wrap.field .fa-plus {
+    color: #3687c5;
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+    padding-top: 10px;
+}
+.not-act-textar {
+    height: 36px;
+}
+
+.add-wrap .add-report-monthly,
+.add-wrap .add-report-days {
+    margin-bottom: 0;
+}
+
+.add-wrap.type-report {
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.add-wrap.type-report .operation-type__title {
+    width: 230px;
+}
+
+.add-report-form .add-wrap {
+    margin-bottom: 20px;
+    padding-top: 30px;
+}

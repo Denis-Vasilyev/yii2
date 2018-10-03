@@ -1,0 +1,644 @@
+
+.add-agent-wrap {
+    background-color: #e4e5ea;
+    padding: 20px 15px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.add-agent-wrap > div {
+    margin-bottom: 19px;
+    position: relative;
+}
+
+.form-btn {
+    border: 1px solid #ff8e41;
+    box-sizing: border-box;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'apercu_pro', sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #ff8e41;
+    display: inline-block;
+    width: 250px;
+    margin-top: 26px;
+    padding: 11px 0;
+}
+
+.form__plus {
+    right: 250px;
+    top: 8px;
+    position: absolute;
+}
+
+.form-btn:hover {
+    background: #e27200;
+}
+
+.form-btn.form-btn--white {
+    background-color: white;
+    color: #ff8e41;
+    width: auto;
+    padding: 11px 50px;
+    margin-left: 15px;
+}
+
+.form-btn.form-btn--white:hover {
+    color: white;
+    background: #e27200;
+    border: #e27200;
+}
+
+.add-agent__title {
+    font-weight: bold;
+    color: #475669;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.add-agent > div {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding: 0 25px 15px 0;
+}
+
+.add-agent-wrap > div:last-of-type {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.add-agent-wrap > div label,
+.operation-type__title {
+    font-size: 14px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    display: inline-block;
+    width: 196px;
+}
+
+.form__delete {
+    color: grey;
+    font-size: 15px;
+    font-family: 'apercu_pro', sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.add-agent-wrap > div select,
+.add-agent-wrap > div input {
+    width: 50%;
+    height: 36px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+select option {
+    font-family: 'apercu_pro', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.box-radio {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: auto;
+    margin: 0 5px 0 0;
+    height: 36px;
+}
+
+.box-radio input {
+    display: none;
+}
+
+.box-radio label {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    font-size: 14px;
+    line-height: normal;
+    padding-left: 30px;
+    font-weight: normal;
+    width: auto !important;
+    cursor: pointer;
+}
+
+.box-radio--small .type-input + label::before {
+    width: 18px;
+    height: 18px;
+    top: 1px;
+}
+
+.box-radio--small .type-input:checked + label::after {
+    width: 10px;
+    height: 10px;
+    top: 5px;
+}
+
+.box-radio--small label {
+    padding-left: 26px;
+    text-transform: uppercase;
+}
+
+.add-agent-form .night-dropdown {
+    left: 206px;
+    top: 41px;
+}
+
+.type-input + label::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #475669;
+    pointer-events: all;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.type-input:checked + label::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 14px;
+    height: 14px;
+    background: #475669;
+    border-radius: 50%;
+}
+
+.add-agent-wrap div input:not(.test-access):focus,
+.add-agent-wrap div select:focus {
+    box-shadow: inset 0 -3px 0 0 orange;
+
+}
+
+.box-check {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+    width: auto;
+
+}
+
+.input-take + label::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 3px;
+    border: 2px solid #475669;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.add-agent-form .add-agent-wrap div .box-check label {
+    width: auto;
+    padding-left: 30px;
+    font-weight: normal;
+    cursor: pointer;
+    margin-right: 0;
+}
+
+.add-agent-wrap__dbl > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.add-agent-wrap__dbl > div .box-check.block {
+    margin-bottom: 10px;
+}
+
+.input-take:checked + label::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    width: 15px;
+    height: 15px;
+    background: url(/i/checkmark.svg) no-repeat;
+    cursor: pointer;
+}
+
+.required-field input {
+    border: 2px solid #e03a3a;
+    border-radius: 2px;
+}
+
+.required-field__sign {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    top: 7px;
+    color: #e03a3a;
+}
+
+.operation-type .box-check input.input-take {
+    width: 0;
+    padding: 0;
+}
+
+.box-check input {
+    opacity: 0;
+    display: none;
+}
+
+
+
+.box-check.box-check--small .input-take + label::before{
+    top: -2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+
+}
+
+.operation .box-radio {
+    width: 124px;
+}
+
+.operation-type__title.item {
+    width: 53px;
+    margin-left: 126px;
+}
+
+.operation-type__item {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    display: inline-block;
+    width: 180px;
+}
+
+.add-agent-wrap .operation-type .test-access {
+    width: 32px;
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid #475669;
+    margin-right: 3px;
+    margin-left: 6px;
+    font-size: 15px;
+    padding: 5px 3px;
+}
+
+.type-input,
+.add-agent-wrap textarea {
+    width: 58%;
+    height: 36px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    background-color: white;
+}
+
+.add-agent-wrap textarea {
+    font-weight: normal;
+    overflow: hidden
+}
+
+.add-agent-wrap textarea.active {
+    height: 60px;
+    transition: 0.5s;
+}
+
+.add-agent-wrap .guests__dropdown {
+    top: 38px;
+    left: 206px;
+
+}
+
+
+.add-agent-wrap > div .type-input--300 {
+    width: 285px;
+}
+
+.setting__limits {
+    display: inline-flex;
+}
+
+.lock {
+    margin-left: -21px;
+    font-size: 16px;
+    color: #999;
+}
+
+.add-agent-wrap .left-title {
+    position: absolute;
+    right: 80px;
+    top: 9px;
+}
+
+.add-agent-form__header {
+    background: linear-gradient(90deg, #e4e5ea, #e4e5ea);
+    padding: 15px 15px;
+    margin-bottom: 10px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.choice-coop__select {
+    margin-top: 3px;
+    border: 1px solid #ccc;
+    background-color: white;
+    width: 50%;
+    max-height: 155px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-left: 203px;
+
+}
+
+.rbt-e-block {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.rbt-e-block-input {
+    display: none;
+}
+
+.rbt-e-block-input + .label-rbt-e {
+    top: 0;
+    left: -1px;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    outline: none;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 0.1em 0.1em 0.2em #475669;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: normal;
+    position: relative;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.rbt-e-block-input:checked + .label-rbt-e {
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.5) inset;
+}
+
+.label-rbt-e-cnt {
+    font-size: 16px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    display: block;
+    position: static;
+    padding-top: 6px;
+    padding-left: 1px
+}
+
+.add-agent-wrap > div textarea {
+    width: 58%;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+
+}
+
+.choice-coop__select > div {
+    display: block;
+    padding: 8px 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    border-bottom: 1px solid #ccc;
+}
+
+.choice-coop__select .task__user-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.choice-coop__select > div:hover {
+    background-color: #f5fafd;
+}
+
+.choice-coop__select img {
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.choice-coop__select .task__user-tp {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.choice-coop__select > div:last-of-type {
+    margin-bottom: inherit;
+}
+
+.choice-coop__select .task__user-name {
+    font-size: 14px;
+    color: #318cc6;
+}
+
+.choice-coop__select .task__user-tp {
+    font-size: 12px;
+}
+
+.cbx-mark__block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cbx-mark__block input {
+    display: none;
+}
+
+.cbx-mark__block .cbx-block {
+    display: inline-block;
+    margin-right: 5px;
+    width: 45px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 10px;
+
+}
+
+.cbx-mark__block .cbx + .label-cbx {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-top: 7px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.cbx-mark__block .cbx + .label-cbx .cbx-cnt {
+    font-size: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.cbx-mark__block .mark5m .cbx + .label-cbx .cbx-cnt {
+    color: #00a651;
+}
+
+.cbx-mark__block .mark4 .cbx + .label-cbx .cbx-cnt {
+    color: #a9ca0a;
+}
+
+.cbx-mark__block .mark3 .cbx + .label-cbx .cbx-cnt {
+    color: #dfa918;
+}
+
+.cbx-mark__block .mark2 .cbx + .label-cbx .cbx-cnt {
+    color: #da4c4c;
+}
+
+.cbx-mark__block .markRed .cbx + .label-cbx .cbx-cnt {
+    color: #ff0d00;
+}
+
+.cbx-mark__block .mark0 .cbx + .label-cbx .cbx-cnt {
+    color: #999;
+}
+
+.cbx-mark__block .mark5m .cbx:checked + .label-cbx {
+    background: #00a651;
+}
+
+.cbx-mark__block .mark5 .cbx:checked + .label-cbx {
+    background: #75b71f;
+}
+
+.cbx-mark__block .mark4 .cbx:checked + .label-cbx {
+    background: #a9ca0a;
+}
+
+.cbx-mark__block .mark3 .cbx:checked + .label-cbx {
+    background: #dfa918;
+}
+
+.cbx-mark__block .mark2 .cbx:checked + .label-cbx {
+    background: #da4c4c;
+}
+
+.cbx-mark__block .markRed .cbx:checked + .label-cbx {
+    background: #df0d00;
+}
+
+.cbx-mark__block .mark0 .cbx:checked + .label-cbx {
+    background: #999;
+}
+
+.cbx-mark__block .mark5-veryRed .cbx + .label-cbx .cbx-cnt {
+    color: #ff2300;
+}
+
+.cbx-mark__block .mark5-veryRed .cbx:checked + .label-cbx {
+    background: #ff0025;
+}
+
+.cbx-mark__block .cbx:checked + .label-cbx .cbx-cnt {
+    color: #fff;
+}
+
+.cbx-mark__block .cbx + .label-cbx::after,
+.cbx-mark__block .cbx + .label-cbx::before {
+    display: none;
+}
+
+.cbx-mark__block .cbx-block.cbx-block--sm {
+    width: 40px;
+    height: 35px;
+}
+
+.cbx-mark__block .cbx-block.cbx-block--sm .cbx + .label-cbx {
+    padding-top: 1px;
+}
+
+
+.add-agent-wrap .inp-small-190 {
+    width: 190px !important;
+}
+
+.add-agent-wrap .inp-small-80{
+    width: 80px !important;
+}
+.add-agent-wrap .inp-small-110 {
+    width: 109px !important;
+}
+
+.add-agent-wrap .inp-small-40pers {
+    width: 40% !important;
+}
+
+
+@media screen and (max-width: 685px) {
+    .add-agent-wrap > div label, .operation-type__title {
+        display: block;
+    }
+
+    .add-agent-wrap > div .type-input,
+    select {
+        width: 80%;
+
+    }
+
+    .form-btn {
+        margin-left: 0 !important;
+    }
+
+    .box-radio {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .setting__limits {
+        display: flex;
+        margin-top: 12px;
+        margin-left: 25px;
+    }
+
+}

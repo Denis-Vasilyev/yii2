@@ -1,0 +1,553 @@
+.quest-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+    background: #fff;
+    z-index: 10;
+}
+
+.quest-tabs-bar__wrap.fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    background: #fff;
+    z-index: 10;
+
+    padding-top: 10px;
+    max-width: 1260px;
+    border-bottom: 1px solid #eee;
+}
+
+.quest-tabs-bar__wrap.fixed .quest-tabs-bar {
+    border-bottom: none;
+    margin-bottom: 0;
+    margin-left: 235px;
+    position: relative;
+
+}
+
+.quest-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 2px 0px 15px 0px;
+    margin-right:20px;
+    color: #318cc6 ;
+}
+
+
+.quest-tab.active {
+    color: #475669 ;
+}
+
+.quest-line {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 147px;
+    height: 3px;
+    background: #475669;
+}
+
+.question--left {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 220px);
+}
+
+.question--right {
+    display: inline-block;
+    vertical-align: top;
+    width: 215px;
+}
+
+.question__item {
+    margin-bottom: 30px;
+}
+
+.question__top {
+    position: relative;
+}
+
+.question__user-ava {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    margin-right: 7px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.question__user-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.question__edit-block {
+    position: absolute;
+    right: 15px;
+    bottom: -2px;
+}
+
+.question__edit {
+    display: none;
+}
+
+.bth__cnt.question-date {
+    line-height: 22px;
+}
+
+.often__item:hover .question-date,
+.comment__item:hover .question-date,
+.question__item:hover .question-date {
+    display: none;
+
+}
+
+.often__item:hover .question__edit,
+.comment__item:hover .question__edit,
+.question__item:hover .question__edit {
+    display: block;
+
+}
+
+
+.comment__item .question__cnt-block,
+.question__item .question__cnt-block {
+    position: relative;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+
+
+.question__cnt {
+    position: relative;
+}
+
+.question__cnt.hide__cnt {
+    display: none;
+    margin-top: 12px;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+}
+
+.question__item .question__cnt {
+    position: relative;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 17px;
+    padding-bottom: 10px;
+}
+
+.question__item .bth__ta-block {
+    width: 100%;
+    border: 1px solid #efefef;
+}
+
+.answer__form {
+    display: none;
+}
+
+.question__item--red .question__cnt-block {
+    background: rgb(249, 235, 234);
+}
+
+.question__item--red .question__cnt-block:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(249, 235, 234);
+    top: -10px;
+}
+
+.question__item--yellow .question__cnt-block {
+    background: rgb(250, 246, 229);
+}
+
+.question__item--yellow  .question__cnt-block:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(250, 246, 229);
+    top: -10px;
+}
+
+.question__item--green .question__cnt-block {
+    background: rgb(229, 246, 237);
+}
+
+.question__item--green  .question__cnt-block:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(229, 246, 237);
+    top: -10px;
+}
+
+.question__item--grey .question__cnt-block {
+    background: #efefef;
+}
+
+.question__item--grey  .question__cnt-block:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #efefef;
+    top: -10px;
+}
+
+.bth__btn.answer__btn {
+    display: block;
+    width: 180px;
+    padding: 10px 0;
+    text-align: center;
+    color: #ff8e41;
+    border: 1px solid #ff8e41;
+    border-radius: 2px;
+    background: transparent;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    margin-top: 10px;
+}
+
+.bth__btn.answer__btn:hover {
+    background: #ff8e41;
+    color: #fff;
+}
+
+.comment__item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.comment__item--left {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 58px;
+}
+
+.comment__top {
+    position: relative;
+}
+
+.comment__item .question__user-ava {
+    width: 50px;
+    height: 50px;
+}
+
+.comment__item--right {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 65px);
+}
+
+.comment__item .link-more,
+.question__item .link-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff8e41;
+}
+
+.question-short__tbl .bth__cell {
+    border-bottom: 2px solid #fff;
+    padding: 7px;
+    vertical-align: top;
+}
+
+.question-short__tbl .red-row .bth__cell {
+    background: rgb(249, 235, 234);
+}
+
+.question-short__tbl .yellow-row .bth__cell {
+    background: rgb(250, 246, 229);
+}
+
+.question-short__tbl .green-row .bth__cell {
+    background: rgb(229, 246, 237);
+}
+
+.question-short__tbl .green-row .bth__cell {
+    background: rgb(229, 246, 237);
+}
+
+.question-short__tbl .bth__cell:first-child {
+    width: 75px;
+}
+
+.question-short__tbl .bth__cell:nth-child(2) {
+    width: 80px;
+}
+
+.question-short__tbl .bth__cell:last-child {
+    width: 75px;
+    text-align: center;
+}
+
+.question__user-block--768 {
+    display: none;
+}
+
+.question__user-info .hint-block--ib {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/*ЧАсто спрашивают*/
+.add-quest__block {
+    display: none;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 14px;
+}
+
+.often-question .switch {
+    position: absolute;
+    right: 16px;
+    top: 17px;
+}
+
+.bth__btn.question__btn {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    width: 150px;
+    padding: 10px 0;
+    color: #fff;
+    background: #ff8e41;
+    font-size: 14px;
+}
+
+.bth__btn.question__btn.new-question {
+    width: 250px;
+}
+
+
+.add-quest__block .bth__ta-block,
+.add-quest__block .bth__inp-block {
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.often-question .bth__btn.question__btn {
+    margin-top: 0;
+}
+.add-quest__btn-block .bth__btn.question__btn {
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.add-quest__btn-block .add-quest__link,
+.add-quest__btn-block .bth__btn.question__btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.often--left {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 220px);
+}
+
+.often--right {
+    display: inline-block;
+    vertical-align: top;
+    width: 215px;
+}
+
+
+.often__item {
+    position: relative;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.often__top {
+    position: relative;
+    padding-right: 120px;
+}
+
+.often__item .question__edit-block {
+    position: absolute;
+    right: 15px;
+    bottom: -1px;
+}
+
+.often__cnt {
+    position: relative;
+    margin-top: 11px;
+    background: rgb(250, 246, 229);
+    padding: 15px;
+}
+
+.often__cnt:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(250, 246, 229);
+    top: -10px;
+}
+
+/*Задать вопрос*/
+.quest-cbx__block {
+    margin-top: 20px;
+}
+
+.quest-cbx__block .cbx-block {
+    margin-bottom: 10px;
+}
+.quest-cbx__block .cbx + .label-cbx {
+    padding-left: 30px;
+}
+
+.add-question .bth__ta-block {
+    width: 775px;
+    height: 100px;
+}
+
+.add-question .label-cbx:hover + .hint {
+    display: block;
+}
+
+.ui-sortable {
+    overflow: auto;
+}
+
+@media screen and (max-width: 1279px){
+    .quest-tab {
+        font-size: 15px;
+        margin-right: 16px;
+    }
+    .quest-line {
+        width: 148px;
+    }
+    .add-question .bth__ta-block {
+        width: 700px;
+    }
+}
+@media screen and (max-width: 1023px){
+    .often--left,
+    .question--left {
+        width: 100%;
+    }
+    .often--right,
+    .question--right {
+        display: none;
+    }
+    .add-question .bth__ta-block {
+        width: 650px;
+    }
+    .quest-tabs-bar__wrap.fixed {
+        position: relative;
+        left: auto;
+        right: auto;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .quest-tab {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 5px 0;
+    }
+    .quest-tabs-bar {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .quest-line {
+        display: none;
+    }
+
+    .comment__item--left {
+        display: none;
+    }
+    .comment__item--right {
+        width: 100%;
+    }
+    .question__user-block--768 {
+        display: block;
+    }
+    .question-short__tbl .bth__row {
+        position: relative;
+        display: block;
+    }
+    .question-short__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+    }
+    .question-short__tbl .bth__cell:first-child,
+    .question-short__tbl .bth__cell:nth-child(2){
+        width: 100%;
+    }
+    .question-short__tbl .bth__cell:nth-child(3) {
+        width: 100%;
+        border-bottom: 2px solid #fff;
+    }
+    .question-short__tbl .bth__cell:last-child {
+        width: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .add-quest__block .bth__ta-block,
+    .add-quest__block .bth__inp-block {
+        width: 500px;
+    }
+    .add-question .bth__ta-block {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .question__edit-block {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        margin-top: 10px;
+    }
+    .often__item .question__edit-block {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        margin-top: 3px;
+        margin-bottom: 15px;
+    }
+    .add-quest__block .bth__ta-block,
+    .add-quest__block .bth__inp-block {
+        width: 100%;
+    }
+    .often-question .switch {
+        top: auto;
+        bottom: 17px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .bth__btn.question__btn.new-question {
+        display: block;
+        width: 100%;
+    }
+    .often-question .switch {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        margin-top: 10px;
+    }
+}

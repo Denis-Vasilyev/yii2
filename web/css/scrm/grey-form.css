@@ -1,0 +1,150 @@
+
+.grey-form {
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+}
+
+.grey-form__field {
+    background-color: #e4e5ea;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.grey-form__item {
+    margin-bottom: 19px;
+}
+
+.grey-form__border-btm {
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.grey-form__lb {
+    font-size: 14px;
+    margin-right: 5px;
+    position: relative;
+    vertical-align: top;
+    margin-bottom: 5px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    display: inline-block;
+    width: 200px;
+}
+
+.grey-form__inp-wrap {
+    display: inline-block;
+    vertical-align: middle;
+    width: 550px;
+}
+
+.grey-form__inp-block {
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-weight: bold;
+}
+
+.grey-form__inp {
+    width: 100%;
+    height: 100%;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 14px;
+    padding: 7px;
+    color: #475669;
+    border: 1px solid #ccc;
+}
+
+textarea.grey-form__inp-block {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding: 10px;
+}
+
+textarea.grey-form__inp-block:focus {
+    height: 72px;
+    transition: 0.3s;
+}
+
+.grey-form__dbl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grey-form__dbl .grey-form__inp-block {
+    width: 45%;
+}
+
+.grey-form__lb:hover .hint {
+    display: block;
+}
+
+.grey-form__lb .hint {
+    top: 22px;
+}
+
+.grey-form__item.grey-form__item--indent {
+    margin-left: 209px;
+}
+
+.grey-form .selectize-control {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    font-weight: normal;
+}
+
+.grey-form .selectize-input {
+    border-radius: 0;
+    box-shadow: none;
+    font-weight: normal;
+}
+
+.grey-form .selectize-input > input {
+    font-weight: normal;
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 819px) {
+    .grey-form__item.grey-form__item--indent {
+        margin-left: 0;
+    }
+
+    .grey-form__lb {
+        display: block;
+        margin-left: 0 !important;
+    }
+
+    .grey-form__inp-wrap {
+        width: 90%;
+    }
+
+    .grey-form__dbl .grey-form__inp-block {
+        width: 100%;
+    }
+
+    .grey-form__dbl {
+        flex-direction: column;
+        align-items: right;
+        width: 100%;
+    }
+
+    .grey-form__dbl label {
+        margin-top: 5px;
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .grey-form__inp-wrap {
+        width: 100%;
+    }
+}

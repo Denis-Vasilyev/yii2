@@ -1,0 +1,161 @@
+.bth__btn.thx__btn {
+    width: 200px;
+    background: #ff8e41;
+    color: #fff;
+}
+
+
+.bth__btn.thx__btn:hover {
+    background: #e27200;
+}
+
+
+.thx__rbt-block {
+    padding-right: 35px;
+}
+
+.thx__rbt-block  .rbt-block  {
+    margin-bottom: 5px;
+}
+
+
+.thx-section .simbol-count {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color: #999;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.thx-section .bth__ta-block {
+    width: 100%;
+    height: 56px;
+    margin-top: 10px;
+}
+
+.thx__tbl .head__tbl {
+    display: table-header-group;
+}
+
+.thx__tbl .head__tbl .bth__cell {
+     padding: 5px 7px;
+}
+
+.thx__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.thx__tbl .body__tbl {
+    display: table-row-group;
+}
+
+.thx__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+    vertical-align: top;
+}
+
+.thx__tbl .bth__cell:first-child {
+    width: 100px;
+}
+
+.thx__tbl .bth__cell:nth-child(2) {
+    width: 270px;
+}
+
+.thx__tbl .bth__cell:nth-child(3) {
+    width: 80px;
+}
+
+.thx__ava-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    border-radius: 2px;
+    margin-right: 7px;
+}
+
+.thx__user-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.thx__tbl .bth__cnt.user-info,
+.thx__tbl .bth__link.user-name {
+    display: block;
+    max-width: 175px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.thx-heart {
+    font-size: 31px;
+    color: #e03a3a;
+}
+
+.thx-smile {
+    font-size: 38px;
+    color: #e7ba06;
+}
+
+.thx-like {
+    font-size: 36px;
+    color: #3488b2;
+}
+
+
+@media screen and (max-width: 768px){
+    .thx__tbl .head__tbl {
+        display: none;
+    }
+    .thx__tbl .bth__row {
+        display: block;
+        position: relative;
+    }
+    .thx__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0;
+    }
+    .thx__tbl .bth__cell:first-child {
+        width: 100%;
+        padding-top: 7px;
+    }
+    .thx__tbl .bth__cell:nth-child(2) {
+        width: 100%;
+    }
+    .thx__tbl .bth__cell:nth-child(3) {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: auto;
+    }
+    .thx__tbl .bth__cell:last-child {
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .thx__rbt-block .rbt-block {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .thx__rbt-block .rbt-block {
+        display: block;
+        width: 100%;
+    }
+    .thx-section .bth__ta-block {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .bth__btn.thx__btn {
+        width: 100%;
+    }
+}

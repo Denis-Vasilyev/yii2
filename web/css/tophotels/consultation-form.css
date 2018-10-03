@@ -1,0 +1,24 @@
+.consultation-form {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.consultation-form .section__top {
+    display: block;
+    background: #d0d2da;
+    padding: 7px 10px 7px;
+}
+
+.consultation-form__section {
+    padding: 15px 10px;
+}
+
+.consultation-form .bth__ta-block {
+    width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+    .consultation-form .bth__ta-block {
+        width: 100%;
+    }
+}

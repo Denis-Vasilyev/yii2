@@ -1,0 +1,11 @@
+.auth-error-tb td:last-of-type {
+    overflow: visible;
+}
+
+.auth-error-tb td:last-of-type .hint {
+    top: 33px;
+    font-size: 14px;
+    width: auto;
+    right: 0;
+}
+

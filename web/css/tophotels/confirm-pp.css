@@ -1,0 +1,20 @@
+.confirm-modal {
+    background: rgb(249, 235, 234);
+    border-right: 2px;
+    max-width: 500px;
+    box-sizing: border-box;
+    height: 240px;
+    box-shadow: 0 3px 10px 0 rgba(21, 21, 21, 0.26);
+}
+
+.confirm-modal .bth__btn {
+    width: 170px;
+}
+
+.filter-pp__section-buttons {
+
+}
+
+.confirm-modal__bottom {
+    margin-bottom: 50px;
+}

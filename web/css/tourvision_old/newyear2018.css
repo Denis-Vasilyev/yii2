@@ -1,0 +1,30 @@
+.page.newyear2018 .search-section {
+    background: url(/images/tourvision/newyear-bg.png);
+}
+
+.newyear-snow {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    min-height: 72px;
+    object-fit: cover;
+}
+
+.page.newyear2018 .footer__bot {
+    background: #fff;
+}
+.page.newyear2018 .footer__top {
+    padding-bottom: 58px;
+    /*background-image: url(/images/tourvision/snow-footer.png);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 0 100%;*/
+}
+
+.newyear-btn {
+    position: absolute;
+    right: -58px;
+    z-index: 1;
+    top: 10px;
+}

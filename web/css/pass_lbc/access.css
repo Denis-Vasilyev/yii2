@@ -1,0 +1,128 @@
+
+.access-client tr td {
+    border: none;
+    padding: 10px;
+}
+
+.access-client tr {
+    border: 1px solid #ccc;
+}
+
+.access-client img {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 7px;
+    border-radius: 2px;
+}
+
+.access-client__block {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 17px;
+}
+
+.access-client__block > *,
+.access-client__block > a {
+    margin-bottom: 7px;
+    display: block;
+}
+
+.access-client__status {
+    font-weight: bold;
+}
+
+.mr9 {
+    margin-right: 6px;
+}
+
+.term-data {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box-radio--36 {
+    height: 36px;
+    padding-top: 7px;
+}
+
+.term-data input {
+    width: 160px;
+}
+
+.access-log .access-log__circle {
+    border: 3px solid;
+    border-radius: 50px;
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+    position: relative;
+}
+
+.access-log .hint {
+    top: 40px;
+    width: max-content;
+    max-width: 300px;
+}
+
+.access-log tr td {
+    overflow: visible;
+}
+
+.access-log .access-log__circle.access-log__circle--red {
+    border-color: #e03a3a;
+    background-color: #e03a3a;
+}
+
+.access-log .access-log__circle.access-log__circle--grey {
+    border-color: #bcbcbc;
+    background-color: #bcbcbc;
+}
+
+.access-log .access-log__circle.access-log__circle--orange {
+    border-color: #F2C94C;
+    background-color: #F2C94C;
+}
+
+.access-log .access-log__circle.access-log__circle--green {
+    border-color: #00a551;
+    background-color: #00a551;
+}
+
+.access-log__circle:hover .hint {
+    display: block;
+}
+
+.admin-cog {
+    font-size: 20px;
+    color: #318cc6;
+    vertical-align: top;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.list-cool-tbl th:last-of-type {
+    width: 30px;
+}
+
+.list-cool-tbl th:nth-child(2) {
+    width : 35%;
+}
+
+.filter__btn-block .filter-big__btn--orange {
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    background: #ff8e41;
+    padding: 15px 0px 15px 0px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.filter__btn-block .filter-big__btn--orange:hover {
+    background: #e27200;
+}

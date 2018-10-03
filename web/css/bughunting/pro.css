@@ -1,0 +1,59 @@
+td.tooltip {
+    position: relative;
+}
+
+td.tooltip .tooltip__box {
+    position: absolute;
+    background-color: #e4e5ea;
+    padding: 11px 10px;
+    width: max-content;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    z-index: 101;
+}
+
+td.tooltip .tooltip__box .tooltip__box-item span {
+    font-weight: bold;
+}
+
+td.tooltip .tooltip__box .tooltip__box-item p {
+    font-size: 13px;
+    display: inline-block;
+}
+
+td.tooltip .tooltip__box-item {
+    margin-bottom: 10px;
+}
+
+td.tooltip .tooltip__box-item div {
+    margin-bottom: 3px;
+}
+
+td.tooltip .tooltip__box-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.hide-tooltip {
+    display: none;
+}
+
+.show-tooltip {
+    display: block;
+}
+
+
+
+.record-count {
+    color: #00a551;
+    float: right;
+    font-family: 'apercu_pro', sans-serif;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 32px;
+}
+
+.log td:nth-child(3),
+.log td:nth-child(4) {
+    overflow: visible;
+}

@@ -1,0 +1,26 @@
+.preview-pp {
+    position: relative;
+    width: 800px;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: auto;
+    padding: 20px;
+}
+
+.preview-pp-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    background: url("/i/tophotels/close-12x12.png");
+}
+
+.preview-pp-close:hover {
+    background: url("/i/tophotels/close-12x12-red.png");
+}
+
+.preview-pp .tape-rev__item {
+    margin-bottom: 0;
+}

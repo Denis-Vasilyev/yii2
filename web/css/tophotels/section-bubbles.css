@@ -1,0 +1,37 @@
+.section-bubbles {
+    position: relative;
+    padding: 15px;
+    background: #e4e5ea;    font-family: 'apercu_pro', sans-serif;
+}
+
+.section-bubbles .section-bubble b {
+    font-size: 24px;
+    line-height: 22px;
+    margin-bottom: 3px;    font-family: 'apercu_pro', sans-serif;
+    display: inline-block;
+}
+.section-bubbles .section-bubble {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 2px;
+    min-width: 136px;    font-family: 'apercu_pro', sans-serif;
+    padding: 7px 7px 4px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .section-bubbles .section-bubble{
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .section-bubbles .section-bubble {
+        width: auto;
+        display: block;
+    }
+
+    .section-bubbles .section-bubble:last-of-type {
+        margin-bottom: 0;
+    }
+}

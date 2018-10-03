@@ -1,0 +1,310 @@
+
+.my-agency-line {
+    width: 142px;
+}
+
+.my-agency__managers-row {
+    overflow: visible;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.my-agency__managers-row > div {
+    padding: 10px 0;
+    width: 90%;
+}
+
+.my-agency tr td {
+    border: none;
+    padding: 10px 10px 10px 0;
+}
+
+.my-agency td:first-child {
+    width: 27%;
+}
+
+.my-agency td:nth-child(2) {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.my-agency th:last-of-type, .my-agency td:last-of-type {
+    text-align: left;
+}
+
+.graph > div {
+    margin-bottom: 5px;
+}
+
+.my-agency__managers-row > div > * {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.my-agency__managers-row > div a {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.my-agency .my-agency__title td {
+    font-size: 16px;
+}
+
+.my-agency__managers-row {
+    color: #475669;
+    padding: 10px 0;
+}
+
+.my-agency__managers-row span {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+
+}
+
+.my-agency___manager-block {
+    width: 40%;
+}
+
+.my-agency__managers-row .my-agency__managers-rating {
+    position: relative;
+    padding-left: 20px;
+    font-weight: bold;
+    width: 20%;
+}
+
+.my-agency__managers-reccomend {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.my-agency__managers-rating::before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 13px;
+    left: 2px;
+    top: 14px;
+    background-repeat: no-repeat;
+}
+
+.my-agency__managers-rating.yellow-crow::before {
+    background-image: url("/i/crown-yellow.png");
+    top: 18px;
+}
+
+.my-agency__managers-rating.yellow-crow {
+    color: #F2C94C;
+}
+
+.my-agency__managers-rating.green-crow::before {
+    background-image: url("/i/crown-green.png");
+}
+
+.my-agency__managers-rating.green-crow {
+    color: #00a551;
+}
+
+.my-agency__managers-row img {
+    margin-right: 5px;
+}
+
+.allAgencys-block {
+    margin-bottom: 20px;
+}
+
+.allAgencys-block td {
+    border: none;
+    padding: 10px;
+    white-space: normal;
+}
+
+.allAgencys-block td:first-of-type {
+    width: 50%;
+}
+
+.allAgencys-block tr {
+    border: 1px solid #bcbcbc;
+}
+
+.allAgencys-block img {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.my-touragency-wrap {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 10px 15px 3px 15px;
+}
+
+.my-touragency-wrap table tr:last-of-type td {
+    border: none;
+}
+
+.my-touragency-wrap table td:first-of-type {
+    width: 20px;
+
+}
+
+.my-touragency-wrap table td:nth-child(2) {
+    width: 30%;
+
+}
+
+.my-touragency-wrap table td:nth-child(3) {
+    font-weight: bold;
+
+}
+
+.my-touragency-wrap table td:last-of-type {
+    text-align: left;
+}
+
+.agency-edit-form fieldset div textarea,
+.agency-edit-form fieldset div .selectize-control {
+    width: 452px;
+}
+
+.edit-agent__close {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    top: 5px;
+    right: 0px;
+    background: url(/i/close-12x12.png);
+}
+
+.edit-agent__close:hover {
+    background: url("/i/close-12x12-red.png");
+
+}
+
+.staff-tbl td {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    overflow: visible;
+    vertical-align: top;
+}
+
+.staff-tbl__name {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.staff-tbl i {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: #e03a3a;
+    width: 100%;
+    text-align: right;
+}
+
+.staff-tbl tr td:first-of-type {
+    border-left: 1px solid #eee;
+    width: 50px;
+
+}
+
+.staff-tbl tr td:last-of-type {
+    border-right: 1px solid #eee;
+
+}
+
+.staff-tbl tr td:last-of-type .relative:hover .hint {
+    display: block;
+    right: 0;
+    top: 35px;
+}
+
+.staff-tbl tr td:last-of-type:hover i {
+    display: block;
+}
+
+.staff-tbl tr td img {
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 1200px) {
+    .staff-tbl tr td:last-of-type i {
+        opacity: 1;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .agency-edit-form fieldset div textarea,
+    .agency-edit-form fieldset div.selectize-control {
+        width: 91%;
+    }
+
+    .staff-tbl tr td:first-of-type {
+        display: none !important;
+    }
+
+    .staff-tbl td {
+        border-top: 0;
+        padding: 7px 0 !important;
+    }
+
+    .staff-tbl tr td:last-of-type {
+        border-right: 0;
+    }
+
+    .staff-tbl tr td .relative {
+        position: absolute!important;
+        bottom: 16px;
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .allAgencys-block td:first-of-type {
+        width: 100%;
+    }
+
+    .my-agency td:first-child {
+        width: 100%;
+    }
+
+    .allAgencys-block:not(.no-respons-tb) td:nth-child(1) {
+        padding-top: 19px;
+    }
+
+    .my-agency tbody tr.rasp {
+        display: none;
+    }
+
+    .my-agency__managers-row > div {
+        width: 100%;
+        border-bottom: 1px solid #bcbcbc;
+        margin-top: 10px;
+    }
+
+    .my-agency___manager-block {
+        width: auto;
+    }
+
+    .my-agency__managers-row > div > * {
+        margin-bottom: 10px;
+    }
+
+    .my-agency__managers-row {
+        margin-top: 20px;
+    }
+
+    .my-agency__managers-row > div > div:last-of-type {
+        display: block;
+    }
+
+}

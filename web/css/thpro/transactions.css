@@ -1,0 +1,106 @@
+.line.transactions-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 220px;
+    height: 3px;
+    background: #475669;
+}
+
+
+.transactions__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+}
+
+.transactions__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.transactions__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.transactions__tbl .bth__cell:first-child {
+    width: 150px;
+}
+
+.transactions__tbl .bth__cell:nth-child(3) {
+    width: 170px;
+}
+
+
+.transactions__tbl .bth__cell:last-child {
+    width: 125px;
+    text-align: right;
+}
+
+.bth-balans__info-block {
+    position: relative;
+    border: 1px solid #999;
+    padding: 10px 10px;
+}
+
+.bth-balans__info {
+    font-size: 19px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.bth-balans__btn-block {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.bth-balans__btn-link {
+    display: inline-block;
+    vertical-align: middle;
+    color: #EB5757;
+    font-size: 13px;
+    margin-right: 10px;
+    font-family: 'apercu_pro', sans-serif;
+    text-decoration: none;
+}
+
+.bth-balans__btn {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #F2994A;
+    font-size: 15px;
+    background: #fff;
+    color: #F2994A;
+    height: 25px;
+    width: 140px;
+    border-radius: 3px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.turq .bth__cell {
+    background: #CEF7DF;
+}
+
+@media screen and (max-width: 768px) {
+    .transactions__tbl .head__tbl {
+        display: none;
+    }
+    .transactions__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 7px;
+    }
+    .transactions__tbl .bth__cell:first-child {
+        padding-top: 7px;
+        width: 100%;
+    }
+    .transactions__tbl .bth__cell:nth-child(3) {
+        width: 100%;
+    }
+    .transactions__tbl .bth__cell:last-child {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+        text-align: left;
+    }
+}

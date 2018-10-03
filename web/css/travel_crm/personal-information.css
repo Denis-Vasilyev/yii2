@@ -1,0 +1,90 @@
+
+.personal-information-line {
+    width: 185px;
+}
+
+.personal-inform tr td {
+    border: none !important;
+    padding: 10px 10px 10px 0;
+}
+
+.personal-inform th:last-of-type,
+.personal-inform td:last-of-type {
+    text-align: left !important;
+}
+
+.personal-inform td:first-child {
+    width: 150px;
+}
+
+.personal-inform td:last-of-type {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.edit-profile {
+    font-size: 14px;
+    color: #e03a3a;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.personal-inform td span,
+.personal-inform td img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.personal-ava {
+    position: absolute;
+    top: 0;
+    width: 180px;
+    height: 180px;
+    right: 0;
+    margin-top: 20px;
+}
+
+.personal-ava img {
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bd-grey-bottom {
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.personal-inform--site td:first-of-type {
+    width: 240px;
+}
+
+@media screen and (max-width: 659px) {
+    .personal-inform {
+        margin-top: 180px !important;
+    }
+
+    .personal-ava {
+        position: absolute;
+        top: 0;
+        width: 180px;
+        height: 180px;
+        right: 0;
+        left: 0;
+        margin-top: 33px;
+    }
+
+    .personal-inform tr td:first-of-type {
+        padding-top: 19px !important;
+    }
+
+    .personal-inform tbody tr td {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .personal-inform tbody .separator-row {
+        display: none;
+    }
+
+}
+

@@ -1,0 +1,540 @@
+
+
+.registration-form {
+    background: rgb(228, 229, 234);
+    color: #475669;
+    font-size: 14px;    padding: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.registration-form .tabs-bar {
+    border-bottom: 1px solid #fff;
+}
+
+.registration-form .bth__ttl-h2 {
+    margin-bottom: 20px;
+}
+
+.registration-form .registration__line {
+    display: block;
+    margin-top: 30px;
+    position: relative;
+}
+
+.registration__file-abs {
+
+}
+
+.registration-form .registration__cross {
+    background-image: url(/i/tophotels/cross-thin.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 13px;
+    top: 16px;
+    z-index: contain;
+    background-size: contain;
+}
+
+.registration-form .registration__btn:hover {
+    background-color: #e27200 !important;
+    color: white !important;
+}
+
+.registration-form .bth__inp-block {
+    height: 56px;
+    box-sizing: border-box;
+    width: 550px;
+    border: 1px solid #dfdfdf;
+    cursor: pointer;
+}
+
+.registration-form .registration__btn-block {
+    text-align: left;
+}
+
+.registration-form .registration__btn {
+    background: #ff8e41;
+    width: 290px;
+    color: #fff;
+}
+
+.registration-form .registration__btn-block .registration__btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.registration-form .registration__btn-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.registration-form .reg-fiels-tbl {
+    width: 70%;
+}
+
+.registration-form .reg-fiels-tbl td {
+    font-size: 14px;
+    padding: 9px 7px;
+    color: #475669;
+    max-width: 155px;
+    min-width: 31px;
+    overflow: hidden;
+    vertical-align: top;
+    position: relative;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.registration-form .reg-fiels-tbl tr td:first-of-type {
+    width: 35px;
+    font-weight: bold;
+}
+
+.registration-form .reg-fiels-tbl tr td:nth-child(2) {
+    font-weight: bold;
+}
+
+.registration-form .registration__btn-text .bth__cnt {
+    line-height: 18px;
+}
+
+.registration-form .reg-step2,
+.registration-form .pass-step2 {
+    padding: 50px 0;
+}
+
+.registration-form .bth__inp-block.focus {
+    box-shadow: none;
+}
+.registration-form .bth__inp-block:focus,
+.registration-form input:focus,
+.registration-form select:focus,
+.registration-form textarea:focus {
+    box-shadow: none;
+}
+.registration-form .selectize-input input {
+    color: #999 !important;
+    font-size: 14px !important;
+    position: absolute;
+    top: 0;
+    font-weight: normal !important;
+}
+
+.registration-form .accredit__line .bth__inp-block {
+    width: 430px;
+}
+
+.registration-form .accredit-add {
+    position: absolute;
+    right: -30px;
+    top: 15px;
+    font-size: 20px;
+}
+
+.registration-form .registration__bubble-item .registration__bubble-lb {
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+    width: 85px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #dfdfdf;
+    font-weight: bold;
+    padding: 3px 0px;
+    text-transform: uppercase;
+
+    vertical-align: middle;
+}
+
+.registration-form .registration__bubble-item {
+    display: inline-block;
+    color: #ff8e41;
+    position: relative;
+}
+
+.registration-form .registration__bubble-inp {
+    display: none !important;
+}
+
+.registration-form .registration__bubble-inp:checked + label {
+    color: white;
+    border-radius: 2px;
+
+}
+
+.registration-form .registration__bubble .registration__bubble-item:not(:last-of-type) {
+
+    margin-right: 10px;
+}
+
+.registration-form .registration__bubble span {
+    border-radius: 2px;
+    line-height: 31px;
+    width: 79px;
+    height: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.registration-form .registration__bubble-inp:checked + label span {
+    background-color: #ff8e41;
+}
+
+.registration-form .hint-block--abs {
+    top: 18px;
+}
+
+.registration-form .registration__bubble-item .hint-block {
+    display: none;
+    top: 10px;
+    right: -40px;
+}
+
+.registration-form .SumoSelect {
+    height: 51px;
+}
+
+.registration-form .SumoSelect > .CaptionCont {
+    height: 40px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.registration-form .registration--border {
+    border-top: 1px solid #fff;
+    margin-top: 25px;
+}
+
+.registration-form .registration .bth__inp {
+    font-size: 18px;
+}
+
+.registration-form .registration .bth__inp:-webkit-autofill,
+.registration-form .registration .bth__inp:-webkit-autofill:hover,
+.registration-form .registration .bth__inp:-webkit-autofill:focus,
+.registration-form .registration .bth__inp:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+}
+
+.registration-form .bth__inp-lbl.active,
+.registration-form .registration .bth__inp:-webkit-autofill + .bth__inp-lbl {
+    top: -21px;
+}
+
+.registration-form .SumoSelect > .CaptionCont > span {
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+.registration-form .auth-form__eye {
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    width: 35px;
+    height: 100%;
+    background-position: center;
+    right: 10px;
+
+    background-image: url(/i/closed-eye-fine.png);
+    background-repeat: no-repeat;
+}
+
+.registration-form .rbt-cnt {
+    font-size: 18px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.registration-form .auth-form__eye.active {
+    background-color: white;
+    background-image: url(/i/tourvision/opened-eye-fine.png);
+}
+
+.registration__line--border {
+    border-top: 1px solid white;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+
+.registration-form .registration__social-link {
+    display: inline-block;
+    vertical-align: top;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    background: #215f86 url(/i/tophotels/social-sprite.png) no-repeat;
+    margin-right: 5px;
+}
+
+.registration-form .registration__social-link.fb {
+    background-position: -52px 0px;
+}
+
+.registration-form .registration__social-link.vk {
+    background-position: 0px 2px;
+}
+
+.registration-form .registration__social-link.ok {
+    background-position: -97px 0px;
+}
+
+.registration-form .registration__social-link.tw {
+    background-position: -145px 0px;
+}
+
+.registration-form .registration__social-link.insta {
+    background-position: -195px 0px;
+}
+
+.registration-form .registration__social-link:hover {
+    background-color: #113246;
+}
+
+.registration-form .SumoSelect > .CaptionCont > span.placeholder {
+    color: #999;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.registration-form .SumoSelect + .bth__inp-lbl {
+    opacity: 0;
+}
+
+.registration-form .SumoSelect.open + .bth__inp-lbl {
+    opacity: 1;
+    top: -21px;
+}
+
+.registration-form .SumoSelect + .bth__inp-lbl.active {
+    opacity: 1;
+}
+
+.registration-form .registration__btn-text.registration__btn-text--abs {
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    bottom: -44px;
+}
+
+.registration-form .registration__lb-normal {
+    display: block;
+    color: #999;
+    font-size: 14px;
+    margin-left: 7px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.registration-form .registration__bubble-item.error .registration__bubble-lb {
+    border: 1px solid #e03a3a;
+}
+
+.registration-form .registration__bubble-question {
+    display: none;
+    position: relative;
+}
+
+.registration-form .registration__bubble-question.active {
+    display: inline-block;
+}
+
+.registration-form .registration__bubble-item.error .registration__bubble-lb span {
+    height: 28px;
+    color: #e03a3a;
+}
+
+.registration-form .rbt-block {
+    position: relative;
+}
+
+.registration-form .rbt-block .hint-block {
+    display: none;
+    right: -40px;
+    top: 0px;
+}
+
+.registration-form .rbt-block.error .rbt-cnt {
+    color: #e03a3a;
+}
+
+.registration-form .rbt-block.error .rbt + .label-rbt::before {
+    border-color: #e03a3a;
+}
+
+.registration-form .cbx-mark__block .cbx:checked + .label-cbx .cbx-cnt {
+    color: #fff;
+}
+
+.registration-form .cbx-mark__block .cbx:checked + .label-cbx i {
+    color: #fff;
+}
+
+.registration-form .cbx-mark__block .cbx + .label-cbx::after,
+.registration-form .cbx-mark__block .cbx + .label-cbx::before {
+    display: none;
+}
+
+.registration-form .registration__line .selectize-control {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+}
+
+.registration-form .selectize-control.single .selectize-input,
+.registration-form .selectize-control.single .selectize-input input {
+    height: 100% !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 15px 8px 7px 7px;
+
+}
+
+.registration-form .registration__line .selectize-input > input {
+    font-size: 18px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    border: none;
+    width: 100%;
+}
+
+.registration-form .bth__inp-lbl {
+    z-index: 1;
+}
+
+.registration-form .registration__btn.bth__btn--contur {
+    background-color: white;
+    color: #ff8e41;
+    width: 246px;
+}
+
+.registration-form .registration__line .selectize-input > * {
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 18px;
+    padding-top: 3px;
+    font-weight: bold;
+}
+
+.registration-form .registration__bubble--social .registration__bubble-item .registration__bubble-lb {
+    width: 100px;
+}
+
+.registration-form .registration__bubble--social span {
+    width: 92px;
+}
+
+.registration-form .registration__bubble--social .bth__inp-block {
+    width: 443px;
+    display: none;
+    height: 38px;
+    vertical-align: top;
+}
+
+.registration-form .registration__bubble--social .bth__inp-block input {
+    font-size: 15px;
+}
+
+.registration-form .registration__bubble--social .registration__bubble-item.active {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 0;
+}
+
+.registration-form .registration__bubble--social .bth__inp-block.active {
+    display: inline-block;
+}
+
+.registration-form .registration__birth {
+    width: 180px !important;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 1023px) {
+    .registration-form {
+        padding-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 654px) {
+    .registration-form .registration__btn-text.registration__btn-text--abs {
+        bottom: -65px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .registration-form .registration__btn {
+        width: 100%;
+    }
+
+    .registration-form .bth__inp-block {
+        width: 100%;
+    }
+
+    .registration-form .accredit-add {
+        right: 10px;
+    }
+
+    .registration-form .registration__btn-text {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .registration-form .registration__btn-block .registration__btn {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 592px) {
+    .registration-form .registration__birth {
+        width: 32% !important;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .registration-form .registration__bubble-item .registration__bubble-lb {
+        width: 100%;
+    }
+
+    .registration-form .registration__bubble-item {
+        width: 100%;
+    }
+
+    .registration-form .registration__bubble .registration__bubble-item:not(:last-of-type) {
+
+        margin-bottom: 10px;
+    }
+
+    .registration-form .registration__bubble span {
+        width: 98%;
+    }
+
+    .registration-form .registration__birth {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .registration-form .registration__btn-text.registration__btn-text--abs {
+        bottom: -85px;
+    }
+}

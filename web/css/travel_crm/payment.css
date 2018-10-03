@@ -1,0 +1,83 @@
+.payment-tbl .green-bg {
+    background: #CEF7DF !important;
+}
+
+.payment-deatil-tbl th:first-of-type {
+    width: 100px;
+}
+
+@media screen and (max-width: 659px) {
+
+    .payment-deatil-tbl td:nth-child(1) div {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .payment-deatil-tbl td:nth-child(1)::before {
+        content: 'Дата';
+    }
+
+    .payment-deatil-tbl td:nth-child(2)::before {
+        content: 'Менеджер';
+    }
+
+    .payment-deatil-tbl td:nth-child(3)::before {
+        content: '№ заявки';
+    }
+
+    .payment-deatil-tbl td:nth-child(4)::before {
+        content: 'Списано';
+    }
+
+    .payment-deatil-tbl td:nth-child(5)::before {
+        content: 'Остаток баланса';
+    }
+
+    .payment-tbl.b-tbl td:nth-child(1)::before {
+        content: 'День';
+    }
+
+    .payment-tbl.b-tbl td:nth-child(2) {
+        padding-top: 5px;
+    }
+
+    .payment-tbl.b-tbl tr.title-row td:nth-child(2), .payment-tbl.b-tbl tr.title-row td:nth-child(3), .payment-tbl.b-tbl tr.title-row td:nth-child(4) {
+        display: none;
+    }
+
+    .payment-tbl.b-tbl tr:nth-child(.title-row) td:nth-child(3)::before {
+        content: 'Дебет';
+    }
+
+    .payment-tbl.b-tbl tr:nth-child(.title-row) td:nth-child(4)::before {
+        content: 'Кредит';
+    }
+
+    .payment-tbl.b-tbl.tape-month__tbl tr:not(.title-row) td:nth-child(1)::before {
+        content: 'Месяц';
+    }
+
+    .payment-tbl.b-tbl.tape-month__tbl tr.title-row td:nth-child(1)::before {
+        content: 'Год';
+    }
+
+    .payment-deatil-tbl td:nth-child(1) {
+        content: 'Дата';
+    }
+
+    .payment-deatil-tbl td:nth-child(2) {
+        content: 'Менеджер';
+    }
+
+    .payment-deatil-tbl td:nth-child(3) {
+        content: '	№ заявки';
+    }
+
+    .payment-deatil-tbl td:nth-child(4) {
+        content: 'Списано';
+    }
+
+    .payment-deatil-tbl td:nth-child(5) {
+        content: 'Остаток баланса';
+    }
+}

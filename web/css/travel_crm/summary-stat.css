@@ -1,0 +1,4 @@
+.summary-stat-tbl th:last-of-type,
+.summary-stat-tbl td:last-of-type {
+    text-align: left;
+}

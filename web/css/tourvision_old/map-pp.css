@@ -1,0 +1,56 @@
+.mfp-bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1042;
+    overflow: hidden;
+    position: fixed;
+    background: #fff;
+    opacity: 0.3;
+}
+
+.mfp-container {
+    padding: 20px;
+}
+
+/*.mfp-auto-cursor .mfp-content {*/
+    /*height: 100%;*/
+/*}*/
+
+
+.map-pp {
+    width: 100%;
+    /*height: 100%;*/
+    height: 95vh;
+    background: #fff;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    position: relative;
+    border-radius: 3px;
+}
+
+.map-pp__close {
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 12px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    background: url("/i/tourvision/close-12x12.png")
+}
+
+
+.map-pp__close:hover {
+    background: url("/i/tourvision/close-12x12-red.png")
+}
+
+.ya-map-rr {
+    height: 100%;
+}
+
+#mapFrame {
+    height: 100%;
+}

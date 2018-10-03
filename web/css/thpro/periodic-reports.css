@@ -1,0 +1,116 @@
+.line.periodic-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 114px;
+    height: 3px;
+    background: #475669;
+}
+
+.periodic__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+}
+
+.periodic__tbl .bth__row.head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.periodic__tbl .bth__row.head__tbl .bth__cnt {
+    font-size: 12px;
+    color: #999;
+}
+
+.periodic__tbl .bth__cell:first-child {
+    width: 95px;
+}
+
+.periodic__tbl .bth__cell:last-child {
+    width: 150px;
+}
+
+.periodic__tbl .bth__cnt.user-name {
+    display: inline-block;
+    max-width: 135px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.bth__ta-block.request-report {
+    width: 500px;
+    height: 80px;
+}
+
+.request-report .bth__ta {
+    resize: none;
+}
+
+.request-report .section__top {
+    display: block;
+    background: #d0d2da;
+    padding: 7px 10px 7px;
+}
+
+.section-mdl {
+    padding: 15px 10px;
+}
+.section.request-report {
+    padding: 0;
+}
+
+.bth__ta-block.error {
+    border-color: #da4c4c;
+    box-shadow: 0px 0px 0px 1px #da4c4c;
+}
+
+.bth__ta-block.error .question-error {
+    display: block;
+    color: #da4c4c;
+    background: #fff;
+    font-size: 19px;
+}
+
+.bth__ta-block .hint-block {
+    display: none;
+
+}
+
+.bth__ta-block.error .hint-block {
+    display: block;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .periodic__tbl .head__tbl {
+        display: none;
+    }
+    .periodic__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 7px 5px 0;
+    }
+    .periodic__tbl .bth__cell:first-child {
+        width: 100%;
+        padding-top: 7px;
+    }
+    .periodic__tbl .bth__cell:last-child {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+    }
+    .periodic__tbl .bth__cnt.user-name {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .bth__ta-block.request-report {
+        width: auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}

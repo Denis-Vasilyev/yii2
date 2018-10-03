@@ -1,0 +1,7 @@
+.payment-tbl .green-bg {
+    background: #CEF7DF !important;
+}
+
+.payment-deatil-tbl th:first-of-type{
+    width: 100px;
+}

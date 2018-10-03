@@ -1,0 +1,73 @@
+#previewTape-pp {
+    background: white;
+    padding: 25px 30px;
+    max-width: 870px;
+}
+
+#previewTape-pp .tape__item {
+    width: 100%;
+}
+
+#previewTape-pp .thx-pp__close {
+    top: 12px;
+    right: 12px;
+}
+
+#previewMail-pp {
+    background: white;
+    padding: 25px 30px;
+    max-width: 870px;
+}
+
+#previewMail-pp .thx-pp__close {
+    top: 12px;
+    right: 12px;
+}
+
+#previewMail-pp .tape__item {
+    width: 100%;
+    border: none;
+    margin-top: 0;
+    padding: 0;
+}
+
+#previewMail-pp .tape__cnt-block {
+    border-top: 1px solid #bcbcbc;
+    margin-top: 25px;
+    padding-top: 25px;
+
+}
+
+.modal__top--orange {
+    background: linear-gradient(to right, #fdbe42 0%, #fcaf17 25%);
+    padding: 25px;
+    margin: 0;
+}
+
+.modal__top--orange .modal__close {
+    top: 13px;
+    right: 11px;
+}
+
+.modal__top--orange .thx-pp__ttl2 {
+    color: white;
+}
+
+.modal__logo {
+    position: absolute;
+    float: none;
+    width: 46px;
+    height: 38px;
+    right: 20px;
+    top: 20px;
+    background-image: url(/i/lightsoft-white-logo.png);
+    background-repeat: no-repeat;
+}
+
+.preview-mail-wrap {
+    padding: 25px;
+}
+
+.preview-mail-wrap .tape__date {
+    top: 0px;
+}

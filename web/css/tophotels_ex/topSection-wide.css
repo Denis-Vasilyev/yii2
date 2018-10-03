@@ -1,0 +1,24 @@
+.topSection-wide {
+    background: #faf6e5;
+    padding: 20px;
+    padding-left: 238px;
+}
+
+.topSection-wide .tabs-bar {
+    border-bottom: 1px solid #fff;
+}
+
+.topSection-wide__section {
+    display: block;
+    margin-top: 20px;
+}
+
+
+.topSection-wide  .bth__inp-block {
+    border-color: #f1ebd3;
+}
+@media screen and (max-width: 1023px){
+    .topSection-wide {
+        padding-left: 15px;
+    }
+}

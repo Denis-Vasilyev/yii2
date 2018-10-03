@@ -1,0 +1,40 @@
+.breadcrumbs-header .header-hotels-arr  {
+    white-space: nowrap;
+    color: #318cc6;
+    text-decoration: none;
+    margin-right: 10px;
+    position: relative;
+    margin-left: 20px;
+    font-family: 'apercu_pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.breadcrumbs-header {
+    position: relative;
+    display: block;
+    padding: 10px 25px 0px 190px;
+    background: #f1ebd3;
+    padding-top: 0;
+    margin-top: 10px;
+    z-index: 10;
+}
+
+.breadcrumbs-header .header-hotels-arr {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.breadcrumbs-header .header-hotels-arr:before {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    content: '\2190';
+}
+
+@media screen and (max-width: 1023px) {
+    .breadcrumbs-header {
+        padding: 0px 15px 10px 5px;
+    }
+}

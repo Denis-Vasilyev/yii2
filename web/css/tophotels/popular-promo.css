@@ -1,0 +1,98 @@
+.popular-promo__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+}
+
+.popular-promo__tbl .head__tbl  {
+    display: table-header-group;
+}
+
+.popular-promo__tbl .body__tbl  {
+    display: table-row-group;
+}
+
+.popular-promo__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.popular-promo__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.popular-promo__tbl .hotel-star {
+    font-size: 12px;
+    color: #e7bb08;
+}
+
+.popular-promo__tbl .rating-block {
+    margin-left: 10px;
+}
+
+.popular-promo__tbl .bth__cell:first-child {
+    width: 100px;
+}
+
+.popular-promo__tbl .bth__cell:nth-child(2) {
+    width: 250px;
+}
+
+
+.popular-promo__tbl .bth__cnt.hotel-place,
+.popular-promo__tbl .bth__link.hotel-name  {
+    display: block;
+    width: 220px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.popular-promo__tbl .bth__cell:last-child {
+    width: 90px;
+    text-align: right;
+}
+
+@media screen and (max-width: 1023px){
+    .popular-promo__tbl .bth__cell:first-child {
+        width: 80px;
+    }
+    .popular-promo__tbl .bth__cell:nth-child(2) {
+        width: 230px;
+    }
+    .popular-promo__tbl .bth__cnt.hotel-place,
+    .popular-promo__tbl .bth__link.hotel-name  {
+        width: 205px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .popular-promo__tbl .head__tbl {
+        display: none;
+    }
+    .popular-promo__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0;
+    }
+    .popular-promo__tbl .bth__cell:first-child {
+        width: 100%;
+        padding-top: 7px;
+    }
+    .popular-promo__tbl .bth__cell:nth-child(2) {
+        width: 100%;
+    }
+    .popular-promo__tbl .bth__cell:last-child {
+        width: 100%;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ccc;
+        text-align: left;
+    }
+    .popular-promo__tbl .bth__cnt.hotel-place,
+    .popular-promo__tbl .bth__link.hotel-name {
+        display: block;
+        width: auto;
+        white-space: normal;
+        overflow: visible;
+    }
+}

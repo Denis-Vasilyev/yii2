@@ -1,0 +1,74 @@
+.crush-table td {
+    overflow: visible;
+    white-space: normal;
+}
+
+
+.crush-table td > span {
+    display: block;
+    color: #475669;
+    font-weight: normal;
+}
+
+.crush-table-calendar,
+.crush-project-table {
+    border: 1px solid #bcbcbc;
+}
+
+.crush-table .name {
+    color: #475669;
+}
+
+.crush-table-calendar {
+    vertical-align: top;
+}
+
+/* цвета для яцеейк в календаре*/
+.crush-table-calendar .blue {
+    background-color: #D8EAD2;
+}
+
+.crush-table-calendar .yellow {
+    background-color: #F4CBCB;
+    color: black !important;
+}
+
+/* end_цвета для яцеейк в календаре*/
+
+.crush-table-calendar td,
+.crush-table-calendar th,
+.crush-table-calendar td:last-of-type,
+.crush-table-calendar th:last-of-type {
+    text-align: center;
+}
+
+.crush-table-calendar td:first-of-type,
+.crush-table-calendar th:first-of-type {
+    text-align: left;
+    width: 100px;
+}
+
+.crush-table.calendar .crush-table-calendar td:first-of-type {
+    text-align: left;
+    padding-right: 15px;
+}
+
+.crush-project-table__name {
+    padding-right: 15px;
+}
+
+.crush-table-calendar td,
+.crush-table-calendar th,
+.crush-project-table td,
+.crush-project-table th {
+    border-right: 1px solid #bcbcbc;
+}
+
+.crush-project-table th:not(.crush-project-table__number):not(.crush-project-table__name) {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+.crush-project-tbody td:not(.crush-project-table__number):not(.crush-project-table__name) {
+    text-align: center;
+}

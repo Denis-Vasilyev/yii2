@@ -1,0 +1,255 @@
+.section--yellow {
+    position: relative;
+    padding: 15px;
+    background: #faf6e5;
+}
+
+.kpd__top-block {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    /* height: 71px; */
+    background: #fff;
+    padding: 11px;
+    max-width: 208px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bth__cnt.kpd__cnt {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
+.bth__cnt.kpd__note {
+    font-size: 13px;
+}
+
+.kpd-tbl__item {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 10px 15px 3px 15px;
+}
+
+.kpd-tbl__item:first-child {
+    margin-top: 15px;
+}
+
+.kpd__tbl .bth__cell {
+    vertical-align: top;
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+}
+
+.kpd__tbl .head__tbl {
+    display: table-header-group;
+}
+
+.kpd__tbl .body__tbl {
+    display: table-row-group;
+}
+
+.kpd__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.kpd__tbl .head__tbl .bth__cnt {
+    /*color: #999;*/
+    /*font-size: 12px;*/
+}
+
+.kpd__tbl .bth__cell:first-child {
+    width: 50px;
+}
+
+.kpd__tbl .bth__cell:last-child {
+    text-align: right;
+}
+
+.kpd__tbl .body__tbl .bth__row:last-child .bth__cell {
+    border-bottom: none;
+}
+
+.kpd-check {
+    display: inline-block;
+    width: 15px;
+    padding-right: 5px;
+    color: #00a551;
+    font-size: 18px;
+}
+
+.kpd-del {
+    display: inline-block;
+    width: 15px;
+    padding-right: 5px;
+    color: #e03a3a;
+    font-size: 18px;
+}
+
+.kpd-check {
+    display: inline-block;
+    width: 15px;
+    padding-right: 5px;
+    color: #00a551;
+    font-size: 18px;
+}
+
+.priority-tbl td:first-child {
+    width: 50px;
+}
+
+.priority-tbl td:last-of-type {
+    width: 50px;
+}
+
+.priority-wrap {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 10px 15px 3px 15px;
+}
+
+.priority-tbl tbody tr:last-of-type td {
+    border: none;
+}
+
+.priority-tbl tbody td:nth-child(2) {
+    width: 50%;
+}
+
+.pump-profile .section__top {
+    display: block;
+    background: #d0d2da;
+    padding: 7px 10px 7px;
+}
+
+.bth__cnt {
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    line-height: 22px;
+}
+
+.section-mdl {
+    padding: 15px 10px;
+}
+
+.bth__ta-block.error {
+    border-color: #da4c4c;
+    box-shadow: 0px 0px 0px 1px #da4c4c;
+}
+
+.bth__ta-block.request-report {
+    width: 500px;
+    height: 80px;
+}
+
+.bth__inp-block.error, .edit-block__inp-block.error, .bth__ta-block.error {
+    border-color: #da4c4c;
+    box-shadow: 0px 0px 0px 1px #da4c4c;
+}
+
+.bth__ta-block {
+    position: relative;
+    height: 146px;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.request-report .bth__ta {
+    resize: none;
+}
+
+.bth__ta {
+    border: none;
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #475669;
+    padding: 10px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.bth__ta-block.error .hint-block {
+    display: block;
+}
+
+.bth__ta-block.error .question-error {
+    display: block;
+    color: #da4c4c;
+    background: #fff;
+    font-size: 19px;
+}
+
+.question-error {
+    display: block;
+    color: #da4c4c;
+    background: #fff;
+    font-size: 19px;
+}
+
+.bth__ta-block.error .hint-block {
+    display: block;
+}
+
+.bth__ta-block .hint-block {
+    display: none;
+}
+
+.hint-block--abs {
+    position: absolute;
+    right: 6px;
+    top: 7px;
+}
+
+.section--grey.pump-profile {
+    padding: 0;
+
+}
+
+.form-btn.pump-profile {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .kpd__top-block {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (max-width: 659px) {
+
+
+
+    .priority-tbl tr  td:nth-child(1) {
+        padding-top: 19px;
+    }
+
+
+
+    .priority-tbl tr td {
+        padding-top: 12px;
+    }
+
+    .bth__ta-block.request-report {
+        width: 100%;
+    }
+
+}

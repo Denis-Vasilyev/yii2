@@ -1,0 +1,168 @@
+.paginatorNew {
+    margin-top: 40px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.paginatorNew.paginatorNew--nums .paginatorNew__buttons .paginatorNew__button:hover {
+    border-color: #318cc6;
+}
+
+.paginatorNew.paginatorNew--nums .paginatorNew__buttons .paginatorNew__button:hover .paginatorNew__button-num {
+    color: #318cc6;
+}
+
+.paginatorNew .paginatorNew__buttons .paginatorNew__button {
+    background-repeat: no-repeat;
+    border: 1px solid #9E9E9E;
+    height: 50px;
+    width: 50px;
+    border-radius: 2px;  margin-right: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+
+    background-position: center;
+    position: relative;
+}
+
+.paginatorNew__button-num {
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding-top: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    display: block;
+}
+
+.paginatorNew .paginatorNew__buttons .paginatorNew__button svg {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
+.paginatorNew .paginatorNew__buttons .paginatorNew__button:first-of-type > svg {
+    transform: rotate(180deg);
+    left: 4px;
+}
+
+.paginatorNew.paginatorNew--nums .paginatorNew__button-text:hover {
+    color: #318cc6;
+    border-color: #318cc6;
+}
+
+.paginatorNew.paginatorNew--nums .paginatorNew__button.active {
+    border-color: #318cc6;
+}
+
+.paginatorNew.paginatorNew--nums .paginatorNew__button.active .paginatorNew__button-num {
+    color: #318cc6;
+}
+.paginatorNew__button:hover .paginatorNew__button-num {
+    color: #ff8e41;
+}
+.paginatorNew .paginatorNew__buttons  .paginatorNew__button-text:hover {
+    color: #ff8e41;
+    border-color: #ff8e41;
+}
+
+
+.paginatorNew .paginatorNew__button-text:hover {
+    color: #ff8e41;
+    border-color: #ff8e41;
+}
+
+.paginatorNew .paginatorNew__buttons .paginatorNew__button:hover {
+    border-color: #ff8e41;
+}
+
+.paginatorNew .paginatorNew__buttons .paginatorNew__button:hover path {
+    fill: #ff8e41;
+}
+
+.paginatorNew.paginatorNew--nums .paginatorNew__buttons .paginatorNew__button {
+    margin-right: 5px;
+}
+
+.paginatorNew .paginatorNew__button-cross {
+    display: none;
+
+}
+
+.paginatorNew .paginatorNew__buttons .paginatorNew__button .paginatorNew__button-cross svg {
+    top: 8px;
+    left: 7px;
+
+}
+
+.paginatorNew .paginatorNew__button:hover .hint {
+    display: block;
+    width: 150px;
+    top: 53px;
+    left: 0;
+}
+
+.paginatorNew .paginatorNew__buttons .paginatorNew__button-text {
+    border: 1px solid #9E9E9E;
+    padding: 0 31px;
+    font-size: 17px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    line-height: 20px;
+    margin-right: 7px;
+    border-radius: 2px;
+    height: 50px;
+    padding-top: 14px;    width: 261px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.paginatorNew .paginatorNew__buttons > * {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.paginatorNew__button.active {
+    background-color: #c9c9c938;
+}
+
+@media screen and (max-width: 1024px) {
+    .paginatorNew .paginatorNew__button:hover .hint {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 703px) {
+    .paginatorNew .paginatorNew__buttons .paginatorNew__button {
+        display: none;
+    }
+    .paginatorNew__buttons {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .paginatorNew > a {
+        align-self: center;
+    }
+
+    .paginatorNew {
+        flex-direction: column;
+        align-items: start;
+    }
+
+
+}
+
+@media screen and (max-width: 401px) {
+    .paginatorNew .paginatorNew__buttons .paginatorNew__button-text {
+
+        padding: 0 8px;
+        font-size: 13px;
+        padding-top: 13px;
+    }
+}
+

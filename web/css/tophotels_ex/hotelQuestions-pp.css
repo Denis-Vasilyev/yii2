@@ -1,0 +1,33 @@
+.deleteQuestions-modal {
+    position: relative;
+    max-width: 830px;
+    min-width: 320px;
+    height: auto;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    background: #e4e5ea;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 40px auto;
+}
+
+.edit-travel-pp__btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 180px;
+    background: #ff8e41;
+    border: 1px solid #ff8e41;
+    padding: 11px 0px 13px 0px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.edit-travel-pp__btn--big {
+    width: 230px;
+}
+
+

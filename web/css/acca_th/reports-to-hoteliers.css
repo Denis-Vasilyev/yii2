@@ -1,0 +1,223 @@
+.reports-to-hoteliers-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.reports-to-hoteliers-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.reports-to-hoteliers-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 126px;
+    height: 3px;
+    background: #475669;
+}
+
+.reports-to-hoteliers-tab.active {
+    color: #475669;
+}
+
+.fa-file-text-o, .fa-file-word-o, .fa-file-image-o {
+    font-size: 18px;
+    margin-top: 6px;
+    margin-right: 5px;
+    color: black;
+}
+
+table tr td.name-reports {
+    position: relative;
+    overflow: visible;
+}
+
+.name-reports__tooltip {
+    width: 190%;
+    position: absolute;
+    background-color: #e4e5ea;
+    padding: 11px 10px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    z-index: 101;
+    top: 40px;
+}
+
+.name-reports__tooltip::before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid rgba(113, 101, 58, 0);
+    border-right: 10px solid rgba(113, 101, 58, 0);
+    border-bottom: 10px solid #e4e5ea;
+    left: 20px;
+    top: -10px;
+}
+
+.name-reports__tooltip::after {
+    content: "";
+    position: absolute;
+    border-left: 10px solid rgba(255, 241, 190, 0);
+    border-right: 10px solid rgba(255, 241, 190, 0);
+    border-bottom: 10px solid #e4e5ea;
+    left: 20px;
+    top: -9px;
+}
+
+.name-reports__tooltip-title {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 13px;
+    color: #475669;
+    font-size: 18px;
+    font-weight: normal;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.name-reports__tooltip-txt {
+    white-space: normal;
+}
+
+.name-reports__tooltip__close {
+    position: absolute;
+    top: 14px;
+    right: 13px;
+    width: 12px;
+    height: 12px;
+    background: url(/i/close-12x12.png) no-repeat;
+    cursor: pointer;
+}
+
+.name-reports__tooltip__close:hover {
+    background: url(/i/close-12x12-red.png) no-repeat;
+}
+
+.calendar__tbl {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.calendar__row {
+    display: table-row;
+}
+
+.tbl-head .calendar__cell {
+    border: none;
+    padding: 0;
+}
+
+.calendar__cell {
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    width: 8%;
+}
+
+.calendar__tbl .tbl-head .calendar__cell .lbc__cnt {
+    font-size: 14px;
+    font-family: apercu_pro, sans-serif;
+}
+
+.calendar__tbl .lbc__cnt {
+    margin-bottom: 3px;
+    line-height: 16px;
+}
+
+.calendar__cell {
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    width: 8%;
+}
+
+.calendar__cnt-block.empty {
+    background: #f6f6f6;
+}
+
+.calendar__cnt-block {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 80px;
+    padding: 5px 10px 5px 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.lbc__cnt.date {
+    text-align: right;
+}
+
+.lbc__cnt {
+    font-size: 15px;
+    font-family: apercu_pro, sans-serif;
+    color: #475669;
+    line-height: 22px;
+}
+
+.calendar__cell-content {
+    position: absolute;
+    overflow: hidden;
+    top: 5px;
+    left: 6px;
+    height: 69px;
+}
+
+.calendar__cell__title {
+    margin-bottom: 3px;
+    line-height: 16px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: apercu_pro, sans-serif;
+    color: #475669;
+}
+
+.calendar__cell-content p {
+    font-size: 13px;
+    color: #999;
+    margin: 5px 0;
+}
+
+.calendar-nav-link {
+    font-family: apercu_pro, sans-serif;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 659px) {
+    .report-to-hotel-chart td:nth-child(1):before {
+        content: ' Месяц';
+    }
+
+    .report-to-hotel-chart td:nth-child(2):before {
+        content: ' В работе';
+    }
+
+    .report-to-hotel-chart td:nth-child(3):before {
+        content: ' Сделано';
+    }
+
+    .report-to-hotel-chart td:nth-child(4):before {
+        content: ' Запланировано';
+    }
+
+    .report-to-hotel-chart td:nth-child(5):before {
+        content: ' Итого';
+    }
+}
+

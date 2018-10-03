@@ -1,0 +1,273 @@
+.line.hotel-subs-line {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 118px;
+    height: 3px;
+    background: #475669;
+}
+
+.subscriber__block {
+    /*position: relative;*/
+    /*margin-top: 20px;*/
+    /*border: 1px solid #ccc;*/
+    /*padding: 10px;*/
+}
+
+.subscriber__ava-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 70px;
+    height: 70px;
+    margin-right: 7px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.subscriber__ava-block img {
+
+    border-radius: 2px;
+}
+
+.subscriber__info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.subs-bubble {
+
+}
+.subs-bubble b {
+    font-size: 24px;
+}
+.subs-bubble__item {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 2px;
+    min-width: 136px;    padding: 7px 7px 4px;    margin-right: 10px;
+
+}
+
+.travel-heart,
+.subscriber__tbl .travel-heart {
+    display: inline-block;
+    vertical-align: top;
+    color: #e03a3a;
+    font-size: 26px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+.subscriber__date {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.subscriber__tbl .bth__cell {
+    position: relative;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+
+.subscriber__tbl .bth__cell:first-child {
+    border-left: 1px solid #ccc;
+    width: 300px;
+}
+
+.subscriber__tbl .bth__cell:nth-child(2) {
+    width: 50px;
+}
+
+.subscriber__tbl .bth__cell:nth-child(3) {
+    /*width: 300px;*/
+}
+
+.subscriber__tbl .bth__cell:last-child {
+    width: 95px;
+    border-right: 1px solid #ccc;
+    text-align: right;
+}
+
+.subs__stat {
+    display: inline-block;
+    vertical-align: top;
+    width: 33px;
+    height: 38px;
+}
+
+.subs__stat--gold {
+    background: url("/i/tophotels/pos_gold_v2.png") no-repeat;
+}
+
+.subs__stat--bronze {
+    background: url("/i/tophotels/pos_bronze_v2.png") no-repeat;
+}
+
+.subs__stat--silver {
+    background: url("/i/tophotels/pos_gray_v2.png") no-repeat;
+}
+
+.subs__stat--pro {
+    background: url("/i/tophotels/pro-icon-30.png") no-repeat;
+}
+
+.subs__stat--pro-grey {
+    background: url("/i/tophotels/pro-icon-grey-30.png") no-repeat;
+}
+
+.subs__stat--big {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+
+.subs__stat--big .bth__img {
+    object-fit: contain;
+}
+
+.subs__item {
+    padding: 15px 15px 25px 15px;
+}
+
+.subs__stat--big .travel-heart.travel-heart--big {
+    padding-top: 16px;
+    padding-right: 6px;
+    font-size: 35px;
+}
+
+.subs__stat--big .travel-heart.travel-heart--broken {
+    margin-right: 3px;
+    margin-top: -1px;
+}
+
+.subs__stat--big .subscriber__broken-big {
+    padding-right: 10px;
+    padding-top: 17px;
+}
+
+.subs__top {
+    position: relative;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+.subs__abs-block {
+    position: absolute;
+    right: 0px;
+    top: 3px;
+}
+
+.subs__cnt-block,
+.subs__rbt-block {
+    margin-top: 25px;
+}
+
+.subs__rbt-block .rbt-block {
+    display: block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.bth__btn.subs__btn {
+    background: #ff8e41;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.subs__heart {
+    position: absolute;
+    right: 21px;
+    top: 17px;
+}
+
+.subs__heart .travel-heart {
+    display: inline-block;
+    vertical-align: top;
+    color: #e03a3a;
+    font-size: 18px;
+    margin-right: 5px;
+    margin-top: 0px;
+}
+
+.subscriber__tbl .subs__cbx {
+    display: none;
+}
+
+.subscriber__tbl .subs__cbx.active {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 7px;
+    margin-top: 22px;
+}
+
+@media screen and (max-width: 768px) {
+    .subscriber__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        border-top: none;
+        padding: 5px 10px;
+    }
+
+    .subscriber__tbl .bth__row {
+        display: block;
+        position: relative;
+        border: 1px solid #ccc;
+    }
+
+    .subscriber__tbl .bth__cell:first-child {
+        border-left: none;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .subscriber__tbl .bth__cell:last-child {
+        border-right: none;
+        padding-bottom: 10px;
+    }
+
+    .subscriber__tbl .bth__cell:nth-child(2) {
+        position: absolute;
+        top: 1px;
+        left: 54px;
+    }
+
+    .subscriber__ava-block {
+        margin-right: 15px;
+    }
+
+    .subscriber__tbl .subs__cbx {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .subs__abs-block {
+        position: relative;
+        right: auto;
+        top: auto;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+
+    .subs-bubble .subs-bubble__item {
+        display: block;
+    }
+    .subs-bubble .subs-bubble__item:not(:last-of-type) {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .subscriber__info {
+        display: block;
+        margin-top: 5px;
+    }
+}

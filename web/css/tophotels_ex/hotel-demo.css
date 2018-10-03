@@ -1,0 +1,120 @@
+.demo__tbl {
+    margin-top: 15px;
+}
+
+.demo__tbl .bth__cell {
+    display: table-cell;
+    padding: 5px 10px;
+}
+
+.demo__tbl .bth__cell:first-child {
+    width: 200px;
+    padding-left: 0;
+}
+
+.filter-map-btn {
+    /*padding: 34px;*/
+}
+
+.bth__btn.question-hotelier {
+    padding: 10px 0;
+    color: #fff;
+    background: #ff8e41;
+    font-size: 14px;
+    width: 250px;
+}
+
+.hoter-contact__wrap {
+    position: relative;
+}
+
+.hoter-contact--left {
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 280px);
+}
+
+.hoter-contact--right {
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    float: right;
+}
+
+.hotel-demo__user-block {
+    margin-top: 20px;
+}
+
+.hotel-demo__ava {
+    display: inline-block;
+    vertical-align: top;
+    width: 70px;
+    height: 70px;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-right: 7px;
+}
+
+.hotel-demo__user-info {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 192px;
+    margin-top: -4px;
+}
+
+.hotel-demo__user-info .bth__cnt,
+.hotel-demo-user-name {
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 2px;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1023px){
+    .hoter-contact--right {
+        display: block;
+        position: relative;
+        float: none;
+        margin-top: 20px;
+    }
+    .hoter-contact--left {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .demo__tbl .bth__cell {
+        display: block;
+        padding: 7px 0;
+    }
+    .demo__tbl .bth__cell:first-child {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .demo__tbl .bth__cell:last-child {
+        padding-top: 0;
+    }
+    .demo__tbl {
+        margin-top: 10px;
+    }
+    .hotel-demo-user-name {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 478px){
+    .bth__btn.transfer__btn {
+        width: 100%;
+    }
+    .add-quest__btn-block .add-quest__link {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+}

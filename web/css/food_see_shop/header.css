@@ -1,0 +1,18 @@
+.header {
+    background: #5c8927;
+    position: relative;
+    height: 60px;
+    padding: 20px 30px 0;
+}
+
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo__link {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}

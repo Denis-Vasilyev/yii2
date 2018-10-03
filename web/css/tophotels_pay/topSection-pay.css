@@ -1,0 +1,27 @@
+.topSection-pay {
+    background: #faf6e5;
+    padding: 20px;
+    padding-left: 238px;
+}
+
+.topSection-pay__d-ib {
+    display: inline-block;vertical-align: top;
+}
+
+.topSection-pay__link {
+    font-size: 25px;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.topSection-pay img {
+border-radius: 2px;
+    margin-right: 10px;
+}
+.topSection-pay__city {
+    color: #666;
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 13px;
+}
+

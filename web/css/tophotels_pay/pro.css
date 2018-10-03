@@ -1,0 +1,112 @@
+.section__ttl2 {
+    font-size: 16px;
+    color: #475669;
+    font-weight: bold;
+    font-family: 'apercu_pro', sans-serif;
+    line-height: 22px;
+}
+
+.section__cnt {
+    font-size: 14px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.section__ttl2 {
+    font-size: 15px;
+    color: #475669;
+    margin-bottom: 4px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+
+.pay-logo {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 20px;
+    width: 64px;
+}
+
+.pay__tbl {
+    width: 100%;
+}
+
+.pay__tbl .bth__cell {
+    padding: 10px 0;
+}
+
+.header__btn-pay-search {
+    outline: none;
+    color: #ff8e41;
+    cursor: pointer;    width: 155px;
+    height: 52px;
+    line-height: 40px;
+    border: 1px solid #f1ebd3;
+    border-radius: 0 2px 2px 0;
+    font-size: 14px;
+    margin-top: -1px;
+    margin-left: -3px;
+    text-transform: uppercase;
+    font-weight: normal;
+    background-color: white;
+    padding: 6px 13px;
+    display: inline-block;
+    position: static;
+    text-align: center;
+}
+
+.header__btn-pay-search:hover {
+    background-color: #ff8e41;
+    color: white;
+}
+
+
+.topSection-pay__id {
+    font-size: 24px;
+}
+
+.thPay-80p .payment__card-summ-block {
+
+    top: 50px;
+}
+
+.thPay-80p .payment__cnt-info {
+
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.thPay-80p  .card2 {
+    background: #d1e0f0;
+}
+
+.thPay-80p {
+    width: 80%;
+}
+
+.js-step2 {
+    display: none;
+}
+
+.th-pay-step2-btn {
+    display: inline-block;margin-top: 30px;
+    width: 240px;
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .pay__tbl .bth__cell {
+        display: block;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .thPay-80p {
+        width: 100%;
+    }
+
+}
+

@@ -1,0 +1,111 @@
+.auth-error-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.auth-error-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.auth-error-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 170px;
+    height: 3px;
+    background: #475669;
+}
+
+.auth-error-tab.active {
+    color: #475669;
+}
+
+.auth-error-tb img {
+    border-radius: 50px;
+}
+
+.auth-circle-green {
+    background-color: #00a551;
+}
+
+.auth-circle-red {
+    background-color: #e03a3a;
+}
+
+.auth-stat-tbl td:first-of-type {
+    width: 180px;
+}
+
+
+.auth-error-tb td:nth-child(3) {
+    width: 27%;
+}
+
+.auth-error-tb.auth-error-tb--losers td:last-child {
+    width: 126px;
+}
+
+.section--auth .box-radio {
+    height: auto;
+    margin-right: 20px;
+}
+
+.section--auth {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.auth-error-tb.auth-error-tb--losers td:nth-child(6) {
+    white-space: normal;
+}
+
+@media screen and (max-width: 659px) {
+    .auth-error-tb.auth-error-tb--losers td:last-child {
+        width: auto;
+    }
+
+    .auth-stat-tbl td:first-of-type {
+        width: 100%;
+    }
+
+    .auth-error-tb td:nth-child(1)::before {
+        content: '№';
+    }
+
+    .auth-error-tb td:nth-child(2)::before {
+        content: 'Дата';
+    }
+
+    .auth-error-tb td:nth-child(3)::before {
+        content: 'Пользователь';
+    }
+
+    .auth-error-tb td:nth-child(3)::before {
+        content: 'Назвние компании';
+    }
+
+    .auth-error-tb td:nth-child(4)::before {
+        content: 'Логин';
+    }
+
+    .auth-error-tb td:nth-child(5)::before {
+        content: 'Ошибка';
+    }
+
+    .auth-error-tb td:nth-child(6)::before {
+        content: 'Результат';
+    }
+}

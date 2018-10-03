@@ -1,0 +1,59 @@
+.bid-log th:nth-child(2) {
+    width: 30%;
+}
+.all-booking-tbl__anonim-35 {
+    display: inline-block;
+    width: 35px;
+    border-radius: 50px;
+    height: 35px;
+    background-color: #ff8e41;
+    color: white;
+    font-weight: bold;
+    /* padding-top: 8px; */
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.all-booking-tbl__anonim-35 span {
+    padding-top: 8px;
+    display: inline-block;
+}
+@media screen and (max-width: 659px) {
+    .all-booking-tbl .user-block__info {
+        max-width: 200px;
+        overflow: hidden;
+    }
+
+    .all-booking-tbl td:first-of-type:before {
+        content: "Дата";
+    }
+
+    .all-booking-tbl td:nth-child(2):before {
+        content: "Турагент";
+    }
+
+    .all-booking-tbl td:nth-child(3):before {
+        content: "Распределение";
+    }
+
+    .all-booking-tbl td:nth-child(4):before {
+        content: "Заявка";
+    }
+
+    .all-booking-tbl td:nth-child(5):before {
+        content: "Пользователь";
+    }
+
+    .all-booking-tbl td:nth-child(6):before {
+        content: "Заявок";
+    }
+
+    .all-booking-tbl.all-booking-tbl--all td:nth-child(3):before {
+        content: "Статус";
+    }
+
+}

@@ -1,0 +1,244 @@
+.cards-developing {
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    margin-left: 7px;
+    width: 80%;
+}
+
+.cards-developing .card-developing {
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 10px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.cards-developing .card-developing__avatar {
+    position: absolute;
+}
+
+.cards-developing .card-developing__avatar img {
+    margin-right: 15px;
+    border-radius: 50px;
+}
+
+.cards-developing .card-developing__msg {
+    width: 90%;
+    position: relative;
+    margin-left: 85px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.cards-developing .card-developing__inner-wrap {
+    border-radius: 2px;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.cards-developing .card-developing__inner-wrap::after {
+    content: "";
+    position: absolute;
+    border-left: 10px solid rgba(113, 101, 58, 0);
+    border-right: 10px solid rgba(113, 101, 58, 0);
+    border-bottom: 10px solid;
+    top: 21px;
+    transform: rotate(-95deg);
+    left: -14px;
+
+}
+
+.cards-developing .card-developing__inner-wrap.green-bacg::after {
+    color: #D8EAD2;
+}
+
+.cards-developing .card-developing__inner-wrap.grey-bacg::after {
+    color: #EEEEEE;
+}
+
+.cards-developing .card-developing__inner-wrap.yellow-bacg::after {
+    color: #FFF2CD;
+}
+
+.cards-developing .card-developing__inner {
+
+}
+
+.cards-developing .card-developing__inner-top {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.cards-developing .card-developing__inner-top-l {
+    float: right;
+    position: relative;
+    margin-right: 15px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.cards-developing .card-developing__edit {
+    position: absolute;
+    cursor: pointer;
+    font-size: 13px;
+    top: -1px;
+    font-family: 'apercu_pro', sans-serif;
+    right: 2px;
+    color: #ff8e41;
+    font-weight: bold;
+}
+
+.cards-developing .card-developing__bottom {
+
+}
+
+.cards-developing .card-developing__bottom-img {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    height: 90px;
+    margin-right: 8px;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.cards-developing .card-developing__bottom-img img {
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.cards-developing .card-developing__editor {
+
+}
+
+.cards-developing .card-developing__editor textarea {
+    width: 100%;
+    height: 60px;
+    min-height: 41px;
+    margin-top: 16px;
+    font-size: 14px;
+    padding: 10px;
+    color: #475669;
+    border-color: #ccc;
+    font-family: 'apercu_pro', sans-serif;
+    margin-bottom: 0px;
+    border-radius: 2px;
+}
+
+.cards-developing .card-developing__editor textarea.active {
+    height: 111px;
+    transition: 0.3s;
+}
+
+.cards-developing .card-developing__editor__file {
+    margin-top: 20px;
+}
+
+.cards-developing .card-developing__editor__add input {
+    display: none;
+}
+
+.cards-developing .card-developing__editor__added {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    padding: 6px 35px 6px 6px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cards-developing .card-developing__editor__added i {
+    position: absolute;
+    background-image: url(/i/close-12x12.png);
+    width: 12px;
+    height: 12px;
+    display: block;
+    cursor: pointer;
+    right: 9px;
+    top: 12px;
+}
+
+.cards-developing .card-developing__editor__add {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cards-developing .box-check {
+    position: relative;
+    display: block;
+    font-family: 'apercu_pro', sans-serif;
+    font-weight: normal;
+    width: auto;
+    margin: 0 10px 10px 0;
+}
+
+.cards-developing .box-check label {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    font-size: 14px;
+    line-height: normal;
+    padding-left: 30px;
+    font-weight: normal;
+}
+
+.cards-developing .box-check input {
+    display: none;
+}
+
+.cards-developing .box-check-input + label::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 3px;
+    border: 2px solid #475669;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.cards-developing .box-check-input:checked + label::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 15px;
+    height: 15px;
+    background: url(/i/check-bold-15.png) no-repeat;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 659px) {
+
+    .cards-developing {
+        width: 100%;
+    }
+
+    .cards-developing .card-developing__msg {
+        width: auto;
+        margin-right: 8px;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    .cards-developing .card-developing__inner-top-l {
+        float: none;
+        display: block;
+        margin-right: 0;
+    }
+
+}

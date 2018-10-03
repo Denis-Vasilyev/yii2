@@ -1,0 +1,235 @@
+
+.suggest-big {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: #fff;
+    min-height: 275px;
+    box-shadow: 0px 11px 15px -1px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.suggest-big__search-wrap {
+    border-bottom: 2px solid #ff8e41;
+    position: relative;
+    padding-right: 16%;
+}
+
+.suggest-big__search {
+    padding: 0 25px;
+    max-width: 925px;
+    margin-left: 133px;
+}
+
+.suggest-big__search__news {
+    height: 52px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggest-big__search__news-center {
+    position: relative;
+    height: 100%;
+    padding-bottom: 2px;
+    width: 87%;
+}
+
+.suggest-big__search__news-center input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-weight: normal;
+    border: none;
+    padding: 10px 38px;
+    font-size: 16px;
+    color: #999;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.suggest-big__search__news-left {
+    background: #fff;
+    text-align: right;
+}
+
+.suggest-big__search__news-left i {
+    font-size: 14px;
+    color: #ff8e41;
+}
+
+.suggest-big__search-list {
+    padding: 0 25px;
+    padding-left: 230px;
+    position: relative;
+    color: #475669;
+
+}
+
+.suggest-big__search-list-item {
+
+    font-size: 16px;
+    font-family: 'apercu_pro', sans-serif;
+    padding: 10px 5px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.suggest-big__search-list-item:hover {
+    background: #e4e5ea5c;
+}
+
+.suggest-big__search-category > span {
+
+    font-size: 15px;
+    display: block;
+    color: #999;
+    font-family: 'apercu_pro', sans-serif;
+    padding: 15px 0;
+    padding-bottom: 15px;
+}
+
+.suggest-big__search-list-item-info {
+    font-weight: bold;
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+.suggest-big__search-list-item-phone {
+    font-weight: bold;
+    float: right;
+    padding-top: 14px;
+    text-align: right;
+}
+
+.suggest-big img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    border-radius: 50px;
+}
+
+.suggest-big__search-list-item span:first-child {
+    font-size: 13px;
+    font-family: 'apercu_pro', sans-serif;
+    display: inline-block;
+    width: 75px;
+}
+
+.suggest-big__close {
+    background-image: url("/i/close-12x12.png");
+    cursor: pointer;
+    position: absolute;
+    right: 39px;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+}
+
+.suggest-big__close:hover {
+    background-image: url("/i/close-12x12-red.png");
+}
+
+.suggest-big__search-list-item-city {
+    float: right;
+    font-size: 13px;
+}
+
+.suggest-big__search-list-item-hour {
+    font-size: 13px;
+}
+
+.suggest-big__btn {
+    top: 0;
+    border: none;
+    width: auto;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 0 11px;
+    background-color: white;
+    color: #ff8e41;
+    cursor: pointer;
+}
+
+.suggest-big .task__user-block {
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.suggest-big .task__user-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.suggest-big .task__user-name {
+    font-size: 16px;
+    line-height: 20px;
+    color: #318cc6;
+    margin-top: -2px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.suggest-big .task__user-tp {
+    color: #475669;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.suggest-big__close.bottom-link {
+    background: none;
+    font-size: 14px;
+    color: #ff8e41;
+    font-family: 'apercu_pro', sans-serif;
+    width: auto;
+    height: auto;
+    position: static;
+    float: right;
+}
+
+.suggest-big__search-category {
+    width: 79%;
+}
+
+@media screen and (max-width: 1023px) {
+    .suggest-big__search-list {
+        padding-left: 25px;
+    }
+
+    .suggest-big__search-category {
+        width: 99%;
+    }
+
+    .suggest-big__search {
+        margin-left: 0;
+        width: 96%;
+    }
+
+    .suggest-big__close {
+        right: 10px;
+    }
+
+    .suggest-big__search-wrap {
+        padding-right: 0;
+    }
+
+    .suggest-big__btn {
+        height: 10px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .suggest-big__search-list-item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

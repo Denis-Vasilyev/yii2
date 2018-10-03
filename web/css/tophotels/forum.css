@@ -1,0 +1,194 @@
+.forumClub {
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    margin-top: 20px;
+}
+
+.forumClub .forumClub__item-top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.forumClub .forumClub__item-top img {
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.forumClub .forumClub__item-inline {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.forumClub__time {
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.forumClub__comment {
+    margin-top: 20px;
+}
+
+.forumClub__comment .forumClub__item-txt {
+    padding: 10px;
+    border-radius: 2px;
+    background-color: #efefef;
+}
+
+.forumClub__comment .forumClub__item-txt::before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid rgba(113, 101, 58, 0);
+    border-right: 10px solid rgba(113, 101, 58, 0);
+    border-bottom: 10px solid;
+    top: -10px;
+    color: #efefef;
+}
+
+.forumClub__item {
+    display: block;
+    border: 2px solid #e4e5ea;
+    border-radius: 2px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.forumClub__ttl {
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
+
+.forumClub__item-txt {
+    line-height: 24px;
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.forumClub__item-txt p:not(:last-of-type) {
+    margin-top: 5px;
+}
+
+.forumClub__comment-icons {
+    font-size: 17px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.forumClub__comment-icon {
+    background-image: url("/i/tophotels/chat.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+}
+
+.forumClub__comment-icons a {
+    color: #475669;
+}
+
+.forumClub__comment-icons a:hover {
+    color: #318cc6;
+}
+
+.forumCategory-tbl {
+    width: 100%;
+    margin-top: 12px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.forumCategory-tbl tr td {
+    font-size: 14px;
+    padding: 7px;
+    border-bottom: 1px solid #bcbcbc;
+    max-width: 155px;
+    min-width: 31px;
+    overflow: hidden;
+    vertical-align: top;
+    color: #475669;
+    position: relative;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.forumCategory-tbl th {
+    text-align: left;
+    border-bottom: 1px solid #bcbcbc;
+    padding: 7px;
+    color: #999;
+    font-weight: normal;
+}
+
+.forumCategory-tbl img {
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.forumCategory-tbl__inline {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.forumCategory-tbl tr th:last-of-type,
+.forumCategory-tbl tr td:last-of-type {
+    text-align: right;
+}
+
+.forumCategory-tbl tr td:last-of-type {
+    font-size: 21px;
+}
+
+.forumCategory-tbl tr .forumCategory-tbl__ttl {
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.forumCategory-tbl tr th:first-of-type {
+    width: 30px;
+}
+
+.forumCategory-tbl tr th:nth-child(2) {
+    width: 50%;
+}
+
+.forumClub .forumClub__circle-img {
+    border-radius: 50px;
+}
+
+.forumClub__comment .bth__btn {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    width: 290px;
+    padding: 11px 0px 13px 0px;
+    color: #fff;
+    background: #ff8e41;
+    font-size: 14px;
+}
+
+.forumClub__comment .bth__ta-block {
+    width: 100%;
+}
+.forumClub__comment-add-txt {
+    display: inline-block;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-left: 5px;
+}
+
+.forumClub__comment-user {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.forumClub__d-ib {
+    display: inline-block;
+    vertical-align: top;
+}

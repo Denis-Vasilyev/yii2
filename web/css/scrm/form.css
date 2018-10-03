@@ -1,0 +1,476 @@
+
+.add-agent-wrap {
+    background-color: #e4e5ea;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.add-agent-wrap > div {
+    margin-bottom: 19px;
+    position: relative;
+}
+
+.form-btn {
+    background: #fff;
+    border: 1px solid #ff8e41;
+    padding: 11px 46px 13px 46px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #ff8e41;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.add-agent-form .add-agent-wrap .chart-job input {
+    width: 85px;
+    font-weight: bold;
+}
+
+.add-agent-form .add-agent-wrap .chart-job div {
+    margin-bottom: 19px;
+}
+
+.add-agent-wrap .chart-job .fa-plus {
+    color: #318cc6;
+    margin-left: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.chart-job__output {
+    color: #da4c4c;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.add-agent__title--border {
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+
+}
+
+.form__plus {
+    right: 250px;
+    top: 8px;
+    position: absolute;
+}
+
+.form-btn:hover {
+    background: #ff8e41;
+    color: #fff;
+}
+
+.add-agent__title {
+    font-weight: bold;
+    color: #475669;
+    display: block;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.add-agent > div {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding: 0 25px 15px 0;
+}
+
+.add-agent-wrap > div:last-of-type {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.add-agent-wrap > div label,
+.operation-type__title {
+    font-size: 14px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    display: inline-block;
+    width: 196px;
+}
+
+.form__delete {
+    color: grey;
+    font-size: 15px;
+    font-family: 'apercu_pro', sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+select,
+.add-agent-wrap.city > div input {
+    width: 50%;
+    height: 36px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+select option {
+    font-family: 'apercu_pro', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.box-radio {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: auto;
+    margin: 0 5px 0 0;
+}
+
+.box-radio input {
+    display: none;
+}
+
+.box-radio label {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    font-size: 14px;
+    line-height: normal;
+    padding-left: 30px;
+    font-weight: normal;
+    width: auto !important;
+}
+
+.box-radio.box-radio--small .type-input + label::before {
+    width: 18px;
+    height: 18px;
+    top: 1px;
+}
+
+.box-radio.box-radio--small .type-input:checked + label::after {
+    width: 10px;
+    height: 10px;
+    top: 5px;
+}
+
+.add-agent-form__border-top {
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+
+.box-radio.box-radio--small label {
+    padding-left: 26px;
+}
+
+.box-radio .type-input + label::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #475669;
+    pointer-events: all;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.box-radio .type-input:checked + label::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 14px;
+    height: 14px;
+    background: #475669;
+    border-radius: 50%;
+}
+
+.add-agent-wrap div input:not(.test-access):focus,
+.add-agent-wrap div select:focus {
+    box-shadow: inset 0 -3px 0 0 orange;
+
+}
+
+.box-check {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: auto;
+
+}
+
+.box-check label {
+    width: auto !important;
+}
+
+.input-take + label::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 3px;
+    border: 2px solid #475669;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.form-btn.form-btn--big {
+    position: relative;
+    display: inline-block;
+    line-height: 35px;
+    font-size: 15px;
+    background: #ff8e41;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #ff8e41;
+    border-radius: 3px;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding: 11px 0px;
+    width: 270px;
+}
+
+.form-btn.form-btn--big:hover {
+    background: #e27200;
+}
+
+.add-agent-wrap--dbl .type-input {
+    width: 55%;
+}
+
+.add-agent-wrap--dbl .type-input.type-input--25p {
+    width: 25%;
+}
+
+.add-agent-wrap--dbl .type-input.type-input--27p {
+    width: 27.3%;
+}
+
+.input-take:checked + label::after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 6px;
+    width: 15px;
+    height: 15px;
+    background: url(../../i/check-bold-15.png) no-repeat;
+    cursor: pointer;
+}
+
+.required-field input {
+    border: 2px solid #e03a3a;
+    border-radius: 2px;
+}
+
+.required-field__sign {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    top: 7px;
+    color: #e03a3a;
+}
+
+.operation-type .box-check input.input-take {
+    width: 0;
+    padding: 0;
+}
+
+.box-check input {
+    opacity: 0;
+}
+
+.operation .box-radio {
+    width: 124px;
+}
+
+.operation-type__title.item {
+    width: 53px;
+    margin-left: 126px;
+}
+
+.operation-type__item {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    display: inline-block;
+    width: 180px;
+}
+
+.add-agent-wrap .operation-type .test-access {
+    width: 32px;
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid #475669;
+    margin-right: 3px;
+    margin-left: 6px;
+    font-size: 15px;
+    padding: 5px 3px;
+}
+
+.type-input {
+    width: 50%;
+    height: 36px !important;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.setting__limits {
+    display: inline-flex;
+}
+
+.lock {
+    margin-left: -21px;
+    font-size: 16px;
+    color: #999;
+}
+
+.add-agent-wrap .left-title {
+    position: absolute;
+    right: 80px;
+    top: 9px;
+}
+
+.add-agent-form__header {
+    background: linear-gradient(90deg, #e4e5ea, #e4e5ea);
+    padding: 15px 15px;
+    margin-bottom: 10px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.choice-coop__select {
+    margin-top: 3px;
+    border: 1px solid #ccc;
+    background-color: white;
+    width: 50%;
+    max-height: 155px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-left: 203px;
+
+}
+
+.add-agent-wrap > div textarea {
+    width: 50%;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+
+}
+
+.choice-coop__select > div {
+    display: block;
+    padding: 8px 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    border-bottom: 1px solid #ccc;
+}
+
+.choice-coop__select .task__user-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.choice-coop__select > div:hover {
+    background-color: #f5fafd;
+}
+
+.choice-coop__select img {
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.choice-coop__select .task__user-tp {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.choice-coop__select > div:last-of-type {
+    margin-bottom: inherit;
+}
+
+.choice-coop__select .task__user-name {
+    font-size: 14px;
+    color: #318cc6;
+}
+
+.choice-coop__select .task__user-tp {
+    font-size: 12px;
+}
+
+.add-agent-wrap__inp-wrap {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    position: relative;
+}
+
+.add-agent-wrap__inp-wrap input {
+    width: 100%;
+}
+
+.add-agent-wrap__help {
+    position: absolute;
+    top: 6px;
+    right: 9px;
+}
+
+
+@media screen and (max-width: 685px) {
+    .add-agent-wrap > div label, .operation-type__title {
+        display: block;
+    }
+
+    .add-agent-wrap > div .type-input,
+    select {
+        width: 80%;
+
+    }
+
+    .form-btn {
+        margin-left: 0 !important;
+    }
+
+    .box-radio {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .setting__limits {
+        display: flex;
+        margin-top: 12px;
+        margin-left: 25px;
+    }
+
+}

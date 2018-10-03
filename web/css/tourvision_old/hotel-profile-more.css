@@ -1,0 +1,146 @@
+.hotel-col-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.more__tbl .tv__cell {
+    border-bottom: none;
+    width: 50%;
+}
+
+.hotel-more__price {
+    font-size: 46px;
+    color: #475669;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.more-val-icon {
+    font-size: 42px;
+}
+
+.hotel-more__note-block {
+    margin-top: 10px;
+    background: url(/i/tourvision/attention-sign.png) no-repeat 0 2px;
+    padding-left: 24px;
+    max-width: 500px;
+}
+
+.hotel-more__note-block--green {
+    background: url(/i/tourvision/checked.png) no-repeat 0 2px;
+}
+
+.fly__tbl .tv__cell {
+    border-bottom: none;
+    padding: 10px;
+}
+
+.fly__tbl .tv__cell:first-child,
+.fly__tbl .tv__cell:last-child {
+    width: 150px;
+}
+
+.fly__tbl .tv__cell:nth-child(2) {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fly__tbl .tv__row:nth-child(2) .tv__cell {
+    border-bottom: 1px dashed #ccc;
+}
+
+.tour-fly__icon {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background: url(/i/tourvision/plane.png) no-repeat center center;
+}
+
+.hotel-tour-order {
+    margin-top: 40px;
+}
+
+.tour-order__item {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 22px;
+    width: 250px;
+    font-size: 14px;
+    margin-right: 30px;
+}
+
+.tour-order__item .form__group {
+    border-radius: 3px;
+    border: 1px solid #DFDFDF;
+    height: 50px;
+}
+
+.form__label {
+    font-weight: 400;
+    position: absolute;
+    top: -27px;
+    left: 0;
+    padding: 0 10px;
+    line-height: 26px;
+    font-size: 15px;
+    color: #999;
+    white-space: nowrap;
+}
+
+.form__group_dynamic-label .form__input.complete + .form__label,
+.form__group_dynamic-label .form__input:focus + .form__label {
+    margin-top: 0;
+    opacity: 1;
+}
+
+.tour-order__btn {
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 22px;
+    font-weight: 600;
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    background: #ff8e41;
+    border-radius: 3px;
+    text-decoration: none;
+    box-shadow: 0 1px 0 0 #bc5f10, inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
+}
+
+.tour-order__btn:hover {
+    background: #e27200;
+}
+
+@media screen and (max-width: 1023px){
+    .hotel-col-block {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .tour-order__item {
+        width: 225px;
+        margin-right: 10px;
+    }
+    .tour-order__btn {
+        width: 225px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .tour-order__item {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+    }
+    .more__tbl .tv__cell {
+        display: block;
+        width: 100%;
+    }
+    .more__tbl .tv__row:first-child .tv__cell {
+        display: none;
+    }
+}

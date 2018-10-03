@@ -1,0 +1,84 @@
+.my-calls-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.my-calls-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.my-calls-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 93px;
+    height: 3px;
+    background: #475669;
+}
+
+.my-calls-tab.active {
+    color: #475669;
+}
+
+.call-red {
+    background-image: url(../../i/phone-in-red.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    border: 2px solid #e03a3a;
+    border-radius: 50px;
+    background-position-x: 4px;
+}
+
+.my-calls img {
+    border-radius: 50px;
+}
+
+.my-calls td:nth-child(4) {
+    white-space: normal;
+}
+
+.my-calls td:last-of-type, .my-calls th:last-of-type {
+    text-align: right
+}
+
+@media screen and (max-width: 659px) {
+
+    .my-calls td:nth-child(1)::before {
+        content: 'Дата';
+    }
+
+    .my-calls td:nth-child(2)::before {
+        content: 'Инициатор';
+    }
+
+    .my-calls td:nth-child(3)::before {
+        content: 'Оппонент';
+    }
+
+    .my-calls td:nth-child(4)::before {
+        content: 'Тема контакта';
+    }
+
+    .my-calls td:nth-child(4)::before {
+        content: 'Контакт';
+    }
+
+    .my-calls td:last-of-type, .my-calls th:last-of-type {
+        text-align: left;
+    }
+
+}

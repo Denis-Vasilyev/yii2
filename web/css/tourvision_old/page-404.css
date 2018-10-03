@@ -1,0 +1,92 @@
+.index  .page--white {
+    background: #fff;
+}
+
+.index-section__bottom {
+    /*!*position: absolute;*!*/
+    /*bottom: 115px;*/
+    /*right: 0;*/
+    /*left: 0;*/
+    padding-bottom: 20px;
+}
+
+.index-section__bottom .index__title {
+    color: #fff;
+    text-align: center;
+}
+.index-section__bottom .form {
+    margin-bottom: 20px;
+}
+
+.section-404 {
+    height: 293px;
+    padding: 20px 40px;
+    /*text-align: center;*/
+    vertical-align: middle;
+    /*background: url("../../static/images/bg404.jpg") no-repeat center;*/
+}
+
+.index-section.filter {
+    padding: 20px 0;
+    background: #e4e5ea;
+}
+
+.cnt-404-block {
+    text-align: center;
+    margin: auto;
+}
+
+.fz404 {
+    font-size: 160px;
+    color: #475669;
+    margin-right: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.not__img-block {
+    max-width: 600px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cnt-404 {
+    margin-top: 40px;
+}
+
+.not__tbl .tv__cell {
+    border-bottom: none;
+    padding-top: 27px;
+}
+
+.not__tbl .tv__cell:first-child {
+    width: 270px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.not__tbl .tv__cell:last-child {
+    text-align: right;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+    .not__tbl .tv__cell {
+        display: block;
+        text-align: center;
+        padding-top: 0;
+    }
+    .not__tbl .tv__cell:first-child {
+        width: 100%;
+        text-align: center;
+    }
+    .not__tbl .tv__cell:last-child {
+        width: 100%;
+        text-align: center;
+    }
+    .fz404 {
+        margin-right: 0;
+        font-size: 90px;
+    }
+}

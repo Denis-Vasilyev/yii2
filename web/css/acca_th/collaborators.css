@@ -1,0 +1,43 @@
+.collaborators-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.collaborators-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.collaborators-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 99px;
+    height: 3px;
+    background: #475669;
+}
+
+.collaborators-tab.active {
+    color: #475669;
+}
+
+@media screen and (max-width: 659px) {
+    .collaborators td:nth-child(3):before {
+        content: 'Статус';
+    }
+
+    .collaborators td:last-of-type:before {
+        content: 'Дата активации';
+    }
+}

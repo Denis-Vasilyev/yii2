@@ -1,0 +1,94 @@
+.access-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.access-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.access-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 68px;
+    height: 3px;
+    background: #475669;
+}
+
+.access-tab.active {
+    color: #475669;
+}
+
+.access-tab.tab-hide {
+    display: none;
+}
+
+
+.log-changes-tbl img,
+.access-views-tbl img {
+    border-radius: 50px;
+}
+
+.log-changes-tbl .user-block__ava,
+.access-views-tbl .user-block__ava {
+    margin-right: 4px;
+}
+
+.log-access th:first-of-type {
+    width: 43px;
+}
+
+.log-changes-tbl th:first-of-type {
+    width: 100px;
+}
+
+.access-views-tbl th:first-of-type {
+    width: 80px;
+}
+
+.access-views-tbl th:last-of-type, .access-views-tbl td:last-of-type {
+    text-align: left;
+}
+
+.log-access img {
+    border-radius: 50px;
+}
+
+
+.log-access .contacts__minus:before {
+    left: 10px;
+}
+.log-access .contacts__plus:before {
+    left: 10px;
+}
+
+@media screen and (max-width: 659px) {
+    .access-views-tbl tr td:nth-child(2):before,
+    .log-changes-tbl tr td:nth-child(2):before {
+        content: "Пользователь";
+    }
+
+    .log-changes-tbl tr td:nth-child(3):before {
+        content: "Срок";
+    }
+
+    .log-changes-tbl tr td:nth-child(4):before {
+        content: "Изменил";
+    }
+
+    .access-views-tbl tr td:nth-child(3):before {
+        content: "Страница просмотра";
+    }
+}

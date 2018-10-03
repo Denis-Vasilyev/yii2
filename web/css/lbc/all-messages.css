@@ -1,0 +1,38 @@
+.all-msg-post-tbl td:nth-child(5) {
+    white-space: normal;
+}
+
+.all-msg-post-tbl td:first-of-type,
+.outbox-post-tbl td:first-of-type {
+    width: 85px
+}
+
+.all-msg-post-tbl img {
+    border-radius: 2px;
+}
+
+.all-msg-post-tbl .contacts__plus:before,
+.outbox-post-tbl .contacts__plus:before {
+    left: 65px;
+}
+
+.user-block-info__ava--ml {
+    text-align: center;
+    border: 1px solid #318cc6;
+
+    display: inline-block;
+    vertical-align: top;
+    width: 40px;
+    margin-right: 7px;
+    height: 40px;
+}
+
+.ava-mail {
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 3px;
+}
+.outbox-post-tbl td:nth-child(4) {
+    width: 50%;
+}

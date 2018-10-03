@@ -1,0 +1,96 @@
+/*.mfp-auto-cursor .mfp-content {*/
+    /*height: 100%;*/
+/*}*/
+
+.subway-pp {
+    /*width: 100%;*/
+    margin: 0px auto 20px;
+    /*margin: 20px;*/
+    box-sizing: border-box;
+    background: #fff;
+    /*padding: 20px;*/
+    text-align: left;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    position: relative;
+    border-radius: 3px;
+}
+
+.subway-pp__close {
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 12px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 10;
+    background: url("/i/tourvision/close-12x12.png")
+}
+
+
+.subway-pp__close:hover {
+    background: url("/i/tourvision/close-12x12-red.png")
+}
+
+
+.metro-map {
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.metro-img {
+    width: 100%;
+}
+
+
+.stations li {
+    position: absolute;
+    white-space: nowrap;
+}
+
+.stations input {
+    display: none;
+}
+
+.stations label {
+    color: #475669;
+    background: url(/i/tourvision/marker.png) no-repeat;
+    font-size: 13px;
+    line-height: 18px;
+    display: inline-block;
+    height: 22px;
+    border-radius: 2px;
+    padding: 0 5px 0 22px;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.stations label span {
+    background: url(/i/tourvision/dotted-999999.png) 1px 17px repeat-x;
+    display: block;
+    zoom: 1;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 3px;
+}
+
+.stations input:disabled+label {
+    background: 0;
+    color: #bbb;
+    cursor: default;
+}
+
+.stations input:disabled+label span {
+    background: 0;
+}
+
+
+.map__container {
+    width: 995px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.metro-map-pp{top:0;right:0;bottom:0;left:0;margin:auto;z-index:100;display:block}.metro-map-pp-head{height:50px;position:relative;font-size:18px;font-weight:700;line-height:24px;color:#000;border-bottom:1px solid #cdcdcd;padding:13px 0 0 15px;-webkit-box-sizing:border-box;box-sizing:border-box}.metro-map-pp-close{float:right;margin:0 13px 0 0}.metro-map{margin:0 auto;position:relative}.metro-map-pp-body-spb{height:600px}.stations{float:left;position:absolute;top:0;left:-5px;width:100%;height:100%}.stations li{white-space:nowrap}.stations input:disabled+label{background:0 0;color:#bbb;cursor:default}.stations input:disabled+label span{background:0 0}.stations input:checked+label{background-color:#000;color:#fff}.stations input:checked+label span{background:0 0;-webkit-filter:none;filter:none}.stations label{color:#000;background:url(/i/tourvision/marker.png) no-repeat;font-size:13px;line-height:18px;display:inline-block;height:22px;-webkit-border-radius:2px;border-radius:2px;padding:0 5px 0 22px;text-decoration:none;cursor:pointer;white-space:nowrap}.stations label span{background:url(/i/tourvision/dotted-999999.png) 1px 17px repeat-x;display:block;zoom:1;background-color:rgba(255,255,255,.7);-webkit-border-radius:3px;border-radius:3px}.stations .lside label{background-position:103% 0;padding:0 20px 0 3px}.stations .lside input:checked+label{border-right:2px solid #000}.stations .blue-line label,.stations .brown-line label,.stations .cyan-line label,.stations .grey-line label,.stations .orange-line label,.stations .violet-line label{background-position:0 0}.stations .blue-line .lside label,.stations .brown-line .lside label,.stations .cyan-line .lside label,.stations .grey-line .lside label,.stations .orange-line .lside label,.stations .violet-line .lside label{background-position:103% 0}.stations .green-line label,.stations .greenyellow-line label,.stations .yellow-line label{background-position:2px 0}.stations .green-line .lside label,.stations .greenyellow-line .lside label,.stations .yellow-line .lside label{background-position:100% 0}.stations .steelblue-line label{background-position:2px -189px}.stations .steelblue-line .lside label{background-position:100% -189px}.stations .skyblue-line label{background-position:2px -208px}.stations .skyblue-line .lside label{background-position:100% -208px}.mow-ulpdb{left:722px;top:130px}.mow-chrkiz{left:722px;top:150px}.mow-plpreo{left:722px;top:170px}.mow-sklnk{left:722px;top:190px}.mow-krasel{left:722px;top:210px}.mow-komsom{left:649px;top:280px}.mow-krvor{left:610px;top:321px}.mow-chisprud{left:489px;top:346px}.mow-lub{left:463px;top:409px}.mow-ohryad{left:463px;top:470px}.mow-bibimlen{left:239px;top:547px}.mow-kropot{left:358px;top:572px}.mow-pkkul{left:239px;top:600px}.mow-frunz{left:208px;top:642px}.mow-sport{left:188px;top:661px}.mow-vorob{left:137px;top:681px}.mow-univer{left:151px;top:700px}.mow-prvernd{left:68px;top:720px}.mow-uz{left:96px;top:741px}.mow-tropar{top:759px;left:100px}.mow-salar{top:799px;left:58px}.mow-rumanc{top:778px;left:77px}.mow-ptncsh{left:16px;top:16px}.mow-mitin{left:76px;top:36px}.mow-vlklm{left:27px;top:56px}.mow-myak{left:61px;top:76px}.mow-strog{left:64px;top:96px}.mow-kryl{left:49px;top:116px}.mow-molodzh{left:43px;top:136px}.mow-kuncev{left:51px;top:155px}.mow-slavblvd{left:25px;top:201px}.mow-pkpbd{left:41px;top:353px}.mow-kiev{left:215px;top:423px}.mow-smol{left:246px;top:471px}.mow-arbt{left:320px;top:531px}.mow-plrev{left:463px;top:485px}.mow-kursk{left:706px;top:449px}.mow-baum{left:789px;top:368px}.mow-elekzvd,.mow-smn{left:789px;top:348px}.mow-smn{top:328px}.mow-izm,.mow-ptzn{left:789px;top:308px}.mow-izm{top:288px}.mow-pvmay{left:789px;top:268px}.mow-schelk{left:789px;top:248px}.mow-alexsad{left:251px;top:500px}.mow-arbt2{left:358px;top:471px}.mow-smol2{left:328px;top:440px}.mow-kiev2{left:216px;top:392px}.mow-vstv{left:153px;top:352px}.mow-mzhd{left:108px;top:327px}.mow-stud{left:154px;top:300px}.mow-fili,.mow-kutuz{left:154px;top:280px}.mow-fili{top:260px}.mow-bagrat{left:154px;top:240px}.mow-filpk,.mow-pion{left:154px;top:220px}.mow-pion{top:200px}.mow-kuncev2{left:51px;top:171px}.mow-blrs-o{left:304px;top:252px}.mow-nvslob{left:348px;top:229px}.mow-prmira-o{left:587px;top:248px}.mow-komsom-o{left:652px;top:296px}.mow-kursk-o{left:706px;top:464px}.mow-tagan-o{left:601px;top:556px}.mow-pavelec-o{left:629px;top:605px}.mow-dobryn{left:537px;top:650px}.mow-oktbr-o{left:327px;top:638px}.mow-pkkul-o{left:239px;top:584px}.mow-kiev-o{left:215px;top:408px}.mow-krpresn{left:320px;top:310px}.mow-medved{left:587px;top:20px}.mow-babush{left:587px;top:40px}.mow-svibl{left:587px;top:60px}.mow-botsad,.mow-vdnh{left:587px;top:80px}.mow-vdnh{top:100px}.mow-alex,.mow-rizh{left:587px;top:120px}.mow-rizh{top:140px}.mow-prmira{left:587px;top:232px}.mow-suhar{left:502px;top:270px}.mow-turgen{left:496px;top:330px}.mow-kitay{left:587px;top:471px}.mow-tretiak{left:455px;top:511px}.mow-oktbr{left:327px;top:654px}.mow-shab{left:317px;top:683px}.mow-lenpr{left:272px;top:708px}.mow-akadem{left:304px;top:733px}.mow-profsz{left:318px;top:759px}.mow-newcher{left:290px;top:783px}.mow-kaluzh{left:340px;top:808px}.mow-belya{left:353px;top:833px}.mow-konk{left:345px;top:858px}.mow-teplstan{left:322px;top:883px}.mow-yasen{left:371px;top:905px}.mow-novoyas{left:337px;top:924px}.mow-zhul{left:857px;top:767px}.mow-lermpr,.mow-vyh{left:857px;top:747px}.mow-vyh{top:727px}.mow-ryazpr{left:838px;top:707px}.mow-kuzm{left:818px;top:687px}.mow-tekst{left:798px;top:667px}.mow-volgpr{left:778px;top:647px}.mow-proletar{left:738px;top:608px}.mow-tagan{left:672px;top:541px}.mow-kitay2{left:587px;top:455px}.mow-kuzn{left:524px;top:394px}.mow-pushk{left:311px;top:393px}.mow-barr{left:230px;top:326px}.mow-ul1905{left:183px;top:160px}.mow-beg{left:231px;top:140px}.mow-polezh{left:189px;top:120px}.mow-oktpole{left:166px;top:100px}.mow-schuk,.mow-tush{left:218px;top:80px}.mow-tush{top:60px}.mow-shod{left:199px;top:40px}.mow-planer{left:213px;top:20px}.mow-novokos{left:827px;top:407px}.mow-novogir{left:827px;top:427px}.mow-perovo{left:827px;top:447px}.mow-shosent{left:827px;top:467px}.mow-aviamot{left:827px;top:487px}.mow-plil{left:738px;top:526px}.mow-markst{left:581px;top:526px}.mow-tretiak2{left:458px;top:526px}.mow-dc{left:144px;top:368px}.mow-pkpbd2{left:42px;top:368px}.mow-minsk{top:431px;left:67px}.lside.mow-lomon{top:451px;left:-3px}.lside.mow-ramenki{top:470px;left:67px}.lside.mow-michur{top:489px;left:11px}.lside.mow-ochack{top:509px;left:68px}.lside.mow-govor{top:528px;left:62px}.lside.mow-solnc{top:548px;left:54px}.lside.mow-borovsk{top:570px;left:-16px}.lside.mow-novoper{top:591px;left:-49px}.lside.mow-rassk{top:613px;left:-27px}.lside a{border:1px solid #ddd;-webkit-border-radius:2px;border-radius:2px;font-size:9px;font-family:apercu_pro;text-decoration:none;color:#ccc;padding:2px 5px;line-height:22px;margin-left:3px}.lside label{border-right:2px solid transparent}.mow-borovsk.lside a,.mow-novoper.lside a,.mow-rassk.lside a,.mow-solnc.lside a{margin-left:8px}.mow-altuf,.mow-bibr{left:454px;top:20px}.mow-bibr{top:40px}.mow-otrad{left:454px;top:60px}.mow-vladyk{left:454px;top:80px}.mow-petroraz{left:454px;top:100px}.mow-timirz{left:454px;top:120px}.mow-dmitr{left:454px;top:140px}.mow-savel{left:454px;top:160px}.mow-mendel{left:354px;top:212px}.mow-cvblvd{left:393px;top:294px}.mow-chek{left:321px;top:410px}.mow-borov{left:312px;top:515px}.mow-polyan{left:493px;top:620px}.mow-serpuh{left:448px;top:666px}.mow-tulsk{left:475px;top:695px}.mow-nagat{left:456px;top:715px}.mow-nagor{left:474px;top:735px}.mow-nahumpr{left:423px;top:760px}.mow-sevast{left:427px;top:802px}.mow-chertan{left:443px;top:826px}.mow-yuzh{left:491px;top:846px}.mow-prazh{left:474px;top:865px}.mow-ulakyang{left:447px;top:895px}.mow-anni{left:486px;top:925px}.mow-bdd{left:493px;top:969px}.mow-marosch{left:519px;top:186px}.mow-dstvsk,.mow-trub{left:519px;top:206px}.mow-trub{top:294px}.mow-sretblvd{left:587px;top:361px}.mow-chkal{left:706px;top:480px}.mow-rim{left:738px;top:510px}.mow-krestzast{left:738px;top:592px}.mow-dubrov{left:714px;top:704px}.mow-kozhuh{left:714px;top:724px}.mow-pechat{left:714px;top:744px}.mow-lbln,.mow-volzhsk{left:714px;top:764px}.mow-lbln{top:784px}.mow-bratisl{left:714px;top:804px}.mow-marino{left:714px;top:824px}.mow-boris{left:714px;top:844px}.mow-shipil{left:714px;top:864px}.mow-zyabl{left:714px;top:884px}.mow-kashir{left:603px;top:740px}.mow-varsh{left:582px;top:770px}.mow-kahovsk{left:466px;top:784px}.mow-bitzpk{left:334px;top:940px}.mow-lsprkv{left:371px;top:960px}.mow-ulstaroch{left:324px;top:985px}.mow-ulskobel{left:355px;top:1004px}.mow-bau{left:306px;top:1024px}.mow-ulgorch{left:379px;top:1044px}.mow-buninal{left:377px;top:1064px}.mow-aatin{left:600px;top:904px}.mow-krasngvd{left:575px;top:886px}.mow-dmd{left:582px;top:864px}.mow-oreh{left:618px;top:844px}.mow-caric{left:609px;top:824px}.mow-kantem{left:568px;top:804px}.mow-kashir2{left:603px;top:724px}.mow-kolomen{left:595px;top:701px}.mow-avtozvd{left:586px;top:679px}.mow-pavelec{left:549px;top:620px}.mow-novokuz{left:455px;top:542px}.mow-teatr{left:463px;top:454px}.mow-tversk{left:331px;top:378px}.mow-mayak{left:387px;top:352px}.mow-blrs{left:307px;top:268px}.mow-aero,.mow-dnm{left:327px;top:120px}.mow-aero{top:100px}.mow-sokol,.mow-voyk{left:327px;top:80px}.mow-voyk{top:60px}.mow-vodnstad{left:327px;top:40px}.mow-rechnstad{left:327px;top:20px}

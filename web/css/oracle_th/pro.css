@@ -1,0 +1,19 @@
+.hotels__legend {
+    background-color: #e4e5ea;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.hotels__legend  * {
+    margin: 10px 0;
+}
+
+table:not(.big-table) tr td{
+    min-width: auto;
+}
+
+.hotels th:first-of-type{
+    width: 30px;
+}
+

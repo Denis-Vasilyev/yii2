@@ -1,0 +1,155 @@
+.distrib-agencies-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.distrib-agencies-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.distrib-agencies-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 170px;
+    height: 3px;
+    background: #475669;
+}
+
+.distrib-agencies-tab.active {
+    color: #475669;
+}
+
+.agencies-booking img {
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+.agencies-booking .hint {
+    position: absolute;
+    padding: 6px 9px 6px 9px;
+    background: rgba(255, 255, 255, 1);
+    color: #666;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    border-radius: 3px;
+    white-space: nowrap;
+    top: 45px;
+    font-family: apercu_pro, sans-serif;
+}
+
+.agencies-booking__avatars {
+    overflow: visible;
+    white-space: normal;
+}
+
+.agencies-booking .user-block {
+    position: relative;
+    display: inline-block;
+}
+
+.hint__title {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #475669;
+    line-height: 22px;
+}
+
+.hint__status > * {
+    margin-top: 5px;
+}
+
+.hint__status {
+    margin-bottom: 10px;
+}
+
+.agencies-booking .hint .hint__status {
+    font-size: 14px;
+    color: #475669;
+    font-weight: normal;
+}
+
+.pro-agent-border {
+    border: 3px solid #F2C94C;
+    width: 46px;
+    height: 46px;
+    border-radius: 50px;
+}
+
+.consultant-border {
+
+    border: 3px solid #e03a3a;
+    width: 46px;
+    height: 46px;
+    border-radius: 50px;
+}
+
+.hint__status-term {
+    display: inline-block;
+    margin-left: 13px;
+}
+
+.hint__status-name {
+    width: 100px;
+    display: inline-block;
+}
+
+.contacts-agency td:last-of-type {
+    white-space: normal;
+}
+
+.contacts-agency .contacts-agency__total {
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    font-size: 15px;
+}
+
+.contacts-agency .contacts-agency__chart {
+
+    display: inline-block;
+    width: 50px;
+}
+
+.contacts-agency__chart-cell > div {
+    margin-bottom: 5px;
+}
+
+.contacts-agency__way {
+    max-height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.total-row td {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.by-city td:last-child, .by-city th:last-child {
+    text-align: left;
+}
+
+.contacts-agency .contacts-agency__way p {
+    font-size: 12px;
+}
+
+.contacts-agency th:last-of-type {
+    width: 30%;
+}
+
+

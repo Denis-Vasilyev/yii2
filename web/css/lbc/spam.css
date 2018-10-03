@@ -1,0 +1,9 @@
+.spam-post-tbl img {
+    border-radius: 2px;
+}
+
+.spam-post-tbl td:nth-child(4) {
+    width: 45%;
+}
+
+.spam-post-tbl   .contacts__plus:before { left: 70px;}

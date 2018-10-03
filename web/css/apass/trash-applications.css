@@ -1,0 +1,42 @@
+.trash-appl-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.trash-appl-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.trash-appl-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 126px;
+    height: 3px;
+    background: #475669;
+}
+.trash-appl-tab.active {
+    color: #475669;
+}
+
+.trash-by-days-tb td:last-of-type,
+.trash-by-days-tb th:last-of-type {
+    text-align: left;
+}
+
+.trash td:last-of-type,
+.trash th:last-of-type {
+    text-align: left;
+}

@@ -1,0 +1,236 @@
+.pro-touragent-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.pro-touragent-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.pro-touragent-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 135px;
+    height: 3px;
+    background: #475669;
+}
+
+.pro-touragent-tab.active {
+    color: #475669;
+}
+
+.statistic__data {
+    position: relative;
+}
+
+.statistic__data::after {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    content: "\f15e";
+    top: 9px;
+    left: 37px;
+    font-family: 'FontAwesome';
+    color: #318cc6;
+}
+
+.list-service div {
+    margin-bottom: 5px;
+
+}
+
+.list-service {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.list-service div .list-service_status {
+    font-weight: bold;
+    margin-left: 13px;
+
+}
+
+.list-service div span:first-child {
+    display: inline-block;
+    width: 101px;
+    cursor: pointer;
+}
+
+.term-input-wrap {
+    position: relative;
+}
+
+.term-input {
+    position: absolute;
+    right: 7px;
+    top: -32px;
+    width: 20px;
+}
+
+.term-input span {
+    position: absolute;
+    left: 32px;
+    width: max-content;
+    top: 29px;
+    color: #475669;
+    font-weight: bold;
+}
+
+.add-agent-wrap .term .term-input input {
+    opacity: 0;
+    width: 23px;
+    height: 20px;
+    margin-top: 9px;
+}
+
+.term .fa-calendar {
+    color: #ff8e41;
+    font-size: 21px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.data-activation__today {
+    color: #ff8e41;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.add-agent-form .add-agent-wrap .chart-job input {
+    width: 85px;
+    font-weight: bold;
+}
+
+.add-agent-form .add-agent-wrap .chart-job div {
+    margin-bottom: 19px;
+}
+
+.add-agent-wrap .chart-job .fa-plus {
+    color: #318cc6;
+    margin-left: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.chart-job__output {
+    color: #da4c4c;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.map-coordin-address {
+    margin-left: 205px;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 659px) {
+    .active-agent td:nth-child(1)::before,
+    .pro-lost td:nth-child(1)::before, .pro-city tr:not(:first-child) td:nth-child(1)::before {
+        content: '№';
+    }
+
+    .active-agent td:nth-child(2)::before,
+    .activity-log td:nth-child(2)::before,
+    .pro-lost td:nth-child(2)::before {
+        content: 'Название клиента';
+    }
+
+    .active-agent td:nth-child(3)::before,
+    .activity-log td:nth-child(3)::before,
+    .pro-lost td:nth-child(3)::before {
+        content: 'Пользоватль';
+    }
+
+    .active-agent td:nth-child(4)::before {
+        content: 'Оплата';
+    }
+
+    .active-agent td:nth-child(5)::before,
+    .activity-log td:nth-child(4)::before {
+        content: 'Статус агента';
+    }
+
+    .active-agent td:nth-child(6)::before,
+    .pro-lost td:nth-child(4)::before {
+        content: 'Менеджер агента';
+    }
+
+    .active-agent td:nth-child(7)::before {
+        content: 'Отключение';
+    }
+
+    .activity-log td:nth-child(1)::before,
+    .pro-statistic td:nth-child(1)::before {
+        content: 'Дата';
+    }
+
+    .activity-log td:nth-child(5)::before {
+        content: 'Тип операции';
+    }
+
+    .activity-log td:nth-child(6)::before {
+        content: 'Доверитель';
+    }
+
+    .pro-city tr:not(:first-child) td:nth-child(2)::before {
+        content: 'Город';
+    }
+
+    .pro-city td:nth-child(3)::before {
+        content: 'PRO агенты';
+    }
+
+    .pro-city td:nth-child(4)::before {
+        content: 'Консультанты';
+    }
+
+    .pro-city td:nth-child(5)::before {
+        content: 'Спецагенты';
+    }
+
+    .pro-city td:nth-child(6)::before {
+        content: 'Итого';
+    }
+
+    .pro-city td:nth-child(7)::before {
+        content: 'Доля грода';
+    }
+
+    .pro-statistic td:nth-child(2)::before {
+        content: 'Всего';
+    }
+
+    .pro-statistic td:nth-child(3)::before {
+        content: 'Добавлено';
+    }
+
+    .pro-statistic td:nth-child(4)::before {
+        content: 'Изменено';
+    }
+
+    .pro-statistic td:nth-child(5)::before {
+        content: 'Удалено';
+    }
+
+    .pro-statistic td:nth-child(6)::before {
+        content: 'Доверители';
+    }
+
+}

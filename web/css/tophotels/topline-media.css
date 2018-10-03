@@ -1,0 +1,40 @@
+.topline-hotels-breadcrumbs {
+    position: relative;
+    
+    padding: 10px 0;
+
+    padding-left: 237px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.topline-hotel-big__breadcrumbs-arr {
+    white-space: nowrap;
+    color: #318cc6;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px;
+    position: relative;
+    margin-left: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.topline-hotel-big__breadcrumbs-arr:before {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    content: '\2190';
+}
+
+@media screen and (max-width: 1023px) {
+    .topline-hotels-breadcrumbs {
+        padding-left: 15px;
+    }
+
+    .topline-hotel-big__breadcrumbs-arr {
+        display: block;
+        margin-top: 10px;
+    }
+}

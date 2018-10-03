@@ -1,0 +1,67 @@
+.hotels__legend {
+    background-color: #e4e5ea;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.hotels__legend * {
+    margin: 10px 0;
+}
+
+table:not(.big-table) tr td {
+    min-width: auto;
+}
+
+.hotels th:first-of-type {
+    width: 30px;
+}
+
+.log-hotels-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.log-hotels-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.log-hotels-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 53px;
+    height: 3px;
+    background: #475669;
+}
+
+.log-hotels-tab.active {
+    color: #475669;
+}
+
+@media screen and (max-width: 659px) {
+
+    .hotels td:nth-child(3):before {
+        content: "	Не смотрели отель";
+    }
+
+    .hotels td:nth-child(4):before {
+        content: "Только отель";
+    }
+
+    .hotels td:nth-child(5):before {
+        content: "С конурентами";
+    }
+}

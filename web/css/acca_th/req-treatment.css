@@ -1,0 +1,20 @@
+.req-tbl-day th:first-of-type {
+    width: 106px;
+}
+
+.req-tbl-day th:last-of-type,
+.req-tbl-day td:last-of-type {
+    text-align: left;
+}
+.req-tbl-day th:hover .hint {
+    display: block;    top: 31px;
+}
+.req-tbl-day th {
+    position: relative;
+}
+.req-tbl-day th:not(:first-of-type) {
+    width: 165px;
+}
+.req-tbl-day__grey {
+    color: #999;
+}

@@ -1,0 +1,149 @@
+.line.traveler-line {
+    width: 145px;
+}
+
+
+.traveler__tbl .bth__cell {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.traveler__tbl .bth__cell:first-child {
+    width: 175px;
+    border-left: 1px solid #ccc;
+}
+
+.traveler__tbl .bth__cell:nth-child(2) {
+    width: 70px;
+    text-align: center;
+}
+
+.traveler__tbl .bth__cell:last-child {
+    border-right: 1px solid #ccc;
+}
+
+.traveler__ava-block {
+    width: 144px;
+    height: 144px;
+    box-shadow: 0px 0px 0px 1px #ccc;
+}
+
+.traveler__tbl .traveler__status {
+    height: 39px;
+    width: 33px;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: auto;
+    text-align: center;
+}
+
+.traveler__status--gold {
+    background:url(/i/tophotels/pos_gold_v2.png) no-repeat;
+}
+
+.traveler__status--silver {
+    background: url(/i/tophotels/pos_gray_v2.png) no-repeat;
+}
+
+.traveler__status--bronze {
+    background: url(/i/tophotels/pos_bronze_v2.png) no-repeat;
+}
+
+.traveler__status--gold .traveler__status-cnt {
+    color: #ecbb3a;
+    font-size: 18px;
+}
+
+.traveler__status--silver .traveler__status-cnt {
+    color: #b3b3b3;
+    font-size: 18px;
+}
+
+.traveler__status--bronze .traveler__status-cnt {
+    color: #e28d6c;
+    font-size: 18px;
+}
+
+.traveler__info-block-top {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.traveler__tbl .bth__link.traveler__name {
+    font-size: 18px;
+    display: inline-block;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.traveler__place {
+    display: block;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.traveler__tbl .traveler__right-block {
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+.traveler__tbl .traveler__hotel,
+.traveler__tbl .traveler__reviews {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.traveler__tbl .traveler__reviews {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1023px){
+    .traveler__tbl .bth__row {
+        display: block;
+        border: 1px solid #ccc;
+    }
+    .traveler__tbl .bth__cell {
+        display: block;
+        border-top: none;
+        border-bottom: none;
+    }
+    .traveler__tbl .bth__cell:first-child {
+        border-left: none;
+        width: 100%;
+        border-bottom: none;
+        padding-bottom: 5px;
+    }
+    .traveler__tbl .bth__cell:nth-child(2) {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 120px;
+        border: none;
+    }
+    .traveler__tbl .bth__cell:last-child {
+        border-right: none;
+        padding-top: 0;
+    }
+    .traveler__tbl .traveler__right-block {
+        display: block;
+        position: relative;
+        right: initial;
+        top: initial;
+        margin-top: 0px;
+    }
+}
+

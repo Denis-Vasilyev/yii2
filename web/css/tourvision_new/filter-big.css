@@ -1,0 +1,324 @@
+.section.filter-big {
+    padding: 20px;
+}
+
+.filter-big__block {
+    /*margin-top: 20px;*/
+}
+
+.filter-big__top {
+    position: relative;
+    padding: 0 0 20px ;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+
+.filter-big__block .filter__close {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    top: 5px;
+    right: 0px;
+    background: url("/i/close-12x12.png");
+}
+
+.filter-big__block .filter__close:hover {
+    background: url("/i/close-12x12-red.png");
+}
+
+.filter-big__section {
+    margin-bottom: 10px;
+    padding: 0px 0 10px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.filter-big__cbx-block.bb-block {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.filter-big__block .cbx__col {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+}
+
+.filter-big__block .rbt-block {
+    margin: 5px 15px 5px 0;
+}
+
+.filter-big__block .cbx-block {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 15px 5px 0;
+    padding: 0;
+}
+
+.filter-big__cbx-block {
+    margin-top: 10px;
+
+}
+.filter-big__cbx-block.margin-block {
+    margin-left: 27px;
+    margin-top: 20px;
+}
+
+
+.filter-big__block.cbx-cnt {
+    font-size: 14px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.filter-big__block.cbx:disabled + label::before {
+    border: 2px solid #999;
+}
+
+.filter-big__block.cbx:disabled + label .cbx-cnt {
+    color: #999;
+}
+
+.filter-big__tbl .bth__cell {
+    border-bottom: none;
+    vertical-align: middle;
+    padding: 10px 0;
+}
+
+.filter-big__tbl .bth__cell:first-child {
+    width: 225px;
+}
+
+.filter-select {
+    width: 465px;
+}
+
+.filter-from,
+.filter-to {
+    width: 226px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.filter-from {
+    margin-right: 10px;
+}
+
+.filter-big__block .rbt__btn-block  {
+    margin-top: 10px;
+}
+
+.filter-big__block .rbt__btn-block .cbx-block {
+    display: inline-block;
+    margin-right: 5px;
+    width: 149px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.filter-big__block .cbx + .label-cbx {
+    padding-left: 27px;
+}
+.filter-big__block .rbt__btn-block .cbx + .label-cbx {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.filter-big__block .rbt__btn-block .cbx + .label-cbx .cbx-cnt {
+    font-size: 17px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.filter-big__block .rbt__btn-block  .cbx + .label-cbx .cbx-cnt {
+    color: #ff8e41;
+}
+
+
+
+.filter-big__block .rbt__btn-block .cbx:checked + .label-cbx {
+    background: #ff8e41;
+}
+
+.filter-big__block .rbt__btn-block .cbx:checked + .label-cbx .cbx-cnt {
+    color: #fff;
+}
+
+.filter-big__block .rbt__btn-block .cbx + .label-cbx::after,
+.filter-big__block .rbt__btn-block .cbx + .label-cbx::before {
+    display: none;
+}
+
+
+.filter-big__block .bth__btn.filter-big__btn {
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    background: #ff8e41;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.filter-big__block .bth__btn.filter-big__btn:hover {
+    background: #e27200;
+}
+
+.filter-big__block .cbx__container .cbx-block {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.filter-big__block .bth__row.vert-top .bth__cell {
+    vertical-align: top;
+}
+
+.filter-big__block .bth__row.vert-top .bth__cell:first-child {
+    padding-top: 13px;
+}
+
+.filter-big__block .filter__btn-block .filter-big__btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.filter-big__block .filter__btn-block .filter-big__link {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.filter-big__close-link-block {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+
+.filter-big__block .hint {
+    font-weight: normal;
+}
+
+.filter-big__block .cbx + label:hover + .hint ,
+.filter-big__block .rbt + label:hover + .hint {
+    display: block;
+    right: auto;
+    left: 0;
+}
+
+.filter__btn-block {
+    margin-top: 15px;
+}
+
+.filter-big__col {
+    display: inline-block;
+    vertical-align: top;
+    /*width: 200px;*/
+}
+
+.filter-big__col .cbx-block {
+    display: inline-block;
+    vertical-align: top;
+    /*margin-bottom: 10px;*/
+    width: 215px;
+}
+
+.filter-big__friends-type {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1023px){
+    .filter-big__block .rbt__btn-block .cbx-block {
+        width: 145px;
+    }
+    .filter-select {
+        width: 452px;
+    }
+    .filter-from, .filter-to {
+        width: 220px;
+    }
+    .filter-from {
+        margin-right: 9px;
+    }
+
+    .filter-big__block .cbx + label:hover + .hint ,
+    .filter-big__block .rbt + label:hover + .hint {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .filter-big__tbl .bth__cell {
+        display: block;
+    }
+    .filter-big__tbl .bth__cell:first-child {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .filter-big__tbl .bth__cell:last-child {
+        padding-top: 0;
+    }
+    .filter-big__block .rbt__btn-block {
+        margin-top: 0;
+    }
+    .filter-big__close-link-block {
+        bottom: 28px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .filter-select {
+        width: 100%;
+    }
+    .filter-from, .filter-to {
+        display: block;
+        width: 100%;
+    }
+    .filter-from {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .filter-big__close-link-block {
+        position: relative;
+        display: block;
+        bottom: auto;
+        right: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .filter-big__block .filter__btn-block .filter-big__btn {
+        margin-right: 0;
+    }
+    .filter-big__block .filter__btn-block .filter-big__link {
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .filter__btn-block {
+        text-align: center;
+    }
+    .filter-big__col .cbx-block {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .filter-big__block .filter__btn-block .filter-big__btn {
+        width: 100%;
+    }
+}

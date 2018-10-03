@@ -1,0 +1,34 @@
+.class-errors-dictionary-tbl .title-row td {
+    font-size: 15px;
+}
+
+.class-errors-dictionary-tbl th:last-of-type, .class-errors-dictionary-tbl td:last-of-type {
+    text-align: left;
+}
+
+.class-errors-dictionary-tbl th:first-of-type {
+    width: 45px;
+}
+
+.class-errors-dictionary-tbl th:nth-child(2) {
+    width: 100px;
+}
+
+@media screen and (max-width: 659px) {
+    .class-errors-dictionary-tbl tr:not(.title-row) td:nth-child(1):before {
+        content: 'â„–';
+    }
+
+    .class-errors-dictionary-tbl tr:not(.title-row) td:nth-child(2):before {
+        content: 'ÐÐ°Ð¸Ð¼ÐµÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ';
+    }
+
+    .class-errors-dictionary-tbl tr:not(.title-row) td:nth-child(3):before {
+        content: 'Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ';
+    }
+
+    .class-errors-dictionary-tbl tbody .title-row td {
+        padding-top: 2px;
+        padding-bottom: 8px;
+    }
+}

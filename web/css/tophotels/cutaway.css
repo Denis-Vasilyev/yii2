@@ -1,0 +1,85 @@
+.cutaway-wrap {
+    font-size: 15px;
+    width: 80%;
+}
+
+.cutaway-wrap .bth__cnt {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.cutaway-tbl {
+    margin-top: 15px;
+    border-radius: 2px;
+    padding: 7px 15px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+}
+
+.cutaway-tbl .bth__cell {
+    padding: 7px 0;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.cutaway-tbl .bth__cell:first-of-type {
+    width: 100px;
+}
+
+.cutaway-tbl .bth__row:last-of-type .bth__cell {
+    border: none;
+}
+
+.userProfile__readerReach-item:not(:last-of-type) {
+    margin-right: 30px;
+}
+
+.userProfile__readerReach-item a {
+    margin-top: 70px;
+    font-family: 'apercu_pro', sans-serif;
+    display: block;
+    margin-bottom: 7px
+
+}
+
+.userProfile__readerReach-item.gold-st {
+    background: url(/i/tophotels/status-gold.png) no-repeat 7px 7px;
+    color: #d9af16;
+    border-color: #d9af16;
+}
+
+.userProfile__readerReach-item.bronze-st {
+    background: url(/i/tophotels/status-bronze.png) no-repeat 7px 7px;
+    color: #c29b86;
+    border-color: #c29b86;
+}
+
+.userProfile__readerReach-item.silver-st {
+    background: url(/i/tophotels/status-silver.png) no-repeat 7px 7px;
+    color: #a6a6a6;
+    border-color: #a6a6a6;
+
+}
+
+.userProfile__readerReach-item.platinum-st {
+    background: url('/i/tophotels/status-platinum.png') no-repeat 7px 7px;
+    color: #c4aa79;
+    border-color: #c4aa79;
+}
+
+.userProfile__readerReach .userProfile__readerReach-item {
+    display: inline-block;
+    padding: 10px;
+    height: 135px;
+    width: 135px;
+    font-family: 'apercu_pro', sans-serif;
+    background-size: 55px;
+    background-position-x: center;
+    background-position-y: 13px;
+    font-weight: bold;
+    border: 1px solid;
+    vertical-align: top;
+    font-size: 16px;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}

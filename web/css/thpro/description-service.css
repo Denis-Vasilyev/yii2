@@ -1,0 +1,140 @@
+.service__tbl.checkin .edit-block__cell:first-child {
+    width: 200px;
+    padding-top: 19px;
+}
+
+.service__tbl .edit-block__cell:first-child {
+    width: 200px;
+}
+
+
+.special__block {
+    position: relative;
+    margin-top: 15px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+ }
+
+.special__block:last-child {
+    border-bottom: none;
+}
+
+.special__block .cbx + .label-cbx {
+    padding-left: 27px;
+}
+
+.special__block .add-comment__block {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.special__block .edit-block__ta-block {
+    height: 42px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.service__tbl  .cbx-block   {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.service__tbl  .cbx + .label-cbx {
+    padding-left: 27px;
+}
+
+.section.payment  {
+    padding-top:  20px;
+    padding-bottom: 10px;
+}
+.section.payment .cbx-block {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.section.payment .cbx-block .cbx + .label-cbx {
+    padding-left: 26px;
+}
+
+
+.edit-block__tbl.lang .edit-block__cell:first-child {
+    width: 200px;
+}
+
+.lang .edit-block__cell {
+    padding: 15px 10px 5px 0;
+    border-bottom: 1px solid #fff;
+}
+
+
+.lang .cbx-col {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.lang .cbx-cnt {
+    font-weight: normal;
+}
+
+.lang .cbx-block {
+    margin-right: 20px;
+    border-bottom: none;
+    margin-bottom: 15px;
+}
+
+.lang .cbx + .label-cbx {
+    padding-left: 26px;
+}
+
+.add-lang__block {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .service__tbl .edit-block__cell {
+        display: block;
+    }
+    .service__tbl.checkin .edit-block__cell:first-child,
+    .service__tbl .edit-block__cell:first-child {
+        width: 100%;
+        padding: 0;
+    }
+    .service__tbl.checkin .edit-block__cell:last-child,
+    .service__tbl .edit-block__cell:last-child {
+        padding-top: 0;
+    }
+    .lang .edit-block__cell {
+        display: block;
+    }
+    .lang .edit-block__cell:first-child {
+        width: 100%;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    .lang .edit-block__cell:last-child {
+        padding-top: 5px;
+    }
+    .lang .cbx-col {
+        width: 45%;
+    }
+    .special__block .add-comment__block {
+        position: relative;
+        right: auto;
+        top: auto;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .edit-block__inp-block.checkin {
+        width: 100%;
+    }
+    .lang .cbx-col {
+        width: 100%;
+    }
+}

@@ -1,0 +1,385 @@
+.profile__cnt-block--left  {
+    display: table-cell;
+    vertical-align: top;
+    width: 240px;
+    text-align: center;
+    background: #fff;
+    /*float: left;*/
+    box-sizing: border-box;
+}
+
+.profile__user-ava-block {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow:  0px 0px 0px 1px #ccc;
+}
+
+.profile__user-ava {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.add-photo {
+    background: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /*box-shadow: inset 0px 0px 0px 1px #ccc;*/
+}
+
+.add-photo .tv__cnt {
+    line-height: 210px;
+}
+
+.profile__cnt-block--right {
+    display: table-cell;
+    vertical-align: top;
+    margin-left: 230px;
+}
+
+.profile__cnt-top {
+    display: table;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.profile-ta__tbl .tv__cell {
+    display: table-cell;
+    padding: 5px 7px 5px 0;
+}
+
+.profile-ta__tbl .tv__cell:first-child {
+    width: 150px;
+}
+
+.profile__ttl-block {
+    border-bottom: 1px solid #f1ebd3;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.profile__ttl-block.name {
+    display: inline-block;
+    margin-top:-4px;
+}
+
+.profile__ttl-block.rating {
+    margin-top:15px;
+    padding-bottom: 15px;
+}
+
+.profile__cnt-comment-section {
+    display: table;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.profile__comment-user-block {
+    vertical-align: top;
+    display: table-cell;
+    white-space: nowrap;
+    width:  230px;
+}
+
+.profile__comment-r-block {
+    vertical-align: top;
+    display: table-cell;
+}
+
+.profile__comment-ava-block,
+.profile__comment-user-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.profile__comment-ava-block {
+    width: 60px;
+    height: 60px;
+    margin-right: 12px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.profile__comment-user {
+    font-size: 14px;
+    color: #475669;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+.profile__comment-user--sm {
+    font-size:12px;
+}
+
+.profile__link,
+.profile__comment-link {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    color: #318CC6;
+    text-decoration: none;
+}
+
+.profile__link:hover {
+    text-decoration: none;
+}
+
+.profile__ttl2 {
+    font-size: 31px;
+    color: #475669;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+.profile__ttl3 {
+    font-size: 20px;
+    color: #475669;
+    line-height: 24px;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+.profile__cnt-status {
+    font-size: 18px;
+    color: #475669;
+    line-height: 24px;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+.profile__cnt-status--20 {
+    font-size:20px;
+}
+
+.profile__cnt-status--15 {
+    font-size: 15px;
+}
+
+.profile__cnt-status--sm {
+    font-size: 16px;
+
+}
+.pro-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background: url("/i/tourvision/pro-icon-30.png") no-repeat;
+}
+
+.pro-logo--green {
+    display: none;
+    background: url("/i/pro-icon-green-30-bg.png") no-repeat;
+}
+
+.profile__anchor {
+    white-space: nowrap;
+}
+.profile__anchor:hover {
+    text-decoration: none;
+}
+
+
+.club-user-card-cert {
+    padding: 15px;
+    vertical-align: top;
+}
+
+.club-user-card-cert-i {
+    padding: 20px 25px;
+    border: 1px solid #EDEDED;
+    display: inline-block;
+    text-align: center;
+    width: 160px;
+    margin: 0 10px 10px 0;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 212px;
+}
+
+.club-user-card-cert-i-ttl {
+    color: #475669;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.club-user-card-cert-i-gold {
+    background: url("/i/tourvision/cert-under-gold.png") no-repeat center bottom;
+    background-position: center 91%;
+}
+
+.club-user-card-cert-i-plat {
+    background: url("/i/tourvision/cert-under-plat.png") no-repeat center bottom;
+    background-position: center 91%;
+}
+
+.club-user-card-cert-i-silv {
+    background: url("/i/tourvision/cert-under-silv.png") no-repeat center bottom;
+    background-position: center 91%;
+}
+
+.club-user-card-cert-link {
+    font-size: 12px;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    color: #318CC6;
+}
+
+.cert-wrap {
+    display: inline-block;
+    overflow: hidden;
+    width: 90px;
+    text-align: center;
+}
+
+.cert-i {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.profile__mark-block {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 8px;
+}
+
+.profile__comment-block {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 7px;
+    background: #E9E9E9;
+    margin-top: 10px;
+}
+
+.profile__comment-block:before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: -6px;
+    left: 61px;
+    background: #E9E9E9;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    transform: rotate(-45deg);
+}
+
+.profile__btn {
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    width: 280px;
+    height: 58px;
+    line-height: 35px;
+    font-size: 15px;
+    color: #ff8e41;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #ff8e41;
+    border-radius: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.profile__btn-cnt {
+    position: absolute;
+    top: 11px;
+    right: 70px;
+    overflow: hidden;
+}
+
+.profile__btn i {
+    position: absolute;
+    background: url(/i/tourvision/arr-orange-25.png) no-repeat center center;
+    width: 25px;
+    height: 25px;
+    right: 35px;
+    top: 17px;
+    transition: 0.5s;
+}
+
+.profile__btn:hover {
+    background: #ff8e41;
+    color: #fff;
+}
+
+.profile__btn:hover i {
+    width: 25px;
+    height: 25px;
+    background: url(/i/tourvision/arr-white-25.png) no-repeat center center;
+
+}
+
+.recommend__link {
+    font-size: 23px;
+}
+
+.recommend__link:hover {
+    text-decoration: none;
+}
+
+.ta-like,
+.ta-dislike {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+.profile__recommend-block {
+    margin-top: 20px;
+}
+
+.recommend-cnt {
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1023px) {
+    .breadcrumbs {
+        padding-left: 15px;
+    }
+    .header {
+        padding: 15px 0 0;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .profile__comment-user-block,
+    .profile__comment-r-block {
+        display: block;
+        width: 100%;
+    }
+
+    .profile__cnt-block--left,
+    .profile__cnt-block--right {
+        display: block;
+        width: 100%;
+    }
+
+    .profile__cnt-block--right {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .profile__mark-block {
+        margin-top: 10px;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .profile-ta__tbl .tv__cell {
+        display: block;
+        padding-bottom: 15px;
+    }
+    .profile-ta__tbl .tv__cell:first-child {
+        width: 100%;
+        padding-bottom: 0;
+    }
+}

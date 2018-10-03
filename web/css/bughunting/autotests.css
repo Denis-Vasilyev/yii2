@@ -1,0 +1,48 @@
+.standards td:nth-child(3),
+.standards td:nth-child(4),
+.standards td:nth-child(5) {
+    font-weight: bold;
+}
+
+table td:last-child, table th:last-child {
+    text-align: left;
+}
+
+
+.fa-cog {
+    color: #318cc6;
+}
+
+.autotest-page td:nth-child(2) {
+
+    color: #318cc6;
+}
+
+.autotests-page-detail td > span {
+    display: inline-block;
+}
+
+.autotests-page-detail td:last-of-type span,
+.autotests-page-detail td:nth-child(3) span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.autotests-page-detail td:last-of-type {
+    font-weight: bold;
+}
+
+.autotests-page-detail tr td .contact {
+    position: relative;
+    padding-left: 20px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.autotests-page-detail .contact.contact--minus:before {
+    top: -6px;
+}
+.autotests-page-detail .contact.contact--plus:before {
+    top: -16px;
+    left: 3px;
+}

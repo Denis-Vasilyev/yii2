@@ -1,0 +1,387 @@
+
+.contracts-and-payments-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.contracts-and-payments-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.contracts-and-payments-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    height: 3px;
+    background: #475669;
+}
+
+.contracts-and-payments-tab.active {
+    color: #475669;
+}
+
+.contracts-and-payments-create th:last-of-type,
+.contracts-and-payments-create td:last-of-type {
+    text-align: left;
+}
+
+.contracts-and-payments-create td:nth-child(5),
+.contracts-and-payments-create td:nth-child(6) {
+    color: #318cc6;
+    text-transform: lowercase;
+    font-size: 13px;
+}
+
+.create-form {
+    margin-top: 30px;
+}
+
+.attention {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'apercu_pro', sans-serif;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 206px;
+}
+
+.right-title {
+    color: #e03a3a;
+
+    font-size: 13px;
+    font-family: 'apercu_pro', sans-serif;
+    margin-left: 7px;
+}
+
+div.type-input input {
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+    border: none;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-weight: bold;
+}
+
+div.type-input {
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+div.type-input input:focus {
+    border: none !important;
+}
+
+.treaty-city {
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.filter-pp__section div {
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.dropdown-box__options div {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 6px 18px;
+    color: #475669;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+
+.bottom-block {
+    color: #e03a3a;
+    font-size: 11px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.dropdown-box__options div:hover {
+    background: #E4E4E4;
+}
+
+.dropdown-box__options div i {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.dropdown-box__options {
+    width: 68px;
+    background-color: white;
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    border-top: 1px solid #f5f5f5;
+    top: 38px;
+
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-box {
+    width: 68px;
+    height: 34px;
+    background-color: white;
+    top: 0px;
+    text-align: center;
+    padding: 5px 7px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    border-left: 1px solid #ccc;
+}
+
+.dropdown-box:focus {
+    box-shadow: inset 0 -3px 0 0 orange;
+}
+
+.dropdown-box .fa-angle-down {
+    color: #318cc6;
+    font-size: 17px;
+
+}
+
+.dropdown-box__selected {
+    margin-right: 11px;
+    font-size: 16px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.trigger-animate {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.dropdown-box__selected.month {
+    font-size: 13px;
+}
+
+.dropdown-box.month {
+    height: 36px;
+    width: 117px;
+}
+
+.dropdown-box__options.month {
+    width: 116px;
+    width: 116px;
+    height: 200px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.dropdown-box__options.month div {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 6px;
+    color: #475669;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.other-data-wrap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.other-data-wrap__datapicker-inp {
+    padding: 10px;
+    display: block;
+    margin-top: 5px;
+    width: 210px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+
+.panel-actions img {
+    border-radius: 50px;
+}
+
+.circle-ava {
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.contracts-and-payments-list th:first-child {
+    width: 110px;
+}
+
+.contracts-and-payments-list th:nth-child(2) {
+    width: 90px;
+}
+
+.status__icon {
+    width: 60px;
+    height: 60px;
+}
+
+.status__icon.draft {
+    background-image: url("../../images/scrm/document_unknown.png");
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
+
+}
+
+.cash-red {
+    background-image: url("../../images/scrm/money-bag-red.svg");
+}
+
+.cash-gray {
+    background-image: url("../../images/scrm/money-bag-gray.svg");
+}
+
+.cash-yellow {
+    background-image: url("../../images/scrm/money-bag-yellow.svg");
+}
+
+.cash-green {
+    background-image: url("../../images/scrm/money-bag-green.svg");
+}
+
+.card-green {
+    transform: rotate(90deg);
+    background-image: url("../../images/scrm/credit-card-green.svg");
+}
+
+.card-gray {
+    transform: rotate(90deg);
+    background-image: url("../../images/scrm/credit-card-gray.svg");
+}
+
+.bill-gray {
+    background-image: url("../../images/scrm/transfer-gray.svg");
+}
+
+.bill-green {
+    background-image: url("../../images/scrm/transfer-green.svg");
+}
+
+.bill-red {
+    background-image: url("../../images/scrm/transfer-red.svg");
+}
+
+.bill-orange {
+    background-image: url("../../images/scrm/transfer-orange.svg");
+}
+
+.status > div {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dog {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.waiting-clock i {
+    font-size: 17px;
+}
+
+.waiting-clock {
+    color: #e03a3a;
+}
+
+.type-input--txta {
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.type-input--txta:focus {
+    min-height: 80px !important;
+    transition: 0.3s;
+    height: 80px !important;
+}
+
+.contracts-and-payments-list--manual__100 {
+    display: inline-block;
+    width: 83px;
+}
+
+.add-payment .add-agent-wrap > div label,
+.add-payment .operation-type__title {
+    width: 209px;
+}
+
+.contracts-and-payments-list--manual .relative:hover .hint {
+    display: block;
+}
+
+.contracts-and-payments-list--manual .hint {
+    top: 23px;
+
+}
+
+/*Адаптив таблицы*/
+@media screen and (max-width: 659px) {
+
+    .contracts-and-payments-list td:nth-child(1)::before {
+        content: 'Дата / ID';
+    }
+
+    .contracts-and-payments-list td:nth-child(2)::before {
+        content: 'Менеджер';
+    }
+
+    .contracts-and-payments-list td:nth-child(3)::before {
+        content: 'Договор';
+    }
+
+    .contracts-and-payments-list td:nth-child(4)::before {
+        content: 'Статус оплаты';
+    }
+
+    .contracts-and-payments-list td:nth-child(5)::before {
+        content: 'Клиент';
+    }
+
+    .contracts-and-payments-create td:nth-child(1)::before {
+        content: '№';
+    }
+
+    .contracts-and-payments-create td:nth-child(2)::before {
+        content: 'Выберите услугу';
+    }
+
+    .contracts-and-payments-create td:nth-child(3)::before {
+        content: 'Абревиатура';
+    }
+
+    .contracts-and-payments-create td:nth-child(4)::before {
+        content: 'Компания для оплаты';
+    }
+
+    .contracts-and-payments-list--manual td:nth-child(5)::before {
+        content: 'Подтвердил';
+    }
+}

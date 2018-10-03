@@ -1,0 +1,174 @@
+.catalog-hotels-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.catalog-hotels-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.catalog-hotels-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 125px;
+    height: 3px;
+    background: #475669;
+}
+
+.catalog-hotels-tab.active {
+    color: #475669;
+}
+
+/* стили прайс лист*/
+
+.list-hotel__bth {
+    font-family: inherit;
+    background: #fff;
+    border: 1px solid #ff8e41;
+    padding: 11px 66px 13px 66px;
+    border-radius: 2px;
+    color: #ff8e41;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    float: right;
+}
+
+#allowablePanel,
+#catalogPanel,
+#byHotelPanel{
+    position: relative;
+}
+
+.hotel__btn, .basket__bth {
+    display: inline-block;
+    font-family: inherit;
+    background: #fff;
+    border: 1px solid #ff8e41;
+    padding: 11px 66px 13px 66px;
+    border-radius: 2px;
+    color: #ff8e41;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.selected-hotel-basket {
+    padding: 10px;
+    padding-left: 0;
+    position: absolute;
+    content: "";
+    width: 220px;
+    top: -76px;
+    right: -50px;
+}
+
+.selected-hotel-basket__icon {
+    background-image: url(../../i/cart.png);
+    width: 43px;
+    height: 49px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.selected-hotel-basket__txt {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    color: #354150;
+    font-weight: bold;
+    margin-top: 7px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.hotel__calc {
+    font-size: 16px;
+    color: #354150;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.by-data .disable-cost {
+    text-decoration: line-through;
+    text-decoration-color: #5f5f5f;
+    color: #6b6b6b;
+}
+
+.checkbox-mounth .checkbox-mounth__all {
+    text-align: center;
+    width: 74px;
+}
+
+.checkbox-mounth span {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    color: #5f5f5f;
+}
+
+.box-check.all-mounth {
+    display: inline-block;
+}
+
+.box-check input[disabled] + label:before {
+    background: #f6f6f6;
+    cursor: text;
+    content: 'X';
+    text-align: center;
+    line-height: 16px;
+    color: #b8b8b8;
+    border: 2px solid #b8b8b8;
+}
+
+/* end_стили прайс лист*/
+
+.basket-total {
+    font-size: 16px;
+    color: #354150;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.title-row-catalog {
+    background-color: #e4e5ea;
+}
+
+.title-row-catalog td {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 659px) {
+    .catalog-hotels td:nth-child(2):before {
+        content: 'Название';
+    }
+
+    .catalog-hotels td:nth-child(4):before {
+        content: '1-й доступный месяц';
+    }
+
+    .catalog-hotels td:nth-child(5):before {
+        content: 'Цена';
+    }
+
+    .catalog-hotels td:nth-child(6):before {
+        content: 'Выбрать';
+    }
+}
+
+

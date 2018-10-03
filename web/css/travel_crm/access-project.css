@@ -1,0 +1,32 @@
+.access-project-line {
+    width: 136px;
+}
+
+@media screen and (max-width: 659px) {
+
+    .access-project-tbl.b-tbl tbody tr td:nth-child(1)  {
+        padding-top: 19px;
+        padding-left: 32px;
+    }
+    .access-project-tbl.b-tbl td:nth-child(1)::before {
+        content: '№';
+        left: 7px;    top: 19px;
+    }
+
+    .access-project-tbl.b-tbl td:nth-child(2)::before {
+        content: 'Пользователь';
+    }
+
+    .access-project-tbl.b-tbl td:nth-child(3)::before {
+        content: 'Статус';
+    }
+
+    .access-project-tbl.b-tbl td:nth-child(4)::before {
+        content: 'Срок';
+    }
+
+    .access-project-tbl.b-tbl td:nth-child(5)::before {
+        content: 'Редактировать';
+    }
+}
+

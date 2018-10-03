@@ -1,0 +1,144 @@
+article.filter-new {
+    position: relative;
+    padding: 15px;
+    background: #e4e5ea;
+    margin-top: 20px;
+}
+
+.filter-new__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+article.filter-new .filter-new__button {
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+article.filter-new .filter-new__button .filter-new__inp {
+    display: none;
+
+}
+
+article.filter-new .filter-new__button .filter-new__lb {
+    font-family: 'apercu_pro', sans-serif;
+    color: #ff8e41;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    background-color: white;
+    padding: 9.6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+}
+
+article.filter-new .filter-new__button .filter-new__inp:checked + .filter-new__lb {
+    background-color: #ff8e41;
+    color: white;
+}
+
+article.filter-new .filter-new__suggest {
+    width: 60%;
+    vertical-align: middle;
+    margin-left: -22px;
+    display: none;
+    transition: 0.3s;
+    height: 100%;
+}
+
+article.filter-new .filter-new__suggest.active {
+    display: inline-block;
+}
+
+.filter-new__button .filter-new__lb.filter-new__lb.active-border {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+article.filter-new .filter-new__suggest .filter-new__suggest-inp {
+    width: 100%;
+    padding: 5px;
+    height: 100%;
+    padding-left: 15px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    border: 1px solid white;
+    font-size: 14px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.filter-new__item.active {
+    width: 100%;
+}
+
+article.filter-new .filter-new__lb.filter-new__lb--sm {
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    padding: 0;
+}
+
+article.filter-new .filter-new__lb.filter-new__lb--sm .filter-new__icon {
+    width: 24px;
+    display: inline-block;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    height: 24px;
+}
+
+article.filter-new .filter-new__lb.filter-new__lb--sm .push-img {
+    background: url(/i/sprite-filter-btn.png) -274px 0;
+}
+
+article.filter-new .filter-new__inp:checked + .filter-new__lb.filter-new__lb--sm .push-img {
+    background: url(/i/sprite-filter-btn.png) -310px 0;
+}
+
+article.filter-new .filter-new__lb.filter-new__lb--sm .line-fat {
+    background: url(/i/sprite-filter-btn.png) 2px 3px;
+}
+
+article.filter-new .filter-new__inp:checked + .filter-new__lb .line-fat {
+    background: url(/i/sprite-filter-btn.png) 263px 4px;
+}
+
+article.filter-new .filter-new__lb.filter-new__lb--sm .line-short {
+    background: url(/i/sprite-filter-btn.png) 222px 4px;
+}
+
+article.filter-new .filter-new__inp:checked + .filter-new__lb .line-short {
+    background: url(/i/sprite-filter-btn.png) 141px 4px;
+}
+
+article.filter-new .filter-new__button-lineFat {
+    height: 4px;
+    width: 21px;
+    display: block;
+    background: #ff8e41;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+}
+
+article.filter-new .filter-new__button.filter-new__button--single i {
+    font-size: 21px;
+    padding-top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .filter-new__flex {
+        flex-direction: column;
+    }
+
+    .filter-new__flex .filter-new__item:last-of-type {
+        margin-top: 10px;
+    }
+}

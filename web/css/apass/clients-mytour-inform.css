@@ -1,0 +1,119 @@
+.clients-mytour-inform-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.clients-mytour-inform-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.clients-mytour-inform-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 140px;
+    height: 3px;
+    background: #475669;
+}
+
+.clients-mytour-inform-tab.active {
+    color: #475669;
+}
+
+.color-theme {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #80a7ff;
+}
+
+.clients-mytour-inform img {
+    border-radius: 50px;
+}
+
+.clients-mytour-inform td:nth-child(3),
+.clients-mytour-inform td:nth-child(4) {
+    overflow: visible;
+    white-space: normal;
+    position: relative;
+}
+
+.clients-mytour-inform td .hint-block {
+    position: relative;
+    display: inline-block;
+}
+
+.clients-mytour-inform .hint {
+    top: 62px;
+}
+
+.clients-mytour-inform td:nth-child(4) .hint {
+    top: 36px;
+}
+
+.contacts__plus, .contacts__minus {
+    position: relative;
+    padding-left: 20px;
+}
+
+.contacts__plus:before {
+    content: '\271A';
+    color: green;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1px;
+}
+
+.contacts__minus:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background-color: #da4c4c;
+    left: 1px;
+    top: 8px;
+}
+
+@media screen and (max-width: 659px) {
+    .clients-mytour-inform td:nth-child(1)::before {
+        content: '№';
+    }
+
+    .clients-mytour-inform td:nth-child(2)::before {
+        content: 'Клиент';
+    }
+
+    .clients-mytour-inform td:nth-child(3)::before {
+        content: 'Менеджер';
+    }
+
+    .clients-mytour-inform td:nth-child(4)::before {
+        content: 'Админы';
+    }
+
+    .clients-mytour-inform td:nth-child(5)::before {
+        content: 'Прочее';
+    }
+
+    .clients-mytour-inform td:nth-child(6)::before {
+        content: 'Прочее';
+    }
+
+    .clients-mytour-inform td:nth-child(7)::before {
+        content: 'Тема / тень';
+    }
+}

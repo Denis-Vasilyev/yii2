@@ -1,0 +1,124 @@
+.hotel-room__tbl  {
+    border-collapse: collapse;
+}
+.hotel-room__tbl .tv__cell {
+    border: 1px solid #cccccc;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.hotel-room__tbl .tv__cell:first-child {
+    padding: 0;
+    width: 220px;
+}
+
+.hotel-room__tbl .tv__cell:nth-child(2) {
+    width: 260px;
+}
+
+.hotel-room__tbl .tv__cell:nth-child(3) {
+    width: 100px;
+    text-align: center;
+}
+
+.hotel-room__img-block {
+    width: 220px;
+    height: 220px;
+}
+
+.hotel-room__name {
+    margin-bottom: 15px;
+}
+
+.cnt-check {
+    display: block;
+    position: relative;
+    padding-left: 17px;
+    margin-bottom: 5px;
+}
+
+.cnt-check:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 4px;
+    width: 12px;
+    height: 10px;
+    background: url(/i/tourvision/check-grey.png);
+}
+
+.icon-ad {
+    color: #999;
+    font-size: 20px;
+}
+
+.hotel-room__price {
+    font-size: 26px;
+    color: #475669;
+    margin-bottom: 20px;
+}
+
+.hotel-room__tbl .tv__cell:last-child .tv__cnt + .tv__cnt {
+    margin-bottom: 5px;
+}
+
+.hotel-room__tbl .tv__cell:last-child .hotel-fly__btn {
+    margin-top: 15px;
+}
+
+.hotel-room__tbl .tv__row:hover .hotel-fly__btn {
+    background: #ff8e41;
+    color: #fff;
+}
+
+@media screen and (max-width: 1023px){
+    .hotel-room__tbl .tv__cell:first-child {
+        width: 170px;
+    }
+    .hotel-room__tbl .tv__cell:nth-child(2) {
+        width: 210px;
+    }
+    .hotel-room__tbl .tv__cell:nth-child(3) {
+        width: 90px;
+        text-align: center;
+    }
+    .hotel-room__img-block {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hotel-room__tbl .tv__row {
+        display: block;
+        border: 1px solid #ccc;
+    }
+    .hotel-room__tbl .tv__cell {
+        display: block;
+        border: none;
+        padding: 5px 10px;
+    }
+    .hotel-room__tbl .tv__cell:first-child {
+        padding: 10px 10px 5px 10px;
+        width: 100%;
+    }
+    .hotel-room__img-block {
+        width: 200px;
+    }
+    .hotel-room__tbl .tv__cell:nth-child(2) {
+        width: 100%;
+    }
+    .hotel-room__tbl .tv__cell:nth-child(3) {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .hotel-room__tbl .tv__cell:last-child .hotel-fly__btn {
+        width: 100%;
+    }
+    .hotel-room__img-block {
+        width: 100%;
+    }
+}

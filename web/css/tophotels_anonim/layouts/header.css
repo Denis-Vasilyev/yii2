@@ -1,0 +1,614 @@
+.headerMobile,
+.tabs-bar__burger,
+.tabs-bar__ava {
+    display: none;
+}
+
+.headerYellow-line {
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1ebd3;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+}
+
+.headerYellow-line__key {
+    background-image: url(/i/travel_crm/key-orange.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 31px;
+    background-size: cover;
+    margin-top: 9px
+}
+
+.headerYellow-line__bubble {
+    display: inline-block;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+    color: #ff8e41;
+    cursor: pointer;
+    position: relative;
+    width: 97px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.header--auth .headerYellow-line__user-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 2px;
+    margin-right: 12px;
+}
+
+.header--auth .headerYellow-line__bubbles {
+    margin-left: 0;
+}
+
+.header.header--noAuth .headerYellow-line__bubble.lite-pink {
+    background-color: #faf6e5;
+}
+
+.headerYellow-line__search-btn {
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    top: 3px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    height: 92%;
+    font-size: 14px;
+    border-left: 1px solid #f1ebd3;
+    padding: 0 15px;
+    text-transform: uppercase;
+
+}
+
+.header.header--auth .headerYellow-line--user-name .fz13 {
+    font-size: 15px !important;
+}
+
+.header.header--auth .headerYellow-line--user-name .fz11 {
+    font-size: 13px !important;
+}
+
+.header.header--noAuth .headerYellow-line__bubble.lite-pink {
+    background-image: url(/i/travel_crm/key-orange.svg);
+    background-size: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headerYellow-line__bubble.orange {
+    height: 46px;
+    background-color: #ff8e41 !important;
+    border: 2px solid white;
+    border-radius: 2px;
+    background-image: url(/i/tophotels/key-white.svg) !important;
+
+}
+
+.headerYellow-line__bubble.headerYellow-line__bubble--orange {
+    height: 46px;
+    background-color: #ff8e41 !important;
+    border: 2px solid white;
+    border-radius: 2px;
+    background-image: url(/i/tophotels/key-white.svg) !important;
+}
+
+.headerYellow-line--user-name {
+    width: 124px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.headerYellow-line__left-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 207px;
+}
+
+.headerYellow-line__bubble .fa,
+.headerYellow-line__bubble .fas {
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+    left: 35px;
+}
+
+.headerYellow-line__bubbles {
+    color: #ff8e41;
+    display: inline-block;
+    margin-left: 22px;
+}
+
+.headerYellow-line__user-img {
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.headerYellow-line__inlineBlock {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header {
+    position: relative;
+    background-color: white;
+}
+
+.header-top-auth.min {
+    padding: 10px 20px;
+    height: auto;
+    position: absolute;
+    width: 61%;
+    z-index: 1;
+    background: #fff;
+    padding-left: 0;
+    left: 236px;
+}
+
+.header-top-nav-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.header-top-nav-item.auth {
+    display: none;
+}
+
+.header-top-profile-link {
+    display: none;
+    border-bottom: 1px dotted;
+    vertical-align: middle;
+    text-decoration: none !important;
+    line-height: 1;
+    font-family: 'apercu_pro', sans-serif;
+    color: #3488b2;
+}
+
+.header-top-nav-link {
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none !important;
+    font-size: 12px;
+    color: #666;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.header-cnt {
+    height: 114px;
+    padding-left: 238px;
+    position: relative;
+}
+
+.header-logo {
+    position: absolute;
+    top: 31px;
+    left: 26px;
+}
+
+.header-nav {
+    padding-top: 55px;
+}
+
+.header-nav-list {
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #efefef;
+}
+
+.header-nav-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.header-nav-item:last-child {
+    margin-right: 0;
+}
+
+.header-nav-link {
+    display: block;
+    font-family: 'apercu_pro', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #318cc6;
+    position: relative;
+}
+
+.header-nav-link.active,
+.header-nav-link:hover {
+    color: #475669;
+    text-decoration: none;
+}
+
+.header-nav-link.active:before {
+    width: 100%;
+    border-bottom: 2px solid #475669;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+}
+
+.exit__block {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.header__exit {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #e03a3a;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.headerYellow-line__right .header-lang {
+    position: relative;
+}
+
+.header-lang__block {
+    position: relative;
+    padding: 15px 5px 17px 24px;
+    cursor: pointer;
+    background: #faf6e5;
+    border-radius: 2px;
+}
+
+.headerMobile__navigation {
+    display: none;
+}
+
+.header-lang__dropdown {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 44px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.header-lang .header-lang__dropdown.active {
+    display: block;
+}
+
+.header-lang__cnt {
+    display: inline-block;
+    min-width: 26px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ff8e41;
+    font-weight: bold;
+    font-family: 'apercu_pro', sans-serif;
+    margin-right: 2px;
+}
+
+.header-lang__arr {
+    font-size: 14px;
+    color: #ff8e41;
+    transition: 0.3s;
+}
+
+.header-lang__lang {
+    padding: 13px 25px 12px 25px;
+    font-size: 13px;
+    font-family: 'apercu_pro', sans-serif;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    color: #475669;
+    text-transform: uppercase;
+    background: #faf6e5;
+    font-weight: bold;
+}
+
+.header-lang__arr.active {
+    transform: rotate(180deg);
+}
+
+.headerYellow-line__bubble.active {
+    background-color: #ff8e41;
+    color: white;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.headerYellow-line__bubble-search {
+    display: none;
+    margin-left: -15px;
+    position: relative;
+    vertical-align: top;
+    height: 50.5px;
+    width: 650px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+
+}
+
+.headerYellow-line__bubble-search.active {
+    display: inline-block;
+}
+
+.headerYellow-line__bubble-search input {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    font-size: 15px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+
+    width: 100%;
+    height: 100%;
+    padding: 7px 15px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.header.header--noAuth .headerYellow-line__bubble {
+    height: 50px;
+    background-color: #ff8e41;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+.headerYellow-line__bubble.headerYellow-line__bubble--count {
+    border: 2px solid white;
+    height: 47px;
+}
+
+.header.header--noAuth .headerYellow-line__key {
+    background-image: url(/i/tophotels/key-white.svg);
+    background-repeat: no-repeat;
+    margin-top: 11px;
+
+}
+
+.header-anonim-stat {
+    background-color: #f1ebd3;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 24px;
+}
+
+.header-anonim-stat__grey {
+    color: #aaa;
+}
+
+.header-anonim-stat__icon {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 3px 0 0 3px;
+    width: 55px;
+    position: absolute;
+    height: 100%;
+    background: #faf6e5;
+    top: 0;
+    left: 0;
+}
+
+.header-anonim-stat__icon img {
+    padding-left: 11px;
+    padding-top: 11px;
+}
+
+.header-anonim-stat__wrap {
+    background-color: white;
+    padding: 12px;
+    padding-left: 70px;
+    position: relative;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.header-anonim-stat__txt {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.header-profile {
+    z-index: 10;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) {
+    .header-nav-link {
+        font-size: 16px;
+    }
+
+    .header-nav-item {
+        margin-right: 13px;
+    }
+
+    .headerYellow-line__bubble-search {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header-nav {
+        display: none;
+    }
+.header-nav-cont {
+    padding-left: 65px;
+}
+    /*навигация*/
+    .header {
+        margin-top: 0;
+    }
+
+    .exit__block,
+    .header-cnt,
+    .header-menu,
+    .header-top-auth.min,
+    .header-cnt_index .header-logo {
+        display: none
+    }
+
+    .header-cnt.header-cnt_index {
+        display: none;
+        height: auto;
+        padding-left: 0;
+    }
+
+    .header-nav {
+        position: static;
+        width: auto;
+        background-color: #faf6e5;
+        padding: 10px 15px;
+        padding-bottom: 20px;
+        margin: 0px;
+    }
+
+    .header-nav-list {
+        margin-left: 0;
+        width: 100%;
+        box-sizing: border-box;    border-top-right-radius: 5px;
+        background-color: white;
+        border-bottom-right-radius: 5px;
+    }
+
+    .header-nav-link {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: normal;
+        display: block;
+        text-align: left;
+        margin: 0;
+        line-height: 19px;
+        height: auto;
+        padding: 10px 0px;
+    }
+
+    .header-bot.header-bot-suggest-big {
+        display: none;
+    }
+
+    .header-nav-item {
+        display: block;
+        margin-right: 13px;
+        margin-left: 14px;
+        border-bottom: 1px solid #faf6e5;
+    }
+
+    .header-nav-list .header-nav-item:last-of-type {
+        border: none;
+    }
+
+    .header-nav-link.active:before {
+        display: none;
+    }
+
+    .header-nav-list .header-nav-item:last-of-type a {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .header-logo {
+        display: none;
+    }
+
+    .header-cnt {
+        height: 162px;
+    }
+
+    .header-menu {
+        display: block;
+    }
+
+    .header-logo img {
+        width: 100%;
+    }
+
+    .header-top-nav-item.auth {
+        display: inline-block;
+        line-height: 35px;
+    }
+
+    .header-top-profile-link {
+        display: inline-block;
+    }
+
+    .header {
+        padding: 0;
+    }
+
+    .logo-block {
+        position: absolute;
+        display: block;
+        width: 120px;
+        margin: 17px auto 0;
+        top: initial;
+        bottom: 8px;
+        right: 0;
+        left: 0;
+    }
+
+    .header-top-nav-item {
+        display: inline-block;
+    }
+
+    .header-top-nav-item.auth {
+        display: inline-block;
+        line-height: 35px;
+    }
+
+    .logo__link {
+        font-size: 11px;
+        letter-spacing: 0.2px;
+    }
+
+    .logo-club-profile-img-block {
+        top: 13px;
+        left: 37px;
+        width: 28px;
+        height: 28px;
+    }
+
+    .header-nav-item {
+        display: block;
+        margin-right: 13px;
+        margin-left: 14px;
+        border-bottom: 1px solid #faf6e5;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .header-nav-cont {
+        padding-left: 0px;
+    }
+    .header-top-nav-item:not(:first-child) {
+        display: none;
+    }
+}
+
+
+

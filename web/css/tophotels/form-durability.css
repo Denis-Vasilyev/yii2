@@ -1,0 +1,72 @@
+.form-durability__select {
+    position: absolute;
+    left: 0;
+    background: #fff;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    z-index: 101;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    display: none;width: 495px;
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+}
+
+.form-durability__durability {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+
+    margin: 0 auto 20px;
+}
+
+.form-durability__select-row:last-child {
+    text-align: right;
+}
+
+.form-durability__durability .form-durability__select-row {
+    display: inline-block;
+    margin-bottom: -6px;
+}
+
+.form-durability__link {
+    font-size: 13px;
+    color: #999;
+    font-weight: normal;
+}
+
+.form-durability__durability .form-durability__select-item {
+    display: table-cell;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 3px;
+    font-size: 12px !important;
+    color: #475669;
+    font-weight: bold;
+}
+
+.form-durability__durability .form-durability__select-item:hover, .form-durability__durability .form-durability__select-item.selected {
+    background: #c2dcef;
+    border-color: #c2dcef;
+}
+
+.form-durability__durability .form-durability__select-item.start, .form-durability__durability .form-durability__select-item.end {
+    background-color: #038cd6;
+    border-color: #c2dcef;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 450px){
+    .form-durability__select {
+        width: 100%;
+    }
+}

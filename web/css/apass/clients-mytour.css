@@ -1,0 +1,78 @@
+.clients-mytour-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.clients-mytour-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.clients-mytour-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 3px;
+    background: #475669;
+}
+
+.clients-mytour-tab.active {
+    color: #475669;
+}
+
+.clients-mytour-tb img {
+    border-radius: 50px;
+}
+
+.clients-mytour-tb th:nth-child(2) {
+    width: 35%;
+}
+
+.clients-mytour-tb .hint {
+    left: -52px;
+    top: 49px;
+}
+
+.clients-mytour-tb td:last-of-type {
+    overflow: visible;
+}
+table .radius-2 {
+    border-radius: 2px !important;
+}
+@media screen and (max-width: 659px) {
+    .clients-mytour-tb td:nth-child(1)::before {
+        content: '№';
+    }
+
+    .clients-mytour-tb td:nth-child(2)::before {
+        content: 'Клиент';
+    }
+
+    .clients-mytour-tb td:nth-child(3)::before {
+        content: 'Действие услуги / оплата';
+    }
+
+    .clients-mytour-tb td:nth-child(4)::before {
+        content: 'Дата окончания';
+    }
+
+    .clients-mytour-tb td:nth-child(5)::before {
+        content: 'Сайт';
+    }
+
+    .clients-mytour-tb td:nth-child(6)::before {
+        content: 'Менеджер';
+    }
+}

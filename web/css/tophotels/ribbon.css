@@ -1,0 +1,100 @@
+.tape__item {
+    position: relative;
+    display: block;
+    padding: 10px 10px 15px 10px;
+    border: 1px solid #F1F1F1;
+    border-radius: 2px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.tape__date {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 14px;
+    color: #475669;
+}
+
+.tape__user-block {
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+
+}
+
+.tape__user-ava-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 65px;
+    height: 65px;
+    margin-right: 5px;
+}
+
+.tape__user-ava-block img {
+    border-radius: 2px;
+}
+
+.tape__user-info {
+    margin-right: 20px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tape__user-name {
+    font-size: 16px;
+    line-height: 20px;
+    color: #318cc6;
+    margin-top: -2px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.tape__user-tp {
+    color: #475669;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'apercu_pro', sans-serif;
+    margin-top: 7px;
+}
+
+.tape__cnt-block {
+    margin-top: 15px;
+}
+
+.tape__link {
+    font-size: 15px;
+    font-family: apercu_pro, sans-serif;
+    color: #318cc6;
+}
+
+.tape__img-block {
+    max-width: 460px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tape__cnt {
+    color: rgb(71, 86, 105);
+    font-size: 15px;
+    font-family: apercu_pro, sans-serif;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 639px) {
+
+    .tape__item {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .tape__user-ava-block {
+        display: block;
+        margin-bottom: 15px;
+    }
+}

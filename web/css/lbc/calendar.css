@@ -1,0 +1,362 @@
+.tabs-bar.calendar {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.calendar-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.calendar-tab.active {
+    color: #475669;
+}
+
+.calendar-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 86px;
+    height: 3px;
+    background: #475669;
+}
+
+.calendar__tbl {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.calendar__row {
+    display: table-row;
+}
+
+.calendar__cell {
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    width: 8%;
+
+}
+
+
+
+
+.btn-holiday {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'apercu_pro', sans-serif;
+    width: 150px;
+    color: white;
+    font-size: 14px;
+    background: #ff8e41;
+    border: 1px solid #ff8e41;
+    border-radius: 2px;
+    padding: 5px 0 9px 0;
+    margin-left: 5px;
+
+}
+.btn-holiday--disable {
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: none;
+    color: #a2a2a2
+}
+.tbl-head .calendar__cell {
+    border: none;
+    padding: 0;
+}
+
+.calendar__tbl .tbl-head .calendar__cell .lbc__cnt {
+    font-size: 14px;
+}
+
+.calendar__cnt-block {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 80px;
+    padding: 5px 10px 5px 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.calendar__cnt-block.empty {
+    background: #f6f6f6;
+}
+
+.calendar__cnt-block.yellow-block {
+    background: rgba(248, 244, 58, 0.4);
+}
+
+.calendar__cnt-block.green-block {
+    background: rgba(111, 207, 151, 0.4);
+}
+
+.calendar__cnt-block.red-block {
+    background: rgba(235, 87, 87, 0.31);
+}
+
+.lbc__cnt.date {
+    text-align: right;
+}
+
+.calendar__tbl .lbc__cnt {
+    margin-bottom: 3px;
+    line-height: 16px;
+}
+
+.calendar__work-time {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.calendar__mark-block {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.exclamation {
+    display: inline-block;
+    font-size: 15px;
+    color: #e03a3a;
+}
+
+.check {
+    display: inline-block;
+    font-size: 16px;
+    color: #00a650;
+}
+
+.chart,
+.briefcase,
+.card,
+.vacation,
+.com-time {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.time-clock {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.filter .trigger {
+    top: 3px;
+}
+
+.legend__tbl .lbc__cell,
+.comment-month__tbl .lbc__cell,
+.comment__tbl .lbc__cell {
+    padding: 7px;
+}
+
+.legend__tbl .tbl__head .lbc__cnt,
+.comment-month__tbl .tbl__head .lbc__cnt,
+.comment__tbl .tbl__head .lbc__cnt {
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.comment__tbl .lbc__cell:first-child {
+    width: 50px;
+    text-align: center;
+}
+
+.comment__tbl .lbc__cell:nth-child(2) {
+    width: 150px;
+}
+
+.comment__tbl .lbc__cell:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+.legend__tbl .lbc__cnt,
+.comment-month__tbl .lbc__cnt,
+.comment__tbl .lbc__cnt {
+    margin-bottom: 0;
+}
+
+.comment-month__tbl .lbc__cell:first-child {
+    width: 100px;
+}
+
+.comment-month__tbl .lbc__cell:nth-child(2) {
+    width: 65px;
+    text-align: center;
+}
+
+.comment-month__tbl .lbc__cell:nth-child(3) {
+    width: 200px;
+}
+
+.comment-month__tbl .lbc__cell:nth-child(4) {
+    width: 65px;
+    text-align: center;
+}
+
+.lbc__list {
+    list-style: disc;
+    margin-left: 40px;
+}
+
+.legend__tbl .lbc__cell:first-child {
+    width: 80px;
+}
+
+.legend__tbl .lbc__cell:nth-child(3),
+.legend__tbl .lbc__cell:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+/*Сводная*/
+.summary__tbl {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.summary__tbl .tbl-head .calendar__cell {
+    border: 1px solid #ccc;
+}
+
+.summary__tbl .tbl-head .lbc__cnt {
+    color: #475669;
+    text-align: center;
+
+}
+
+.summary__tbl .lbc__cnt {
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.summary__tbl .calendar__cell {
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+}
+
+.summary__tbl .calendar__cell:first-child {
+    width: 50px;
+}
+
+.summary__cnt-block {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    box-sizing: border-box;
+    position: relative;
+    vertical-align: middle;
+}
+
+.calendar__cell.empty {
+    background: #ccc;
+}
+
+.calendar__cell.weekend {
+    /*background: #f0f0f0;*/
+}
+
+.calendar__cell-weekend {
+    background: #f0f0f0;
+    height: 100%;
+    padding-top: 3px;
+}
+
+.edit-block__inp-block.vacation {
+    display: inline-block;
+    width: 190px;
+    vertical-align: top;
+}
+
+.lbc__btn.bth--white {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    color: #999;
+    font-size: 14px;
+    background: #fff;
+    /*border: none;*/
+    border: 1px solid #ccc;
+    padding: 8px 0 9px 0;
+    margin-left: 5px;
+}
+
+.calendar__years {
+    right: 0;
+    top: -13px;
+    position: absolute;
+    width: 80px;
+
+}
+
+.calendar__years--block {
+    top: 36px;
+}
+
+.calendar__years .SumoSelect > .CaptionCont > span,
+.calendar__years .SumoSelect > .CaptionCont > label > i:before {
+    color: #2c9cdc
+}
+
+.calendar__years .SumoSelect > .CaptionCont > label > i {
+    top: 11px;
+}
+
+.calendar__years .SumoSelect > .CaptionCont > span {
+    font-size: 17px;
+}
+
+.calendar__years .bth__inp-block.focus, .SumoSelect.open > .CaptionCont {
+    box-shadow: none;
+    padding-bottom: 0;
+}
+
+.calendar__years .SumoSelect.open > .optWrapper {
+    top: 40px;
+}
+
+.calendar__sun {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;;
+}
+
+.calendar__sun.calendar__sun--green {
+    background-image: url(/i/lbc/sun-green.svg);
+}
+
+.calendar__sun.calendar__sun--red {
+    background-image: url(/i/lbc/sun-red.svg);
+}
+
+.calendar__sun.calendar__sun--yellow {
+    background-image: url(/i/lbc/sun-yellow.svg);
+}
+
+.calendar__sun.calendar__sun--grey {
+    background-image: url(/i/lbc/sun-grey.svg);
+}

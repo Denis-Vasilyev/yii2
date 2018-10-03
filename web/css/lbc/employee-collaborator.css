@@ -1,0 +1,23 @@
+.employee-line {
+    width: 190px;
+}
+
+.employee-tbl img {
+    border-radius: 0;
+}
+
+.employee-tbl th:last-of-type, .employee-tbl td:last-of-type {
+    text-align: left;
+}
+
+.employee-tbl td:not(:first-of-type) {
+    font-weight: bold;
+    font-size: 16px;
+}
+.employee-tbl .hint{
+    top: 28px;
+}
+
+.modal--500 {    max-width: 573px;
+
+}

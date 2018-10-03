@@ -1,0 +1,44 @@
+.personal-ava--circle img {
+    border-radius: 100px;
+}
+
+.older td:last-child,
+.older th:last-child {
+    text-align: left;
+}
+
+form .add-agent__title {
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+}
+
+.add-agent-wrap--site .add-agent__on-lb-img {
+    background-image: url("/i/travel_crm/on-red.svg");
+}
+
+.add-agent-wrap--site .add-agent__on-inp:checked + .add-agent__on-lb .add-agent__on-lb-img {
+    background-image: url(/i/travel_crm/on-green.svg);
+}
+
+
+.add-agent-wrap--site .add-agent__on-inp:checked + .add-agent__on-lb {
+    background-color: white;
+}
+
+.add-agent-wrap--site .user-block__ava,
+.add-agent-wrap--site .user-block-info {
+    vertical-align: middle;
+}
+
+.add-agent-wrap--site .user-block__ava img {
+    border-radius: 2px;
+}
+
+.add-agent-form--site .add-agent-wrap div .box-check label {
+    padding-left: 45px;
+    width: auto;
+}
+
+.add-agent-wrap--site.add-agent-wrap {
+    padding: 10px;
+}

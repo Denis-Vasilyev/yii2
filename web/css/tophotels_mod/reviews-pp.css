@@ -1,0 +1,75 @@
+.rewiews-pp {
+    position: relative;
+    max-width: 1260px;
+    height: auto;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    background: #fff;
+    text-align: left;
+    margin: 0px auto;
+    max-height: 92vh;
+    overflow: hidden;
+}
+
+.rewiews-pp__content {
+    display: block;
+    height: 92vh;
+    overflow-y: scroll;
+}
+
+.rewiews-pp__close {
+    position: absolute;
+    top: 12px;
+    right: 28px;
+    width: 16px;
+    height: 16px;
+    background: url(/i/close-16.png) no-repeat;
+    cursor: pointer;
+    z-index: 11;
+
+}
+
+
+.rewiews-pp__close:hover {
+    background: url(/i/close-16-red.png) no-repeat;
+}
+
+.rewiews-pp__ttl2 {
+    color: #475669;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.rewiews-pp__top {
+    position: relative;
+    border-bottom: 1px solid #fff;
+    /*margin-bottom: 20px;*/
+}
+
+.rewiews-pp__section {
+    /*padding: 0px 30px;*/
+    /*margin-top: 20px;*/
+}
+
+.rewiews-pp__ttl-block {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #999;
+}
+
+.rewiews-pp__btn {
+    position: relative;
+    height: 52px;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    transition: all .1s;
+    width: 250px;
+    color: #fff;
+    background: #ff8e41;
+    border: 1px solid #dfdfdf;
+}

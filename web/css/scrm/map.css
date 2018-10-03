@@ -1,0 +1,21 @@
+.map tr td {
+    border:none;
+}
+
+.map{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.map tr td > * {
+    display: inline-block; margin-right: 10px;
+    font-size: 13px;
+}
+
+.map tr td {
+    padding: 5px;
+}
+
+.map th:last-of-type, .map td:last-of-type {
+   text-align: left;
+}

@@ -1,0 +1,79 @@
+.use-services-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.use-services-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.use-services-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 168px;
+    height: 3px;
+    background: #475669;
+}
+
+.use-services-tab.active {
+    color: #475669;
+}
+
+.use-services-fill .add-agent-wrap.available {
+    background: rgba(111, 207, 151, 0.4);
+    margin-bottom: 20px;
+    color: #475669;
+}
+
+.use-services-fill .add-agent-wrap.available > div span:last-of-type {
+    float: right;
+}
+
+.use-services-fill .add-agent-wrap.available > div {
+    margin-bottom: 0;
+}
+
+.add-agent-wrap.available {
+    padding: 20px 15px;
+}
+
+
+/*Адаптив таблиц*/
+@media screen and (max-width: 659px) {
+
+    .use-services-balans tr:not(:first-child) td:nth-child(1)::before {
+        content: 'Дата операции';
+    }
+
+    .use-services-balans tr:not(:first-child) td:nth-child(2)::before {
+        content: 'Тип';
+    }
+
+    .use-services-balans tr:not(:first-child) td:nth-child(3)::before {
+        content: 'Детали';
+    }
+
+    .use-services-balans tr:not(:first-child) td:nth-child(4)::before {
+        content: 'Получатель';
+    }
+
+    .use-services-balans tr:not(:first-child) td:nth-child(5)::before {
+        content: 'Пополнение';
+    }
+
+    .use-services-balans tr:not(:first-child) td:nth-child(6)::before {
+        content: 'Списание';
+    }
+}

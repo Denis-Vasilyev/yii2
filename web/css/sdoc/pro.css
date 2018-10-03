@@ -1,0 +1,153 @@
+.pro-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.pro-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.pro-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 127px;
+    height: 3px;
+    background: #475669;
+}
+
+.pro-tab.active {
+    color: #475669;
+}
+
+.panel-actions img {
+    border-radius: 50px;
+}
+
+.circle-ava {
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+
+.pro-new th:first-child {
+    width: 110px;
+}
+
+.pro-new th:nth-child(2) {
+    width: 90px;
+}
+
+/* Иконки статусов*/
+.status__icon {
+    width: 60px;
+    height: 60px;
+}
+
+.cash-red {
+    background-image: url("../../i/sdoc/money-bag-red.svg");
+}
+
+.cash-gray {
+    background-image: url("../../i/sdoc/money-bag-gray.svg");
+}
+
+.cash-yellow {
+    background-image: url("../../i/sdoc/money-bag-yellow.svg");
+}
+
+.cash-green{
+    background-image: url("../../i/sdoc/money-bag-green.svg");
+}
+
+.card-green {
+    transform: rotate(90deg);
+    background-image: url("../../i/sdoc/credit-card-green.svg");
+}
+
+
+.card-gray {
+    transform: rotate(90deg);
+    background-image: url("../../i/sdoc/credit-card-gray.svg");
+}
+
+.bill-gray {
+    background-image: url("../../i/sdoc/transfer-gray.svg");
+}
+
+.bill-green {
+    background-image: url("../../i/sdoc/transfer-green.svg");
+}
+
+.bill-red {
+    background-image: url("../../i/sdoc/transfer-red.svg");
+}
+
+.bill-orange {
+    background-image: url("../../i/sdoc/transfer-orange.svg");
+}
+/* end_Иконки статусов*/
+.status > div {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dog {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.waiting-clock i {
+    font-size: 17px;
+}
+
+.waiting-clock {
+    color: #e03a3a;
+}
+
+.panel-actions__box {
+    position: absolute;
+    right: -3px;
+    font-size: 19px;
+    top: 0px;
+    width: 100%;
+    height: 68px;
+    background-color: white;
+    padding-top: 13px;
+}
+
+.panel-actions__box i {
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.panel-actions__box i:hover {
+    color: #ff8e41;
+}
+
+
+.panel-actions__box .fa-info-circle {
+    font-size: 20px;
+}
+.suggest-big {
+    min-height: 230px;
+}
+
+.hint__title {
+    margin-bottom: 0;
+}
+

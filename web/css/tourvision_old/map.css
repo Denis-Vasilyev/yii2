@@ -1,0 +1,49 @@
+.map__list {
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.sub-map__list {
+    list-style: none;
+    margin: 0 0 0 20px;
+    padding:  0;
+}
+
+.map__item .tv__link {
+    display: inline-block;
+    padding: 3px 0;
+}
+
+.map__tbl .tv__cell {
+    border-bottom: none;
+    padding: 4px 7px 4px 0;
+}
+
+.map__tbl .tv__cell:first-child {
+    width: 50px;
+}
+
+.map__tbl .tv__cell:nth-child(2) {
+    width: 275px;
+}
+
+.map__row {
+    padding: 4px 7px 4px 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .map__tbl .tv__cell {
+        display: block;
+
+    }
+    .map__tbl .tv__cell:first-child {
+        display: none;
+    }
+    .map__tbl .tv__cell:nth-child(2) {
+        width: 100%;
+    }
+    .map__tbl .tv__cell:last-child {
+        padding-left: 20px;
+    }
+}

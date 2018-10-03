@@ -1,0 +1,52 @@
+.geo-log-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.geo-log-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.geo-log-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 149px;
+    height: 3px;
+    background: #475669;
+}
+.geo-log-tab.active {
+    color: #475669;
+}
+.geo-log img {
+    border-radius: 50px;
+}
+
+.geo-log .fa-map-marker {
+    color: #318cc6;
+}
+
+.geo-log__tourist .user-block__ava,
+.geo-log__tourist  .user-block__info a,
+.geo-log__tourist  .user-block__info > div {
+    margin-bottom: 3px;
+}
+.geo-log th:first-child {
+    width: 90px;
+}
+
+.geo-log td:last-child, .geo-log th:last-child {
+    text-align: left;
+}

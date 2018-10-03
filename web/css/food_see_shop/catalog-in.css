@@ -1,0 +1,100 @@
+.catalog-in__tbl .food__cell {
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
+}
+
+.catalog-in__tbl .head__tbl .food__cell {
+    padding: 5px 7px;
+}
+
+.catalog-in__tbl .head__tbl .food__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.catalog-in__tbl .food__cell:first-child {
+    width: 50px;
+}
+.catalog-in__tbl .food__cell:first-child {
+    width: 50px;
+}
+
+.catalog-in__tbl .food__cell:nth-child(3),
+.catalog-in__tbl .food__cell:nth-child(4),
+.catalog-in__tbl .food__cell:nth-child(5) {
+    width: 120px;
+    text-align: right;
+}
+
+.product__block {
+    position: relative;
+}
+
+
+
+.product__ava-block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    margin-right: 7px;
+}
+
+.product__info-block {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 60px;
+}
+
+.product__rating .rating-star {
+    color: #ffcb05;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1279px){
+    .catalog-in__tbl .food__cell:nth-child(3),
+    .catalog-in__tbl .food__cell:nth-child(4),
+    .catalog-in__tbl .food__cell:nth-child(5) {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .catalog-in__tbl .food__row {
+        display: block;
+        position: relative;
+    }
+    .catalog-in__tbl .head__tbl,
+    .catalog-in__tbl .food__cell:first-child {
+        display: none;
+    }
+    .catalog-in__tbl .food__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0;
+    }
+    .catalog-in__tbl .food__cell:nth-child(2) {
+        padding-top: 7px;
+        padding-right: 25px;
+    }
+    .catalog-in__tbl .food__cell:nth-child(3),
+    .catalog-in__tbl .food__cell:nth-child(4) {
+        width: 100%;
+        text-align: left;
+        padding-left: 60px;
+    }
+    .catalog-in__tbl .food__cell:nth-child(5) {
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        text-align: left;
+        padding-bottom: 7px;
+        padding-left: 60px;
+    }
+    .catalog-in__tbl .food__cell:last-child {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

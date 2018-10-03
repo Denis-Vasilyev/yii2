@@ -1,0 +1,96 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.paginator {
+    position: relative;
+}
+
+.paginator__btn {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ccc !important;
+    background: #fff;
+    border-radius: 3px;
+    padding: 10px 40px 9px 40px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #318cc6;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 7px;
+}
+
+.paginator__dot {
+    color: #318cc6;
+    font-size: 7px;
+}
+
+.paginator__page-block {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ccc !important;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.paginator__list {
+    list-style: none;
+    font-size: 0;
+}
+
+.paginator__item {
+    display: inline-block;
+    vertical-align: top;
+    width: 37px;
+    height: 35px;
+    font-size: 0;
+}
+
+
+.paginator__link {
+    display: block;
+    height:100%;
+    border-right: 1px solid #cccccc;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    background: #fff;
+    color: #318cc6;
+    font-family: 'apercu_pro', sans-serif;
+    text-decoration: none;
+    width: 37px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 1px;
+}
+
+.paginator__link:hover {
+    background: #eff6f8;
+}
+
+.paginator__link.active {
+    color: #475669;
+    background: #eff6f8;
+}
+
+.paginator__item:last-child .paginator__link  {
+    border-right: none;
+}
+
+@media screen and (max-width: 639px) {
+    .paginator__page-block {
+        display: none;
+    }
+    .paginator__btn {
+        display: block;
+        margin: auto;
+    }
+    .paginator__dot {
+        display: inline-block;
+        margin-right: 0;
+    }
+
+}

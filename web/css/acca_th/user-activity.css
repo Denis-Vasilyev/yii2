@@ -1,0 +1,81 @@
+.user-activity-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.user-activity-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.user-activity-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 127px;
+    height: 3px;
+    background: #475669;
+}
+
+.user-activity-tab.active {
+    color: #475669;
+}
+
+.user-activity-tb img {
+    border-radius: 50px;
+}
+
+.log-activity-tb img {
+    border-radius: 50px;
+}
+
+
+.action-relative {
+    overflow: visible;
+    position: relative;
+}
+
+.actions-panel {
+
+    position: absolute;
+    background-color: white;
+    top: 5px;
+    height: 37px;
+    width: 100%;
+}
+
+.actions-panel i {
+    font-size: 21px;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.actions-panel i:hover {
+    color: #F8A53A;
+}
+
+.actions-panel .actions-panel__delete {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: url(../../i/close-12x12.png) no-repeat;
+    cursor: pointer;
+}
+
+.actions-panel .actions-panel__delete:hover {
+
+    background: url(../../i/close-12x12-red.png) no-repeat;
+}

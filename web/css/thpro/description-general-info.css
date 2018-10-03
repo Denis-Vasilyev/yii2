@@ -1,0 +1,114 @@
+.description-general-line {
+    position: absolute;
+    bottom: -1px;
+    left: 149px;
+    width: 130px;
+    height: 3px;
+    background: #475669;
+}
+
+.hotel-rename__block {
+    position: absolute;
+    top: -36px;
+    right: 0;
+}
+
+.decription-general__tbl .edit-block__cell:first-child {
+    width: 200px;
+    padding-top: 21px;
+}
+
+.hotel-name .label-cbx {
+    padding-left: 27px;
+}
+
+.decription-general__tbl .edit-block__inp-block.name {
+    width: 100%;
+}
+
+.lock {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    font-size: 16px;
+    color: #999;
+}
+
+.decription-general__tbl .edit-block__inp-block.open-date.day {
+    width: 80px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.decription-general__tbl .edit-block__inp-block.open-date.month {
+    width: 114px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.decription-general__tbl .edit-block__inp-block.open-date {
+    width: 90px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.decription-general__tbl .edit-block__date-cnt {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 4px;
+}
+
+.decription-general__tbl .bth__cnt.error {
+    color: #da4c4c;
+    margin-top: 3px;
+}
+
+
+
+@media screen and (max-width: 1279px){
+    .description-general-line {
+        left: 130px;
+        width: 115px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .decription-general__tbl .edit-block__cell {
+        display: block;
+
+    }
+    .decription-general__tbl .edit-block__cell:first-child {
+        width: 100%;
+        padding: 0;
+    }
+    .decription-general__tbl .edit-block__cell:last-child {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .decription-general__tbl .edit-block__inp-block {
+        width: 100%;
+    }
+    .hotel-rename__block {
+        display: block;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    .decription-general__tbl .edit-block__inp-block.open-date {
+        display: block;
+        width: 100%
+    }
+    .decription-general__tbl .edit-block__inp-block.open-date.month,
+    .decription-general__tbl .edit-block__inp-block.open-date.day {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%
+    }
+}

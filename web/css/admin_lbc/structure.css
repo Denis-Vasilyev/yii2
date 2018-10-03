@@ -1,0 +1,17 @@
+.structure-tbl td:first-of-type {
+    width: 40px;
+}
+
+.structure-tbl i {
+    font-size: 20px;
+    color: #318cc6;    cursor: pointer;
+}
+
+
+.structure-tbl .link-blue  {
+    cursor: pointer;
+}
+
+.ml4 {
+    margin-left: 4px;
+}

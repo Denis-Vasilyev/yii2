@@ -1,0 +1,69 @@
+.contact-plan-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.contact-plan-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.contact-plan-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 134px;
+    height: 3px;
+    background: #475669;
+}
+
+.contact-plan-tab.active {
+    color: #475669;
+}
+
+.contact-plan tr td:last-of-type {
+    white-space: normal;
+    text-align: right;
+}
+
+.contact-plan tr th:last-of-type {
+    text-align: right;
+}
+
+@media screen and (max-width: 659px) {
+
+    .contact-plan td:nth-child(1)::before {
+        content: '№';
+    }
+
+    .contact-plan td:nth-child(2)::before {
+        content: 'Когда звонить';
+    }
+
+    .contact-plan td:nth-child(3)::before {
+        content: 'Клиент';
+    }
+
+    .contact-plan td:nth-child(4)::before {
+        content: 'Услуга';
+    }
+
+    .contact-plan td:nth-child(5)::before {
+        content: 'Комментарий';
+    }
+
+    .contact-plan tr td:last-of-type {
+        text-align: left;
+    }
+
+}

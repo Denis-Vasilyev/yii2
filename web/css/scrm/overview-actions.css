@@ -1,0 +1,59 @@
+.overview-actions-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.overview-actions-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.overview-actions-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 130px;
+    height: 3px;
+    background: #475669;
+}
+
+.overview-actions-tab.active {
+    color: #475669;
+}
+
+@media screen and (max-width: 659px) {
+
+    .overview-actions td:nth-child(1)::before {
+        content: '№';
+    }
+
+    .overview-actions td:nth-child(2)::before {
+        content: 'Дата';
+    }
+
+    .overview-actions td:nth-child(3)::before {
+        content: 'Звонков';
+    }
+
+    .overview-actions td:nth-child(4)::before {
+        content: 'Контактов';
+    }
+
+    .overview-actions td:nth-child(5)::before {
+        content: 'Счетов';
+    }
+
+    .overview-actions td:nth-child(6)::before {
+        content: 'Приходов';
+    }
+}

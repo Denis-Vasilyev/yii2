@@ -1,0 +1,35 @@
+.calendar-birthday-container {
+    margin-top: 4px !important;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 10px 0px;
+}
+
+.form-popup__mdl {
+    display: none;
+}
+
+.gmi-picker-panel {
+    line-height: 20px;
+    color: #475669;
+    background-color: #fff;
+    border: 1px solid #d3dce6;
+    border-left: 0;
+    border-right: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.gmi-date-picker {
+    width: 254px;
+    -webkit-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+}
+
+.gmi-picker-panel__body {
+    width: 100%;
+    height: 100%;
+    clear: both;
+    overflow: hidden;
+}

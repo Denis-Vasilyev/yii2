@@ -1,0 +1,341 @@
+.line.personal-data-line {
+    width: 183px;
+}
+
+.personal-data__block {
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.personal-data__block.data-ava-block {
+    padding-right: 200px;
+}
+
+.personal-data__tbl .bth__cell {
+    padding: 7px;
+    vertical-align: top;
+}
+
+.personal-data__tbl .bth__cnt + .bth__cnt {
+    margin-top: 7px;
+}
+
+.personal-data__tbl .bth__cell:first-child {
+    width: 200px;
+}
+
+.separator-line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.personal__ava-block {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 180px;
+    height: 180px;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.personal__ava__edit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'apercu_pro', sans-serif;
+    text-decoration: none;
+    line-height: 180px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.personal__ava-block:hover .personal__ava__edit {
+    display: block;
+}
+
+.change-pass__tbl .edit-block__cell:first-child {
+    width: 200px;
+}
+
+.change-pass .bth__inp-block {
+    position: relative;
+}
+
+.change-pass .bth__inp-block.compl-password {
+    margin-bottom: 0;
+}
+
+.edit-pers-data .edit__line {
+    margin-top: 30px;
+}
+
+.personal-edit__tbl .bth__cell {
+    padding: 15px 0;
+}
+
+.personal-edit__tbl .bth__cell:first-child {
+    width: 200px;
+}
+
+.personal-edit__tbl .bth__row.vert-top .bth__cell {
+    vertical-align: top;
+}
+
+.personal-edit__tbl .bth__row.vert-top .bth__cell:first-child {
+    padding-top: 16px;
+}
+
+.personal-edit__tbl .bth__inp-block.pers-inp,
+.personal-edit__tbl .cbx-block.pers-cbx {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.personal-edit__tbl .bth__inp-block.pers-inp {
+    margin-right: 10px;
+}
+
+.personal-edit__tbl .cbx + .label-cbx {
+    padding-left: 27px;
+}
+
+.personal-edit__tbl .bth__ta-block {
+    height: 65px;
+    width: 400px;
+}
+
+.personal-edit__tbl .bth__inp-block {
+    width: 400px;
+}
+
+.complex-password__block {
+    width: 400px;
+    display: block;
+    margin-top: 7px;
+}
+
+.complex-password {
+    height: 7px;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.complex-password__scale {
+    display: block;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.complex-password__scale--light {
+    width: 33%;
+    background: rgba(218, 76, 76, 0.63);
+}
+
+.complex-password__scale--normal {
+    width: 66%;
+    background: rgba(255, 142, 65, 0.63);
+}
+
+.complex-password__scale--hard {
+    width: 100%;
+    background: rgba(0, 166, 81, 0.63);
+}
+
+.hard-pass,
+.light-pass {
+    display: none;
+}
+
+.personal-soc__tbl .bth__cell:last-child .bth__link {
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.bth__btn.pers-data__btn {
+    width: 265px;
+    background: #ff8e41;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.bth__btn.pers-data__btn:hover {
+    background: #e27200;
+}
+
+.edit-pers-data__loc {
+    position: absolute;
+    right: 9px;
+    top: 14px;
+    font-size: 16px;
+}
+
+.del-avatar-pp-wrap {
+    max-width: 666px;
+    height: auto;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    background: #e4e5ea;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 40px auto;
+    position: relative;
+}
+
+.del-avatar-pp-wrap .bth__btn.bth__btn--orange {
+    background: #ff8e41;
+    border: 1px solid #ff8e41;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: white;
+}
+
+.del-avatar-pp-wrap .bth__btn.bth__btn--orange:hover {
+    background: #ff8e41;
+    border: 1px solid #ff8e41;
+    color: white;
+}
+
+.del-avatar-pp-wrap .bth__btn {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.filter__close {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    top: 5px;
+    right: 0px;
+    background: url(/i/close-12x12.png);
+}
+
+.filter__close:hover {
+    background: url(/i/close-12x12-red.png);
+}
+
+.bth__link.delete__link {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #999;
+    font-family: 'apercu_pro', sans-serif;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .personal-edit__tbl .bth__inp-block.pers-inp {
+        margin-right: 0;
+    }
+
+    .personal-edit__tbl .cbx-block.pers-cbx {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .edit-pers-data .edit__line .bth__inp-block {
+        display: block;
+    }
+
+    .edit-pers-data .edit__line .cbx-block {
+        display: block;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .personal-data__tbl .bth__cell {
+        display: block;
+        padding: 5px 0;
+    }
+
+    .personal-data__tbl .bth__cell:first-child {
+        padding-bottom: 0;
+    }
+
+    .personal-data__tbl .bth__cell:last-child {
+        padding-top: 0;
+    }
+
+    .personal-data-tab {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .personal-data-line {
+        display: none;
+    }
+
+    .personal-data-tabs-bar {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .change-pass .bth__inp-block {
+        display: block;
+    }
+
+    .personal-edit__tbl .bth__cell {
+        display: block;
+    }
+
+    .personal-edit__tbl .bth__cell:first-child {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+
+    .personal-edit__tbl .bth__cell:last-child {
+        padding-top: 0;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .edit-pers-data .edit__line .bth__inp-block {
+        width: 100%;
+    }
+
+    .personal-data__block.data-ava-block {
+        padding-right: 0;
+    }
+
+    .personal__ava-block {
+        position: relative;
+        right: auto;
+        top: auto;
+    }
+
+    .change-pass .bth__inp-block {
+        width: 100%;
+    }
+
+    .personal-edit__tbl .bth__inp-block,
+    .personal-edit__tbl .bth__ta-block,
+    .complex-password__block {
+        width: 100%;
+    }
+
+}
+

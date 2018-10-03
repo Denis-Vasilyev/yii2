@@ -1,0 +1,50 @@
+.api-services-wrap .bth__cnt {
+font-size: 16px;
+}
+
+.api-services-wrap h3.bth__ttl-h2 {
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+.api-services-wrap {
+    width: 80%;
+}
+
+.api-services-wrap__ul {
+    list-style-type: disc;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.api-services-wrap__ul .api-services-wrap__li:not(:last-of-type) {
+    margin-bottom: 5px;
+}
+
+.api-services-wrap .bth__ttl-h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.api-services-wrap.api-services-wrap-ex {
+    width: 65%;
+}
+.api-services-wrap__ex-img {
+    margin-bottom: 25px;
+}
+
+.api-services-wrap h3 {
+    margin-bottom: 10px;
+    margin-top:15px;
+}
+
+.api-services-wrap h3 + .bth__ttl-h2 {
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .api-services-wrap.api-services-wrap-ex {
+        width: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+
+.cash-icon {
+    display: block;
+    background: #bcbcbc;
+    color: #fff;
+    font-size: 27px;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'apercu_pro',sans-serif;
+    text-transform: uppercase;
+}
+
+.cash-icon--blue {
+    background: #318cc6;
+    font-size: 18px;
+}
+
+.small-txt {
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+

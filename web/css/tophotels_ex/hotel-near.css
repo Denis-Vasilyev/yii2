@@ -1,0 +1,133 @@
+.line.hotel-near-line {
+    width: 102px;
+}
+
+.near__wrap {
+    position: relative;
+}
+
+.near--left {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 69%;
+}
+
+.near--right {
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    float: right;
+}
+
+.near__abs-block {
+    position: absolute;
+    right: 0px;
+    top: 3px;
+}
+
+.bth__tbl.near-place__tbl {
+    margin-top: 13px;
+}
+
+.near__tbl .bth__cell {
+    position: relative;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+
+.near__tbl .bth__cell:first-child {
+    width: 180px;
+    border-left:1px solid #ccc;
+}
+
+.near__tbl .bth__cell:last-child {
+    width: 43px;
+    border-right:1px solid #ccc;
+}
+
+.near__ava {
+    width: 155px;
+    height: 110px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.near-place__tbl .bth__cell {
+    vertical-align: top;
+    padding:  2px 0;
+}
+
+.near-place__tbl .bth__cell:last-child {
+    width: 50px;
+    text-align: right;
+}
+
+.near-map-marker {
+    color: #ff8e41;
+    font-size: 37px;
+    margin-top: 2px;
+}
+
+.near__bot-cnt {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+ }
+
+.near-like {
+    font-size: 14px;
+}
+
+.near__more-link {
+    display: inline-block;
+    color: #ff8e41;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 1023px){
+    .near--left {
+        width:100%;
+    }
+    .near--right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .near__tbl .bth__row {
+        display: block;
+        position: relative;
+        border: 1px solid #ccc;
+    }
+    .near__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        border-top: none;
+    }
+    .near__tbl .bth__cell:first-child {
+        border-left: none;
+    }
+    .near__tbl .bth__cell:last-child {
+        border-right: none;
+        position: absolute;
+        top: -3px;
+        right: -1px;
+    }
+    .near-map-marker {
+        margin-top: 0;
+    }
+    .near__bot-cnt {
+        position: relative;
+        left: auto;
+        bottom: auto;
+        margin-top: 10px;
+    }
+}
+

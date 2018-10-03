@@ -1,0 +1,143 @@
+.traveler__tbl .bth__cell {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.traveler__tbl .bth__cell:first-child {
+    width: 175px;
+    border-left: 1px solid #ccc;
+}
+
+.traveler__tbl .bth__cell:nth-child(2) {
+    width: 70px;
+    text-align: center;
+}
+
+.traveler__tbl .bth__cell:last-child {
+    border-right: 1px solid #ccc;
+}
+
+.traveler__tbl .traveler__user-ava-block {
+    width: 144px;
+    height: 144px;
+    box-shadow: 0px 0px 0px 1px #ccc;
+    border-radius: 2px;
+}
+
+.traveler__tbl .traveler__user-ava-block img {
+    border-radius: 2px;
+}
+
+.traveler__tbl .traveler__status {
+    height: 39px;
+    width: 33px;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: auto;
+    text-align: center;
+    color: #475669;
+}
+
+.traveler__status--gold {
+    background: url(/i/tophotels/pos_gold_v2.png) no-repeat;
+}
+
+.traveler__status--gold .traveler__status-cnt {
+    color: #ecbb3a;
+    font-size: 18px;
+}
+
+.traveler__status--silver {
+    background: url(/i/tophotels/pos_gray_v2.png) no-repeat;
+}
+
+.traveler__status--silver .traveler__status-cnt {
+    color: #b3b3b3;
+    font-size: 18px;
+}
+
+.traveler__status--bronze {
+    background: url(/i/tophotels/pos_bronze_v2.png) no-repeat
+}
+
+.traveler__status--bronze .traveler__status-cnt {
+    color: #e28d6c;
+    font-size: 18px;
+}
+
+.traveler__tbl .bth__link.user-name {
+    font-size: 18px;
+}
+
+.traveler__user-info-block-top {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.traveler__tbl .traveler__right-block {
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+
+.traveler__visit {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.traveler__tbl  .bth__cnt.year-visit {
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.bth__btn.checkin__btn {
+    width: 250px;
+    padding: 10px 0;
+    color: #fff;
+    background: #ff8e41;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px){
+    .traveler__tbl .bth__row {
+        display: block;
+        position: relative;
+        border: 1px solid #ccc;
+    }
+    .traveler__tbl .bth__cell {
+        display: block;
+        border-top: none;
+        border-bottom: none;
+    }
+    .traveler__tbl .bth__cell:first-child {
+        width: 100%;
+        border-left:none;
+    }
+    .traveler__tbl .bth__cell:nth-child(2) {
+        position: absolute;
+        left: 145px;
+        top: 0px;
+    }
+    .traveler__tbl .bth__cell:last-child {
+        border-right: none;
+    }
+    .traveler__tbl .traveler__right-block {
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+}
+
+
+
+

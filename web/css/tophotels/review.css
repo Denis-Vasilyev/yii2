@@ -1,0 +1,229 @@
+.reviewsWrapper .reviewsWrapper__block {
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+
+    font-size: 14px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 22px;
+
+}
+
+
+.reviewsWrapper {
+    margin-bottom: 40px;
+}
+
+.reviewsWrapper button {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    width: 290px;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.reviewsWrapper i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.reviewsWrapper .reviewsWrapper__block .reviewsWrapper__item img {
+    margin-left: 10px;
+}
+
+.reviewsWrapper .reviewsWrapper__block .reviewsWrapper__item-big {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.reviewsWrapper .reviewsWrapper__block .reviewsWrapper__item:last-of-type {
+    margin-left: auto;
+}
+
+.reviewsWrapper__icon {
+    color: #475669;
+}
+
+.reviewsWrapper__icon :hover {
+    color: #318CC6;
+}
+
+.reviewsWrapper h2 {
+    margin-bottom: 10px;
+}
+
+.older-review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 2px;
+}
+
+.older-review__img img {
+
+    border-radius: 2px;
+}
+
+.older-review__img {
+    width: 190px;
+    display: inline-block;
+    height: 120px;
+}
+
+.older-review__block {
+    margin-left: 10px;
+}
+
+.older-review__rating {
+    margin-bottom: 0;
+    margin-top: 17px;
+}
+
+.older-review__rating i {
+    color: #ff8e41;
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+.older-review .fa-pen-square:hover {
+    color: #113246
+}
+
+.older-review__block .older-review__bottom {
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+.older-review__block > * {
+    margin-bottom: 7px;
+}
+
+.older-review__bottom + div {
+    margin-bottom: 0;
+}
+
+.older-review > div:last-of-type {
+    margin-left: auto;
+    text-align: right;
+}
+
+.older-review .fa-pen-square {
+    color: #318CC6;
+    font-size: 57px;
+}
+
+.older-review__last-act {
+    margin-top: 45px;
+    color: #999;
+}
+
+.older-review__trash i {
+    color: white;
+    font-size: 29px;
+}
+
+.older-review__trash {
+    background-color: #999;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    vertical-align: text-bottom;
+    border-radius: 5px;
+}
+
+.older-review__trash:hover {
+    background-color: #e03a3a;
+}
+
+.reviewsWrapper h2 {
+    position: relative;
+}
+
+.reviewsWrapper h2:hover .hint {
+    display: block;
+    font-weight: normal;
+    text-transform: none;
+    width: 58%;
+    left: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .reviewsWrapper .reviewsWrapper__block {
+        flex-direction: column;
+    }
+
+    .reviewsWrapper .reviewsWrapper__block .reviewsWrapper__item:last-of-type {
+        margin-left: 0;
+    }
+
+    .reviewsWrapper .reviewsWrapper__block .reviewsWrapper__item:last-of-type > span {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-top: 15px;
+    }
+
+    .reviewsWrapper .reviewsWrapper__block .reviewsWrapper__item img {
+        margin-left: 0;
+    }
+
+    .reviewsWrapper i {
+        margin-bottom: 10px;
+    }
+
+    .older-review {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .older-review > div:last-of-type {
+        margin-left: 0;
+    }
+
+    .older-review__last-act {
+        margin-top: 10px;
+    }
+
+    .older-review > div:last-of-type > a {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .older-review > div:last-of-type > a.older-review__trash {
+        top: 75px;
+        right: 5px;
+    }
+
+    .older-review__block > * > a {
+        display: block;
+    }
+
+    .older-review__block .bth__cnt.ml10 {
+        margin-left: 0 !important;
+    }
+
+    .older-review__block {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .older-review__block > * {
+        margin-top: 0px;
+    }
+
+    .older-review__block .older-review__bottom {
+        margin-top: 5px;
+    }
+
+    .older-review__last-act {
+        text-align: left;
+    }
+}

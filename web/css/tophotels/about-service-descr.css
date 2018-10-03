@@ -1,0 +1,66 @@
+.filter__inp::-webkit-input-placeholder  {
+    font-size: 14px;
+}
+.filter__inp::-moz-placeholder  {
+    font-size: 14px;
+}/*Firefox19+*/
+.filter__inp:-moz-placeholder  {
+    font-size: 14px;
+}/*Firefox18-*/
+.filter__inp:-ms-input-placeholder  {
+    font-size: 14px;
+}
+
+
+
+.services__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+}
+
+.services__tbl .tbl__head .bth__cell {
+    padding: 5px 7px;
+}
+.services__tbl .tbl__head .bth__cnt {
+    font-size: 12px;
+    color: #999;
+}
+
+.services__tbl .bth__cell:first-child {
+    width: 50px;
+}
+
+.services__tbl .bth__cell:nth-child(3) {
+    width: 250px;
+}
+
+.services__tbl .bth__cell:last-child {
+    width: 100px;
+}
+
+.show-768 {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .services__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 7px;
+    }
+    .services__tbl .tbl__head,
+    .services__tbl .bth__cell:first-child {
+        display: none;
+    }
+    .services__tbl .bth__cell:first-child {
+        padding-top: 7px;
+    }
+    .services__tbl .bth__cell:nth-child(3) {
+        width: 100%;
+    }
+    .services__tbl .bth__cell:last-child {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+        width: 100%;
+    }
+}

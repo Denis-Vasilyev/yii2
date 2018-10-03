@@ -1,0 +1,242 @@
+.notes-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.notes-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.notes-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 96px;
+    height: 3px;
+    background: #475669;
+}
+
+.notes-tab.active {
+    color: #475669;
+}
+
+.notes ul {
+    margin-top: 20px;
+}
+
+.notes ul li {
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'apercu_pro', sans-serif;
+    margin: 10px 0;
+    position: relative;
+    border-radius: 2px;
+}
+
+.notes ul li > span {
+    display: inline-block;
+    vertical-align: top;
+    width: 25px;
+    font-size: 13px;
+    color: #475669;
+}
+
+.note {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    color: black;
+}
+
+.note span {
+    width: 19px;
+}
+
+.hov-block .delete-note {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: url(../i/close-12x12.png) no-repeat;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.hov-block {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    right: 13px;
+    width: 16%;
+    text-align: right;
+    font-size: 14px;
+}
+
+.hov-block i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.note__responsible {
+    display: inline-block;
+    width: 29%;
+}
+
+.fa-pencil-square-o {
+    font-size: 18px;
+}
+
+.note .fa:hover {
+    color: #c93535
+}
+
+.delete-note:hover {
+    background: url(/i/close-12x12-red.png) no-repeat;
+}
+
+.switch {
+    position: absolute;
+    right: 16px;
+    top: 17px;
+    cursor: pointer;
+    background-image: url(/i/tophotels/push-button.png);
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 0.1em 0.1em 0.2em #475669;
+    border-radius: 5px;
+}
+
+.switch-click {
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.5) inset;
+    background-image: url("/i/tophotels/push-button-active.png");
+}
+
+.red-bg {
+    background-color: #F4CBCB;
+}
+
+.green-bg {
+    background-color: #D8EAD2;
+}
+
+.yellow-bg {
+    background-color: #FFF2CD;
+}
+
+.gray-bg {
+    background-color: #EEEEEE;
+}
+
+.gray-border {
+    border: 2px solid #EEEEEE;
+}
+
+.font-size .rbt-e:checked + .label-rbt-e.one {
+    background-color: #c83831;
+}
+
+.font-size .rbt-e:checked + .label-rbt-e.two {
+    background-color: #F8A53A;
+}
+
+.font-size .rbt-e:checked + .label-rbt-e.three {
+    background-color: #00a551;
+}
+
+.font-size .rbt-e:checked + .label-rbt-e.four {
+
+    background-color: #ababab;
+}
+
+.font-size .rbt-e:checked + .label-rbt-e.five div {
+    color: black;
+}
+
+.show-hov-block {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+
+.total-title {
+    font-size: 13px;
+    font-weight: normal;
+    margin-left: 7px;
+    float: right;
+    display: inline-block;
+}
+
+
+/* Если заметка срочная*/
+ul li.important-note,
+ul li.important-note span,
+ul li.important-note .data {
+    font-weight: bold;
+    color: #b83f3f;
+}
+
+.important-note i {
+    color: black;
+}
+
+/* end__Если заметка срочная*/
+
+.note a {
+    color: inherit;
+}
+
+.note a:hover {
+    color: #5197cd;
+}
+
+.note--big {
+    width: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .hov-block {
+        top: 8px;
+        width: auto;
+    }
+
+    .note {
+        width: 80%;
+
+    }
+
+    .note__responsible {
+        display: block;
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 15px;;
+    }
+
+}
+
+@media screen and (max-width: 683px) {
+
+    .note {
+        width: 53%;
+
+    }
+
+}

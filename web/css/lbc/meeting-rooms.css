@@ -1,0 +1,131 @@
+.meeting-rooms-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.meeting-rooms-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.meeting-rooms-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 236px;
+    height: 3px;
+    background: #475669;
+}
+
+.meeting-rooms-tab.active {
+    color: #475669;
+}
+
+.contact-line.other {
+    left: 445px;
+    width: 64px;
+}
+
+.reservation-room-btn {
+    width: 140px;
+    right: 24px;
+    top: 14px;
+    padding: 7px 0;
+}
+
+.meeting-rooms .filter__inp-block {
+    width: 200px;
+}.meeting-rooms .filter__filter-open {
+     position: static;
+ }
+
+.section.meeting-rooms > div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.meeting-rooms-tbl .user-block-info {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.meeting-rooms-tbl td {
+    font-size: 16px;
+}
+
+.meeting-rooms-wrap select {
+    display: inline-block;
+    width: 201px;
+}
+
+.meeting-rooms-wrap input,
+.meeting-rooms-wrap select {
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 3px 10px 2px;
+    border: none;
+    /* line-height: 36px; */
+    font-weight: bold;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.meeting-rooms-cards {
+    border: 1px solid #bcbcbc;
+    padding: 6px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.meeting-rooms-cards img {
+    border-radius: 50px;
+    margin-right: 5px;
+
+}
+
+.meeting-rooms-cards > * {
+    padding: 7px;
+    white-space: nowrap;
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
+}
+
+.meeting-rooms-cards__item:first-of-type {
+    width: 200px;
+}
+
+.meeting-rooms-cards__item:last-of-type {
+    float: right;
+    text-align: right;
+    position: relative;
+}
+
+.meeting-rooms-cards .actions {
+    position: absolute;
+    width: 100%;
+    height: 63%;
+    background-color: white;
+    top: 26px;
+    right: 6px;
+    padding-top: 21px;
+    padding-right: 8px;
+    cursor: pointer;
+    color: #ff8e41;
+    font-weight: bold;
+}

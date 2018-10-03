@@ -1,0 +1,31 @@
+.processing-speed-tbl td:first-of-type,
+.processing-speed-tbl td:nth-child(2) {
+    width: 150px;
+}
+
+.filter__r-btn-lbl--percent {
+    padding-top: 7px;
+}
+
+.statistics-processing-tbl td {
+    position: relative;
+}
+
+.statistics-processing-tbl td:not(:first-of-type):not(:nth-child(2)) {
+    text-align: right;
+}
+
+.statistics-processing-tbl th:not(:first-of-type):not(:nth-child(2)) {
+    text-align: right;
+}
+
+
+.statistics-processing-tbl .statistics-processing-tbl__percent {
+    position: absolute;
+    display: none;color: #475669;font-size: 12px;
+}
+.statistics-processing-tbl td span:last-of-type {
+    padding-left: 35px;
+}.statistics-processing-tbl td:nth-child(2){
+     width: 83px;
+}

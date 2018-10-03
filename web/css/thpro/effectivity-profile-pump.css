@@ -1,0 +1,8 @@
+.section.pump-profile {
+    padding: 0;
+}
+.pump-profile .section__top {
+    display: block;
+    background: #d0d2da;
+    padding: 7px 10px 7px;
+}

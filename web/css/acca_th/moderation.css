@@ -1,0 +1,108 @@
+.moderation-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.moderation-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.moderation-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 53px;
+    height: 3px;
+    background: #475669;
+}
+
+.moderation-tab.active {
+    color: #475669;
+}
+
+.circle-ava-35 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.moderation-statistics td:nth-child(3) {
+    color: #00a551;
+    font-weight: bold;
+}
+
+.moderation-statistics td:nth-child(4), .moderation-statistics td:nth-child(5) {
+    color: #F8A53A;
+    font-weight: bold;
+}
+
+.moderation-statistics td:nth-child(6), .moderation-statistics td:nth-child(7) {
+    color: #e03a3a;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 659px) {
+    .moderation-new td:nth-child(3):before,
+    .moderation-closed td:nth-child(3):before {
+        content: 'Тип поля';
+    }
+
+    .moderation-new td:nth-child(4):before,
+    .moderation-closed td:nth-child(4):before {
+        content: 'От кого';
+    }
+
+    .moderation-new td:nth-child(5):before {
+        content: 'Статус';
+    }
+
+    .moderation-closed td:nth-child(5):before {
+        content: 'Модератор';
+    }
+
+    .moderation-statistics td:nth-child(1):before {
+        content: '№';
+    }
+
+    .moderation-statistics td:nth-child(2):before {
+        content: 'Обработчик';
+    }
+
+    .moderation-statistics td:nth-child(3):before {
+        content: 'В течении дня';
+    }
+
+    .moderation-statistics td:nth-child(4):before {
+        content: '2-х дней';
+    }
+
+    .moderation-statistics td:nth-child(5):before {
+        content: '3-х дней';
+    }
+
+    .moderation-statistics td:nth-child(6):before {
+        content: '4-х дней';
+    }
+
+    .moderation-statistics td:nth-child(7):before {
+        content: '5-ти дней';
+    }
+
+    .moderation-statistics td:nth-child(8):before {
+        content: 'Общее количесто';
+    }
+
+}

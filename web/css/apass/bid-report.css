@@ -1,0 +1,71 @@
+.bid-report-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.bid-report-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.bid-report-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 122px;
+    height: 3px;
+    background: #475669;
+}
+
+.bid-report-tab.active {
+    color: #475669;
+}
+
+.distib-title-str {
+    font-size: 18px;
+    color: #475669;
+    font-weight: bold;
+    background: #e4e5ea;
+}
+
+.bid-reportByDays td:first-child,
+.bid-reportByWeeks td:first-child,
+.bid-reportByMonth td:first-child {
+    width: 40px;
+    min-width: auto;
+}
+
+.bid-reportByDays td:nth-child(2),
+.bid-reportByWeeks td:nth-child(2),
+.bid-reportByMonth td:nth-child(2) {
+    width: 16%;
+}
+
+.bid-reportByDays td:last-child, .bid-reportByDays th:last-child,
+.bid-reportByWeeks td:last-child, .bid-reportByWeeks th:last-child,
+.bid-reportByMonth td:last-child, .bid-reportByMonth th:last-child {
+    text-align: center;
+}
+
+.bid-reportByDays td,
+.bid-reportByWeeks td {
+    text-align: center;
+}
+
+.bid-reportByDays td:nth-child(1), .bid-reportByDays td:nth-child(2),
+.bid-reportByWeeks td:nth-child(1), .bid-reportByWeeks td:nth-child(2),
+.bid-reportByMonth td:nth-child(1), .bid-reportByMonth td:nth-child(2) {
+    text-align: left;
+}
+

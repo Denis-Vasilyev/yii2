@@ -1,0 +1,295 @@
+.header {
+    background-color: #f1ebd3;
+}
+
+.header-inner {
+    position: relative;
+    height: 60px;
+    padding: 9px 30px 0;
+}
+
+.header-mid {
+    position: relative;
+    height: 60px;
+}
+
+.header-mid-logo {
+    position: absolute;
+    float: none;
+    width: 167px;
+    height: 59px;
+    right: -29px;
+    top: 9px;
+    background-image: url(/i/acca-logo.png);
+    background-repeat: no-repeat;
+}
+
+.site-nav {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    font-family: 'apercu_pro', sans-serif;
+    padding: 0px 30px 0px;
+    background-color: white;
+}
+
+.site-nav__item {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 15px 0px;
+    font-family: 'apercu_pro', sans-serif;
+    margin-right: 20px;
+}
+
+.site-nav__item.active {
+    position: relative;
+    color: #475669;
+}
+
+.site-nav__actions {
+    position: absolute;
+    border: 1px solid #e4e5ea;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    width: 310px;
+    z-index: 200;
+    text-align: left;
+    font-weight: normal;
+    top: 41px;
+    background-color: white;
+}
+
+.site-nav__actions-item {
+    border-bottom: 1px solid #e4e5ea;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.site-nav__actions-item > * {
+    font-size: 14px;
+    display: block;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #222;
+}
+
+.fa-plus-wrap {
+    position: relative;
+}
+
+.site-nav__actions-item .fa-plus {
+    color: #3687c5;
+    top: 7px;
+    position: absolute;
+    right: 3px;
+}
+
+.site-nav__actions-item > div a {
+    margin-right: 8px;
+    color: #222;
+}
+
+.site-nav__item.active::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #475669;
+    color: #475669;
+}
+
+.site-nav__item.active a {
+    color: #475669;
+}
+
+.header__user-block,
+.header__ava-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header__info-block {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-right: 50px;
+}
+
+.header__exit {
+    font-size: 24px;
+    position: absolute;
+    color: #475669;
+    right: 16px;
+    top: 5px;
+}
+
+.header__ava-block {
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
+}
+
+.header__ava {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header__ava-block img {
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+.title-h1 {
+    color: #475669;
+}
+
+.user-name {
+    color: #475669;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 25px;
+    line-height: 31px;
+}
+
+.site-nav__search {
+    float: right;
+    position: relative;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 15px;
+
+}
+
+.site-nav__search i {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 18px;
+    top: 19px;
+    right: -4px;
+    transition: 0.3s;
+    opacity: 1;
+    font-weight: normal;
+}
+
+.site-nav__authorization:hover {
+    text-decoration: underline;
+}
+
+.suggest-big__search-category .suggest-big__search-list-item-phone {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.task__user-block-circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #ff8e41;
+    font-size: 25px;
+    color: white;
+    padding-top: 13px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.task__user-block-circle--red {
+    background-color: #ff4141;
+}
+
+.suggest-big__search-category {
+
+    margin-top: 20px;
+}
+
+.suggest-big .suggest-big__search__news-center input {
+    padding-left: 47px;
+}
+
+.task__user-name{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .header-inner {
+        padding: 10px 10px;
+    }
+
+    .header__user {
+        padding: 10px 15px;
+        margin-top: 20px;
+    }
+
+    .menu-switch {
+        display: inline-block;
+        vertical-align: top;
+        background: linear-gradient(to bottom, #000000 0%, #000000 15%, transparent 10%, transparent 45%, #000000 50%, #000000 60%, transparent 0%, transparent 85%, #000000 90%, #000000 100%);
+        width: 30px;
+        height: 23px;
+        margin-top: 11px;
+        margin-right: 12px;
+    }
+
+    .header__user-profie {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .header__nav {
+        display: none;
+    }
+
+    .header__logo {
+        margin: 0 auto;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 659px) {
+    .site-nav {
+        padding: 0 10px 40px;
+    }
+
+    .header__info-block {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+
+    .header-inner {
+        padding: 9px 20px 0;
+    }
+
+    .header-mid-logo {
+        right: 20px;
+    }
+
+    .user-name {
+        font-size: 21px;
+    }
+
+    .header-inner {
+        padding: 9px 20px 0;
+    }
+
+    .header-mid-logo {
+        right: 20px;
+    }
+}

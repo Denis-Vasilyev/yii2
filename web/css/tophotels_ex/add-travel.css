@@ -1,0 +1,208 @@
+.add-travel__block.section {
+    padding: 20px 15px;
+    min-height: 406px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.add-travel__top {
+    padding: 0 0 19px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.add-travel__rbt-block {
+    margin-top: 20px;
+}
+
+.add-travel__rbt-block .rbt + .label-rbt {
+    padding-left: 25px;
+}
+
+.add-travel__block .bth__inp-block {
+    width: 400px;
+}
+
+.add-travel__cbx-block .cbx-block  {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.add-travel__cbx-block .cbx + .label-cbx {
+    padding-left: 27px;
+}
+
+.add-travel__date-block {
+    /*margin-top: 34px;*/
+}
+
+.add-travel__block .bth__inp-lbl {
+    z-index: 8;
+}
+
+.add-travel__block .hotel-name {
+    width: 600px;
+    margin-top: 20px;
+}
+
+
+.add-travel__block .bth__inp-block.hotel-date,
+.add-travel__block .bth__inp-block.hotel-year,
+.add-travel__block .bth__inp-block.hotel-month {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    width: 293px;
+    margin-top: 34px;
+}
+
+.add-travel__block .SumoSelect + .bth__inp-lbl.active {
+    opacity:1;
+}
+.add-travel__block .SumoSelect + .bth__inp-lbl {
+    opacity: 0;
+}
+.add-travel__block .SumoSelect.open + .bth__inp-lbl {
+    opacity: 1;
+    top: -21px;
+}
+
+/*.add-travel__block .SumoSelect > .CaptionCont.search  {*/
+    /*padding:8px 8px 0px 8px;*/
+/*}*/
+.add-travel__block .SumoSelect > .CaptionCont.search span {
+    margin-top: 2px;
+}
+
+
+.add-travel__block .SumoSelect > .optWrapper > .options > li.opt:first-child {
+    display: none;
+}
+
+.add-travel__block .SumoSelect > .CaptionCont > span.placeholder {
+    color: #999;
+    font-weight: normal;
+}
+
+.add-travel__block .rbt-block {
+    margin-bottom: 10px;
+}
+
+.add-travel__btn-block  {
+    margin-top: 34px;
+}
+
+.add-travel__btn-block .cbx-block {
+    display: inline-block;
+    margin-right: 5px;
+    width: auto;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.add-travel__btn-block .cbx + .label-cbx {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding:8px 10px 5px 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 2px;
+}
+
+
+.add-travel__btn-block .cbx + .label-cbx::after,
+.add-travel__btn-block .cbx + .label-cbx::before {
+    display: none;
+}
+
+.add-travel__btn-block  .cbx + .label-cbx .cbx-cnt {
+    color: #ff8e41;
+}
+
+.add-travel__btn-block  .cbx:checked + .label-cbx {
+    background: #ff8e41;
+}
+
+
+.add-travel__btn-block .cbx:checked + .label-cbx .cbx-cnt {
+    color: #fff;
+}
+
+#wantVisit {}
+
+.hotel__selected {
+    padding-left: 6px;
+    margin-top: 5px;
+}
+
+.hotel__selected .hotel-id {
+    margin-top: -4px;
+}
+
+#wantVisit .selectize-control,
+#futureTrip .selectize-control,
+#nowInHotel .selectize-control,
+#lastTrip .selectize-control {
+    width: 100%;
+}
+
+#wantVisit .selectize-input,
+#futureTrip .selectize-input,
+#nowInHotel .selectize-input,
+#lastTrip .selectize-input {
+    height: 100%;
+    padding: 15px 8px 7px 7px;
+}
+
+#wantVisit .selectize-dropdown ,
+#futureTrip.selectize-dropdown ,
+#nowInHotel.selectize-dropdown ,
+#lastTrip.selectize-dropdown {
+    margin: 4px 0 0 0;
+}
+
+#wantVisit .hotel__selected ,
+#futureTrip .hotel__selected ,
+#nowInHotel .hotel__selected ,
+#lastTrip .hotel__selected {
+    margin-top: 3px;
+    padding-left: 8px;
+}
+
+#wantVisit .selectize-input > input,
+#futureTrip .selectize-input > input,
+#nowInHotel .selectize-input > input,
+#lastTrip .selectize-input > input {
+    font-size: 14px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    border: none;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .add-travel__block .hotel-name {
+        width: 100%;
+    }
+    .add-travel__block .rbt-block {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 639px){
+    .add-travel__block .bth__inp-block.hotel-date, .add-travel__block .bth__inp-block.hotel-year, .add-travel__block .bth__inp-block.hotel-month,
+    .add-travel__block .bth__inp-block {
+        width: 100%;
+    }
+
+    .add-travel__block .rbt-block {
+        display: block;
+    }
+}

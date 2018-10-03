@@ -1,0 +1,73 @@
+.club-stat__tbl .bth__cell {
+    vertical-align: top;
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+}
+
+.club-stat__tbl .bth__cell:first-child {
+    width: 40px;
+}
+
+.club-stat__tbl .bth__cell:nth-child(3){
+    width: 300px;
+}
+
+.club-stat__tbl .bth__cell:last-child {
+    width: 200px;
+    text-align: right;
+}
+
+.tbl__head .bth__cell {
+    padding: 5px 7px;
+}
+.tbl__head .bth__cnt {
+    font-size: 12px;
+    color: #999;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .club-stat__tbl .bth__cell:last-child {
+        width: 160px;
+    }
+    .club-stat__tbl .bth__cell:nth-child(3) {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .club-stat__tbl .bth__cell:nth-child(3) {
+        width: 160px;
+    }
+    .header-top-auth.min {
+        left: 0px;
+    }
+    .club-stat-filter .filter__inp-block {
+        padding-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+    .club-stat__tbl .bth__cell {
+        display: block;
+        border-bottom:none;
+        padding: 5px 0px;
+    }
+    .club-stat__tbl .bth__cell:first-child,
+    .club-stat__tbl .tbl__head {
+        display: none;
+    }
+    .club-stat__tbl .bth__cell:nth-child(2) {
+        padding-top: 7px;
+    }
+    .club-stat__tbl .bth__cell:nth-child(3) {
+        width:100%;
+    }
+    .club-stat__tbl .bth__cell:last-child {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        text-align: left;
+        padding-bottom: 7px;
+    }
+}

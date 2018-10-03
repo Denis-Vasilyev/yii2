@@ -1,0 +1,20 @@
+.popular-hotels__tbl .bth__cell {
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
+}
+
+.popular-hotels__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.popular-hotels__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.popular-hotels__tbl .bth__cell:nth-child(2),
+.popular-hotels__tbl .bth__cell:nth-child(3),
+.popular-hotels__tbl .bth__cell:last-child {
+    text-align: right;
+}

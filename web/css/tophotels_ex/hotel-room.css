@@ -1,0 +1,338 @@
+.room-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.room-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 2px 0px 15px 0px;
+    margin-right:20px;
+    color: #318cc6 ;
+}
+
+
+.room-tab.active {
+    color: #475669 ;
+}
+
+
+.room-line {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 153px;
+    height: 3px;
+    background: #475669;
+}
+
+
+.room__item {
+    display: block;
+    position: relative;
+    padding: 15px;
+    /*padding-bottom: 100px;*/
+}
+
+.room__item--grey {
+    background: #efefef;
+}
+
+.room__ttl-block {
+    position: relative;
+    padding-right: 85px;
+}
+
+
+.room__right-block {
+    position: absolute;
+    right: 15px;
+    top: 2px;
+}
+
+.room-big-block .room__right-block {
+    right: 0;
+}
+
+.room__photo-block {
+    position: relative;
+    display: block;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.room__photo-info {
+    position: absolute;
+    right: 0px;
+    top: -7px;
+}
+
+.room__photo {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 120px;
+    margin-right: 8px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.room-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+.room-big__item .room__arr ,
+.room__item .room__arr {
+    font-size: 13px;
+    color: #ff8e41;
+    transition: 0.3s;
+}
+
+.room-big__item .room__arr.active,
+.room__item .room__arr.active {
+    transform: rotate(180deg);
+}
+
+.bth__btn.room__btn {
+    background: #ff8e41;
+    color: #fff;
+    width: 230px;
+}
+
+.room-equipment__block {
+    transition: 0.3s;
+}
+
+.room-equipment__line {
+    margin-top: 20px;
+}
+
+.room-equipment__list {
+    list-style: none;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+}
+
+
+.room-equipment__item {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.room--small .room__photo {
+    width: 150px;
+    height: 90px;
+}
+
+.room-big__item {
+    position: relative;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.room-big__tbl .bth__cell {
+    vertical-align: top;
+    position: relative;
+    /*padding-bottom: 30px;*/
+}
+
+.room-big__tbl .bth__cell:first-child {
+    width: 240px;
+}
+
+.room-big__tbl .bth__cell:nth-child(2) {
+    width: 230px;
+    padding: 0 15px;
+    border-right: 1px solid #ccc;
+}
+
+.room-big__tbl .bth__cell:last-child {
+    padding-left: 20px;
+}
+
+.room-big__mdl {
+    margin-top: 15px;
+}
+
+.room-big__photo {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 240px;
+    height: 250px;
+}
+
+.room-big__info,
+.room-big__equip {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.room-big__info {
+    position: relative;
+    /*width: 250px;*/
+}
+
+.room-big__photo-counter {
+    background: 50% 50% url(/images/tophotels/photo.svg) no-repeat;
+    bottom: 10px;
+    color: #0074c5;
+    font-size: 12px;
+    font-weight: bold;
+    height: 21px;
+    line-height: 21px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    width: 26px;
+    cursor: pointer;
+}
+
+.room-big__photo-counter:hover {
+    background: 50% 50% url(/images/tophotels/photo-grey.svg) no-repeat;
+    color: #fff;
+}
+
+.room-big__tbl .room-equipment__line {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+.room-big__tbl .room-equipment__item {
+    width: 45%;
+}
+
+.bth__btn.room-big__btn {
+    position: absolute;
+    bottom: 0px;
+    width: 200px;
+    left: 15px;
+}
+
+.room-big__descr {
+    margin-bottom: 10px;
+}
+
+.room-big__descr .room-description  {
+    max-height: 153px;
+    overflow: hidden;
+}
+
+.room-big__info .ref {
+    display: block;
+    margin-top: -3px;
+}
+
+.room-big__link {
+    position: absolute;
+    display: block;
+    bottom: -4px;
+
+}
+
+.room-big__equip.room-equipment__block {
+    background: #e4e5ea;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+
+.room-big__equip.room-equipment__block .room-equipment__line {
+    margin-top: 0;
+}
+
+
+@media screen and (max-width: 1023px){
+    .room-long-block .room__photo:nth-child(3) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .room__right-block {
+        display: block;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-top: 5px;
+    }
+    .room-big-block .room-equipment__item,
+    .room-short-block .room-equipment__item,
+    .room-long-block .room-equipment__item {
+        width: 45%;
+    }
+    .room-info {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .room-short-block .room__photo:nth-child(3){
+        display: none;
+    }
+    .room-big__tbl .bth__cell {
+        display: block;
+    }
+    .room-big__tbl .bth__cell:nth-child(2) {
+        padding: 0;
+        margin-top: 15px;
+        border-right: none;
+    }
+    .bth__btn.room-big__btn {
+        position: relative;
+        left: auto;
+        bottom: auto;
+        margin-top: 15px;
+    }
+    .room-big__tbl .bth__cell:last-child {
+        padding-left: 0;
+        margin-top: 15px;
+    }
+    .room-big__link {
+        position: relative;
+        bottom: auto;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .room-short-block .room__photo-block,
+    .room-long-block .room__photo-block {
+        padding-bottom: 10px;
+    }
+    .room-long-block .room__photo:nth-child(2) {
+        display: none;
+    }
+    .room-short-block .room__photo-info,
+    .room-long-block .room__photo-info {
+        display: block;
+        position: relative;
+        right: auto;
+        top: auto;
+        margin-top: 5px;
+    }
+    .room-big-block .room-equipment__item,
+    .room-short-block .room-equipment__item,
+    .room-long-block .room-equipment__item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .room-short-block .room__photo:nth-child(2) {
+        display: none;
+    }
+}

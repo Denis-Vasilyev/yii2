@@ -1,0 +1,185 @@
+.description-infra-edit-line {
+    position: absolute;
+    bottom: -1px;
+    left: 375px;
+    width: 131px;
+    height: 3px;
+    background: #475669;
+}
+
+.object-edit__tbl .edit-block__cell:first-child {
+    width: 200px;
+    padding-top: 21px;
+}
+
+.infra-file__tbl .bth__cell,
+.infra-photo__tbl .bth__cell {
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
+}
+
+.infra-file__tbl .head__tbl .bth__cell,
+.infra-photo__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.infra-file__tbl .head__tbl .bth__cnt,
+.infra-photo__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.infra-photo__tbl .file__img-block {
+    width: 50px;
+    height: 50px;
+}
+
+.infra-photo__tbl .bth__cell:first-child {
+    width: 65px;
+}
+
+.infra-photo__tbl .bth__cell:nth-child(3) {
+    width: 90px;
+}
+
+.infra-photo__tbl .bth__cell:nth-child(4) {
+    width: 150px;
+}
+
+.infra-photo__tbl .bth__cell:nth-child(5) {
+    width: 90px;
+}
+
+.infra-photo__tbl .bth__cell:last-child {
+    width: 20px;
+    text-align: right;
+}
+
+.infra-photo__tbl .edit-block__del {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    z-index: 1;
+    background: url(/i/close-12x12.png);
+}
+
+.infra-photo__tbl .edit-block__del:hover {
+    background: url(/i/close-12x12-red.png);
+}
+
+.add-infra-link__block.add-photo {
+    padding: 10px 0 10px 65px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.infra-file__tbl .file__img-block {
+    width: 25px;
+    height: 25px;
+}
+
+.infra-file__tbl .bth__cell:first-child {
+    width: 65px;
+}
+
+.infra-file__tbl .bth__cell:nth-child(2) {
+    width: 160px;
+}
+
+.infra-file__tbl .bth__cell:nth-child(4) {
+    width: 90px;
+}
+
+.infra-file__tbl .bth__cell:nth-child(5) {
+    width: 150px;
+}
+
+.infra-file__tbl .bth__cell:nth-child(6) {
+    width: 90px;
+}
+
+.infra-file__tbl .bth__cell:last-child {
+    width: 20px;
+    text-align: right;
+}
+
+@media screen and (max-width: 1279px){
+    .infra-file__tbl .bth__cell:nth-child(6),
+    .infra-photo__tbl .bth__cell:nth-child(5) {
+        width: 75px;
+    }
+    .infra-file__tbl .bth__cell:nth-child(4),
+    .infra-photo__tbl .bth__cell:nth-child(5) {
+        width: 75px;
+    }
+    .infra-file__tbl .bth__cell:nth-child(2) {
+        width: 140px;
+    }
+    .description-infra-edit-line {
+        left: 327px;
+        width: 116px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .object-edit__tbl .edit-block__cell {
+        display: block;
+    }
+    .object-edit__tbl .edit-block__cell:first-child {
+        padding: 0;
+        width: 100%;
+    }
+    .object-edit__tbl .edit-block__cell:last-child {
+        padding-top: 0;
+    }
+    .infra-file__tbl .bth__row,
+    .infra-photo__tbl .bth__row {
+        position: relative;
+        display: block;
+    }
+    .infra-file__tbl .head__tbl,
+    .infra-photo__tbl .head__tbl {
+        display: none;
+    }
+    .infra-file__tbl .bth__cell,
+    .infra-photo__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0px;
+    }
+    .infra-file__tbl .bth__cell:first-child,
+    .infra-photo__tbl .bth__cell:first-child {
+        padding-top: 7px;
+    }
+    .infra-file__tbl .bth__cell:nth-child(2),
+    .infra-file__tbl .bth__cell:nth-child(4),
+    .infra-file__tbl .bth__cell:nth-child(5),
+    .infra-photo__tbl .bth__cell:nth-child(2),
+    .infra-photo__tbl .bth__cell:nth-child(3),
+    .infra-photo__tbl .bth__cell:nth-child(4) {
+        width: 100%;
+    }
+    .infra-file__tbl .bth__cell:nth-child(6) ,
+    .infra-photo__tbl .bth__cell:nth-child(5) {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+    }
+    .infra-file__tbl .bth__cell:last-child,
+    .infra-photo__tbl .bth__cell:last-child {
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+    .add-infra-link__block.add-photo {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .object-edit__tbl .edit-block__inp-block {
+        width: 100%;
+    }
+}

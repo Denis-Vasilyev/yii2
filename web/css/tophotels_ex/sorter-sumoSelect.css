@@ -1,0 +1,107 @@
+.bth__sorter-sumoSelect {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    background-color: #fafafa80;
+    position: relative;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 2px;
+    height: 35px;
+    cursor: pointer;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 14px;
+    min-width: 250px;
+
+}
+
+.bth__sorter-sumoSelect .SumoSelect {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: static;
+}
+
+.bth__sorter-sumoSelect .SumoSelect > .CaptionCont {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #f1ebd3;
+    padding-top: 6px;
+    border-radius: 2px;
+    box-sizing: border-box;
+
+}
+
+.bth__sorter-sumoSelect .SumoSelect > .CaptionCont > span {
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    height: 100%;
+}
+
+.bth__sorter-sumoSelect .SumoSelect.open > .CaptionCont {
+    box-shadow: none;
+}
+
+.bth__sorter-sumoSelect .SumoSelect > .CaptionCont > label {
+    width: 17px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    transition: 0.3s;
+    top: 11px;
+}
+
+.bth__sorter-sumoSelect .SumoSelect > .CaptionCont > label > i {
+    background-image: url(/i/down-filterArrow.svg);
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.bth__sorter-sumoSelect .SumoSelect > .CaptionCont > label > i:before {
+    display: none;
+}
+
+.bth__sorter-sumoSelect .SumoSelect.open > .optWrapper {
+    top: 34px;
+    border-top: 0;
+    box-shadow: none;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    border-color: #f1ebd3;
+}
+
+.bth__sorter-sumoSelect .SumoSelect > .optWrapper > .options li.opt {
+    border-top: 1px solid #f1ebd3;
+    margin-left: 10px;
+    border-bottom: 0;
+    margin-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bth__sorter-sumoSelect .SumoSelect > .optWrapper > .options {
+
+    background-color: #fafafa80;
+}
+
+.bth__sorter-sumoSelect .SumoSelect > .optWrapper > .options li.opt:hover label {
+    color: #ff8e41;
+}
+
+.bth__sorter-sumoSelect .SumoSelect > .optWrapper > .options li.opt:hover {
+    background-color: #fafafa80;
+}

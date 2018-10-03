@@ -1,0 +1,26 @@
+
+.header-anonim-stat {
+    background-color: #f1ebd3;
+    padding: 19px 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+    padding-left: 238px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 24px;
+}
+
+.header-anonim-stat__grey {
+    color: #aaa;
+}
+
+@media screen and (max-width: 1279px) {
+
+    .header-anonim-stat {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+}

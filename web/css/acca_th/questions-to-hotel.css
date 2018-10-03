@@ -1,0 +1,134 @@
+.questions-to-hotel-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.questions-to-hotel-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.questions-to-hotel-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 128px;
+    height: 3px;
+    background: #475669;
+}
+
+.questions-to-hotel-tab.active {
+    color: #475669;
+}
+
+.questions-handlers td:nth-child(3) {
+    color: #00a551;
+    font-weight: bold;
+}
+
+.questions-handlers td:nth-child(4), .questions-handlers td:nth-child(5) {
+    color: #F8A53A;
+    font-weight: bold;
+}
+
+.questions-handlers td:nth-child(6), .questions-handlers td:nth-child(7) {
+    color: #e03a3a;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 659px) {
+    .new-questions td:nth-child(1):before,
+    .closed-questions td:nth-child(1):before {
+        content: 'Время';
+    }
+
+    .new-questions td:nth-child(2):before,
+    .closed-questions td:nth-child(2):before {
+        content: 'Вопрос';
+    }
+
+    .new-questions td:nth-child(3):before {
+        content: 'Статус';
+    }
+
+    .closed-questions td:nth-child(3):before {
+        content: 'Обработал';
+    }
+
+
+    .questions-handlers td:nth-child(2):before {
+        content: 'Обработчик';
+    }
+
+    .questions-handlers td:nth-child(3):before {
+        content: 'В течении дня';
+    }
+
+    .questions-handlers td:nth-child(4):before {
+        content: '2-х дней';
+    }
+
+    .questions-handlers td:nth-child(5):before {
+        content: '3-х дней';
+    }
+
+    .questions-handlers td:nth-child(6):before {
+        content: '4-х дней';
+    }
+
+    .questions-handlers td:nth-child(7):before {
+        content: '5-ти дней';
+    }
+
+    .questions-handlers td:nth-child(8):before {
+        content: 'Общее количесто';
+    }
+
+    .questions-stars td:nth-child(1):before {
+        content: 'Страна';
+    }
+
+    .questions-stars td:nth-child(2):before {
+        content: '3*';
+    }
+
+    .questions-stars td:nth-child(3):before {
+        content: '4*';
+    }
+
+    .questions-stars td:nth-child(4):before {
+        content: '5*';
+    }
+
+    .questions-country td:nth-child(1):before {
+        content: 'Страна';
+    }
+
+    .questions-country td:nth-child(2):before {
+        content: 'Август';
+    }
+
+    .questions-country td:nth-child(3):before {
+        content: 'Сентябрь';
+    }
+
+    .questions-country td:nth-child(4):before {
+        content: 'Октябрь';
+    }
+
+    .questions-country td:nth-child(5):before {
+        content: 'Итого %';
+    }
+}
+

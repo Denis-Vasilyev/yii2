@@ -1,0 +1,43 @@
+.line.hotel-guest-line {
+    width: 113px;
+}
+
+
+.subscriber__tbl  .bth__cnt.year-visit {
+    display: inline-block;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.subscriber__tbl  .bth__cnt.date-visit {
+    display: none;
+}
+
+#jsVisit2018:hover ~ #jsVisit2018Show ,
+#jsVisit2016:hover ~ #jsVisit2016Show ,
+#jsVisit2017:hover ~ #jsVisit2017Show {
+    display: block;
+}
+
+#jsVisit2018:hover ~ #jsVisitAll ,
+#jsVisit2016:hover ~ #jsVisitAll ,
+#jsVisit2017:hover ~ #jsVisitAll {
+    display: none;
+}
+
+.bth__btn.check-hotel__btn {
+    width: 265px;
+    background: #ff8e41;
+    color: #fff;
+}
+
+.bth__btn.check-hotel__btn:hover {
+    background: #e27200;
+}
+
+.subs__stat:hover .hint {
+    display: block;
+    font-family: 'apercu_pro', sans-serif;
+    width: 150px;
+    top: 67px;
+}

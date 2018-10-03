@@ -1,0 +1,43 @@
+.service-description-pp {
+    position: relative;
+    max-width: 600px;
+    height: auto;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    background: #e4e5ea;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 40px auto;
+}
+
+.service-description-pp .filter-pp__top {
+    padding: 19px 0px 17px;
+}
+
+.service-description__img {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.service-description__img .bth__img {
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.service-description__cnt .bth__cnt {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 479px){
+    .service-description__img {
+        display: block;
+        float: none;
+    }
+    .service-description__cnt {
+        display: block;
+    }
+}

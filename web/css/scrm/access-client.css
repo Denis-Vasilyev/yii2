@@ -1,0 +1,104 @@
+.access-client-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.access-client-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.access-client-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 136px;
+    height: 3px;
+    background: #475669;
+}
+
+.access-client-tab.active {
+    color: #475669;
+}
+
+.access-client tr td {
+    border: none;
+    padding: 10px;
+}
+
+.access-client tr {
+    border: 1px solid #ccc;
+}
+
+.access-client img {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 7px;
+    border-radius: 2px;
+}
+
+.access-client__block {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 17px;
+}
+
+.access-client__block > *,
+.access-client__block > a {
+    margin-bottom: 7px;
+    display: block;
+}
+
+.access-client__status {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 659px) {
+    .access-client__block {
+        font-size: 14px;
+    }
+
+    .access-client-logs td:nth-child(1)::before,
+    .access-client-viewed td:nth-child(1)::before {
+        content: 'Дата';
+    }
+
+    .access-client-logs td:nth-child(2)::before {
+        content: 'Тип действия';
+    }
+
+    .access-client-logs td:nth-child(3)::before,
+    .access-client-viewed td:nth-child(2)::before {
+        content: 'Пользователь';
+    }
+
+    .access-client-logs td:nth-child(4)::before {
+        content: 'Название клиента';
+    }
+
+    .access-client-logs td:nth-child(5)::before {
+        content: 'Доверитель';
+    }
+
+    .access-client-viewed td:nth-child(3)::before {
+        content: 'Активность';
+    }
+
+    .access-client-viewed td:nth-child(4)::before {
+        content: 'Страница просмотра';
+    }
+
+    .access-client-viewed td:nth-child(5)::before {
+        content: 'Записи';
+    }
+}

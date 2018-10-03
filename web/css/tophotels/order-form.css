@@ -1,0 +1,251 @@
+
+.order-form {
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 16px;
+    margin-right: 20px;
+}
+
+.order-form-label {
+    display: block;
+    line-height: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.order-form-input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.order-line * {
+    box-sizing: border-box;
+}
+
+.order-form-box {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    border-image: initial;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    width: 14px;
+    height: 14px;
+}
+
+.order-form-box span {
+    position: absolute;
+    transition: background 0.3s;
+    border-radius: 50%;
+    top: 1px;
+    left: 1px;
+    width: 10px;
+    height: 10px;
+}
+
+.order-form-input:checked + .order-form-box span {
+    background: rgb(66, 66, 66);
+}
+
+.order-form-box::after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    margin: -12px 0px 0px -12px;
+    border-radius: 50%;
+    background: transparent;
+    transition: background 0.65s;
+}
+
+.order__inp-currency {
+    position: absolute;
+    top: 39px;
+    background: #fff;
+    display: none;
+    z-index: 101;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    width: 68px;
+    text-align: center;
+    right: -15px;
+    cursor: pointer;
+}
+
+.order__inp-currency-wrap .js-animate.active {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.order__inp-currency-wrap {
+    position: relative;
+}
+
+.order__inp-currency-item {
+    padding: 10px 20px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.order-form-input:checked + span + .order-form-text {
+    color: #475669;
+}
+
+.order-form-input + span + .order-form-text {
+    font-weight: bold;
+    color: rgb(44, 156, 220);
+    text-transform: uppercase;
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.order__inp-block {
+    position: relative;
+    width: 276px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #dfdfdf;
+    background: #ffffff;
+    height: 58px;
+    margin-right: -3px;
+}
+
+.order__inp-block.comment {
+    height: 80px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.order__inp-block.comment textarea {
+    resize: none;
+}
+
+.order__inp {
+    width: 100%;
+    font-family: 'apercu_pro', sans-serif;
+    height: 100%;
+    font-size: 16px;
+    color: #475669;
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 19px 15px;
+    vertical-align: middle;
+    border: none;
+
+}
+
+.order__inp-label {
+    position: absolute;
+    top: -21px;
+    left: 15px;
+    font-size: 13px;
+    color: #999;
+}
+
+.order__inp-block.night {
+    width: 165px;
+}
+
+.order__inp-block.contact {
+    width: 400px;
+}
+
+.order__inp-in {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+    width: 70px;
+    border-left: 1px solid #ccc;
+    z-index: 10;
+    padding: 19px 15px;
+}
+
+.order__inp-block.currency .order__inp {
+    padding-right: 70px;
+}
+
+.orange-btn {
+    width: 276px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 142, 65);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(223, 223, 223);
+    border-image: initial;
+}
+
+.orange-btn i {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 35px;
+    top: 19px;
+    background: url(../../static/i/next.png) center center / 18px no-repeat;
+    transition: 0.5s;
+}
+
+.orange-btn i {
+    background-image: url(../../static/i/next_2.png);
+}
+
+.orange-btn:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(226, 114, 0);
+}
+
+.form-cbx__block {
+    margin-top: 10px;
+}
+
+.form__cbx {
+    position: relative;
+}
+
+.order-line-block {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.cbx-meal-help {
+    position: absolute;
+    display: none;
+    padding: 5px 9px 6px 9px;
+    background: rgba(255, 255, 255, 1);
+    color: #666;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    border-radius: 3px;
+    white-space: nowrap;
+    top: -30px;
+}
+
+.js-cbx-meal-help:hover > .cbx-meal-help {
+    display: block;
+}
+
+.order-line .fa {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.index-section__link:first-child {
+    margin-left: 0;
+}
+
+.order-line-block .form__cbx {
+    display: block;
+    margin-bottom: 8px;
+}

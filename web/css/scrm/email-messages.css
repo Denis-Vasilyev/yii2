@@ -1,0 +1,53 @@
+
+.email-messages-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.email-messages-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.email-messages-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 125px;
+    height: 3px;
+    background: #475669;
+}
+
+.email-messages-tab.active {
+    color: #475669;
+}
+
+.user-block-info__ava.mail {
+    display: inline-block;
+    border: 1px solid #318cc6;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+
+}
+
+.user-block-info__ava.mail.icon {
+    background: url(../../i/mail.png) no-repeat;
+    background-size: 29px;
+    margin-top: 4px;
+    border: none;
+    background-position-x: 5px;
+    background-position-y: 1px;
+    margin-right: 5px;
+}

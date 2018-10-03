@@ -1,0 +1,139 @@
+.header-logo-txt {
+    color: #475669;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'apercu_pro', sans-serif;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 25px;
+    margin-top: 13px;
+}
+
+.header-auth .header-inner {
+    background-color: white;
+}
+
+.header-auth > * {
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.header-auth {
+    background: #fce4bf;
+}
+
+.header-bot {
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 18px 25px;
+    padding-right: 45px;
+    width: 100%;
+
+}
+
+.header-mid-logo {
+    display: none;
+}
+
+.header-bot__ttl {
+    color: #e03a3a;
+    font-size: 20px;
+    background-color: white;
+    padding-top: 12px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    vertical-align: middle;
+    height: 50px;
+    margin-left: 100px;
+    padding-left: 65px;
+}
+
+.header-bot__icon {
+    font-size: 18px;
+    color: #ff8e41;
+    border: none;
+    background:#FFF3E0;
+    width: 50px;
+    margin-right: -3px;
+    height: 100%;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px 0 0 3px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(/i/tophotels/group-grey.svg);
+    display: inline-block;
+    background-position: center;
+
+}
+
+.header__key {
+    cursor: pointer;
+    width: 100px;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 2px;
+    margin-right: 10px;
+    background-image: url(/i/travel_crm/key-orange.svg);
+    background-color: #FFF3E0;
+    border: 2px solid white;
+    height: 50px;
+    background-size: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+.header-auth + .container {
+    padding: 0px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1023px) {
+    .header .menu-switch {
+        display: none;
+    }
+
+    .header-bot {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header-auth  .header-logo-txt {
+        margin-top: 0;
+    }
+    .header-auth  .header-inner {
+        padding: 18px 20px;
+        height: auto;
+    }
+    .header-bot__ttl {
+        width: 100%;
+    }
+    .header-bot__ttl {
+        margin-left: 0px;
+    }
+    .header__key {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .header-bot__ttl {
+        text-transform: capitalize;
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+}
+

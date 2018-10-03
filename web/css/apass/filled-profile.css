@@ -1,0 +1,71 @@
+.filled-profile-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.filled-profile-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.filled-profile-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 160px;
+    height: 3px;
+    background: #475669;
+}
+.filled-profile-tab.active {
+    color: #475669;
+}
+
+.access-project__service-yes {
+    background-color: #D8EAD2;
+    text-align: center;
+}
+
+.access-project__service-no {
+    background-color: #F4CBCB;
+    text-align: center;
+}
+
+.contacts div span {
+    padding-left: 20px;
+}
+
+.contacts__plus,
+.contacts__minus {
+    position: relative;
+}
+
+.contacts__plus:before {
+    content: '\271A';
+    color: green;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1px;
+
+}
+
+.contacts__minus:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background-color: #da4c4c;
+    left: 1px;
+    top: 8px;
+}

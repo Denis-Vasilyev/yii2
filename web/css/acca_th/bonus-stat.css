@@ -1,0 +1,121 @@
+.bonus-stat-tbl th:nth-child(2) {
+    width: 55%;
+}
+
+.bonus-stat-tbl td:nth-child(3),
+.bonus-stat-tbl td:nth-child(4),
+.bonus-stat-tbl td:nth-child(5),
+.bonus-stat-tbl td:nth-child(6) {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.rating-bonus-stat__num {
+    display: inline-block;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.rating-bonus-stat td:nth-child(2) {
+
+    width: 40%;
+}
+
+.user-status.user-status--gold {
+    background: url(/i/tophotels/pos_gold_v2.png) no-repeat;
+}
+
+.user-status.user-status--silver {
+    background: url(/i/tophotels/pos_gray_v2.png) no-repeat;
+}
+
+.user-status.user-status--bronze {
+    background: url(/i/tophotels/pos_bronze_v2.png) no-repeat;
+}
+
+.user-status.user-status--pro {
+    background: url(/i/tophotels/pro-icon-30.png) no-repeat;
+    background-size: cover;
+}
+
+.user-status.user-status--pro-grey {
+    background: url(/i/tophotels/pro-icon-grey-30.png) no-repeat;
+    background-size: cover;
+}
+
+.user-status.user-status--platinum {
+    background: url(/i/tophotels/pos_platinum_v2.png) no-repeat;
+}
+
+.user-status {
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.block-card__item a:hover {
+    color: #3687c5 !important;
+}
+
+.bth__btn.application__btn {
+    width: 103px;
+    cursor: pointer;
+    float: right;
+    padding: 3px 0px 6px 0px;
+}
+
+.bth__btn:hover {
+    background: #ff8e41;
+    color: #fff;
+}
+
+.block-card--rating .block-card__in-block > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.booking-log-short td.relative {
+    overflow: visible;
+}
+
+.booking-log-short td.relative:hover .hint {
+    display: block;
+}
+
+.description-loyalty-check {
+    display: inline-block;
+    color: #00a551;
+    font-size: 35px;
+}
+
+.booking-log-short th:first-of-type {
+    width: 120px;
+}
+
+.booking-log-short th:nth-child(2) {
+    width: 40%;
+}
+
+.booking-log-short td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.rating-short-tbl td:nth-child(2) {
+    width: 43%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rating-short-tbl td:last-of-type,
+.rating-short-tbl th:last-of-type {
+    text-align: left;
+}
+
+
+@media screen and (max-width: 768px) {
+    .rating-short-tbl td:nth-child(2) {
+        width: 100%;
+    }
+}

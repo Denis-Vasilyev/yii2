@@ -1,0 +1,329 @@
+.callback-log .contacts__minus:before {
+    left: 119px;
+    top: 20px;
+}
+
+.callback-log .contacts__plus:before {
+    left: 108px;
+    top: 14px;
+}
+
+.callback-log img {
+    border-radius: 50px;
+}
+
+.callback-log .fa-user-circle-o {
+    font-size: 20px;
+}
+
+.callback-log .actions__phone {
+    background-image: url(/i/phone-crossed.png);
+    width: 22px;
+    height: 19px;;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    margin-right: 5px;
+}
+
+.callback-log td:last-of-type .fa {
+    font-size: 29px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.dropdown-box__options div {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 6px 18px;
+    color: #475669;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+
+.bottom-block {
+    color: #e03a3a;
+    font-size: 11px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.dropdown-box__options div:hover {
+    background: #E4E4E4;
+}
+
+.dropdown-box__options div i {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.dropdown-box__options {
+    width: 68px;
+    background-color: white;
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    border-top: 1px solid #f5f5f5;
+    top: 38px;
+
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-box {
+    width: 68px;
+    height: 35px;
+    background-color: white;
+    top: 0px;
+    text-align: center;
+    padding: 5px 7px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+}
+
+.dropdown-box:focus {
+    box-shadow: inset 0 -3px 0 0 orange;
+}
+
+.dropdown-box .fa-angle-down {
+    color: #318cc6;
+    font-size: 17px;
+
+}
+
+.dropdown-box__selected {
+    margin-right: 11px;
+    font-size: 16px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.trigger-animate {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+
+.guests {
+    width: 322px;
+}
+
+.guests__dropdown {
+    display: none;
+    position: absolute;
+    top: 58px;
+    right: 0;
+    left: 0 !important;
+    background: #fff;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    z-index: 11;
+    width: 248px;
+}
+
+.guests__dropdown-open {
+    display: block;
+}
+
+.guests__dropdown .guests__ipn {
+    position: relative;
+    border: 1px solid #ccc;
+    height: 36px;
+    line-height: 34px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.guests__dropdown .guests__link {
+    position: absolute;
+    border: 1px solid #ccc;
+    font-size: 26px;
+    width: 36px;
+    height: 36px;
+    top: -1px;
+    line-height: 31px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+.guests__dropdown .guests__link:hover {
+    text-decoration: none;
+}
+
+.guests__dropdown .guests__adult-add {
+    right: -1px;
+    padding-top: 2px;
+}
+
+.guests__dropdown .guests__adult-rmv {
+    left: -1px;
+}
+
+.guests__dropdown .guests__adult-num {
+    text-align: center;
+    color: #475669;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.guests__dropdown .child > .SumoSelect > .CaptionCont > label > i {
+    color: #2c9cdc;
+    width: 12px;
+    height: 18px;
+    top: -1px;
+    right: 0px;
+    border-right: none;
+    border-bottom: none;
+    transform: rotate(0deg);
+    transition: 0.3s;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 19px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    opacity: 1;
+    background-image: none;
+}
+
+.guests__dropdown .selectize-control.single .selectize-input {
+    position: relative;
+}
+
+.guests__dropdown .child > .SumoSelect > .CaptionCont > label > i::before {
+    position: absolute;
+    content: "\f107";
+}
+
+.guests__dropdown .selectize-control.single .selectize-input:after {
+    position: absolute;
+    content: "\f107";
+    color: #2c9cdc;
+    width: 12px;
+    height: 18px;
+    top: 12px;
+    right: 10px;
+    border: none;
+    transition: 0.3s;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 19px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    opacity: 1;
+    background-image: none;
+}
+
+.guests__dropdown .selectize-control.single .selectize-input.dropdown-active:after {
+    margin-top: -3px;
+    transform: rotate(180deg);
+}
+
+.guests__dropdown .child .SumoSelect > .CaptionCont {
+    height: 34px;
+}
+
+.guests__dropdown .child .SumoSelect:focus > .CaptionCont,
+.guests__dropdown .child .SumoSelect:hover > .CaptionCont,
+.guests__dropdown .child .SumoSelect.open > .CaptionCont {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.guests__dropdown .child .SumoSelect > .CaptionCont > span {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    padding-left: 30px;
+    text-align: center;
+    color: #475669;
+}
+
+.guests__dropdown .child .SumoSelect > .optWrapper > .options li.opt {
+    padding: 0px 10px;
+    position: relative;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.guests__dropdown .child .SumoSelect > .optWrapper > .options li.opt label,
+.guests__dropdown .child .SumoSelect > .CaptionCont,
+.guests__dropdown .child .SumoSelect .select-all > label {
+    font-size: 14px;
+    color: #475669;
+}
+
+.guests__dropdown .guests__line {
+    text-align: right;
+}
+
+.add-agent-form--callbacks .add-agent-wrap > div select,
+.add-agent-form--callbacks .add-agent-wrap > div input,
+.add-agent-form--callbacks .add-agent-wrap > div textarea {
+    width: 100%;
+}
+
+.add-agent-form--callbacks .add-agent-wrap__inp-block {
+    width: 500px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.add-agent-form--callbacks .fa-times {
+    margin-left: 10px;
+    color: #e03a3a;
+    font-size: 19px;
+    cursor: pointer;
+    position: absolute;
+    padding-top: 5px;
+}
+
+.add-agent-form--callbacks .type-input, .add-agent-wrap textarea {
+    width: 500px;
+}
+
+.add-agent-form--callbacks .add-agent-wra__dbl .add-agent-wrap__inp-block > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 248px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.add-agent-form--callbacks .add-agent-wra__dbl input {
+    width: 100%;
+}
+
+.add-agent-form--callbacks .selectize-control {
+    width: 100%;
+}
+
+.add-agent-form--callbacks .selectize-input {
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.add-agent-wrap__inp-block__abs {
+    position: absolute;
+    right: -107px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    top: 1px;
+    font-size: 13px;
+}
+
+.selectize-control.type-input {
+    border: none;
+    padding: 0;
+}
+
+.add-agent-form--callbacks .fa-star {
+    color: #ff8e41;
+}
+
+.add-agent-form--callbacks .add-agent__title {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}

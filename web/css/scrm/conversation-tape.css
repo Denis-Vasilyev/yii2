@@ -1,0 +1,309 @@
+.conversation-tape-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.conversation-tape-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.conversation-tape-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 122px;
+    height: 3px;
+    background: #475669;
+}
+
+.conversation-tape-tab.active {
+    color: #475669;
+}
+
+.conversation-table-v1 tr,
+.conversation-table-v2 tr {
+    height: 122px;
+    font-size: 14px;
+    border: 1px solid #bcbcbc;
+    max-width: 155px;
+    min-width: 57px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+    padding: 10px 11px;
+    margin-bottom: 10px;
+}
+
+.conversation-table-v1 tr td,
+.conversation-table-v2 tr td {
+    font-size: 15px;
+    border: none;
+}
+
+table .rasp {
+    border: none;
+    height: 20px;
+}
+
+.phone {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../../i/phone-sprite.png");
+}
+
+.name p {
+    margin-top: 6px;
+}
+
+.txt div {
+    white-space: normal;
+}
+
+.txt * {
+    margin-bottom: 5px;
+}
+
+.conversation-table-v1__name span {
+    width: 60px;
+    height: 60px;
+    border: 2px solid grey;
+    border-radius: 44px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 6px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 18px;
+    color: grey;
+}
+
+.conversation-table-v1 img {
+    border-radius: 50px;
+}
+
+.conversation-table-v1 .phone-center {
+    text-align: center;
+}
+
+.conversation-table-v2__name {
+    width: 50px;
+    height: 50px;
+    border: 2px solid grey;
+    border-radius: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 6px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 13px;
+    color: grey;
+    margin-top: 5px;
+}
+
+.conversation-table-v2__name2-wrap {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.conversation-table-v1 .txt {
+    width: 65%;
+}
+
+.conversation-table-v1 td:nth-child(2),
+.conversation-table-v1 td:nth-child(4) {
+    width: 100px;
+    text-align: center;
+}
+
+.conversation-table-v2 .rasp td {
+    padding: 0;
+}
+
+.conversation-table-v2 .txt.te {
+    width: 65%;
+    text-align: left;
+}
+
+.conversation-table-v2 .test-img {
+    border-radius: 2px;
+}
+
+.conversation-table-v2 .red-b {
+    border: 1px solid #e03a3a;
+}
+
+.conversation-table-v2 .green-b {
+    border: 1px solid #00a55185;
+}
+
+.conversation-table-v2 .bright-orange-b {
+    border: 1px solid #ff8e41;
+}
+
+.conversation-table-contacts tr td img {
+    border-radius: 50px;
+}
+
+.conversation-table-contacts tr td {
+    white-space: normal;
+}
+
+.add-contTransfer {
+    margin-bottom: 150px;
+}
+
+.add-contFirsStep {
+    background-color: #e4e5ea;
+    padding: 15px 15px;
+    margin-bottom: 10px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.add-contFirsStep label {
+    font-size: 14px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    display: inline-block;
+    width: 196px;
+}
+
+.type-service-wrap select {
+    width: 30%;
+}
+
+.type-service-wrap input.datepicker-here {
+    width: 20%;
+}
+
+.section-grey {
+    background: rgba(111, 207, 151, 0.4);
+}
+
+.add-contact-purpose select {
+    width: 25%;
+}
+
+.contact__phone {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: url(../../i/phone-sprite.png);
+}
+
+.contact__phone.contact__phone--green {
+    background-position: 0 0;
+}
+
+.contact__phone.contact__phone--red {
+    background-position: 0 -27px;
+}
+
+.conversation-table-contacts td:last-of-type,
+.conversation-table-contacts th:last-of-type {
+    text-align: right;
+}
+
+.circle-ava {
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.conversation-tape-statistic td:last-of-type,
+.conversation-tape-statistic th:last-of-type {
+    text-align: right;
+}
+
+/*Адаптив таблиц*/
+
+@media screen and (max-width: 659px) {
+    .short-view tr td:nth-child(3):before {
+        content: 'Абонент';
+    }
+
+    .conversation-table-v2 tr td:last-of-type,
+    .conversation-table-v1 tr td:last-of-type {
+        border-bottom: none;
+    }
+
+    .conversation-table-contacts tr td:nth-child(1)::before {
+        content: 'Дата';
+    }
+
+    .conversation-table-contacts tr td:nth-child(2)::before {
+        content: 'Инициатор';
+    }
+
+    .conversation-table-contacts tr td:nth-child(3)::before {
+        content: 'Оппонент';
+    }
+
+    .conversation-table-contacts tr td:nth-child(4)::before {
+        content: 'Тема контакта';
+    }
+
+    .conversation-table-contacts tr td:nth-child(5)::before {
+        content: 'Контакт';
+    }
+
+    .conversation-tape-statistic tr td:nth-child(1)::before {
+        content: 'Месяц';
+    }
+
+    .conversation-tape-statistic tr td:nth-child(2)::before {
+        content: 'Кол-во контактов';
+    }
+
+    .conversation-tape-statistic tr td:nth-child(3)::before {
+        content: 'Оплата';
+    }
+
+    .conversation-tape-statistic tr td:nth-child(4)::before {
+        content: 'Менеджеры';
+    }
+
+    .conversation-table-contacts td:last-of-type, .conversation-table-contacts th:last-of-type,
+    .conversation-tape-statistic td:last-of-type, .conversation-tape-statistic th:last-of-type {
+        text-align: left;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

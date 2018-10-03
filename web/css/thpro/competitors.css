@@ -1,0 +1,100 @@
+.line.competitors-line {
+    width: 167px;
+}
+
+.competitors__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+}
+
+.competitors__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.competitors__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.competitors__tbl .bth__cell:first-child {
+    width: 50px;
+}
+
+.competitors__tbl .bth__cell:nth-child(3) {
+    width: 130px;
+}
+
+.competitors__tbl .bth__cell:nth-child(4) {
+    width: 100px;
+    text-align: right;
+}
+
+.competitors__tbl .bth__cell:nth-child(5) {
+    width: 150px;
+    text-align: right;
+}
+
+.competitors__tbl .bth__cell:last-child {
+    width: 50px;
+    text-align: right;
+}
+
+.del-row {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    background: url("/i/close-12x12.png") no-repeat;
+}
+
+.del-row:hover {
+    background: url("/i/close-12x12-red.png") no-repeat;
+}
+
+@media screen and (max-width: 1279px) {
+    .competitors__tbl .bth__cell:nth-child(3) {
+        width: 90px;
+    }
+
+    .competitors__tbl .bth__cell:nth-child(4) {
+        width: 70px;
+        text-align: right;
+    }
+
+    .competitors__tbl .bth__cell:nth-child(5) {
+        width: 105px;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .competitors__tbl .bth__cell:first-child,
+    .competitors__tbl .head__tbl .bth__cell {
+        display: none;
+    }
+    .competitors__tbl .bth__row {
+        display: block;
+        position: relative;
+    }
+    .competitors__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0;
+    }
+    .competitors__tbl .bth__cell:nth-child(3),
+    .competitors__tbl .bth__cell:nth-child(4) {
+        width: 100%;
+        text-align: left;
+    }
+    .competitors__tbl .bth__cell:nth-child(5) {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+        width: 100%;
+        text-align: left;
+    }
+    .competitors__tbl .bth__cell:last-child {
+        position: absolute;
+        right: 1px;
+        top: 2px;
+    }
+}

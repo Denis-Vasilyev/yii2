@@ -1,0 +1,55 @@
+
+.header--233__item {
+    position: relative;
+    font-size: 15px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #3687c5;
+    margin-right: 20px;
+}
+
+.header--233__item.active {
+    color: #475669;
+}
+
+.header--233__item:hover .hint {
+    display: block;
+}
+.header.header--233 {
+    height: 62px;
+}
+.header--233__btn {
+    background: #ff8e41;
+    color: white;border: 1px solid #ff8e41;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-right: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 0px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.header--233__btn:hover {
+    color: #fff;
+    background: #ff8e41;
+}
+.header--233__cross {
+    background-image: url(/i/tophotels/close-mb-grey.svg);
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    width: 28px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: bottom;
+    background-size: contain;
+
+}
+
+.header--233__inp {
+    border: 1px solid #e4e5ea;margin-right: 5px;
+    color: #475669;
+    font-size: 14px;    width: 240px;
+    font-family: 'apercu_pro', sans-serif;
+    padding: 5.5px;
+}

@@ -1,0 +1,61 @@
+.form-dropdown-stars {
+    position: absolute;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    background: #fff;
+    z-index: 101;
+    width: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.form-dropdown-stars__item {
+    border-bottom: 1px solid #f1ebd3;
+    padding: 8px 20px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.form-dropdown-stars__item i {
+    color: #ff8e41;
+    font-size: 17px;
+    margin-right: 3px;
+}
+
+.form-dropdown-stars__item i:first-of-type {
+    margin-left: 15px;
+}
+
+.form-dropdown-stars__item-top {
+    position: relative;
+    border-bottom: 1.5px solid #ff8e41;
+    background-color: #faf6e5;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    box-sizing: border-box;
+    height: 50px;
+    padding-top: 13px;
+    padding-left: 9px;
+}
+
+.form-dropdown-stars__close {
+    background-image: url(/i/tophotels/cross-thin-grey.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    right: 12px;
+    top: 16px;
+    cursor: pointer;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+}
+
+.form-dropdown-stars__close:hover {
+    background-image: url(/i/tophotels/cross-thin.svg);
+}

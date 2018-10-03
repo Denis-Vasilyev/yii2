@@ -1,0 +1,431 @@
+.topline-tourist {
+    position: relative;
+    display: block;
+    padding: 25px 25px 0px 25px;
+}
+
+.topline-tourist__wrap {
+    margin-left: 210px;
+    min-height: 170px;
+    border-bottom: 1px solid #f1ebd3;
+}
+
+.topline-tourist__ava-block {
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    width: 170px;
+    height: 170px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.topline-tourist__ava-block img {
+    border-radius: 2px;
+}
+
+.topline-tourist__ava-block-m {
+    display: none;
+    width: 170px;
+    height: 170px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.topline-tourist__tbl .bth__cell {
+    position: relative;
+    vertical-align: top;
+    height: 150px;
+}
+
+.topline-tourist__tbl .bth__cell:first-child {
+    width: 295px;
+    border-right: 1px solid #f1ebd3;
+}
+
+.topline-tourist__tbl .bth__cell:last-child {
+    padding: 0 0 0 20px;
+
+}
+
+.topline-tourist .bth__cnt {
+    margin-bottom: 0;
+}
+
+.topline-tourist__tbl .topline-tourist__info {
+    margin-top: -4px;
+}
+
+.topline-tourist__tbl .tourist-name {
+    display: block;
+    max-width: 285px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 19px;
+}
+
+.topline-tourist__green-block {
+    display: block;
+    width: 220px;
+    padding: 6px 7px 6px 7px;
+    height: 52px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: #e5f6ed;
+    margin-top: 12px;
+}
+
+.topline-tourist__link-block {
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+}
+
+.topline-tourist__link-block .bth__link.write-link {
+    padding-left: 45px;
+}
+
+.topline-tourist__num-act-block {
+
+}
+
+.topline-tourist__num-act-block .bth__cnt.num-act-block {
+    display: inline-block;
+    vertical-align: bottom;
+    /*margin-right: 10px;*/
+
+}
+
+.topline-tourist__num-act-block .num-act-sm {
+    margin-right: 10px;
+}
+
+.topline-tourist__num-act-block .num-act {
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.topline-tourist__num-act-block .num-act--17 {
+    font-size: 17px;
+}
+
+.topline-tourist__num-act-block .num-act--32 {
+    font-size: 32px;
+}
+
+.topline-tourist__num-act-block .num-act--25 {
+    font-size: 25px;
+}
+
+.topline-tourist__tbl .more-link {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+
+.topline-tourist__stat-block {
+    display: inline-block;
+    vertical-align: top;
+    /*height: 39px;*/
+    width: 145px;
+    padding: 10px 10px 10px 55px;
+    margin-right: 15px;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.topline-tourist__stat-block.gold-status {
+    background: #faecba url(/i/tophotels/status-gold.png) no-repeat 7px 7px;
+    color: #d9af16;
+}
+
+.topline-tourist__stat-block.bronze-status {
+    background: #f7e7df url(/i/tophotels/status-bronze.png) no-repeat 7px 7px;
+    color: #c29b86;
+}
+
+.topline-tourist__stat-block.silver-status {
+    background: #e8e8e8 url(/i/tophotels/status-silver.png) no-repeat 7px 7px;
+    color: #a6a6a6;
+}
+
+.topline-tourist__stat-block.platinum-status {
+    background: #f2e4cb url('/i/tophotels/status-platinum.png') no-repeat 7px 7px;
+    color: #c4aa79;
+}
+
+.topline-tourist__tbl-in-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.topline-tourist__tbl-in {
+    margin-top: 10px;
+}
+
+.topline-tourist__tbl-in td:first-child {
+    width: 60px;
+}
+
+.topline-tourist__tbl .progress-link {
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.topline-tourist__tbl .bth__cnt.visit {
+    margin-top: 3px;
+}
+
+.topline-tourist__stub {
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 170px;
+    position: relative;
+    height: 170px;
+    border-radius: 2px;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.topline-tourist__stub.male {
+    background-image: url(/i/user-male.svg);
+}
+
+.topline-tourist__stub.female {
+    background-image: url(/i/user-female.svg);
+}
+
+.topline-tourist__wrap .bth__link.bth__link--hidden {
+    opacity: 0
+}
+
+.topline-tourist__addPhoto {
+    font-size: 24px;
+    width: auto;
+    color: #475669;
+    height: auto;
+    position: absolute;
+    right: 68px;
+    bottom: 21px;
+}
+
+.topline-tourist__stub:hover .topline-tourist__addPhoto {
+    color: #318cc6;
+}
+
+.topline-tourist-addFriend-modal .section--grey {
+    padding: 0;
+    display: flex;
+}
+
+.topline-tourist-addFriend-modal .filter-pp .rbt + .label-rbt,
+.topline-tourist-addFriend-modal .filter-pp .cbx + .label-cbx {
+    padding-left: 22px;
+}
+
+.topline-tourist-addFriend-modal .user-statys__rbt {
+    margin-top: 0;
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.topline-tourist-addFriend-modal .user-statys__rbt .rbt-block {
+    display: inline-block;
+    margin-right: 5px;
+    width: 175px;
+}
+
+.topline-tourist-addFriend-modal {
+    max-width: 850px;
+}
+
+.topline-tourist-addFriend-modal .find-user__block {
+    margin-top: 0;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+.topline-tourist-addFriend-modal .my-connect__user-info .bth__cnt,
+.topline-tourist-addFriend-modal .my-connect__user-info .bth__link.user-name {
+
+    max-width: 154px;
+}
+@media screen and (max-width: 1279px) {
+    .topline-tourist__tbl .more-link {
+        margin-top: 3px;
+        margin-bottom: 7px;
+    }
+
+    .topline-tourist__num-act-block .bth__cnt.num-act-block {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .topline-tourist {
+        padding: 15px 0px 0px 0px;
+        border-bottom: 1px solid #f1ebd3;
+    }
+
+    .topline-tourist__wrap {
+        margin-left: 0;
+        padding: 0 15px 15px 15px;
+        border-bottom: 0;
+    }
+
+    .topline-tourist__tbl .bth__cell:first-child {
+        width: 408px;
+    }
+
+    .topline-tourist__ava-block {
+        display: none;
+    }
+
+    .topline-tourist__ava-block-m {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 20px;
+    }
+
+    .topline-tourist__tbl .topline-tourist__in {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .topline-tourist__link-block {
+        left: 190px;
+        display: block;
+        margin-top: 5px;
+    }
+
+    .topline-tourist__green-block {
+        width: 190px;
+        margin-top: 16px;
+    }
+
+    .topline-tourist__link-block .bth__link.write-link {
+        padding-left: 20px;
+    }
+
+    .topline-tourist__tbl-in-block {
+        display: none;
+    }
+
+    .topline-tourist__num-act-block .num-act--25,
+    .topline-tourist__num-act-block .num-act--32 {
+        font-size: 20px;
+    }
+
+    .topline-tourist__num-act-block .num-act {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .topline-tourist-addFriend-modal .section--grey {
+
+        flex-direction: column;
+    }
+
+    .topline-tourist-addFriend-modal .user-statys__rbt {
+        margin-top: 20px;
+    }
+    .topline-tourist-addFriend-modal .section--grey > div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .topline-tourist__tbl .bth__cell {
+        height: auto;
+    }
+
+    .topline-tourist__tbl .bth__cell:last-child {
+        display: none;
+    }
+
+    .topline-tourist__tbl .bth__cell:first-child {
+        border-right: none;
+    }
+
+    .topline-tourist__wrap {
+        min-height: auto;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .topline-tourist__ava-block-m {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    .topline-tourist__tbl .topline-tourist__in {
+        width: 150px;
+    }
+
+    .topline-tourist__green-block {
+        display: none;
+    }
+
+    .topline-tourist__link-block {
+        position: relative;
+        left: auto;
+        bottom: auto;
+    }
+
+    .topline-tourist__tbl .tourist-name {
+        font-size: 16px;
+        display: block;
+        width: 186px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .bth__cnt.tourist-place {
+        display: block;
+        width: 150px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .topline-tourist__link-block .bth__link.write-link {
+        padding-left: 0;
+    }
+
+    .topline-tourist__stub--sm {
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+        box-sizing: border-box;
+
+    }
+
+    .topline-tourist__addPhoto {
+        right: 34px;
+        bottom: 1px;
+    }
+
+}

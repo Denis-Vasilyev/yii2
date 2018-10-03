@@ -1,0 +1,332 @@
+.details-small__item {
+    margin-bottom: 25px;
+}
+
+.details-small__item {
+    display: flex;
+    position: relative;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    line-height: 23px;
+}
+
+.details-small__item img {
+    border-radius: 2px;
+}
+
+.details-small__item .details-small__item-block {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.details-small__item .details-small__item-block:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: 15px;
+    left: -14px;
+    transform: rotate(273deg);
+}
+
+.details-small__item .details-small__item-block.green-bg:before {
+    border-bottom: 10px solid #D8EAD2;
+}
+
+.details-small__item .details-small__item-block.red-bg:before {
+    border-bottom: 10px solid #F4CBCB;
+}
+
+.details-small__item .details-small__item-block.yellow-bg:before {
+    border-bottom: 10px solid #FFF2CD;
+}
+
+.details-small__item .details-small__item-top {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.details-small__item .details-small__item-top > * {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.details-small__item .details-small__item-bt p {
+    margin-top: 10px;
+}
+
+.details-small__item .line-white {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.details-small__item .details-small__marker {
+    padding: 5px 7px;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    margin-right: 15px;
+}
+
+.details-small__item .details-small__marker i {
+    font-size: 20px;
+}
+
+.details-small__item .details-small__date {
+    float: right;
+    margin-right: 0;
+}
+
+.details-small__item .details-small__item-ava--not {
+    width: 66px;
+    height: 60px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 17px;
+    margin-right: 5px;
+}
+
+.details-small__item .details-small__item-ava--anonim {
+    width: 66px;
+    height: 60px;
+    border-radius: 2px;
+    margin-right: 5px;
+    background-color: #bbb;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+    color: white;
+}
+
+.details-small__item .details-small__item-bt__ttl {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.details-small__item .details-small__item-bt__ttl span {
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.details-small__marker-rating {
+    display: inline-block;
+    position: relative;
+}
+
+.details-small__marker > div {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.details-small__marker > div:last-of-type {
+    margin-right: 0;
+}
+
+.rating-full {
+    display: inline-block;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border: 2px solid #0adc72;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.rating-full:after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #0adc72;
+}
+
+.details-small__marker .hint {
+    display: none;
+    max-width: none;
+    top: 34px;
+    left: 0;
+}
+
+.yinyan20 {
+    background-image: url(/i/tophotels/yinyan.png);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background-size: contain;
+}
+
+.customer-rating-tbl th:last-of-type,
+.customer-rating-tbl td:last-of-type {
+    width: 126px;
+}
+
+.customer-rating-tbl th:nth-child(3),
+.customer-rating-tbl td:nth-child(3) {
+    width: 40%;
+}
+
+.details-small__item .circle-ava {
+    border-radius: 50px;
+}
+
+.bth__small-orange {
+    border: 1px solid #ff8e41;
+    color: #ff8e41;
+    font-size: 14px;
+    text-align: center;
+    height: 35px;
+    width: 115px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 5px;
+    padding-top: 6px;
+}
+
+.bth__small-orange:hover {
+    border: 1px solid #ff8e41;
+    color: white;
+    background-color: #ff8e41;
+}
+
+.ccustomer-rating-dynamics td:not(:first-of-type) {
+    font-size: 15px;
+    font-weight: bold;
+    overflow: visible;
+}
+
+.ccustomer-rating-dynamics td .hint {
+    top: 32px;
+    left: -60px;
+}
+
+@media screen and (max-width: 659px) {
+
+
+    .customer-rating-tbl tbody tr td:first-of-type {
+        padding-top: 19px !important;
+        padding-left: 32px;
+    }
+
+    .customer-rating-tbl td:first-of-type:before {
+        content: '№';
+        left: 7px;
+        top: 19px!important;
+    }
+    .tape-short__tbl  .customer-rating-tbl td:first-of-type:before {
+        content: 'Дата';
+    }
+    .tape-short__tbl tbody tr td:first-of-type {
+        padding-top: 45px !important;
+        padding-left: 7px;
+    }
+
+    .customer-rating-tbl td:nth-child(2)::before {
+        content: 'Заявка';
+    }
+
+    .customer-rating-tbl td:nth-child(3)::before {
+        content: 'Пользователь';
+    }
+
+    .customer-rating-tbl td:nth-child(4)::before {
+        content: 'Рекомендация другим туристам';
+    }
+
+    .customer-rating-tbl td:nth-child(5)::before {
+        content: 'Оценка менеджера ';
+    }
+
+    .customer-rating-tbl td:nth-child(6)::before {
+        content: 'Менеджер ';
+    }
+
+    .customer-rating-tbl th:nth-child(3), .customer-rating-tbl td:nth-child(3),
+    .customer-rating-tbl th:last-of-type, .customer-rating-tbl td:last-of-type {
+        width: auto;
+    }
+
+    .details-small__item {
+        flex-direction: column;
+    }
+
+    .details-small__item .details-small__item-block {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .details-small__item .details-small__item-block:before {
+        top: -9px;
+        left: 10px;
+        transform: rotate(359deg);
+    }
+
+    .details-small__item .details-small__date {
+        float: none;
+    }
+
+    .customer-rating-dynamics tr:not(.title-row) td:nth-child(1)::before {
+        content: 'Месяц';
+    }
+
+    .customer-rating-dynamics tr:not(.title-row) td:nth-child(2)::before {
+        content: 'Рейтинг';
+    }
+
+    .customer-rating-dynamics tr:not(.title-row) td:nth-child(3)::before {
+        content: 'Всего оценок';
+    }
+
+    .customer-rating-dynamics tr:not(.title-row) td:nth-child(4)::before {
+        content: '	По типам';
+    }
+
+    .customer-rating-dynamics .title-row td:nth-child(1) {
+        padding-top: 19px;
+    }
+
+    .customer-rating-dynamics .title-row td:nth-child(2),
+    .customer-rating-dynamics .title-row td:nth-child(3),
+    .customer-rating-dynamics .title-row td:nth-child(4) {
+        display: none;
+    }
+
+    .processing-speed-tbl td:nth-child(1)::before {
+        content: 'Дата поступления';
+    }
+
+    .processing-speed-tbl td:nth-child(2)::before {
+        content: 'Получили';
+    }
+
+    .processing-speed-tbl td:nth-child(3)::before {
+        content: 'Взяли';
+    }
+
+    .processing-speed-tbl td:nth-child(4)::before {
+        content: 'Заявка';
+    }
+
+    .processing-speed-tbl td:nth-child(5)::before {
+        content: 'Связались';
+    }
+
+    .processing-speed-tbl td:nth-child(6)::before {
+        content: 'Менеджер';
+    }
+
+}

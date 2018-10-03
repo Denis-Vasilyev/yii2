@@ -1,0 +1,781 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+.tabs-block .tabs-bar--tour {
+    max-width: 960px;
+    margin: 0 auto;
+    border: none;
+}
+
+.tabs-block .tab--tour {
+    text-transform: uppercase;
+    color: #2c9cdc;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 37px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.line--tour {
+    display: none;
+}
+
+.tabs-block .tab--tour.active {
+    color: #475669;
+}
+
+.toursWrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.toursWrap__form {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+.toursWrap__form > * {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+.toursWrap__block {
+    margin-right: -3px;
+    position: relative;
+    display: inline-block;
+}
+
+.toursWrap__lb {
+    display: block;
+    font-size: 15px;
+    font-family: inherit;
+    color: #999;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.toursWrap__inp {
+
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    border: 1px solid #dfdfdf;
+    height: 60px;
+    background-color: white;
+}
+
+.toursWrap-burger {
+    position: relative;
+}
+
+.toursWrap-burger::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 24px;
+    right: 13px;
+    cursor: pointer;
+    background-image: url("/images/travel_crm/burger.png");
+}
+
+.toursWrap__inp input {
+    width: 100%;
+    height: 100%;
+    color: #475669;
+    font-weight: normal;
+    border: none;
+    font-size: 15px;
+    padding: 18px 15px;
+
+}
+
+.toursWrap__inp--290 {
+    width: 290px;
+}
+
+.toursWrap__inp--170 {
+    width: 170px;
+}
+
+.toursWrap__inp--300 {
+    width: 300px;
+}
+
+.toursWrap__inp--130 {
+    width: 130px;
+}
+
+.toursWrap__inp--475 {
+    width: 475px;
+}
+
+.toursWrap__inp--185 {
+    width: 185px;
+}
+
+.toursWrap__price {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-left: 1px solid #dfdfdf;
+    display: inline-block;
+    background-color: white;
+    right: 1px;
+    top: 40px;
+    text-align: center;
+    padding-top: 16px;
+    border: 1px solid #dfdfdf;
+}
+
+.toursWrap__price .fa {
+    font-size: 19px;
+
+}
+
+.toursWrap .fa-angle-down {
+    font-size: 20px;
+    color: #2c9cdc;
+    right: 8px;
+    top: 18px;
+    position: absolute;
+}
+
+.toursWrap__price-drop {
+    position: absolute;
+    top: 95px;
+    right: 1px;
+    background: #fff;
+    z-index: 101;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.toursWrap__price-selected {
+
+    margin-right: 17px;
+    font-size: 16px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.toursWrap__price-drop .fa {
+    font-size: 17px;
+}
+
+.toursWrap__price-drop div {
+    padding: 10px 20px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.toursWrap .block .box-radio--small .type-input:checked + label {
+    color: #475669;
+}
+
+.toursWrap .block .box-radio--small .type-input + label {
+    color: #2c9cdc;
+}
+
+.toursWrap .type-input + label::before {
+    border: 2px solid #bbb;
+}
+
+.toursWrap .fa-star {
+    color: #ff8e41;
+    font-size: 17px;
+}
+
+.toursWrap .box-check.box-check--small .input-take + label::before {
+    top: 2px;
+    left: 4px;
+}
+
+.toursWrap .toursWrap__form .toursWrap__inlineBlock--eat .box-check {
+    width: 50px;
+}
+
+.toursWrap .box-check.box-check--small .input-take:checked + label::after {
+    top: 4px;
+    background-image: url("/i/travel_crm/tick.svg");
+    left: 7px;
+}
+
+.toursWrap .box-check.box-check--small .input-take:checked + label::before {
+    border-color: #2c9cdc;
+    background-color: #2c9cdc;
+}
+
+.toursWrap .box-check {
+    margin-right: 0px;
+}
+
+.toursWrap .box-check:not(.box-check--long) {
+    width: 75px;
+}
+
+.toursWrap .box-check label {
+    padding-left: 27px;
+    font-size: 15px;
+}
+
+.toursWrap .box-radio label,
+.toursWrap .box-check label {
+    cursor: pointer;
+}
+
+.toursWrap .toursWrap__inlineBlock {
+    margin-right: 45px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.toursWrap .pl4 {
+    padding-left: 4px;
+}
+
+.toursWrap .box-check .hint {
+    top: 22px;
+}
+
+.toursWrap__bold__ttl {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    position: relative;
+    color: #2c9cdc;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.toursWrap__btn {
+    font-weight: bold;
+    background-color: #ff8e41;
+    color: white;
+    border: 1px solid #ff8e41;
+    border-radius: 2px;
+    width: 270px;
+    height: 58px;
+    text-align: left;
+    font-size: 17px;
+    margin-top: 35px;
+    padding: 0 30px;
+    transition: 0.3s;
+    position: relative;
+
+}
+.toursWrap .js-show-selection {
+    display: block;width: auto;margin-top: 15px;
+}
+.toursWrap__btn:hover {
+    background-color: #e27200;
+    border-color: #e27200;
+}
+
+.toursWrap__btn__icon {
+    position: absolute;
+    background: url(/i/travel_crm/next_2.png) no-repeat center center;
+    -webkit-background-size: 18px;
+    background-size: 18px;
+    width: 18px;
+    height: 18px;
+    right: 28px;
+    top: 19px;
+}
+
+.toursWrap .box-radio {
+    margin-right: 15px;
+}
+
+.form-popup_dur {
+    width: 490px;
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+}
+
+.dur-end {
+    display: none;
+}
+
+.form-popup_dur .form-popup__select-name {
+    line-height: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.form-popup__durability {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto 20px;
+}
+
+.form-popup__durability .form-popup__select-row {
+    display: inline-block;
+    margin-bottom: 0;
+    float: left;
+}
+
+.form-popup__durability .form-popup__select-row:nth-child(2n) {
+    margin-left: -1px;
+}
+
+.form-popup__durability .form-popup__select-row:nth-child(3),
+.form-popup__durability .form-popup__select-row:nth-child(4) {
+    margin-top: -3px;
+}
+
+.form-popup__durability .form-popup__select-item {
+    display: table-cell;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 3px;
+
+    font-size: 12px !important;
+    color: #475669;
+    font-weight: bold;
+}
+
+.form-popup__durability .form-popup__select-item:hover,
+.form-popup__durability .form-popup__select-item.selected {
+    background: #c2dcef;
+    border-color: #c2dcef;
+}
+
+.form-popup__durability .form-popup__select-item.start,
+.form-popup__durability .form-popup__select-item.end {
+    background-color: #038cd6;
+    border-color: #c2dcef;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+.form-popup__durability .form-popup__select-item.start:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.form-popup__durability .form-popup__select-item.end:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.form-popup-dataset {
+    position: relative;
+}
+
+.form-popup-dataset-close {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 10px;
+    height: 10px;
+    background: url(/i/close-12x12.png) no-repeat -1px;
+    cursor: pointer;
+}
+
+.form-popup__select {
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+}
+
+.form-popup__inp {
+    position: relative;
+    border: 1px solid #ccc;
+    height: 36px;
+    line-height: 34px;
+    box-sizing: border-box;
+    /* text-align: center; */
+    margin-bottom: 10px;
+}
+
+.form-popup__adult-rmv {
+    left: -1px;
+}
+
+.form-popup__adult-num {
+    text-align: center;
+    color: #475669;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.form-popup__adult-add {
+    right: -1px;
+    padding-top: 2px;
+}
+
+.form-popup__adult-btn {
+    position: absolute;
+    border: 1px solid #ccc;
+    font-size: 26px;
+    width: 36px;
+    height: 36px;
+    top: -1px;
+    line-height: 31px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-popup__link {
+    font-size: 13px;
+    color: #999;
+}
+
+.form-popup__select-row:last-child {
+    text-align: right;
+}
+
+.form-popup {
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+}
+
+#js-form-popup-guest {
+    width: 100%;
+}
+
+.toursWrap .SumoSelect > .CaptionCont > label > i:before {
+    color: #2c9cdc;
+
+}
+
+.toursWrap__inp.SumoSelect-block .SumoSelect > .CaptionCont > label > i {
+    top: -8px;
+    right: 0px;
+    font-size: 21px;
+}
+
+.toursWrap .toursWrap__inp.SumoSelect-block .SumoSelect > .CaptionCont,
+.toursWrap .toursWrap__inp.SumoSelect-block .SumoSelect {
+    height: 58px;
+    padding-bottom: 0;
+
+}
+
+.toursWrap .selectize-control,
+.toursWrap .selectize-control.single .selectize-input, .selectize-control.single .selectize-input input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-shadow: none;
+}
+
+.toursWrap .selectize-control.single .selectize-input, .selectize-control.single .selectize-input input {
+    padding-top: 18px;
+}
+
+.toursWrap .toursWrap__inp.SumoSelect-block .SumoSelect.open > .optWrapper {
+    top: 59px;
+}
+
+.toursWrap .toursWrap__inp.SumoSelect-block .SumoSelect > .CaptionCont > span {
+    line-height: 46px;
+    padding-left: 10px;
+}
+
+.toursWrap .SumoSelect > .CaptionCont {
+    padding-top: 6px;
+}
+
+.toursWrap__blue-drop-wrap {
+    margin-top: 14px;
+    position: relative;
+}
+
+.toursWrap .toursWrap__blue-fall {
+    color: #2c9cdc;
+    font-size: 14px;
+    line-height: 26px;
+    position: relative;
+    cursor: pointer;
+}
+
+.toursWrap .toursWrap__blue-drop-wrap i {
+    top: 0;
+    right: -20px;
+}
+
+.form-popup-country {
+    width: 100%;
+}
+
+.form-popup-country__top {
+    background: #E4E5EA;
+}
+
+.form-popup-country__tab {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 15px 15px 35px;
+    font-weight: bold;
+    color: #2c9cdc;
+}
+
+.form-popup-country__tab.active {
+    color: #000;
+    background: #fff;
+    font-size: 16px;
+}
+
+.form-popup {
+    display: none;
+    position: absolute;
+    left: 0;
+    background: #fff;
+    z-index: 101;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.toursWrap__blue-dropdown {
+    display: none;
+    top: 5px;
+    position: absolute;
+    left: 0;
+    background: #fff;
+    z-index: 101;
+    width: 260px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.toursWrap__blue-drop-wrap .box-check {
+    width: auto !important;
+    margin-right: 7px;
+}
+
+.toursWrap__blue-drop-wrap .hide {
+    font-size: 13px;
+    color: #475669;
+}
+
+.toursWrap__blue-dropdown .box-radio {
+    display: block;
+    padding: 10px;
+    margin-right: 0;
+    border-bottom: 1px solid #f5f5f5;
+    font-weight: bold;
+}
+
+.toursWrap__blue-dropdown .box-radio:hover {
+    background-color: #E4E4E4;
+}
+
+.toursWrap__blue-dropdown .box-radio label {
+    font-weight: bold;
+}
+
+.toursWrap__blue-drop-wrap--rating .toursWrap__bold {
+    display: flex;
+    align-items: center;
+}
+
+.toursWrap__blue-drop-wrap--rating .toursWrap__bold span {
+    white-space: nowrap;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #475669
+}
+
+.toursWrap__blue-drop-wrap--rating .box-radio:hover {
+    background-color: white;
+}
+
+.toursWrap__blue-drop-wrap--rating .box-radio label {
+    white-space: nowrap;
+}
+
+.link-direction-close {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    text-align: right;
+}
+
+.form-popup__link-block {
+    padding: 15px 20px;
+    text-align: right;
+}
+
+.form-popup-country .resort-suggest-button-star,
+.form-popup-country .resort-suggest-button-bars {
+    position: absolute;
+    cursor: pointer;
+    top: 17px;
+    left: 10px;
+    z-index: 100;
+}
+
+.form-popup-country__tab .resort-suggest-button-star:before {
+    color: #2c9cdc;
+}
+
+.form-popup-country__tab:hover {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.form-popup-country__tab:hover .resort-suggest-button-bars:before,
+.form-popup-country__tab.active .resort-suggest-button-bars:before {
+    color: #000;
+}
+
+.form-popup-country__tab:hover .resort-suggest-button-star:before,
+.form-popup-country__tab.active .resort-suggest-button-star:before {
+    color: #ff8e41;
+}
+
+.form-popup-country__item {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 10px 12px 10px 15px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.form-popup-country__item:hover {
+    background-color: #E4E4E4;
+}
+
+.form-popup-country__name {
+    display: inline-block;
+    vertical-align: top;
+    color: #666;
+    font-weight: bold;
+    font-size: 14px;
+    max-width: 260px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.form-popup-country__note {
+    color: #999;
+    font-size: 14px;
+    width: 110px;
+    float: right;
+    text-align: left;
+}
+
+.form-popup-country__inp-block {
+    padding: 0;
+}
+
+.toursWrap .form-popup .form-popup-country__inp {
+    border: none;
+    height: 40px;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: normal;
+
+    border-bottom: 1px solid #999;
+}
+
+.form-popup-country__inp:focus {
+    border-bottom: 1px solid #2c9cdc;
+    box-shadow: inset 0px -1px 0px 0px #2c9cdc;
+}
+
+.form-popup .box-check {
+    width: auto !important;
+    line-height: 23px;
+}
+
+.form-popup-country .form-popup__list-item .form__cbx {
+    margin-bottom: 3px;
+    margin-top: -2px;
+}
+
+.popup__list-item-plus {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-image: url(/i/travel_crm/plus15.png);
+}
+
+.form-popup-country__item:hover .fa-star {
+    display: inline-block !important;
+    color: #666;
+    font-size: 16px;
+}
+
+.form-popup-country__item .fa-star:hover {
+    color: #ff8e41
+}
+
+.form-popup-country .form-popup__list-item .form__cbx-text {
+    max-width: 205px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.popup__list-item-plus.minus {
+    background-image: url(/i/travel_crm/minus15.png);
+}
+
+.form-popup .resort-place-block {
+    padding: 6px 0px 6px 63px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.form-popup .js-tpl-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #475669;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .toursWrap {
+        padding: 15px;
+    }
+
+    .tabs-block .tabs-bar--tour {
+        padding-left: 15px;
+    }
+
+    .toursWrap__inp--130 {
+        width: auto;
+    }
+
+    .toursWrap__blue-drop-wrap--rating .toursWrap__bold {
+        flex-wrap: wrap;
+    }
+
+    .form-popup_dur {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 679px) {
+    .toursWrap__inp {
+        width: 100%;
+    }
+
+    .toursWrap__block {
+        width: 100%;
+    }
+}

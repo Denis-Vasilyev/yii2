@@ -1,0 +1,62 @@
+.roles-wrapper {
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 15px;
+    width: 80%;
+}
+
+.roles-wrapper p {
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.roles-wrapper .titles-h2 {
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'apercu_pro', sans-serif;
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 0;
+}
+
+.roles-wrapper__rating.roles-wrapper__rating--red {
+    background: #da4c4c;
+}
+
+.roles-wrapper__rating.roles-wrapper__rating--orange {
+    background: #dfa918;
+}
+
+.roles-wrapper__rating.roles-wrapper__rating--green {
+    background: #00a551;
+}
+
+.roles-wrapper img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.roles-wrapper__rating {
+    background: #c2c2c2;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 22px;
+    display: inline-block;margin-bottom: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    width: 71px;
+    text-align: center;
+    padding: 6px 0 7px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1023px) {
+    .roles-wrapper {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .roles-wrapper img {
+width: 100%;
+    }
+}

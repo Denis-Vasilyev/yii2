@@ -1,0 +1,86 @@
+.myshop__tbl  .food__cell {
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+}
+
+.myshop__tbl .head__tbl .food__cell {
+    padding: 5px 7px;
+}
+
+.myshop__tbl .head__tbl .food__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.myshop__tbl  .food__cell:first-child {
+    width: 50px;
+}
+
+.myshop__tbl  .food__cell:nth-child(2) {
+    width: 270px;
+}
+
+.myshop__tbl  .food__cell:nth-child(4) {
+    width: 120px;
+    text-align: right;
+}
+
+.myshop__tbl  .food__cell:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+.shop__ava-block,
+.shop__info-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.shop__ava-block {
+    width: 50px;
+    height: 50px;
+    margin-right: 7px;
+}
+
+@media screen and (max-width: 1279px){
+    .myshop__tbl  .food__cell:nth-child(4) {
+        width: 90px;
+    }
+    .myshop__tbl .food__cell:last-child {
+        width: 90px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .myshop__tbl .food__row {
+        display: block;
+        position: relative;
+    }
+    .myshop__tbl .head__tbl,
+    .myshop__tbl  .food__cell:first-child {
+        display: none;
+    }
+    .myshop__tbl  .food__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0;
+    }
+    .myshop__tbl  .food__cell:nth-child(2) {
+        width: 100%;
+        padding-right: 25px;
+        padding-top: 7px;
+    }
+    .myshop__tbl  .food__cell:nth-child(4) {
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+    }
+    .myshop__tbl .food__cell:last-child {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 10;
+    }
+}

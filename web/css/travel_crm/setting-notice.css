@@ -1,0 +1,359 @@
+
+.setting-notice-line {
+    width: 169px;
+}
+
+.setting-notice-tab.active {
+    color: #475669;
+}
+
+/*Настройка*/
+
+.subscriptions .section__top {
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    padding: 0px 10px 15px 0px;
+}
+
+.bth__cnt--big {
+    font-size: 16px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    line-height: 22px;
+}
+
+.edit-block__tbl.subscriptions {
+    display: table;
+    width: 100%;
+}
+
+.edit-block__btn {
+    display: inline-block;
+    /* vertical-align: middle; */
+    background: #fff;
+    border: 1px solid #ff8e41;
+    padding: 11px 66px 13px 66px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #ff8e41;
+    font-size: 15px;
+    font-family: 'apercu_pro', sans-serif;
+    margin-right: 10px;
+}
+
+.subscriptions .edit-block__row {
+    display: table-row;
+    border-bottom: 1px solid #fff;
+}
+
+.subscriptions .edit-block__cell:first-child {
+    width: 25px;
+    position: relative;
+    display: table-cell;
+    padding: 15px 0px 15px 0px;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fff;
+}
+
+.subscriptions .edit-block__cell {
+    position: relative;
+    display: table-cell;
+    padding: 15px 0px 15px 0px;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fff;
+}
+
+.subs-rbt-cnt {
+    display: inline-block;
+    vertical-align: top;
+    color: #475669;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.add-block {
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+    text-align: center;
+}
+
+.add-block-link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.bth__cnt {
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    line-height: 22px;
+}
+
+.subs-rbt-block {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'apercu_pro', sans-serif;
+    font-weight: bold;
+    width: auto;
+    margin-right: 22px;
+    /* margin-bottom: 10px; */
+    line-height: 21px;
+}
+
+.subscriptions .edit-block__cell:nth-child(2) {
+    width: 280px;
+
+    position: relative;
+    display: table-cell;
+    padding: 15px 0px 15px 0px;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fff;
+}
+.list-notice-tbl .contacts__plus, .contacts__minus {
+    position: static;
+}
+.subs-rbt-block {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'apercu_pro', sans-serif;
+    font-weight: bold;
+    width: auto;
+    margin-right: 22px;
+    line-height: 21px;
+}
+
+.subs-rbt {
+    display: none;
+}
+
+.subs-rbt + .subs-label-rbt {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    font-size: 14px;
+    line-height: normal;
+    padding-left: 20px;
+}
+
+.setting-icon {
+    color: #318cc6;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.subs-rbt + .subs-label-rbt::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border: 2px solid #475669;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.subs-rbt:checked + .subs-label-rbt::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    background: #475669;
+    border-radius: 50%;
+}
+
+.subs-hint {
+    position: absolute;
+    display: none;
+    padding: 5px 9px 6px 9px;
+    background: rgba(255, 255, 255, 1);
+    color: #475669;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    border-radius: 3px;
+    white-space: nowrap;
+    top: 26px;
+    left: -2px;
+}
+
+.subscriptions .edit-block__row:last-child .edit-block__cell {
+    border-bottom: none;
+}
+
+.subscriptions .edit-block__row:last-child .edit-block__cell {
+    border-bottom: none;
+    position: relative;
+    display: table-cell;
+    padding: 15px 0px 15px 0px;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-bottom: 1px solid #fff;
+}
+
+.edit-block__inp-block {
+    position: relative;
+    border: 1px solid #ccc;
+    width: 300px;
+    border-radius: 2px;
+    height: 36px;
+    box-sizing: border-box;
+    background: #fff;
+    padding-bottom: 3px;
+}
+
+.edit-block__inp {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 3px 10px 2px;
+    border: none;
+    line-height: 36px;
+    font-weight: bold;
+    z-index: 1;
+    background: #fff;
+}
+
+.add-block {
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    text-align: center;
+}
+
+.subscriptions .edit-block__row:last-child .edit-block__cell {
+    border-bottom: none;
+}
+
+.list-notice-tbl .contacts__minus:before {
+    top: 15px
+}
+
+.list-notice-tbl td:nth-child(4) .contacts__minus:before {
+    left: 24px;
+}
+
+.list-notice-tbl td:nth-child(4) .contacts__plus:before {
+    left: 22px;
+}
+
+.list-notice-tbl td:nth-child(3) .contacts__minus:before {
+    left: 15px;
+}
+
+.list-notice-tbl td:nth-child(3) .contacts__plus:before {
+    left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .subscriptions .edit-block__cell:first-child {
+        display: none;
+    }
+
+    .subscriptions .edit-block__cell:nth-child(2),
+    .subscriptions .edit-block__row {
+        border-bottom: none;
+
+    }
+
+    .subscriptions .edit-block__row {
+        display: flex;
+        flex-direction: column
+    }
+
+    .subscriptions .edit-block__cell {
+        padding-top: 0;
+    }
+
+    .subscriptions .edit-block__cell:nth-child(2) {
+        padding-bottom: 5px;
+    }
+
+    .subscriptions .edit-block__row:last-child .edit-block__cell:first-of-type {
+        display: none;
+    }
+
+    .subscriptions .edit-block__row:last-child .edit-block__cell.add-field {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .list-notice-tbl td:nth-child(3) .contacts__plus:before {    left: 0;}
+    .list-notice-tbl td:nth-child(4) .contacts__minus:before {    left: 0;}
+    .list-notice-tbl tbody tr td:nth-child(1)  {
+        padding-top: 19px!important;
+        padding-left: 32px;
+    }
+
+    .list-notice-tbl td:nth-child(1)::before {
+        content: "№";
+        left: 7px;    top: 19px!important;
+    }
+
+    .list-notice-tbl td:nth-child(2)::before {
+        content: "Тип уведомления";
+    }
+
+    .list-notice-tbl td:nth-child(3)::before {
+        content: "PUSH";
+    }
+
+    .list-notice-tbl td:nth-child(4)::before {
+        content: "Telegram";
+    }
+
+    .list-notice-tbl td:nth-child(5)::before {
+        content: "E-mail";
+    }
+
+    .list-notice-tbl td:nth-child(6)::before {
+        content: "Настройка";
+    }
+
+    .list-notice-tbl td .contacts__plus,
+    .list-notice-tbl td .contacts__minus {
+        display: block;
+        height: 20px;
+    }
+
+    .list-notice-tbl td:nth-child(3) .contacts__minus:before,
+    .list-notice-tbl td:nth-child(4) .contacts__plus:before {
+        left: 0;
+    }
+
+    .edit-block__inp-block {
+        width: 100%;
+    }
+
+    .subs-rbt-block {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+
+    .treatment-contact-info {
+        margin-left: 0;
+    }
+}

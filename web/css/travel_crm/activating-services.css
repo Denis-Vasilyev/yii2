@@ -1,0 +1,32 @@
+.available-services-line {
+    width: 158px;
+}
+table.available-services td:nth-child(2) {
+    font-weight: bold;
+}
+
+table.available-services  th.num-small-cell {
+    width: 42px;
+}
+
+table.available-services td i {
+    font-size: 22px;
+}
+
+.available-services-edit__btn {
+    display: inline-block;
+    font-family: inherit;
+    background: #fff;
+    border: 1px solid #ff8e41;
+    padding: 11px 66px 13px 66px;
+    border-radius: 2px;
+    color: #ff8e41;
+    font-size: 15px;
+    float: right;
+    margin-top: 40px;
+}
+
+.available-services-edit__btn:hover {
+    color: white;
+    background-color: #ff8e41;
+}

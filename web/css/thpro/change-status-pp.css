@@ -1,0 +1,39 @@
+.change-status-pp {
+    position: relative;
+    max-width: 830px;
+    height: 250px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    background: #e4e5ea;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 40px auto;
+}
+
+
+.change-status__rbt-block {
+    margin-top: 20px;
+}
+
+.rbt-block.disabled .rbt-cnt {
+    color: #999;
+}
+
+.rbt-block.disabled .rbt + .label-rbt::before {
+    border-color: #999;
+}
+
+.change-status-pp .bth__btn.change-status-btn {
+    color: #ffffff;
+    background: #ff8e41;
+    width: 180px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.change-status-pp .bth__btn.change-status-btn-big {
+    position: absolute;
+    bottom: 30px;
+    color: #ffffff;
+    background: #ff8e41;
+    width: 230px;
+}

@@ -1,0 +1,8 @@
+.topline-answers {
+    position: relative;
+    font-size: 0;
+    border-bottom: 2px solid #f1ebd3;
+    font-family: 'apercu_pro', sans-serif;
+    padding: 19px 30px;
+    background-color: white;
+}

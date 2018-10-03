@@ -1,0 +1,84 @@
+.book-request__mdl {
+    margin-top: 25px;
+}
+
+.book-request__block .bth__inp-block .inp-arr:before{
+    top: 14px;
+}
+
+.book-request__date-block,
+.book-request__guest-block,
+.book-request__room-block {
+    margin-bottom: 25px;
+}
+
+.book-request__block .guest-room__ctrl {
+    top: 49px;
+}
+
+.book-request__room-block .bth__inp-lbl {
+    top: 8px;
+}
+.book-request__room-block .bth__inp-lbl.active {
+    top: -21px;
+}
+
+.book-request__room-block .bth__ta-block {
+    height: 130px;
+}
+
+.book-request__price-block .bth__inp-block {
+    padding-right: 80px;
+    width: 300px;
+}
+
+.price-current {
+    width: 80px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 1px solid #ccc;
+    background: #ffffff;
+}
+
+.price-current__val {
+    font-size: 20px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 13px 19px 0;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.current-pp {
+    position: absolute;
+    display: block;
+    width: 200px;
+    right: 0;
+    top: 49px;
+    background: #fff;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.current-pp__item {
+    padding: 7px 10px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    border-bottom: 1px solid #f5f5f5;
+    cursor: pointer;
+}
+
+.current-pp__item:hover {
+    background: #E4E4E4;
+}
+
+.current-pp__item i {
+    margin-right: 5px;
+}
+
+.price-current.focus {
+    box-shadow: inset 0px -3px 0px 0px orange;
+}

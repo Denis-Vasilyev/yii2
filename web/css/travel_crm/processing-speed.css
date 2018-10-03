@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+.processing-speed-tbl-2 td:first-of-type,
+.processing-speed-tbl-2 td:nth-child(2),
+.processing-speed-tbl-2 td:nth-child(3) {
+    width: 115px;
+}
+
+.statistics-processing-tbl td:not(:first-of-type) {
+    font-weight: bold
+}
+
+.table-title-str {
+    font-size: 18px;
+    color: #475669;
+    font-weight: bold;
+    background: #e4e5ea;
+}
+.processing-speed-tbl-2 tbody tr td {
+    white-space: nowrap;
+}
+.processing-speed-tbl-2 td:nth-child(4) .user-block__info div,
+.processing-speed-tbl-2 td:nth-child(5) div,
+.processing-speed-tbl-2 td:last-of-type .fz12 {
+    font-size: 13px;
+    width: 99%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.processing-speed-tbl-2 td:last-of-type {
+    width: 192px;
+}
+
+.processing-speed-tbl-2 th:nth-child(4) {
+    width: 30%;
+}
+
+@media screen and (max-width: 659px) {
+
+    .processing-speed-tbl-2 th:nth-child(4),
+    .processing-speed-tbl-2 td:last-of-type,
+    .processing-speed-tbl-2 td:first-of-type,
+    .processing-speed-tbl-2 td:nth-child(2),
+    .processing-speed-tbl-2 td:nth-child(3) {
+        width: 100%;
+    }
+
+    .processing-speed-tbl-2 td:nth-child(1)::before {
+        content: ' Дата поступления ';
+    }
+
+    .processing-speed-tbl-2 td:nth-child(2)::before {
+        content: ' Получили';
+    }
+
+    .processing-speed-tbl-2 td:nth-child(3)::before {
+        content: ' Взяли ';
+    }
+
+    .processing-speed-tbl-2 td:nth-child(4)::before {
+        content: ' Турист ';
+    }
+
+    .processing-speed-tbl-2 td:nth-child(5)::before {
+        content: ' Заявка ';
+    }
+
+    .processing-speed-tbl-2 td:nth-child(6)::before {
+        content: ' Связались ';
+    }
+
+    .statistics-processing-tbl tr:not(.table-title-str) td:nth-child(1)::before {
+        content: ' Дата ';
+    }
+
+    .statistics-processing-tbl td:nth-child(2)::before {
+        content: ' Менеджеров ';
+    }
+
+    .statistics-processing-tbl td:nth-child(3)::before {
+        content: 'До 15 минут';
+    }
+
+    .statistics-processing-tbl td:nth-child(4)::before {
+        content: '	15 - 30 минут  ';
+    }
+
+    .statistics-processing-tbl td:nth-child(5)::before {
+        content: '  30 - 60 минут ';
+    }
+    .statistics-processing-tbl td:nth-child(6)::before {
+        content: '	Более 1 часа  ';
+    }
+   .statistics-processing-tbl td:nth-child(7)::before {
+        content: '	Не связались  ';
+    }
+
+
+    .statistics-processing-tbl tr.table-title-str td:first-child {
+        padding-top: 19px;
+    }
+
+}

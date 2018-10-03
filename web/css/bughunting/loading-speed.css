@@ -1,0 +1,79 @@
+/* цвета для ячеек в Скорость загрузки страниц google*/
+.speed-loading-table .bad,
+.speed-project-table .bad {
+    background-color: #F4CBCB;
+}
+
+.speed-loading-table .normal,
+.speed-project-table .normal {
+    background-color: #F9CA9C;
+}
+
+.speed-loading-table .good,
+.speed-project-table .good {
+    background-color: #FFF2CD;
+}
+
+.speed-loading-table .very-good,
+.speed-project-table .very-good {
+    background-color: #D8EAD2;
+}
+
+/*end_цвета для ячеек в Скорость загрузки страниц google*/
+
+/*стили для типов устройств в Скорость загрузки страниц google*/
+table .device-pc,
+table .device-pc {
+    display: inline-block;
+    color: white;
+    padding: 6px;
+    background-color: #BDBDBD;
+    border-radius: 50px;
+}
+
+table .device-phone,
+table .device-phone {
+    color: white;
+    display: inline-block;
+    padding: 6px 9px;
+    background-color: #64B5F6;
+    border-radius: 50px;
+}
+
+.principals__nav {
+    padding: 15px;
+    background: #e4e5ea;
+}
+
+.parsing-time__update {
+    float: right;
+}
+
+.parsing-time__update .box-check {
+    display: block;
+    text-align: right;    width: auto;
+    margin-top: 40px;
+}
+
+.parsing-time__update .box-check .input-take + label::before {
+    top: 0;
+    left: 79px;
+}
+
+.parsing-time__update .box-check .input-take:checked + label::after {
+    top: 3px;
+    left: 82px;
+}
+.parsing-time__update button {
+    display: inline-block;
+    font-family: inherit;
+    background: #fff;
+    border: 1px solid #ff8e41;
+    padding: 11px 66px 13px 66px;
+    border-radius: 2px;
+    color: #ff8e41;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+

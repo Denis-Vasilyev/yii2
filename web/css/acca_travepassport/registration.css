@@ -1,0 +1,11 @@
+.profile-fill-tbl th:first-of-type {
+    width: 35%;
+}
+
+.profile-fill-tbl th:last-child {
+    width: 80px;
+}
+
+.profile-fill-tbl img {
+    border-radius: 2px;
+}

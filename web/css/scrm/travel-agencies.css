@@ -1,0 +1,59 @@
+.travel-agencies-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.travel-agencies-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.travel-agencies-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 134px;
+    height: 3px;
+    background: #475669;
+}
+
+.travel-agencies-tab.active {
+    color: #475669;
+}
+
+.travel-agencies td:last-of-type {
+    white-space: normal;
+}
+
+@media screen and (max-width: 659px) {
+
+    .travel-agencies td:nth-child(1)::before {
+        content: "№";
+    }
+
+    .travel-agencies td:nth-child(2)::before {
+        content: "Дата";
+    }
+
+    .travel-agencies td:nth-child(3)::before {
+        content: "Клиент";
+    }
+
+    .travel-agencies td:nth-child(4)::before {
+        content: "Баланс";
+    }
+
+    .travel-agencies td:nth-child(5)::before {
+        content: "Контакт";
+    }
+}

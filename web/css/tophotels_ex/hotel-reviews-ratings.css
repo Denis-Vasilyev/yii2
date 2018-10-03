@@ -1,0 +1,790 @@
+
+
+.line.reviews-ratings-line {
+    width: 115px;
+}
+
+.tape-rev-tabs-bar__wrap.fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    background: #fff;
+    z-index: 10;
+    padding-top: 10px;
+    max-width: 1260px;
+    border-bottom: 1px solid #eee;
+}
+
+.tape-rev-tabs-bar__wrap.fixed .tabs-bar {
+    border-bottom: none;
+    margin-bottom: 0;
+    margin-left: 235px;
+    position: relative;
+}
+
+.tabs-filter {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 4px;
+}
+
+.tape-rev-tabs-bar__wrap.fixed .tabs-filter {
+    display: block;
+}
+
+.tabs-filter__btn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.tabs-filter-icon {
+    font-size: 18px;
+    color: #ff8e41;
+}
+
+.tape-rev__sorter {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.tape-rev__total-num {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+
+.tape-rev__block-null,
+.tape-rev__block {
+    position: relative;
+    display: block;
+    vertical-align: top;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.tape-rev--left {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 240px);
+    position: relative;
+}
+
+.tape-rev--right {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    width: 215px;
+}
+
+.tape-rev__item {
+    margin-bottom: 30px;
+}
+
+.tape-rev__item:last-child {
+    margin-bottom: 0;
+}
+
+.tape-rev__user-block {
+    position: relative;
+}
+
+.tape-rev__user-block--768 {
+    display: none;
+}
+
+.tape-rev__ava-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    margin-right: 7px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.tape-rev__user-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-top: -5px;
+    width: 135px;
+}
+
+.tape-rev__user-info .user-name,
+.tape-rev__user-info .bth__cnt {
+    max-width: 135px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+}
+
+
+.small-review .tape-rev__user-info {
+    width: auto;
+}
+
+.small-review .tape-rev__user-info .user-name {
+    display: inline-block;
+    max-width: 135px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.small-review .tape-rev__user-info .bth__cnt {
+    display: inline-block;
+    min-width: auto;
+    vertical-align: top;
+}
+
+.small-review .tape-rev__user-block--768 .tape-rev__user-info .user-name,
+.small-review .tape-rev__user-block--768 .bth__cnt {
+    display: block;
+}
+
+.tape-rev__rate {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.tape-rev-rate__mark-block {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 6px;
+    height: 35px;
+    width: 35px;
+    padding-top: 0;
+    background: #fff;
+}
+
+
+.tape-rev-rate__mark-block .bth__cnt {
+    font-size: 15px;
+    line-height: 33px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tape-rev-rate__mark-block.tape-rev-rate__mark-block--yellow {
+    border: 1px solid #dfa918;
+}
+
+.tape-rev-rate__mark-block.tape-rev-rate__mark-block--yellow .bth__cnt {
+    color: #dfa918;
+}
+
+.tape-rev-rate__mark-block.tape-rev-rate__mark-block--green {
+    border: 1px solid #00a551;
+}
+
+.tape-rev-rate__mark-block.tape-rev-rate__mark-block--green .bth__cnt {
+    color: #00a551;
+}
+
+.tape-rev-rate__mark-block.tape-rev-rate__mark-block--red {
+    border: 1px solid #c83831 ;
+}
+
+.tape-rev-rate__mark-block.tape-rev-rate__mark-block--red .bth__cnt {
+    color: #c83831 ;
+}
+
+
+
+.tape-rev-rate__cnt {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tape-rev-mark {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.tape-rev-mark .tape-rev__rate .mark-with {
+    margin-right: 3px;
+    width: auto;
+    font-size: 16px;
+}
+
+.tape-rev-mark .mark-num {
+    display: inline-block;
+    margin-right: 1px;
+    width: auto;
+    font-size: 16px;
+}
+
+.tape-rev__recommend-block {
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+
+.tape-rev__recommend-block--bot {
+    top: auto;
+    bottom: 8px;
+}
+
+.tape-rev__recommend-block .tape-rev-icon-like {
+    padding-left: 0px;
+    font-size: 14px;
+}
+
+.tape-rev__cnt-block {
+    position: relative;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+
+.tape-rev__block .tape-rev__cnt-block:hover .tape-rev__cnt-top .bth__cnt {
+    color: #318cc6;
+}
+
+.tape-rev__item--yellow .tape-rev__cnt-block {
+    background: rgb(250, 246, 229);
+}
+
+.tape-rev__item--yellow .tape-rev__cnt-block:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(250, 246, 229);
+    top: -10px;
+}
+
+.tape-rev__item--red .tape-rev__cnt-block {
+    background: rgba(200, 56, 49, 0.10);
+}
+
+.tape-rev__item--red .tape-rev__cnt-block:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgba(200, 56, 49, 0.10);
+    top: -10px;
+}
+
+.tape-rev__item--green .tape-rev__cnt-block {
+    background: rgba(0, 165, 81, 0.10);
+}
+
+.tape-rev__item--green .tape-rev__cnt-block:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgba(0, 165, 81, 0.10);
+    top: -10px;
+}
+
+.tape-rev__item--grey .tape-rev__cnt-block {
+    background: #efefef;
+}
+
+.tape-rev__item--grey .tape-rev__cnt-block:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #efefef;
+    top: -10px;
+}
+
+.tape-rev__item--blue .tape-rev__cnt-block {
+    background: #d4e4f2;
+}
+
+
+.tape-rev__item--blue .tape-rev__cnt-block:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #d4e4f2;
+    top: -10px;
+}
+
+.tape-rev__cnt-top {
+    position: relative;
+    padding-right: 90px;
+}
+
+.tape-rev__cnt-date {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tape-rev__cnt {
+    position: relative;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.small-review {
+    display: table;
+    width: 100%;
+}
+
+.small-review .tape-rev__ava-block {
+    width: 50px;
+    height: 50px;
+}
+
+.small-review__col {
+    position: relative;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.small-review__col--left {
+    width: 65px;
+}
+
+.service-mark__block {
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
+
+.service-mark__block.show {
+    height: 100%;
+}
+
+
+
+.service-mark__item {
+    display: inline-block;
+    vertical-align: top;
+    width: 240px;
+    margin-right: 10px;
+}
+
+.service-mark__item .service-mark__num {
+    display: inline-block;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.tape-rev__cnt-bot {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.tape-rev__photo-block {
+    position: relative;
+}
+
+.tape-rev__photo {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    width: 90px;
+    height: 53px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.tape-rev__photo-link {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.tape-rev__photo--big {
+    width: 420px;
+    height: 230px;
+}
+
+.verified-review {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.tape-right__cnt {
+    width: 215px;
+}
+
+.tape-right__cnt.fixed {
+    position: fixed;
+    top: 68px;
+}
+
+.tape-right__ttl3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.tape-right__green-box {
+    margin-top: 9px;
+    background: #fff;
+    border: 1px solid #00a551;
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.tape-right__green-box-col {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.tape-right__green-box .bth__cnt.rating {
+    position: relative;
+    font-size: 27px;
+    font-weight: bold;
+    color: #00a551;
+    padding-left: 25px;
+    line-height: 35px;
+}
+
+.tape-right__green-box .bth__cnt.rating:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 20px;
+    height: 14px;
+    bottom: 5px;
+    background: url(/i/tophotels/crown-green-20.png);
+}
+
+.tape-right__green-box-col.col--right {
+    padding-top: 13px;
+    float: right;
+}
+
+.tape-right__rate-block {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.tape-right__service-block {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+
+
+/*Краткий вид*/
+
+.tape-rev-short__tbl .bth__cell {
+    border-bottom: 2px solid #fff;
+    padding: 7px;
+    vertical-align: top;
+}
+
+.tape-rev-short__tbl .bth__cell:first-child {
+    width: 80px;
+}
+
+.tape-rev-short__tbl .bth__cell:nth-child(2) {
+    width: 80px;
+}
+
+.tape-rev-short__tbl .bth__cell:last-child {
+    width: 72px;
+}
+
+.tape-rev-short__tbl .yellow-row .bth__cell {
+    background: rgb(250, 246, 229);
+}
+
+.tape-rev-short__tbl .blue-row .bth__cell {
+    background: #d4e4f2;
+}
+
+.tape-rev-short__tbl .green-row .bth__cell {
+    background: rgba(0, 165, 81, 0.10);
+}
+
+.tape-rev-short__tbl .red-row .bth__cell {
+    background: rgba(200, 56, 49, 0.10);
+}
+
+.tape-rev-short__tbl .grey-row .bth__cell {
+    background: #efefef;
+}
+
+.tape-rev-short__tbl .top-line {
+    text-align: right;
+}
+
+.tape-rev-short__tbl .tape-rev-rate__mark-block {
+    vertical-align: middle;
+    height: 35px;
+    width: 35px;
+    padding-top: 0;
+    background: #fff;
+    margin-right: 0;
+}
+
+.tape-rev-short__tbl .tape-rev-rate__mark-block .bth__cnt {
+    font-size: 15px;
+    line-height: 33px;
+    color: #fff;
+}
+
+.tape-rev-short__tbl .tape-rev-rate__mark-block.tape-rev-rate__mark-block--green {
+    border: 1px solid #00a551;
+    background: #00a551;
+}
+.tape-rev-short__tbl .tape-rev-rate__mark-block.tape-rev-rate__mark-block--yellow {
+    border: 1px solid #dfa918;
+    background: #dfa918;
+}
+.tape-rev-short__tbl .tape-rev-rate__mark-block.tape-rev-rate__mark-block--red {
+    border: 1px solid #c83831;
+    background: #c83831;
+}
+
+.tape-rev-short__tbl .mark__like {
+    padding-left: 5px;
+    font-size: 14px;
+    color: #00a551;
+}
+
+.tape-rev-short__tbl .mark__dislike {
+    padding-left: 5px;
+    font-size: 14px;
+    color: #c83831;
+}
+
+.hi__logo {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    /*width: 163px;*/
+    /*height: 15px;*/
+}
+
+.hi__logo-m {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    width: 24px;
+    height: 15px;
+}
+
+.hi__logo:hover .hint {
+    display: block;
+    width: 180px;
+}
+
+.tape-rev__block-null {
+    display: none;
+    border-top: none;
+}
+
+.bth__cnt.no-rev {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.tape-rev__block-null .bth__cnt + .bth__cnt {
+    margin-top: 10px;
+}
+
+.filter-hotel-reviews {
+    min-height: 66px;
+    box-sizing: border-box;
+}
+
+.filter-hotel-reviews .filter__filter-open {
+
+}
+
+.filter-hotel-reviews .filter__noinp {
+    margin-top: 0;
+}
+
+.filter-hotel-reviews .filter__noinp .filter__filter-open {
+    position: relative;
+    right: auto;
+    top: auto;
+    background: #fff;
+    padding: 8px 10px 0 10px;
+    height: 34px;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.bth__btn.new-rev__btn {
+    display: none;
+    width: 250px;
+    padding: 10px 0;
+    color: #fff;
+    background: #ff8e41;
+    font-size: 14px;
+}
+
+
+.bth__btn.new-rev__btn:hover {
+    background: #e27200;
+}
+
+
+@media screen and (max-width: 1279px){
+    .tape-rev__rate {
+        vertical-align: middle;
+    }
+    .tape-rev-mark {
+        display: block;
+        margin-right: 0;
+    }
+    .tape-rev__recommend-block .bth__cnt {
+        font-size: 12px;
+    }
+
+    .filter-hotel-reviews .filter__inp-block {
+        width: 345px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .tape-rev--right {
+        display: none;
+    }
+    .tape-rev--left {
+        width: 100%;
+    }
+    .tape-rev__total-num {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        margin-top: 10px;
+    }
+    .tape-rev__recommend-block .tape-rev-icon-like {
+        font-size: 18px;
+    }
+
+    .verified-review {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        margin-top: 10px;
+    }
+    .tape-rev-short__tbl .bth__row {
+        position: relative;
+        display: block;
+    }
+    .tape-rev-short__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+    }
+    .tape-rev-short__tbl .bth__cell:first-child,
+    .tape-rev-short__tbl .bth__cell:nth-child(2) {
+        width: 100%;
+    }
+    .tape-rev-short__tbl .bth__cell:last-child {
+        width: 100%;
+        border-bottom: 2px solid #fff;
+    }
+    .tape-rev-short__tbl .top-line {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .filter__filter-open span {
+        display: none;
+    }
+    .filter__filter-open {
+        right: -25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .small-review__col {
+        display: block;
+    }
+    .tape-rev__user-block--768 {
+        display: block;
+    }
+    .small-review__col--left {
+        display: none;
+    }
+    .small-review .tape-rev__ava-block {
+        width: 60px;
+        height: 60px;
+    }
+    .filter-hotel-reviews .filter__r {
+        display: block;
+        position: relative;
+        right: auto;
+        top: auto;
+        margin-top: 15px;
+        text-align: right;
+    }
+    .filter-hotel-reviews .filter__r.new-btn .search-btn.active {
+        margin-left: 0;
+    }
+    .filter-hotel-reviews .filter__r.new-btn .search-btn,
+    .filter-hotel-reviews .filter__rbt + .filter__r-btn-lbl{
+        margin-left: 15px;
+    }
+    .filter-hotel-reviews .filter__inp-block {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .tape-rev__photo--big {
+        width: 100%;
+    }
+    .tape-rev__recommend-block {
+        display: none;
+    }
+    .tape-rev__photo:nth-child(n+3) {
+        display: none;
+    }
+    .tape-rev-rate__cnt {
+        display: none;
+    }
+    .tape-rev-rate__mark-block {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-right: 0;
+    }
+    .tape-rev-short__tbl .tape-rev-rate__mark-block {
+        position: relative;
+    }
+    .hi__logo {
+        display: none;
+    }
+    .hi__logo-m {
+        display: block;
+    }
+    .service-mark__item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .tape-rev__photo {
+        display: none;
+    }
+    .tape-rev__photo:first-child {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,157 @@
+
+.personal-ava__birth {
+    position: relative;
+    display: inline-block;
+}
+
+.personal-ava__birth::before {
+    position: absolute;
+    content: '';
+    background-image: url(/images/lbc/gift.png);
+    width: 97px;
+    height: 109px;
+    background-position: center;
+    bottom: -17px;
+    right: -12px;
+    background-repeat: no-repeat;
+
+}
+
+.personal-tab.tab-hide {
+    display: none;
+}
+
+.avatar-edit-mini {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 33px;
+}
+
+.avatar-editor-block {
+    margin-top: 66px;
+}
+
+.avatar-edit-mini img {
+    border-radius: 2px;
+}
+
+.avatar-edit-mini__ava {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.avatar-edit-mini__ava--circle img {
+    border-radius: 50px;
+}
+
+.personal-edit-form .type-input.phone-internal {
+    width: 17.5%;
+}
+
+.personal-edit-form .type-input.phone-external {
+    width: 40%;
+}
+
+.personal__lock i {
+    color: #475669;
+}
+
+.personal__lock:hover .hint {
+    left: 0;
+    display: block;
+    width: 200px;
+    top: 21px;
+    white-space: normal;;
+}
+
+.personal-tbl .relative .hint {
+    display: none;
+}
+
+.personal-tbl .relative:hover .hint {
+    display: block;
+    top: 34px;
+    left: 0;
+    white-space: normal;
+}
+
+.personal-wrap {
+    position: relative;
+}
+
+.personal-tbl .personal-tbl__lock {
+    margin-left: 10px;
+}
+
+.personal__lock {
+    position: relative;
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.personal-edit-form .type-input.type-input--dbl {
+
+}
+
+.personal-tbl tr td {
+    white-space: normal;
+    overflow: visible;
+    border: none;
+    padding: 10px 10px 10px 0;
+    line-height: 22px;
+}
+
+.personal-tbl th:last-of-type, .personal-tbl td:last-of-type {
+    text-align: left;
+}
+
+.personal-tbl td:first-child {
+    width: 200px;
+}
+
+.personal-tbl td:last-of-type {
+    font-size: 18px;
+}
+
+.personal__about-me textarea {
+    height: 70px;
+    min-height: 70px;
+}
+
+.personal-tbl td span,
+.personal-tbl td img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.personal-ava {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.personal-ava img {
+    border-radius: 2px;
+}
+
+.personal-tbl .bd-grey-bottom {
+    border-bottom: 1px solid #bcbcbc;
+}
+
+@media screen and (max-width: 1024px) {
+    .personal-ava {
+        display: block;
+        position: static;
+    }
+
+    .personal-tbl .bd-grey-bottom,
+    .personal-tbl .rasprow {
+        display: none
+    }
+
+    .img-editor-actions__button .hint,
+    .filter__editor .hint {
+        opacity: 0;
+    }
+
+}

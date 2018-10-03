@@ -1,0 +1,50 @@
+.description-contact-line {
+    position: absolute;
+    bottom: -1px;
+    left: 149px;
+    width: 130px;
+    height: 3px;
+    background: #475669;
+}
+
+.decription-contact__tbl .edit-block__cell:first-child {
+    width: 200px;
+    padding-top: 21px;
+}
+
+.decription-contact__tbl .edit-block__inp-block.name {
+    width: 100%;
+}
+
+.decription-contact__tbl .edit-block__cell.add-field {
+    display: inline-block;
+}
+
+@media screen and (max-width: 1279px){
+    .description-contact-line {
+        left: 130px;
+        width: 115px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .decription-contact__tbl .edit-block__cell {
+        display: block;
+    }
+    .decription-contact__tbl .edit-block__cell:first-child {
+        width: 100%;
+        padding: 0;
+    }
+    .decription-contact__tbl .edit-block__cell:last-child {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .decription-contact__tbl .edit-block__cell.add-field {
+        display: block;
+    }
+    .decription-contact__tbl .edit-block__inp-block {
+        width: 100%;
+    }
+}

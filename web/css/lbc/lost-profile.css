@@ -1,0 +1,16 @@
+.lostProfile-stat-tbl td:nth-child(4) {
+    color: #00a551;
+}
+
+.lostProfile-stat-tbl td:nth-child(5) {
+    color: #e03a3a;
+}
+
+.lostProfile-stat-tbl td:last-of-type {
+    text-align: right;
+}
+
+.lostProfile-stat-tbl td:not(:first-of-type):not(:nth-child(2)) {
+    font-weight: bold;
+    font-size: 15px;
+}

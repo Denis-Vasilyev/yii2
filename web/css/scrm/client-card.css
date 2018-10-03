@@ -1,0 +1,493 @@
+.person-name__info {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    position: relative;
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: 200px;
+}
+
+.client-card td:nth-child(3) {
+    width: 40%;
+    text-overflow: clip;
+    white-space: normal;
+    padding-right: 16px !important;
+}
+
+.client-card tr:nth-child(1) td:nth-child(3),
+.client-card tr:nth-child(2) td:nth-child(3),
+.client-card tr:nth-child(3) td:nth-child(3),
+.client-card tr:nth-child(4) td:nth-child(3),
+.client-card tr:nth-child(5) td:nth-child(3) {
+    font-size: 15px;
+}
+
+.communications-tbl .filter-pp__btn {
+    width: 100%;
+}
+.files-tbl td:nth-child(2) img {
+    border-radius: 2px!important;
+}
+.persons td:last-of-type,
+.persons th:last-of-type {
+    text-align: left;
+}
+
+.client-card tr td:nth-child(1),
+.client-card tr th:nth-child(1) {
+    padding-right: 0;
+}
+
+.client-card tr td:nth-child(2),
+.client-card tr th:nth-child(2) {
+    padding-left: 0;
+}
+
+.smile {
+    font-size: 27px;
+    color: #475669;
+}
+
+.smile-block {
+    display: inline-block;
+}
+
+.smile-block .label-rbt-e {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: -1px;
+    width: 27px;
+    height: 27px;
+    vertical-align: middle;
+    outline: none;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    font-size: 15px;
+    color: #475669;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 0.1em 0.1em 0.2em #475669;
+}
+
+.smile-block .label-rbt-e .smile {
+    position: absolute;
+    top: 1px;
+    left: 2px;
+}
+
+.smile-block .rbt-e:checked + .label-rbt-e {
+    position: relative;
+    top: 1px;
+    left: 1px;
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.5) inset;
+}
+
+.person-name {
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    padding-top: 18px;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.persons .smile {
+    font-size: 35px;
+}
+
+.person-name__info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.persons tr th:nth-child(6),
+.persons tr td:nth-child(6) {
+    width: 100px;
+}
+
+.persons__data-wrap {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.add-agent-wrap {
+    margin-bottom: 22px;
+}
+
+.fa-plus {
+    color: #3687c5;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.birthday__data {
+    width: 58px;
+}
+
+.birth__month {
+    width: 92px;
+}
+
+.birth__year {
+    width: 110px;
+}
+
+.metro-item span {
+    display: inline-block;
+    width: 32%;
+}
+
+.client-card .phone {
+    float: right;
+}
+
+.send-ava {
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+/* Подсказка при наведении на имя */
+.client-card tr td:nth-child(4),
+.client-card tr td:nth-child(5) {
+    overflow: visible;
+}
+
+.name-tooltip {
+    position: absolute;
+    background-color: #e4e5ea;
+    padding: 8px 10px;
+    width: max-content;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    vertical-align: top;
+    z-index: 200;
+}
+
+.name-tooltip img {
+    border-radius: 2px;
+}
+
+/* end__Подсказка при наведении на имя */
+
+.idbar__cnt__icon {
+    position: relative;
+}
+
+.birthday__wrap {
+    display: inline-block;
+}
+
+.requisites th:last-of-type, .requisites td:last-of-type {
+    text-align: left;
+}
+
+.requisites td:first-child {
+    width: 15px;
+}
+
+.section__bth-abs {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+
+}
+
+.filter-big .add-agent-wrap {
+    padding: 0
+}
+
+.communications-tbl .communications-tbl__more {
+    display: inline-block;
+    min-width: 45px;
+    background-color: #ff8e41;
+    height: 45px;
+    border-radius: 2px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.communications-tbl__ttl {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.communications-tbl {
+    border: 2px solid #bcbcbc;
+    margin-bottom: 15px;
+}
+
+.communications-tbl td {
+    padding: 10px;
+    white-space: normal;
+    overflow: visible;
+}
+
+.communications-tbl td:last-of-type {
+    width: 188px;
+}
+
+.communications-tbl img {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.communications-tbl__data {
+    float: right;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.communications-tbl__sm {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.communications-tbl:hover .create-group-pp.s-grey {
+    color: #3488b2 !important;
+}
+
+.filter-pp__btn--150 {
+    padding: 10px 19px;
+    width: auto;
+}
+
+.filter-pp__btn--grey {
+    background-color: grey;
+    border-color: grey;
+}
+
+.filter-pp__btn--grey:hover {
+    border-color: #ff8e41;
+}
+
+.communications-tbl div.relative {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.add-agent-form--publicContact .metro-item span {
+    width: 150px;
+}
+
+.type-input--txta.active {
+    height: 80px !important;
+    transition: 0.3s;
+}
+
+.communications-tbl__data--abs {
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: -6px;
+}
+
+.priority-tbl td:nth-child(3) {
+    font-weight: bold;
+}
+
+.priority-tbl td:nth-child(2) {
+
+}
+
+.bg-lite-green {
+    background: rgba(0, 165, 81, 0.10);
+}
+
+.priority-wrap--card .priority-tbl tbody td:first-child {
+    width: 30%;
+}
+
+.priority-wrap--card .priority-tbl tbody td:first-child:hover {
+    color: #318cc6
+}
+
+.priority-wrap--card .priority-tbl tbody td:last-of-type {
+
+    text-align: right;
+    font-weight: normal;
+}
+
+.priority-wrap--card .priority-tbl tbody td:nth-child(2) {
+    width: 50%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.priority-wrap--card .priority-tbl tbody .metro-item span {
+    width: 150px;
+}
+
+.priority-wrap--card .relative {
+    overflow: visible;
+}
+
+.priority-wrap--card .relative .hint {
+    right: 0;
+    top: 26px;
+}
+
+.files-tbl__preview img {
+    border-radius: 2px;
+}
+
+.files-tbl__preview-file {
+    border-radius: 2px;
+    display: inline-block;
+    width: 110px;
+    height: 84px;
+    border: 2px solid #475669;
+    color: #475669;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 28px;
+    background-color: #dcdcdc94;
+}
+
+.files-tbl th:nth-child(2) {
+    width: 145px;
+}
+
+.files-tbl th:nth-child(3) {
+    width: 40%;
+}
+
+.files-tbl td {
+    overflow: visible;
+    white-space: normal;
+}
+
+.filter__icon-abs {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.filter__icon-abs i {
+    color: #ff8e41;
+    font-size: 20px;
+
+}
+
+.filter__inp-block--300 {
+    width: 300px;
+}
+
+@media screen and (max-width: 1200px) {
+    .section__bth-abs {
+        position: static;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 659px) {
+
+    .communications-tbl tr td:nth-child(1) {
+        padding-top: 19px;
+    }
+
+    .box-check {
+        margin-left: 0px !important;
+    }
+
+    .communications-tbl td:nth-child(1) span {
+        margin: 0;
+        display: block;
+    }
+
+    .birthday__wrap {
+        display: block;
+    }
+
+    .client-card tr td:nth-child(2), .client-card tr th:nth-child(2) {
+        padding-top: 19px;
+        padding-bottom: 19px;
+        padding-left: 7px;
+    }
+
+    .client-card td:nth-child(2)::before {
+        content: 'Тип';
+    }
+
+    .client-card td:nth-child(3)::before {
+        content: 'Данные';
+    }
+
+    .client-card td:nth-child(4)::before {
+        content: 'Изменил';
+    }
+
+    .client-card td:nth-child(5)::before {
+        content: 'Изменение';
+    }
+
+    .persons td:nth-child(1)::before,
+    .requisites td:nth-child(1)::before,
+    .client-card td:nth-child(1)::before {
+        content: '№';
+    }
+
+    .persons td:nth-child(2)::before {
+        content: 'Персона';
+    }
+
+    .persons td:nth-child(3)::before {
+        content: 'Характер';
+    }
+
+    .persons td:nth-child(4)::before {
+        content: 'TPASS';
+    }
+
+    .persons td:nth-child(5)::before {
+        content: 'Контакт';
+    }
+
+    .persons td:nth-child(6)::before {
+        content: 'Последний раз';
+    }
+
+    .persons tr th:nth-child(6), .persons tr td:nth-child(6) {
+        width: auto;
+    }
+
+    .requisites td:nth-child(2)::before {
+        content: 'Название';
+    }
+
+    .requisites td:nth-child(3)::before {
+        content: '	Данные';
+    }
+
+    .priority-tbl td:first-child {
+        padding-top: 19px;
+    }
+
+}
+
+@media screen and (max-width: 502px) {
+    .filter-small--v2 .filter__r {
+        display: block;
+        text-align: left;
+        margin-bottom: 5px;
+        margin-left: 0;
+    }
+}

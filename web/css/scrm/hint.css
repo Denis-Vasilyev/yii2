@@ -1,0 +1,33 @@
+.hint {
+    position: absolute;
+    padding: 6px 9px 6px 9px;
+    background: rgba(255, 255, 255, 1);
+    color: #475669;
+    font-size: 14px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    border-radius: 3px;
+    white-space: nowrap;
+    display: none;
+    top: 45px;
+    text-align: left;
+    font-family: apercu_pro, sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: none;
+    font-weight: normal;width: auto;
+}
+.hint__title {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #475669;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.js-act-hint:hover  div.hint {
+    display: block;
+}
+a.js-act-hint:hover + div.hint {
+    display: block;
+}

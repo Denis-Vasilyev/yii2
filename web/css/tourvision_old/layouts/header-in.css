@@ -1,0 +1,60 @@
+.header-in .header-nav li {
+    margin-right: 20px;
+}
+
+#taName {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+}
+
+#taName a {
+    color: #318cc6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-line__text {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.header-line__cnt {
+    background: transparent;
+}
+
+.tour-head__ab {
+    position: absolute;
+    right: 0px;
+    top: 4px;
+    display: inline-block;
+    width: 45px;
+    text-align: right;
+}
+
+.tour-head__ab span {
+    font-size: 16px;
+    display: block;
+    color: #999;
+}
+
+@media screen and (max-width: 1023px) {
+
+    .header-in .header-nav__i {
+        font-size: 13px;
+    }
+    .header-in .header-nav li {
+        margin-right: 15px;
+    }
+    .header-in .header-topmenu__username {
+        max-width: 90px;
+    }
+    .header-in .header-topmenu__username {
+        font-size: 12px;
+    }
+    .header-in .header-topmenu {
+        background: #475669;
+    }
+
+}

@@ -1,0 +1,271 @@
+.publications-wrapper {
+    display: flex;
+    font-size: 14px;
+    color: #475669;
+    margin-top: 20px;
+    font-family: 'apercu_pro', sans-serif;
+    justify-content: space-between;
+}
+
+.publications-wrapper .publications-wrapper__left {
+    width: calc(100% - 170px);
+}
+
+.publications-wrapper .publications-wrapper__right {
+    width: 150px;
+    margin-left: 20px;
+    background-color: #F5F5F5;
+    padding: 0 15px 10px;
+    box-sizing: border-box;
+}
+
+.publications-wrapper .publications-wrapper__right .publications-wrapper__right-ttl {
+    margin: 0;
+    padding: 15px 0;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 8px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #999;
+}
+
+.publications-wrapper .publications-wrapper__right ul {
+    padding: 7px 0;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.publications-wrapper .publications-wrapper__right ul li a {
+    color: #666;
+    font-size: 12px;
+}
+
+.publications-wrapper .publications-wrapper__right ul li a b {
+    font-size: 14px;
+}
+
+.publications-wrapper .publications-wrapper__right ul li {
+    line-height: 17px;
+    font-size: 11px;
+}
+
+.publications-wrapper__big-letter a {
+
+}
+
+.publications-wrapper__big-letter {
+    margin-top: 10px;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 7px;
+}
+
+.publications-wrapper .publications-wrapper__big-letter:first-of-type {
+    border: none;
+    margin-top: 0;
+}
+
+.index-banner img {
+    border-radius: 2px;
+}
+
+.index-banner {
+    margin-top: -1px;
+    height: 150px;
+    background-color: #faf6e5;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+}
+
+.index-banner__img {
+    border-radius: 2px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+.index-banner__hotel {
+    position: absolute;
+    top: 25px;
+    left: 238px;
+}
+
+.index-banner__hotel-img {
+    width: 190px;
+    display: inline-block;
+    vertical-align: top;
+    height: 120px;
+}
+
+.index-banner__hotel-link {
+
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.index-banner__hotel-link:hover {
+    color: #318cc6;
+}
+
+.index-banner__hotel-border {
+    border: 2px solid white;
+    border-radius: 2px;
+    width: 190px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    height: 120px;
+}
+
+.publications-wrapper__banner {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+article.filter-new.filter-new--index {
+    padding-bottom: 8px;
+
+}
+
+.filter-new--index .hotelFilter .hotelFilter__triple .bth__btn {
+    height: 50px;
+    margin: 0;
+    border: 1.5px solid white;
+    box-sizing: border-box;
+    margin-left: 6px;
+}
+
+.filter-new--index > .bth__link {
+    font-size: 11px;
+    display: block;
+    margin-top: 5px;
+    margin-left: 6px;
+
+}
+.publications-wrapper .ratingsRibbon {
+    width: auto;
+}
+.filter-new--index .bth__inp-block {
+    border: none;
+}
+
+.hotelFilter__triple > div {
+    margin-right: 1px;
+}
+
+.filter-new--index .hotelFilter__triple {
+    align-items: flex-end;
+}
+
+.filter-new--index .bth__inp-block:nth-child(4) {
+    width: 190px;
+}
+
+.filter-new--index .bth__inp-block:nth-child(1) {
+    width: 330px;
+}
+
+.filter-new--index .bth__inp-block:nth-child(2) {
+    width: 130px;
+}
+
+.filter-new--index .bth__inp-block:nth-child(3) {
+    width: 120px;
+}
+
+.index-pp {
+    width: 100%;
+    height: 95vh;
+    background: #fff;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    position: relative;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.index-pp__close {
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 12px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    background: url(/i/tourvision/close-12x12.png);
+}
+
+.index-pp__close:hover {
+    background: url(/i/tourvision/close-12x12-red.png);
+}
+
+article.filter-new.filter-new--index .formDirections .formDirections__top {
+    background-color: #e4e5ea;
+}
+.publication-big-card {
+    height: 325px;
+    position: relative;
+}
+
+.publication-big-card * {
+    color: white;
+}
+.publication-big-card__shadow {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.publication-big-card .bth__ttl-h2 {
+    font-size: 30px;
+}
+.publication-big-card__stars i {
+    color: #ff8e41;
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+.publication-big-card__sm {
+    margin-top: 10px;
+
+}
+.older-review__img {
+    position: relative;
+}
+
+
+@media screen and (max-width: 1230px) {
+    .filter-new--index .hotelFilter__triple {
+        align-items: flex-start;
+    }
+    .index-banner__hotel {
+        left: 50px;
+    }
+    .filter-new--index .hotelFilter .hotelFilter__triple .bth__btn {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .hotelFilter__triple > div {
+        width: 100%!important;margin-right: 0;
+    }
+    .hotelFilter__triple > div:not(:first-child) {
+        margin-top: 15px;
+    }
+    .publications-wrapper .publications-wrapper__right {
+        display: none;
+    }
+    .publications-wrapper .publications-wrapper__left {
+        width: 100%;
+    }
+}
+

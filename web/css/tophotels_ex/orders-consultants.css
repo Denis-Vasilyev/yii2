@@ -1,0 +1,188 @@
+.orders-consultants {
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    margin-top: 60px;
+}
+
+.orders-consultant img {
+    border-radius: 2px;
+}
+
+.orders-consultant {
+    border: 1px solid #f1ebd3;
+    border-radius: 2px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.orders-consultant__flex {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+}
+
+.bth__btn.bth__btn--fill {
+    background: #ff8e41;
+    color: #fff;
+}
+
+.orders-consultants__filtr {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    margin-right: 20px;
+
+}
+
+.orders-consultants__filtr-section .bth__btn {
+    width: 200px;
+    display: inline-block;
+    /* height: 50px; */
+    /* box-sizing: border-box; */
+    vertical-align: bottom;
+    /* border: none; */
+    height: 36px;
+    padding: 0;
+}
+
+.orders-consultants__filtr-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.orders-consultants__filtr-section .bth__btn {
+    display: inline-block;
+    width: 180px;
+    height: 36px;
+
+}
+
+.orders-consultants__filtr-section .selectize-input,
+.orders-consultants__filtr-section .selectize-control.single .selectize-input input {
+    font-size: 14px;
+}
+
+.orders-consultants__filtr-section .selectize-control {
+    width: 100%;
+}
+
+.orders-consultants__filtr-section .bth__inp-block {
+    height: 36px;
+    width: 250px;
+    border: none;
+    display: inline-block;
+}
+
+.orders-consultants__filtr i {
+    color: #ff8e41;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.orders-consultants__filtr span {
+    color: #ff8e41;
+}
+
+.orders-consultants__filtr-arr {
+
+    background-image: url(/i/down-filterArrow.svg);
+    width: 17px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: -25px;
+    top: 3px;
+}
+
+.consultants-js-slider {
+    margin-right: 50px;
+}
+
+.orders-consultants .orders-consultant {
+    margin-right: 25px;
+    width: 170px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.orders-consultants .orders-consultant > div {
+    width: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.orders-consultants .orders-consultant {
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+.orders-consultants__top {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: flex-end;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+}
+
+@media screen and (max-width: 1024px) {
+    .consultants-js-slider {
+        margin-right: 41px;
+        margin-left: 38px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .orders-consultants__filtr-section .bth__inp-block {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .orders-consultants__filtr-section {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .orders-consultants__top {
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        align-items: start;
+        -webkit-box-align: start;
+        -webkit-align-items: start;
+        -ms-flex-align: start;
+    }
+
+    .orders-consultants__filtr {
+        margin-top: 10px;
+    }
+
+    .orders-consultants {
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .orders-consultants .orders-consultant {
+        margin-right: 21px;
+        /* margin: 0 auto; */
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,109 @@
+.access-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.access-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.access-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 125px;
+    height: 3px;
+    background: #475669;
+}
+
+.access-tab.active {
+    color: #475669;
+}
+
+.access-t-item {
+    margin-top: 4px;
+    font-weight: normal;
+    color: black;
+}
+
+.add-agent-wrap .operation-type .test-access {
+    width: 32px;
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid #475669;
+    margin-right: 3px;
+    margin-left: 6px;
+    font-size: 15px;
+    padding: 5px 3px;
+}
+
+.add-agent-wrap > div, .type-access > div {
+    margin-bottom: 19px;
+}
+
+.principals__nav {
+    padding: 15px;
+    background: #e4e5ea;
+}
+
+@media screen and (max-width: 659px) {
+    .access-log td:nth-child(3):before {
+        content: 'Доступ';
+    }
+
+    .access-log td:nth-child(4):before {
+        content: 'Сервисы';
+    }
+
+    .access-log td:nth-child(5):before {
+        content: 'Изменил';
+    }
+
+    .access-list td:nth-child(1):before {
+        content: 'Отель';
+    }
+
+    .access-list td:nth-child(2):before {
+        content: 'Баланс';
+    }
+
+    .access-list td:nth-child(3):before {
+        content: 'Доступ / сервис';
+    }
+
+    .access-list td:nth-child(4):before {
+        content: 'Аккредитаций';
+    }
+
+    .access-list td:nth-child(5):before {
+        content: 'Срок действия';
+    }
+
+    .access-list td:nth-child(5):before {
+        content: 'Срок действия';
+    }
+
+    .access-principals td:nth-child(5):before {
+        content: 'За месяц';
+    }
+
+    .access-principals td:nth-child(2):before {
+        content: ' Доверитель';
+    }
+
+    .access-basket td:last-of-type:before {
+        content: 'Удалил';
+    }
+}

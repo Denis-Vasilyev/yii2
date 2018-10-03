@@ -1,0 +1,183 @@
+.form {
+    display: table;
+    width: 100%;
+    text-align: left;
+    /*min-width: 1098px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form__col {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.form__col--white {
+    background: #fff;
+}
+
+.index__title--white {
+    color: #fff;
+}
+
+.form__group {
+    position: relative;
+    height: 60px;
+    border-top: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+    background: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+.form__input {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #333;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form__label {
+    font-weight: 400;
+    position: absolute;
+    top: -27px;
+    left: 0;
+    padding: 0 10px;
+    line-height: 26px;
+    font-size: 15px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.form__group_dynamic-label .form__label {
+    opacity: 0;
+    margin-top: 10px;
+    transition: all .2s;
+}
+
+.form__btn {
+    position: relative;
+    height: 60px;
+    line-height: 58px;
+    display: block;
+    background: #fff;
+    color: #ff8e41;
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    border-radius: 0 3px 3px 0;
+    padding: 0 20px;
+    cursor: pointer;
+    text-align: center;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+    white-space: nowrap;
+    transition: all .1s;
+}
+
+.form__btn:hover {
+    color: #ffffff;
+    background: #ff8e41;
+}
+
+.form__btn i {
+    background: url(/i/tourvision/next.png) no-repeat center center;
+    -webkit-background-size: 18px;
+    background-size: 18px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    margin-left: 5px;
+    top: -1px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form__btn:hover i {
+    background-image: url(/i/tourvision/next_2.png);
+}
+
+.form__group,
+.form__btn {
+    border-top: transparent;
+    border-bottom: transparent;
+    border-right: transparent;
+}
+
+.back-call-from__terms {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.index-legal-link {
+    color: #fff;
+}
+
+.form__col:first-child .form__group {
+    border-radius: 3px 0 0 3px;
+}
+
+.form__col:last-child  {
+    border-radius: 0 3px 3px 0;
+}
+
+.form__group_dynamic-label .form__input.complete + .form__label,
+.form__group_dynamic-label .form__input:focus + .form__label {
+    margin-top: 0;
+    opacity: 1;
+}
+
+@media screen and (max-width: 1279px) {
+    .form {
+        max-width: 900px;
+    }
+    .form__col {
+        width: 25%;
+        margin-left: -1px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .form {
+        max-width: 700px;
+        display: block;
+        margin: auto;
+    }
+    .form__col {
+        width: 100%;
+        display: inline-block;
+        border: 1px solid #dfdfdf;
+        margin-left: -4px;
+    }
+    /*.form__col.form__col_1,*/
+    /*.form__col.form__col_2,*/
+    /*.form__col.form__col_3 {*/
+        /*width: 33%;*/
+    /*}*/
+    /*.form__col.form__col_4 {*/
+        /*display: block;*/
+        /*width: calc(100%;*/
+    /*}*/
+    .form__col:first-child .form__group,
+    .form__col:last-child {
+        border-radius: 0;
+    }
+}

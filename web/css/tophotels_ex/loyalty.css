@@ -1,0 +1,172 @@
+.loyalty-line.line {
+    width: 188px;
+}
+
+.privilege__tbl {
+    border-collapse: collapse;
+}
+
+.privilege__tbl .bth__cell {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 7px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.privilege__tbl .head__tbl .bth__cell {
+    background: #f4f4f4;
+}
+
+.privilege__tbl .head__tbl .bth__cnt {
+    font-size: 12px;
+}
+
+
+.privilege__tbl .bth__cell:first-child {
+    width: 50px;
+}
+
+.privilege__tbl .bth__cell:nth-child(2) {
+    text-align: left;
+}
+
+.privilege__tbl .bth__cell:nth-child(3),
+.privilege__tbl .bth__cell:nth-child(4),
+.privilege__tbl .bth__cell:nth-child(5),
+.privilege__tbl .bth__cell:nth-child(6),
+.privilege__tbl .bth__cell:last-child {
+    width: 100px;
+}
+
+.privilege__tbl .bth__cnt.service-name:hover {
+    color: #318cc6;
+}
+
+.loyalty__list {
+    padding: 0;
+    margin-left: 30px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: #475669;
+    list-style: disc;
+}
+
+.loyalty__item {
+
+}
+
+.loyalty__list-ol {
+    padding: 0;
+    margin-left: 30px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: #475669;
+    list-style: decimal;
+}
+
+
+.loyalty__tbl .bth__cell {
+    border-bottom: none;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
+
+.loyalty__tbl .bth__cell:first-child {
+    width: 200px;
+}
+
+.loyalty__tbl .bth__cell.p-top0 {
+    vertical-align: top;
+    padding-top:10px;
+}
+.loyalty__tbl .bth__cell.p-top {
+    vertical-align: top;
+    padding-top:18px;
+
+}
+
+.cbx-block.agree   {
+    margin-bottom: 10px;
+}
+.cbx-block.agree  .cbx + .label-cbx {
+    padding-left: 27px;
+}
+
+.bth__btn.hotel-request {
+    width: 250px;
+    background: #ff8e41;
+    color: #fff;
+}
+.bth__btn.hotel-request:hover {
+    background: #e27200;
+
+}
+
+@media screen and (max-width: 1279px){
+    .privilege__tbl .bth__cell:first-child {
+        width: 45px;
+    }
+    .privilege__tbl .bth__cell:nth-child(3),
+    .privilege__tbl .bth__cell:nth-child(4),
+    .privilege__tbl .bth__cell:nth-child(5),
+    .privilege__tbl .bth__cell:nth-child(6),
+    .privilege__tbl .bth__cell:last-child {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .privilege__tbl .bth__cell {
+        display: block;
+        border: none;
+    }
+    .privilege__tbl .head__tbl,
+    .privilege__tbl .bth__cell:first-child {
+        display: none;
+    }
+
+    .privilege__tbl {
+        border-top:1px solid #ccc;;
+    }
+    .privilege__tbl .bth__cell:nth-child(2),
+    .privilege__tbl .bth__cell:nth-child(3),
+    .privilege__tbl .bth__cell:nth-child(4),
+    .privilege__tbl .bth__cell:nth-child(5),
+    .privilege__tbl .bth__cell:nth-child(6) {
+        width: 100%;
+        border-left: 1px solid #ccc;
+        border-right:1px solid #ccc;
+        text-align: left;
+    }
+    .privilege__tbl .bth__cell:last-child {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        text-align: left;
+        border-left: 1px solid #ccc;
+        border-right:1px solid #ccc;
+    }
+    .privilege__tbl .bth__cell .bth__cnt .check {
+        padding-left: 5px;
+    }
+    .loyalty__tbl .bth__cell {
+        display: block;
+        padding: 10px 0;
+    }
+    .loyalty__tbl .bth__cell:first-child {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .loyalty__tbl .bth__cell:last-child {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .loyalty__tbl .edit-block__inp-block {
+        width: 100%;
+    }
+}

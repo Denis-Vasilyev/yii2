@@ -1,0 +1,24 @@
+.common-list-tbl th:nth-child(2) {
+    width: 40%;
+}
+
+
+.inner-list-section-ul {
+    font-family: apercu_pro, sans-serif;
+    color: #475669;
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.inner-list-section-ul li {
+    margin-top: 4px;
+    font-size: 15px;
+}
+.inner-list-section-ul .inner-list-section-li-ttl {
+    font-size: 19px;
+}
+
+.inner-list-section-li i {
+    padding: 10px;
+}

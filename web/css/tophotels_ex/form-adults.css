@@ -1,0 +1,105 @@
+.form-adults {
+    position: absolute;
+    left: 0;
+    background: #fff;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    z-index: 101;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    display: none;
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+    width: 100%;
+}
+
+.form-adults .form-adults__item {
+    position: relative;
+    border: 1px solid #ccc;
+    height: 36px;
+    line-height: 34px;
+    box-sizing: border-box;
+    /* text-align: center; */
+    margin-bottom: 10px;
+}
+
+.form-adults .form-adults__item-btn {
+    position: absolute;
+    border: 1px solid #ccc;
+    font-size: 26px;
+    width: 36px;
+    background-color: white;
+    height: 36px;
+    top: -1px;
+    line-height: 31px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    color: #3687c5;
+}
+
+.form-adults .form-adults__item .form-adults__item-btn:last-of-type {
+    right: 0;
+}
+
+.form-adults .form-adults__item.adults {
+    border-left: none;
+    border-right: none;
+}
+
+.form-adults .form-adults__item-md {
+    text-align: center;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.form-adults .SumoSelect.open > .optWrapper {
+    top: 36px;
+}
+
+.form-adults .SumoSelect.open > .CaptionCont {
+    box-shadow: none;
+}
+
+.form-adults .SumoSelect > .CaptionCont > span {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.form-adults .SumoSelect > .CaptionCont {
+    padding-top: 5px;
+    height: 31px;
+}
+
+.form-adults .SumoSelect > .optWrapper > .options li label {
+    font-weight: normal;
+}
+
+.form-adults .SumoSelect {
+    height: 36px;
+    margin-bottom: 10px;
+
+}
+
+.form-adults  .form-adults__item-cross {
+    background-image: url(/i/tophotels/cross-thin-grey.svg);
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    background-size: cover;
+    top: 10px;
+    right: 9px;
+}
+.form-adults .form-adults__item.SumoSelect.age2 .SumoSelect > .CaptionCont > label > i:before,
+.form-adults .form-adults__item.SumoSelect.age3 .SumoSelect > .CaptionCont > label > i:before{
+    content: '';
+}
+
+.form-adults .form-adults__close {
+    font-size: 13px;
+    color: #999;
+    cursor: pointer;
+    font-weight: normal;
+    text-align: right;
+
+}

@@ -1,0 +1,51 @@
+
+.personal-tbl tr td {
+    white-space: normal;
+    overflow: visible;
+    border: none;
+    padding: 10px 10px 10px 0;
+    line-height: 22px;
+}
+
+.personal-tbl th:last-of-type, .personal-tbl td:last-of-type {
+    text-align: left;
+}
+
+.personal-tbl td:first-child {
+    width: 250px;
+}
+
+.personal-tbl td:last-of-type {
+    font-size: 17px;
+}
+
+.personal-tbl td span,
+.personal-tbl td img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bd-grey-bottom {
+    border-bottom: 1px solid #bcbcbc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.personal-ava {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.personal-ava img {
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .personal-tbl .bd-grey-bottom,
+    .personal-tbl .rasprow {
+        display: none
+    }
+
+}

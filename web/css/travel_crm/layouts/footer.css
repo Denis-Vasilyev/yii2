@@ -1,0 +1,32 @@
+.page-footer-bth {
+    background: white;
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    line-height: 50px;
+    padding: 0;
+    border-top: 1px solid #eee;
+}
+
+.page-footer-nav {
+    overflow: hidden;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e3e0d7;
+}
+.page-footer-opacity {
+    opacity: 0.5;
+}
+
+.page-footer-info-copyright {
+    margin-right: 25px;
+    float: left;
+    color: rgb(102, 102, 102);
+    font-family: inherit;
+    font-size: 12px;
+}
+
+.page-footer__link {
+    font-family: 'apercu_pro', sans-serif;
+}

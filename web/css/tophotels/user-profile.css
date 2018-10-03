@@ -1,0 +1,438 @@
+.userProfile {
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    margin-top: 20px;
+}
+
+.userProfile__block-h2 {
+    font-family: 'apercu_pro', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #475669;
+    font-weight: bold;
+}
+
+a.userProfile__block-h2:hover {
+    color: #318cc6;
+}
+
+.userProfile__block {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.userProfile .tape-rev__item--grey .tape-rev__cnt-block:before {
+    display: none;
+}
+
+.userProfile .small-review__col .tape-rev__cnt-block {
+    margin-top: 0px;
+}
+
+.userProfile__friends {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background: #e7f2f8;
+    align-items: center;
+    padding: 15px;
+    height: 60px;
+    border-radius: 2px;
+}
+
+.userProfile__friends-item img {
+    border-radius: 2px;
+}
+
+.userProfile__friends-item a {
+    margin-right: 7px;
+    display: inline-block;
+}
+
+.userProfile__friends-btn {
+    position: relative;
+    padding: 9px;
+    border: 2px solid #318cc6;
+    margin-right: 0;
+    border-radius: 2px;
+}
+
+.userProfile__friends-ttl {
+    font-size: 17px;
+}
+
+.userProfile__friends-btn:hover {
+    background-color: #318cc6;
+    color: white;
+}
+
+.userProfile__friends-total {
+    display: inline-block;
+    vertical-align: top;
+    height: 60px;
+    padding: 10px;
+    padding-top: 7px;
+    text-align: left;
+    background: #ffffff;
+    border-radius: 2px;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 7px;
+}
+
+.userProfile__friends-total b {
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+
+.userProfile__bubble b {
+    font-size: 24px;
+    line-height: 22px;
+    margin-bottom: 3px;
+    display: inline-block;
+}
+
+.userProfile__bubble {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 2px;
+    min-width: 136px;
+    padding: 7px 7px 4px;
+    margin-right: 10px;
+}
+
+.userProfile__bubbles .userProfile__bubble {
+    margin-bottom: 15px;
+}
+.userProfile__bubbles {
+    position: relative;
+    padding: 15px;
+    padding-bottom: 0;
+    background: #e4e5ea;
+}
+
+.userProfile__readerReach-item:not(:last-of-type) {
+    margin-right: 30px;
+}
+
+.userProfile__readerReach-item div {
+    font-size: 23px;
+    margin-top: 63px;
+    display: block;
+
+}
+
+.userProfile__readerReach-item.gold-st {
+    background: url(/i/tophotels/status-gold.png) no-repeat 7px 7px;
+    color: #d9af16;
+    border-color: #d9af16;
+}
+
+.userProfile__readerReach-item.bronze-st {
+    background: url(/i/tophotels/status-bronze.png) no-repeat 7px 7px;
+    color: #c29b86;
+    border-color: #c29b86;
+}
+
+.userProfile__readerReach-item.silver-st {
+    background: url(/i/tophotels/status-silver.png) no-repeat 7px 7px;
+    color: #a6a6a6;
+    border-color: #a6a6a6;
+
+}
+
+.userProfile__readerReach-item.platinum-st {
+    background: url('/i/tophotels/status-platinum.png') no-repeat 7px 7px;
+    color: #c4aa79;
+    border-color: #c4aa79;
+}
+
+.userProfile__readerReach .userProfile__readerReach-item {
+    display: inline-block;
+    padding: 10px;
+    height: 135px;
+    width: 135px;
+    background-size: 55px;
+    background-position-x: center;
+    background-position-y: 13px;
+    font-weight: bold;
+    border: 1px solid;
+    vertical-align: top;
+    font-size: 16px;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.userProfile-rewards {
+    margin-top: 20px;
+}
+
+.userProfile-rewards__item > div div {
+    margin-top: 3px;
+    text-transform: uppercase;
+}
+
+.userProfile .tape-rev__item,
+.userProfile .question-short__tbl {
+    width: calc(100% - 140px);
+}
+
+.userProfile-rewards__item > div {
+    display: inline-block;
+    margin-left: 7px;
+    vertical-align: bottom;
+    text-transform: lowercase;
+    font-size: 15px;
+}
+
+.userProfile-rewards__item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.userProfile-rewards__item-icon img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.userProfile-rewards__item-icon {
+    font-size: 19px;
+    width: 40px;
+    vertical-align: bottom;
+    height: 40px;
+    display: inline-block;
+    BACKGROUND-COLOR: #c9c9c98c;
+    cursor: pointer;
+    COLOR: WHITE;
+    position: relative;
+    border-radius: 2px;
+    padding-top: 11px;
+    box-sizing: border-box;
+}
+
+.userProfile__myTravels .bth__cell:first-of-type img,
+.userProfile__myTravels .bth__cell:first-of-type a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.userProfile__myTravels .bth__cell:first-of-type {
+    white-space: nowrap;
+}
+
+
+.userProfile__myTravels .bth__cell:first-of-type  a {
+    width: 135px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+.userProfile .tape-rev__item, .userProfile .question-short__tbl {
+    margin-bottom: 15px;
+}
+
+.userProfile__myTravels .bth__cell img {
+    margin-right: 5px;
+}
+
+.userProfile__myTravels {
+    font-size: 15px;
+}
+
+.userProfile__myTravels .bth__cell {
+    padding: 10px 0;
+    padding-right: 25px;
+    padding-top: 0;
+
+}
+
+.userProfile__myTravels {
+    width: auto;
+}
+
+.userProfile__photo img {
+    border-radius: 2px;
+}
+
+.userProfile__photo {
+    display: inline-block;
+    width: 150px;
+    height: 90px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.userProfile__photo-more {
+    display: block;
+}
+
+.userProfile__plans-inner {
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.userProfile__plans {
+    position: relative;
+    padding: 15px;
+    background-color: #e5f6ed;
+}
+
+.userProfile .question-short__tbl-ttl {
+    width: calc(100% - 156px);
+    border-bottom: 1px solid white;
+    padding: 8px;
+    font-size: 14px;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+}
+
+.userProfile .bth__btn {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    width: 290px;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.userProfile .yellow-row .question-short__tbl-ttl {
+    background: #FFF2CD;
+}
+
+.userProfile .green-row .question-short__tbl-ttl {
+    background: #D8EAD2;
+}
+
+.userProfile .red-row .question-short__tbl-ttl {
+    background: #F4CBCB;
+}
+
+.userProfile__answers > div {
+    margin-bottom: 0px
+}
+
+.userProfile__hotels {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.userProfile__hotels .userProfile__hotel {
+
+    margin-bottom: 15px;
+}
+
+.userProfile__hotel {
+    position: relative;
+    height: 250px;
+    margin-right: 5px;
+    width: 240px;
+}
+
+.userProfile__hotel img {
+    border-radius: 2px;
+}
+
+.userProfile__hotel .userProfile__hotel-name {
+    position: absolute;
+    bottom: 0;
+    background-color: #0000009c;
+    padding: 7px;
+    font-size: 17px;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    color: white;
+    height: 60px;
+
+}
+
+.userProfile__hotel .userProfile__hotel-name div {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.userProfile__hotels-like {
+    background-image: url(/i/tophotels/like-red.svg);
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    margin-left: 0;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: inline-block;
+    position: absolute;
+    background-size: contain;
+    top: 15px;
+    left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .userProfile .tape-rev__item, .userProfile .question-short__tbl {
+        width: 100%;
+    }
+
+    .userProfile .userProfile__friends-btn {
+        display: block;
+        text-align: center;
+    }
+
+    .userProfile__friends-item a {
+        margin-bottom: 15px;
+    }
+
+    .userProfile__readerReach-item:not(:last-of-type) {
+        margin-right: 15px;
+    }
+
+    .userProfile__readerReach .userProfile__readerReach-item {
+        width: 43%;
+        margin-bottom: 15px;
+    }
+    .userProfile .question-short__tbl-ttl {
+        width: calc(100% - 16px);
+    }
+    .userProfile__friends {
+        flex-direction: column;
+        height: auto;
+        justify-content: flex-start;
+        align-items: self-start;
+    }
+
+    .userProfile__friends-item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .userProfile__readerReach .userProfile__readerReach-item {
+        font-size: 14px;
+        width: 36%;
+    }
+
+    .userProfile__myTravels .bth__cell {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .userProfile__photo {
+        width: 100%;
+        height: 200px;
+    }
+}

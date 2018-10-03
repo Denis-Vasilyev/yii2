@@ -1,0 +1,300 @@
+.line.touragent-line {
+    width: 207px;
+}
+#TAChoosePanel .bth__cnt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.bth__list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*padding-left: 30px;*/
+
+}
+
+#TAChoosePanel .bth__item  {
+    margin-bottom: 10px;
+}
+#TAChoosePanel .bth__item .bth__cnt {
+    margin-bottom: 2px;
+}
+
+
+.ta-list__tbl .bth__cell {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.ta-list__tbl .bth__cell:first-child {
+    width: 175px;
+    border-left: 1px solid #ccc;
+}
+
+.ta-list__tbl .bth__cell:nth-child(2) {
+    width: 70px;
+    text-align: center;
+}
+
+.ta-list__tbl .bth__cell:last-child {
+    border-right: 1px solid #ccc
+}
+
+
+.ta-list__tbl .ta__user-ava-block {
+    width: 144px;
+    height: 144px;
+    box-shadow: 0px 0px 0px 1px #ccc;
+}
+
+.ta-list__tbl .ta__status {
+    height: 39px;
+    width: 33px;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: auto;
+    text-align: center;
+    padding-top: 3px;
+    margin-bottom: 6px;
+}
+
+.ta-list__tbl .ta__status--gold {
+    background: url(/i/tophotels/pos_gold_v2.png) no-repeat;
+}
+
+.ta-list__tbl .ta__status--gold .bth__cnt {
+    color: #ecbb3a;
+    font-size: 18px;
+}
+
+.ta-list__tbl .ta__status--silver {
+    background: url(/i/tophotels/pos_gray_v2.png) no-repeat;
+}
+
+.ta-list__tbl .ta__status--silver .bth__cnt {
+    color: #b3b3b3;
+    font-size: 18px;
+}
+
+.ta-list__tbl .ta__status--bronze {
+    background: url(/i/tophotels/pos_bronze_v2.png) no-repeat;
+}
+
+.ta-list__tbl .ta__status--round {
+    border-radius: 50%;
+    border: 3px solid #999;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.ta-list__tbl .ta__status--round .bth__cnt {
+    display: block;
+    vertical-align: middle;
+    margin: auto;
+    line-height: 18px;
+    font-size: 18px;
+    color: #999;
+}
+
+.ta-list__tbl .ta__status--pro {
+    background: url(/i/tophotels/pro-icon-30.png) no-repeat center top;
+}
+
+.ta-list__tbl .ta__status--pro-green {
+    background: url(/i/tophotels/pro-icon-green-30.png) no-repeat center top;
+}
+
+.ta-list__tbl .ta__status--bronze .bth__cnt {
+    color: #e28d6c;
+    font-size: 18px;
+}
+
+.ta-list__tbl .ta__user-name {
+    font-size: 18px;
+}
+
+.ta-list__tbl .ta__right-block {
+    position: absolute;
+    right: 0px;
+    top: -5px;
+}
+
+.ta-list__tbl .ta__rating {
+    display: block;
+    text-align: right;
+    margin-bottom: 12px;
+}
+
+.ta-list__tbl .ta__rating .bth__cnt {
+    font-size: 17px;
+}
+
+.ta-list__tbl .ta__recommend {
+    display: block;
+    text-align: right;
+}
+
+.ta__info-block-top {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+
+.ta__tbl-in {
+    display: table;
+    width: 400px;
+}
+
+.bth__row-in {
+    display: table-row;
+}
+
+.bth__cell-in {
+    display: table-cell;
+    padding: 3px 10px;
+}
+
+.ta__tbl-in .bth__cell-in:first-child {
+    width: 70px;
+    padding-left: 0;
+}
+
+.ta__tbl-in .bth__cell-in:last-child {
+    width: auto;
+    max-width: 400px;
+}
+
+.ta-list__tbl .ta__tbl-in .bth__cnt {
+    word-wrap: break-word;
+}
+
+.bth__link.ta-name {
+    font-size: 16px;
+    color: #475669;
+    margin-bottom: 5px;
+}
+
+.club-touragent__img {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.club-touragent__img.big {
+    width: 80%;
+}
+
+@media screen and (max-width: 1023px) {
+    .ta__tbl-in .bth__cell-in:last-child {
+        width: auto;
+        max-width: 180px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ta-list__tbl .bth__row {
+        display: block;
+        position: relative;
+        border: 1px solid #ccc;
+    }
+    .ta-list__tbl .bth__cell {
+        display: block;
+        border-top: none;
+        border-bottom: none;
+    }
+    .ta-list__tbl .bth__cell:first-child {
+        width: 100%;
+        border-left: none;
+        padding-bottom: 5px;
+    }
+    .ta-list__tbl .bth__cell:nth-child(2) {
+        display: block;
+        position: absolute;
+        top: -1px;
+        left: 150px;
+        border: none;
+        width: 130px;
+        text-align: left;
+    }
+    .ta-list__tbl .bth__cell:last-child{
+        display: block;
+        width: 100%;
+        padding-top: 5px;
+        padding-left: 15px;
+        border-top: none;
+        border-right: none;
+    }
+    .ta-list__tbl .ta__status {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .ta__tbl-in {
+        width: 100%;
+    }
+    .ta__tbl-in .bth__cell-in {
+        display: block;
+        padding: 3px 0;
+    }
+    .ta__tbl-in .bth__cell-in:first-child {
+        width: 100%;
+    }
+    .ta__tbl-in .bth__cell-in:last-child {
+        width: 100%;
+        max-width: 550px;
+    }
+    .ta-list__tbl .ta__right-block {
+        position: relative;
+        right: auto;
+        top: auto;
+    }
+    .ta-list__tbl .ta__rating {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .ta-list__tbl .ta__recommend {
+        text-align: left;
+    }
+    .ta-list__tbl .ta__rating .bth__cnt {
+        font-size: 14px;
+    }
+    .club-touragent__img {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .club-touragent__img.big {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 639px){
+    .ta__tbl-in .bth__cell-in:last-child {
+        max-width: 380px;
+    }
+
+}
+
+@media screen and (max-width: 479px){
+    .ta__tbl-in .bth__cell-in:last-child {
+        max-width: 230px;
+    }
+
+}

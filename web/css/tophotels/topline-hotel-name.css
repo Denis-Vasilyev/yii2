@@ -1,0 +1,136 @@
+.topline {
+    position: relative;
+    padding: 20px 215px 20px 234px;
+    border-bottom: 1px solid #f1ebd3;
+}
+
+.topline .bth__cnt {
+    margin: 0;
+}
+
+.topline-mark__block {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    border: 1px solid #ff8e41;
+    border-radius: 3px;
+    padding: 7px 10px 5px 10px;
+}
+
+.topline-mark__cnt {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    text-align: center;
+}
+
+.topline-mark__icon {
+    font-size: 26px;
+}
+
+.topline-mark__icon.dots-icon {
+     color: #ff8e41;
+ }
+
+.topline-rating__block {
+    position: absolute;
+    left: 25px;
+    top: 16px;
+    background: #fff;
+    width: 175px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 6px 0px 6px 0px;
+}
+
+.topline-rating__block .topline-rating__cnt {
+    display: inline-block;
+    position: relative;
+    font-size: 28px;
+    padding-left: 26px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.topline-rating__block .topline-rating__cnt:before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 14px;
+    bottom: 6px;
+    left: 0;
+}
+
+.topline-rating__block.green-rate .topline-rating__cnt {
+    color: #00a551;
+}
+
+.topline-rating__block.green-rate .topline-rating__cnt:before {
+    background: url(/i/tophotels/crown-green-20.png) no-repeat;
+}
+
+.topline-rating__block.red-rate .topline-rating__cnt {
+    color: #c83831;
+}
+
+.topline-rating__block.red-rate .topline-rating__cnt:before {
+    background: url(/i/tophotels/crown-red-20.png) no-repeat;
+}
+
+.topline-rating__block.yellow-rate .topline-rating__cnt {
+    color: #dfa918;
+}
+
+.topline-rating__block.yellow-rate .topline-rating__cnt:before {
+    background: url(/i/tophotels/crown-yellow-20.png) no-repeat;
+}
+
+.topline-rating__block .num-mark {
+    float: right;
+    display: inline-block;
+    margin-top: -2px;
+}
+
+.topline-hotel__ava {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    width: 41px;
+    height: 41px;
+    margin-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.topline-hotel__info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.topline-ttl {
+    display: inline-block;
+    margin: 0;
+}
+
+
+
+.hotel-heart {
+    color: #999;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1023px){
+    .topline {
+        padding: 20px 20px 20px 20px;
+    }
+    .topline-rating__block,
+    .topline-mark__block {
+        display: none;
+    }
+}

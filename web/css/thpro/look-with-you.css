@@ -1,0 +1,117 @@
+.line.look-line {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 182px;
+    height: 3px;
+    background: #475669;
+}
+
+.rating__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+}
+
+.rating__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.rating__tbl .head__tbl .bth__cnt {
+    font-size: 12px;
+    color: #999;
+}
+
+.rating__tbl .bth__cell {
+    padding: 7px;
+}
+.rating__tbl .bth__cell:first-child {
+    width: 43px;
+}
+.rating__tbl .bth__cell:nth-child(2) {
+    padding-right: 30px;
+}
+.rating__tbl .bth__cell:nth-child(3) {
+    width:160px;
+}
+.rating__tbl .bth__cell:nth-child(4) {
+    width:125px;
+    text-align: right;
+}
+.rating__tbl .bth__cell:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+.rating__tbl .bth__cnt.city-name {
+    display: inline-block;
+    max-width: 145px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .rating__tbl .bth__cell:nth-child(3) {
+        width: 140px;
+        padding-left: 10px;
+    }
+    .rating__tbl .bth__cell:nth-child(4) {
+        width: 120px;
+    }
+    .rating__tbl .bth__cell:last-child {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .rating__tbl .bth__cell:nth-child(3) {
+        width: 120px;
+        padding-left: 10px;
+    }
+    .rating__tbl .bth__cell:nth-child(4) {
+        width: 90px;
+    }
+    .rating__tbl .bth__cell:last-child {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rating__tbl .bth__row.head__tbl {
+        display: none;
+    }
+    .rating__tbl .bth__cell {
+        display: block;
+        padding: 5px 7px ;
+        border-bottom: none;
+    }
+    .rating__tbl .bth__cell:first-child {
+        display: none;
+    }
+    .rating__tbl .bth__cell:nth-child(2) {
+        padding-top: 7px;
+        width: 100%;
+    }
+    .rating__tbl .bth__cell:nth-child(3),
+    .rating__tbl .bth__cell:nth-child(4) {
+        width: 100%;
+        text-align: left;
+    }
+    .rating__tbl .bth__row:nth-child(3) .bth__cell:nth-child(4),
+    .rating__tbl .bth__cell:last-child {
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        text-align: left;
+        padding-bottom: 7px;
+    }
+    .rating__tbl .bth__row:nth-child(2) .bth__cell:nth-child(3),
+    .rating__tbl .bth__row:nth-child(3) .bth__cell:nth-child(3),
+    .rating__tbl .bth__row:nth-child(3) .bth__cell:last-child,
+    .rating__tbl .bth__row:nth-child(4) .bth__cell:nth-child(3) {
+        display: none;
+    }
+    .rating__tbl .bth__cnt.city-name {
+        max-width: 100%;
+    }
+}

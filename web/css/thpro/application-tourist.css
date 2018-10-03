@@ -1,0 +1,175 @@
+.application__tbl .bth__cell {
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
+}
+
+.application__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.application__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.application__tbl .bth__cell:first-child {
+    width: 80px;
+}
+
+.application__tbl .bth__cell:nth-child(3) {
+    width: 180px;
+}
+
+.application__tbl .bth__cell:nth-child(4) {
+    width: 240px;
+}
+.application__tbl .bth__cell:last-child {
+    width: 170px;
+    text-align: right;
+}
+
+.application__user-block {
+
+}
+
+.application__user-ava {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    margin-right: 7px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.application__user-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -3px;
+}
+
+.application__tbl .user-status {
+    display: block;
+    width: 33px;
+    height: 38px;
+
+}
+.user-status.user-status--platinum {
+    background: url("/i/tophotels/pos_platinum_v2.png") no-repeat;
+}
+.user-status.user-status--gold {
+    background: url("/i/tophotels/pos_gold_v2.png") no-repeat;
+}
+.user-status.user-status--bronze {
+    background: url("/i/tophotels/pos_bronze_v2.png") no-repeat;
+}
+.user-status.user-status--silver {
+    background: url("/i/tophotels/pos_gray_v2.png") no-repeat;
+}
+.user-status.user-status--pro {
+    background: url("/i/tophotels/pro-icon-30.png") no-repeat;
+}
+.user-status.user-status--pro-grey {
+    background: url("/i/tophotels/pro-icon-grey-30.png") no-repeat;
+}
+
+.app__cnt--top {
+    margin-top: -4px;
+}
+
+.bth__btn.application__btn {
+    width: 103px;
+    float: right;
+    padding: 3px 0px 6px 0px;
+}
+
+@media screen and (max-width: 1279px){
+    .application__tbl .bth__cell:nth-child(3) {
+        width: 70px;
+    }
+    .application__tbl .bth__cell:last-child {
+        width: 120px;
+    }
+
+    .application__tbl .user__cnt {
+        max-width: 140px;
+    }
+    .tape-tab {
+        font-size: 15px;
+        margin-right: 16px;
+    }
+    .tape-line {
+        width: 148px;
+    }
+
+}
+
+@media screen and (max-width: 1023px){
+    .application__tbl .bth__cell:nth-child(4) {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tape-tab {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 5px 0;
+    }
+    .tape-tabs-bar {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .tape-line {
+        display: none;
+    }
+    .application__tbl .bth__row {
+        display: block;
+        position: relative;
+    }
+    .hint-block:hover .hint,
+    .application__tbl .hint,
+    .application__tbl .head__tbl {
+        display: none;
+    }
+
+    .application__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0;
+    }
+    .application__tbl .bth__cell:first-child {
+        width: 100%;
+        padding-top: 7px;
+    }
+    .application__tbl .bth__cell:nth-child(3) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: right;
+        width: auto;
+    }
+    .application__tbl .bth__cell:nth-child(4) {
+        width: 100%;
+    }
+    .application__tbl .bth__cell:last-child {
+        width: 100%;
+        text-align: left;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ccc;
+    }
+    .bth__btn.application__btn {
+        float: none;
+    }
+    .application__tbl .user__cnt {
+        max-width: none;
+    }
+}
+@media screen and (max-width: 479px) {
+    .application__user-info {
+        display: block;
+        margin-top: 5px;
+    }
+}

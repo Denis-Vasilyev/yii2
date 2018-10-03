@@ -1,0 +1,243 @@
+@charset "utf-8";
+tbody {
+    vertical-align: top;
+    color: #475669;
+}
+
+table:not(.gmi-date-table) {
+    width: 100%;
+    margin-top: 12px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+table:not(.gmi-date-table) th {
+    text-align: left;
+    border-bottom: 1px solid #bcbcbc;
+    padding: 7px;
+    color: #999;
+    font-weight: normal;
+}
+
+table tr td {
+    font-size: 14px;
+    padding: 7px;
+    border-bottom: 1px solid #bcbcbc;
+    max-width: 155px;
+    min-width: 31px;
+    overflow: hidden;
+    vertical-align: top;
+    position: relative;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+table:not(.gmi-date-table) tr td img {
+    margin-right: 5px;
+}
+.panel table img {
+    border-radius: 50px;
+}
+tr.title-row {
+    background: linear-gradient(90deg, #e4e5ea, #e4e5ea);
+}
+
+.user-block-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.user-block {
+    white-space: nowrap;
+}
+
+.user-block__ava {
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contacts__plus,
+.contacts__minus {
+    position: relative;
+}
+
+.contacts__plus:before {
+    content: '\271A';
+    color: green;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1px;
+
+}
+
+.contacts__minus:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background-color: #da4c4c;
+    left: 1px;
+    top: 8px;
+}
+
+.user-block__info {
+    display: inline-block;
+    vertical-align: top;    font-family: 'apercu_pro', sans-serif;
+}
+
+.user-block__info-place, .user-block__info-contact {
+    font-size: 12px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-weight: normal;
+}
+
+.num-small-cell {
+    width: 15px;
+    min-width: 15px;
+    max-width: 15px;
+}
+
+
+tr.title-row td {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+table:not(.gmi-date-table) tbody .rasp {
+    border: none !important;
+    height: 20px;
+}
+
+.total-row-sm td {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+table:not(.gmi-date-table) .rasptd {
+    border: none;
+}
+
+.user-block-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.user-block-info__ava {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.total-sm-r {
+    float: right;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    padding-top: 25px;
+    color: #00a551;
+}
+
+.circle25 {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.circle25.auth-circle-light-green {
+    background-color: #30f590;
+}
+
+.circle25.auth-circle-green {
+    background-color: #00a551;
+}
+
+.circle25.auth-circle-orange {
+    background-color: #ff8e41;
+}
+
+.circle25.auth-circle-red {
+    background-color: #e03a3a;
+}
+
+.circle25.auth-circle-orange {
+    background-color: #ff8e41;
+}
+.circle25.circle25--green {
+    background-color: #00a551;
+}
+
+.circle25.circle25--lgreen {
+    background-color: #30f590;
+}
+
+.circle25.circle25--red {
+    background-color: #e03a3a;
+}
+
+@media screen and (max-width: 659px) {
+
+    table:not(.gmi-date-table):not(.no-respons-tb) tr td {
+        display: block;
+        width: auto;
+        text-align: left;
+        max-width: none;
+    }
+
+    table:not(.gmi-date-table):not(.no-respons-tb) tr td {
+        display: block;
+        width: auto;
+        text-align: left;
+        max-width: none;
+        border-bottom: none;
+        padding-top: 19px;
+        white-space: normal;
+        padding-bottom: 19px;
+        position: relative;
+    }
+
+    table:not(.gmi-date-table):not(.no-respons-tb) td:nth-child(1) {
+        padding-top: 45px;
+    }
+
+    table:not(.gmi-date-table):not(.no-respons-tb) thead {
+        display: none;
+    }
+
+    table:not(.gmi-date-table) tr td:before {
+        display: block;
+        position: absolute;
+        height: 10px;
+        top: -4px;
+        font-weight: normal;
+        font-size: 16px;
+        color: black;
+    }
+
+    table:not(.gmi-date-table) tr td:first-of-type:before {
+        top: 22px;
+    }
+
+    table:not(.gmi-date-table) td:last-child, table:not(.gmi-date-table) th:last-child {
+        text-align: left;
+    }
+
+    .data-cell:before {
+        content: 'Дата';
+    }
+
+    .manager-cell:before {
+        content: 'Менеджер';
+    }
+
+    .status-cell:before {
+        content: 'Статус';
+    }
+
+    table:not(.gmi-date-table) tr td:last-of-type {
+        border-bottom: 1px solid #bcbcbc;
+    }
+
+}

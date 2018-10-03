@@ -1,0 +1,246 @@
+.control-label {
+    font-weight: 300;
+    line-height: normal;
+    font-size: 21px;
+    color: #475669;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.c3-legend-item {
+    font-weight: normal;
+    fill: #475669;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.c3-chart-arcs-title {
+    fill: #475669;
+    font-weight: bold;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.c3-chart-arc text {
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.questionary-tourist-analysis-tbl img {
+    border-radius: 50px;
+}
+
+.questionary-tourist-analysis-tbl td:nth-child(2) {
+    width: 260px;
+}
+
+.questionary-tourist-analysis-tbl th:first-of-type {
+    width: 85px;
+}
+
+.questionary-tourist .questionary-tourist__left img {
+    border-radius: 200px;
+}
+
+.questionary-tourist .questionary-tourist__right {
+    margin-right: 70px
+}
+
+.questionary-tourist div {
+    font-size: 18px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    margin-bottom: 17px;
+}
+
+.questionary-tourist div p {
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.questionary-tourist {
+    display: flex;
+    justify-content: space-between;
+}
+
+.questionary-tourist-analysis-tbl td:last-of-type span.bold {
+    display: inline-block;
+    width: 16px;
+}
+
+.questionary-tourist-analysis-tbl td:nth-child(5) div {
+    margin-bottom: 3px;
+}
+
+.questionary-tourist-analysis-tbl td:last-of-type,
+.questionary-tourist-analysis-tbl th:last-of-type {
+    text-align: left;
+    width: 183px;
+}
+
+.form-group {
+    position: relative;
+    font-family: 'apercu_pro', sans-serif;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.poll-resault-list {
+    margin: -5px;
+    margin-bottom: 30px;
+}
+
+.poll-resault-i {
+    font-size: 0;
+    padding: 5px;
+}
+
+.poll-resault-left {
+    display: inline-block;
+    vertical-align: bottom;
+    width: calc(100% - 40px);
+}
+
+span.poll-resault-name {
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 16px;
+    color: #475669;
+}
+
+.poll-resault-bar {
+    position: relative;
+    height: 25px;
+    overflow: hidden;
+    border-radius: 2px;
+    background-color: rgba(162, 175, 165, 0.2);
+    text-align: center;
+}
+
+span.poll-resault-users {
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 14px;
+    color: #475669;
+    display: block;
+}
+
+.poll-resault-bar-line {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    top: 0;
+    background-color: rgba(46, 171, 72, 0.2);
+}
+
+.poll-resault-bar-line--green {
+    background-color: rgba(46, 171, 72, 0.2);
+}
+
+.poll-resault-bar-line--orange {
+    background-color: #ff8e4161;
+}
+
+.poll-resault-bar-line--red {
+    background-color: #ff414178;
+}
+
+.poll-resault-bar-line--grey {
+    background-color: rgba(196, 196, 196, 0.62);
+}
+
+.poll-resault-count {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 40px;
+    font-weight: 500;
+    height: 22px;
+    font-size: 14px;
+    text-align: right;
+    color: #475669;
+}
+
+.poll-resault-bar-line--r {
+    left: initial;
+    right: 0;
+    height: 100%;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.poll-resault-name--l {
+    float: right;
+}
+
+.form-group__tbl img {
+    border-radius: 2px;
+}
+
+.form-group__tbl tr td {
+    white-space: normal;
+    border-bottom: 0;
+    border-top: 1px solid #ccc;
+    line-height: 24px;
+}
+
+.form-group__tbl tr td:last-of-type,
+.form-group__tbl tr th:last-of-type {
+    text-align: left;
+    width: 95%;
+}
+
+.form-group__tbl-no-ava {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    background-color: #918f89;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    border-radius: 2px;
+}
+
+/*фильтр*/
+
+.filter__r-chart {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter__r-chart.filter__r-chart--bar {
+    background-image: url("/i/apass/bar-chart.svg");
+}
+
+.filter__r-chart.filter__r-chart-buble {
+    background-image: url("/i/apass/buble-chart.svg");
+}
+
+.filter__r-chart.filter__r-chart-pie {
+    background-image: url("/i/apass/pie-chart.svg");
+}
+
+.filter__r-chart.filter__r-chart-comments {
+    background-image: url("/i/apass/comment.svg");
+}
+
+#buble-chart:checked  + label span{
+    background-image: url("/i/apass/buble-chart-white.svg");
+}
+
+#bar-chart:checked  + label span{
+    background-image: url("/i/apass/bar-chart-white.svg");
+}
+
+#pie-chart:checked  + label span{
+    background-image: url("/i/apass/pie-chart-white.svg");
+}
+
+#comments:checked  + label span{
+    background-image: url("/i/apass/comment-white.svg");
+}
+

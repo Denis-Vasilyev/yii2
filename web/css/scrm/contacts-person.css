@@ -1,0 +1,91 @@
+.contacts-person-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.contacts-person-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.contacts-person-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 134px;
+    height: 3px;
+    background: #475669;
+}
+
+.contacts-person-tab.active {
+    color: #475669;
+}
+
+
+.person-name {
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+
+
+.contacts-persons .smile,
+.contacts-persons .fa-meh-o {
+    font-size: 35px;
+}
+
+.contacts-persons td:last-of-type,
+.contacts-persons th:last-of-type {
+    text-align: left;
+}
+
+.person-name__info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 659px) {
+
+    .contacts-persons td:nth-child(1)::before {
+        content: "№";
+    }
+
+    .contacts-persons td:nth-child(2)::before {
+        content: "Клиент";
+    }
+
+    .contacts-persons td:nth-child(3)::before {
+        content: "Характер";
+    }
+
+    .contacts-persons td:nth-child(4)::before {
+        content: "ID клиента / TPASS";
+    }
+
+    .contacts-persons td:nth-child(5)::before {
+        content: "Контакт";
+    }
+
+    .contacts-persons td:nth-child(6)::before {
+        content: "Последний раз";
+    }
+}

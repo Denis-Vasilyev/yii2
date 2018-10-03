@@ -1,0 +1,14 @@
+.payroll-calc-tbl tr td {
+    overflow: visible;
+    white-space: normal;
+}
+
+.payroll-calc-tbl tr td:nth-child(2) {
+    width: 35%;
+}.payroll-calc-tbl .relative:hover .hint {
+    display: block;
+}
+
+.payroll-calc-tbl tr:hover  a {
+    color: #318cc6 !important;
+}

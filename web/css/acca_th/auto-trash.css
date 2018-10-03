@@ -1,0 +1,43 @@
+.auto-trash-tbl .user-block-info.user-block-info--ava-empty {
+    border-radius: 2px;
+    width: 60px;
+    height: 60px;
+}
+
+.auto-trash-tbl .relative {
+    overflow: visible;
+    display: inline-block;
+}
+
+.auto-trash-tbl td {
+    overflow: visible;
+}
+
+.auto-trash-tbl td:first-of-type {
+    width: 120px;
+}
+
+.auto-trash-tbl td:nth-child(2) {
+    width: 31%;
+}
+
+.auto-trash-tbl .hint {
+    right: 0px;
+    top: 26px;
+}
+
+.auto-trash-tbl i {
+    color: #ff8e41;
+    font-size: 17px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.auto-trash-tbl i.fa-trash {
+    font-size: 21px;
+}
+
+.auto-trash-tbl  .fa-play-circle {
+    font-size: 20px;
+    color: #00a551;
+}

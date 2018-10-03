@@ -1,0 +1,85 @@
+
+.min-price__tbl .tv__cell {
+    border-bottom: 1px solid #ccc;
+    padding:  7px;
+}
+.min-price__tbl .head__tbl .tv__cell {
+    padding: 5px 7px;
+}
+
+.min-price__tbl .head__tbl .tv__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.min-price__tbl .tv__cell:first-child {
+    width: 50px;
+}
+
+.min-price__tbl .tv__cell:nth-child(3) {
+    width: 230px;
+}
+
+
+.min-price__tbl .tv__cell:nth-child(4) {
+    width: 120px;
+}
+
+.min-price__tbl .tv__cell:last-child {
+    width: 140px;
+    text-align: right;
+}
+
+
+.add-info {
+    padding: 20px 0 0 57px;
+}
+
+.add-info span {
+    margin-right: 10px;
+}
+
+.loader {
+    position: absolute;
+    left: -30px;
+    top: -11px;
+    width: 100px;
+    height: 10px;
+}
+
+@media screen and (max-width: 1023px) {
+    .min-price__tbl .tv__cell:nth-child(3) {
+        width: 160px;
+    }
+    .min-price__tbl .tv__cell:nth-child(4) {
+        width: 90px;
+    }
+    .min-price__tbl .tv__cell:last-child {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .min-price__tbl .head__tbl,
+    .min-price__tbl .tv__cell:first-child {
+        display: none;
+    }
+    .min-price__tbl .tv__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0;
+    }
+    .min-price__tbl .tv__cell:nth-child(2) {
+        padding-top: 7px;
+    }
+    .min-price__tbl .tv__cell:nth-child(3),
+    .min-price__tbl .tv__cell:nth-child(4) {
+        width: 100%;
+    }
+    .min-price__tbl .tv__cell:last-child {
+        width: 100%;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ccc;
+        text-align: left;
+    }
+}

@@ -1,0 +1,186 @@
+.top-line__block {
+    position: relative;
+    display: block;
+    padding: 10px 25px 10px 235px;
+    border-bottom: 1px solid #f1ebd3;
+}
+
+.top-line__link {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: #318cc6;
+    text-decoration: none;
+    position: relative;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 15px;
+    border-bottom: none;
+    left: initial;
+}
+
+.top-line__link--abs {
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+
+.top-line__cnt-block {
+    position: relative;
+    padding-bottom: 1px;
+}
+
+.top-line__cnt {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 15px;
+}
+
+.top-line__cnt.top-line__hotel-name {
+    display: inline-block;
+    max-width: 500px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.top-line__bubble {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background: #ffffff;
+    z-index: 1;
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 6px 2px rgba(0, 0, 0, 0.11);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.under-vpn {
+    color: #c83831;
+    position: relative;
+}
+
+.under-vpn:hover .top-line__bubble {
+    display: block;
+}
+
+.top-line-vpn-cnt {
+    font-size: 12px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+}
+
+.top-line__my {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.hotel__block {
+    position: relative;
+    display: inline-block;
+
+}
+
+.myhotel__link {
+    font-size: 16px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #ff8e41;
+    text-decoration: none;
+}
+
+.hotel__my-arr {
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.hotel__dropdown {
+    display: none;
+    position: absolute;
+    right: -5px;
+    top: 30px;
+    width: 350px;
+    background: #fff;
+    z-index: 1;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+}
+
+.hotel__dropdown-saggest-block {
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.hotel__dropdown-saggest {
+    width: 100%;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.hotel__dropdown-inp {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 6px 7px 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "apercu_pro", sans-serif;
+    color: #475669;
+}
+
+.hotel__dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #f2f2f2;
+    text-transform: none;
+    color: #475669;
+}
+
+@media screen and (max-width: 1279px) {
+    .top-line__cnt.top-line__hotel-name {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .top-line__link--abs {
+        left: 15px;
+    }
+    .top-line__cnt.under-vpn {
+        display: none;
+    }
+    .top-line__my {
+        right: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top-line__link--abs {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        top: initial;
+        left: initial;
+        margin-right: 10px;
+    }
+    .top-line__cnt-block {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .top-line__block {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .top-line__my {
+        display: none;
+    }
+
+
+}

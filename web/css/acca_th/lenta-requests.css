@@ -1,0 +1,117 @@
+.lenta-requests-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.lenta-requests-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.lenta-requests-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 122px;
+    height: 3px;
+    background: #475669;
+}
+
+.lenta-requests-tab.active {
+    color: #475669;
+}
+
+table.lenta td:last-of-type img {
+    border-radius: 50px;
+    margin-right: 0;
+}
+
+table.lenta td:last-of-type > div:last-of-type {
+    position: relative;
+}
+
+table.lenta td:last-of-type > div:last-of-type:hover .hint {
+    display: block;
+    right: 0;
+}
+
+table.lenta td:last-of-type > div {
+    vertical-align: middle;
+}
+
+table.lenta td {
+    vertical-align: middle;
+}
+
+table.lenta td:nth-child(2) {
+    width: 130px;
+}
+
+table.lenta td:last-of-type > div:first-of-type div {
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+table.lenta td:nth-child(3) > div:last-of-type div:first-of-type {
+    max-width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+table.lenta td:nth-child(3) {
+    width: 34%;
+}
+
+table.lenta td:first-of-type {
+    width: 85px;
+}
+
+table.lenta td:last-of-type {
+    text-align: right;
+    overflow: visible;
+    width: 125px;
+}
+
+table.lenta img {
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 659px) {
+    table.lenta td:nth-child(3) > div:last-of-type div:first-of-type {
+max-width: 230px;
+    }
+
+    .lenta td:nth-child(3):before {
+        content: 'Отель';
+    }
+
+    .lenta td:nth-child(4):before {
+        content: 'Отправитель';
+    }
+
+    .lenta td:first-of-type:before {
+        content: 'Дата';
+    }
+
+    .lenta td:nth-child(2):before {
+        content: 'Тип обращения';
+    }
+
+
+
+    .lenta td:nth-child(5):before {
+        content: 'Обработано';
+    }
+}

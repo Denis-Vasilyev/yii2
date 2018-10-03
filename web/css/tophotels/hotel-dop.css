@@ -1,0 +1,200 @@
+.dop__tbl .bth__cell {
+    vertical-align: top;
+    padding: 5px 0px;
+}
+
+.dop__tbl .bth__cell:first-child {
+    width: 227px;
+}
+
+.contact__payment {
+    display: inline-block;
+    background: url(/i/tophotels/sprite-payment.png) no-repeat;
+    width: 58px;
+    height: 36px;
+    margin-right: 10px;
+    background-size: 100%;
+}
+
+.contact__payment1 {
+    background: url(/i/tophotels/visa.png) no-repeat;
+}
+
+.contact__payment2 {
+    background: url(/i/tophotels/mastercard.png) no-repeat;
+}
+
+.contact__payment3 {
+    background: url(/i/tophotels/maestro.png) no-repeat;
+}
+
+.contact__payment4 {
+    background: url(/i/tophotels/ae.png) no-repeat;
+}
+
+.contact__payment5 {
+    background: url(/i/tophotels/mir.png) no-repeat;
+}
+
+.contact__payment6 {
+    background: url(/i/tophotels/cash.png) no-repeat;
+}
+
+.bth__cnt.dop-lang {
+    margin-bottom: 2px;
+}
+
+.dop__lang-block .bth__cnt.dop-lang {
+    margin-bottom: 13px;
+}
+
+.dop__lang-block .bth__cnt.dop-lang:last-child {
+    margin-bottom: 5px;
+}
+
+.bth__cnt .early {
+    padding-left: 25px;
+}
+
+.dop-check {
+    display: inline-block;
+    width: 15px;
+    padding-right: 5px;
+    color: #00a551 ;
+}
+
+.dop-minus {
+    display: inline-block;
+    width: 15px;
+    padding-right: 5px;
+    color: #e03a3a;
+}
+
+.dop__lang-col {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.dop__lang-block {
+    position: relative;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+
+.dop__lang-block:before {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgba(0, 165, 81, 0.10);
+    top: -10px;
+}
+
+.bth__link.dop-lang-link {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    padding-right: 15px;
+}
+
+.bth__link.dop-lang-link.active {
+    color: #475669;
+}
+
+
+
+.dop__cnt-block {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+
+.service__btn {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    width: 60px;
+    height: 36px;
+    background: #fff;
+}
+
+
+.service__btn.invalid {
+    background:  #fff url("/i/tophotels/invalid-green.jpg") no-repeat center;
+    background-size: 25px;
+}
+
+.dop-lang__arr {
+    transition: 0.3s;
+}
+
+.dop-lang__arr.active {
+    transform: rotate(180deg);
+}
+
+.dop-lang__block {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dop-lang__sugg {
+    position: absolute;
+    top: 40px;
+    left: -10px;
+    width: 150px;
+    background: #fff;
+    z-index: 10;
+    box-shadow:  0 2px 5px 0px rgba(0, 0, 0, 0.2)
+}
+
+.dop-lang__sugg .bth__link.dop-lang-link {
+    display: block;
+    padding: 5px 10px;
+    border-bottom: 1px solid #f2f2f2;
+    margin-top: 0;
+}
+
+.dop-lang__sugg .bth__link.dop-lang-link:hover {
+    background: #f2f2f2;
+}
+
+@media screen and (max-width: 768px){
+    .dop__tbl .bth__cell {
+        display: block;
+    }
+    .dop__tbl .bth__cell:first-child {
+        padding-bottom: 0;
+    }
+    .dop__tbl .bth__cell:last-child {
+        padding-top: 0;
+    }
+    .dop__tbl .link-blue.early {
+        display: block;
+        padding-left: 0px;
+    }
+    .dop-lang-link,
+    .dop-lang__block {
+        width: 45%;
+    }
+    .dop__lang-col {
+        width: 48%;
+        margin-right: 0;
+    }
+    .dop__lang-block .bth__cnt.dop-lang,
+    .dop__lang-block .bth__cnt.dop-lang:last-child {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .dop__lang-col {
+        width: 100%;
+    }
+    .dop-lang-link,
+    .dop-lang__block {
+        width: 100%;
+    }
+}

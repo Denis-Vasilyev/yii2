@@ -1,0 +1,508 @@
+.bokingDetail-block-top {
+    font-size: 15px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+}
+
+.bokingDetail-block-top__cross {
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+    background-image: url("/i/tophotels/cross-thin-grey.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.bokingDetail-block-top__cross:hover {
+    background-image: url("/i/tophotels/cross-thin.svg");
+
+}
+
+.bokingDetail-content__right-wrap {
+    float: right;
+    width: 330px;
+}
+
+.bokingDetail-content__right-wrap .js-observe-scroll {
+    position: absolute;
+    right: 0;
+    top: 550px;
+}
+
+.bokingDetail-content {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    font-size: 15px;
+    justify-content: space-between;
+    position: relative;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    margin-top: 20px;
+}
+
+.bokingDetail-content__left {
+    width: 68%;
+    position: relative;
+    margin-right: 20px;
+    padding: 20px 15px;
+    border: 1px solid #e4e5ea;
+}
+
+.bokingDetail-content__right .bth__inp-block input {
+    font-size: 18px;
+}
+
+.bokingDetail-content__right .bth__inp-block {
+    width: 100%;
+    border-color: #f1ebd3;
+    margin-bottom: 25px;
+}
+
+.lite-grey.bokingDetail-content__border.bth__ttl-h2 {
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.bokingDetail-content__right .bth__btn {
+    background-color: #ff8e41;
+    width: 270px;
+    color: white;
+}
+
+.bokingDetail-content .plane-left {
+    transform: rotate(180deg);
+}
+
+.bokingDetail-content__status-icon > div .grey {
+    margin-bottom: 8px;
+    line-height: 15px;
+}
+
+.bokingDetail-content__status-icon > div {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.bokingDetail-content__status-icon {
+    width: 33%;
+}
+
+.bokingDetail-content__status-icons {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+}
+
+.bokingDetail-h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.bokingDetail-content__status-icon.orange-ico .fas {
+    background-color: #F8A53A;
+}
+
+.bokingDetail-content__status-icon.green-ico .fas {
+    background-color: #00a551;
+}
+
+.bokingDetail-content__status-icon.red-ico .fas {
+    background-color: #e03a3a;
+}
+
+.bokingDetail-content__status-icon .fas {
+    font-size: 19px;
+    width: 40px;
+    height: 40px;
+    TEXT-ALIGN: CENTER;
+    BACKGROUND-COLOR: #c9c9c9;
+    cursor: pointer;
+    COLOR: WHITE;
+    border-radius: 2px;
+    padding-top: 11px;
+    box-sizing: border-box;
+}
+
+.bokingDetail-content__border {
+    position: relative;
+    border-bottom: 1px solid #e4e5ea;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.bokingDetail-content__ttl {
+    font-size: 33px;
+    color: #e27200;
+}
+
+.bokingDetail-content__ttl i {
+    font-size: 29px;
+}
+
+.bokingDetail-content__right .bth__btn:hover {
+    background-color: #e27200;
+}
+
+.bokingDetail-content__btm-abs {
+    position: absolute;
+    top: 80px;
+}
+
+.bokingDetail-content__fees {
+    margin-bottom: 40px;
+}
+
+.bokingDetail-content__fees .bokingDetail-content__fees-item {
+    margin-top: 15px;
+    border-bottom: 1px solid #e4e5ea;
+    padding-bottom: 15px;
+}
+
+.bokingDetail-content__fees .bokingDetail-content__fees-item .fa-question {
+    color: #ff8e41
+}
+
+.bokingDetail-content__fees .bokingDetail-content__fees-item i {
+    margin-right: 10px;
+}
+
+.bokingDetail-content__fees .bokingDetail-content__fees-item {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+}
+
+.bth__ttl-h2.bokingDetail-h2 .lowercase {
+    font-weight: normal;
+}
+
+.bokingDetail-content__right.fixed {
+    position: fixed;
+    top: 18px;
+    width: 330px;
+}
+
+.bokingDetail-content__left .fa-times {
+    font-size: 15px;
+}
+.bokingDetail-content__right {
+    width: 330px;
+
+    background: #faf6e5;
+    height: 320px;
+    padding: 26px 15px;
+}
+
+.bokingDetail-content__flights {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    margin-top: 15px;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+}
+.bokingDetail-block-top__cross.price-close {
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.bokingDetail-content__flights > div:last-of-type {
+    text-align: right;
+}
+
+.bokingDetail-content__flights > div:not(:last-of-type) {
+    margin-bottom: 30px;
+}
+
+.bokingDetail-content .fa-rub {
+    font-size: 29px;
+}
+
+.bokingDetail-content .change-price {
+    position: relative;
+}
+.bokingDetail-content__right-bottom{
+    width: 300px;    margin-top: 35px;
+}
+.bokingDetail-content .change-price::before {
+    position: absolute;
+    background-color: #999;
+    content: '';
+    height: 3px;
+    top: 7px;
+    width: 100%;
+}
+
+.bokingDetail-content__val {
+    display: inline-block;
+    width: 200px;
+}
+
+.bokingDetail-content__flights > div {
+    width: 33%;
+}
+
+.bokingDetail-content__flights-time {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.bokingDetail-content__flights-sm {
+    line-height: 17px;
+    color: #999;
+    margin-top: 7px;
+}
+
+.bokingDetail-content__flights-md {
+    text-align: center;
+}
+
+.bokingDetail-content__flights-md i {
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+.bokingDetail-block-top__bubbles .bokingDetail-block-top__bubble .fa-share-alt {
+    color: #ff8e41;
+    font-size: 27px;
+}
+
+.bokingDetail-block-top__heart {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(/i/tophotels/like-red-empty.svg);
+    display: inline-block;
+    width: 30px;
+    /* position: absolute; */
+    margin-bottom: -5px;
+    height: 29px;
+    background-size: contain;
+}
+
+.bokingDetail-block-top__heart.active {
+    background-image: url(/i/tophotels/like-red.svg);
+}
+
+.bokingDetail-block-top__bubble-btm {
+    font-size: 13px;
+}
+
+.bokingDetail-block-top__bubbles .bokingDetail-block-top__bubble .bokingDetail-block-top__bubble-top {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.bokingDetail-block-top__bubbles .bokingDetail-block-top__bubble:hover .hint {
+    display: block;
+    top: 71px;
+}
+
+.bokingDetail-block-top__bubbles .bokingDetail-block-top__bubble {
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: 66px;
+    width: 130px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.tour-detail-popup {
+    position: relative;
+    max-width: 900px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    background: #ffffff;
+    padding-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align: left;
+    min-height: 640px;
+    margin: 40px auto;
+}
+
+.tour-detail-popup .tour-detail-popup__top {
+    background: #E0E0E0;
+    position: relative;
+    padding: 15px 20px;
+}
+
+.tour-detail-popup .tour-detail-popup__close {
+    position: absolute;
+    top: 22px;
+    right: 15px;
+    width: 12px;
+    height: 12px;
+    background: url(/i/close-12x12.png) no-repeat;
+    cursor: pointer;
+}
+
+.tour-detail-popup .tour-detail-popup__mdl {
+    font-size: 15px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 15px 20px;
+}
+
+.tour-detail-popup .tour-detail-popup__triple-inp-block {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+}
+
+.tour-detail-popup .tour-detail-popup__triple-inp-block > div {
+    width: 33%;
+
+}
+
+.tour-detail-popup__ttl-sm {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.tour-detail-popup__val {
+    font-size: 21px;
+}
+
+.tour-detail-popup__h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.tour-detail-popup .border {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1023px) {
+    .bokingDetail-content {
+        flex-direction: column;
+    }
+
+    .bokingDetail-content__left {
+        margin-right: 0;
+        width: auto;
+    }
+
+    .bokingDetail-content__right {
+        width: auto;
+        margin-top: 45px;
+    }
+
+    .bokingDetail-content__right.fixed {
+        position: static !important;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 581px) {
+    .bokingDetail-content__right-bottom {
+        width: auto;
+    }
+    .bokingDetail-content__right-wrap {
+
+        margin-bottom: 40px;
+    }
+    .bokingDetail-block-top__bubbles {
+        width: 100%;
+    }
+
+    .bokingDetail-block-top__bubbles .bokingDetail-block-top__bubble {
+        width: 100%;
+    }
+
+    .bokingDetail-block-top__bubbles .bokingDetail-block-top__bubble:not(:last-of-type) {
+        margin-bottom: 15px;
+    }
+
+    .bokingDetail-block-top > div:last-of-type {
+        display: none;
+    }
+
+    .bokingDetail-content__status-icons {
+        flex-direction: column;
+    }
+
+    .bokingDetail-content__fees .bokingDetail-content__fees-item span:last-of-type {
+        font-size: 13px;
+    }
+
+    .bokingDetail-content__status-icons .bokingDetail-content__status-icon:not(:last-of-type) {
+        margin-bottom: 15px;
+    }
+
+    .bokingDetail-content__status-icon {
+        width: 100%;
+    }
+
+    .bokingDetail-content__val + span {
+        margin-left: 0 !important;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .bokingDetail-content__val {
+        display: block;
+        width: auto;
+    }
+    .bokingDetail-content__right .bth__btn {
+        width: 100%;
+    }
+
+    .bokingDetail-content__border .ml20 {
+        margin-left: 0 !important;    display: block;
+    }
+    .bokingDetail-content__fees .bokingDetail-content__fees-item {
+        flex-direction: column;
+    }
+    .bokingDetail-content__fees .bokingDetail-content__fees-item span:last-of-type {
+        margin-top: 5px;
+    }
+}

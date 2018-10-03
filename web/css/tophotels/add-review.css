@@ -1,0 +1,56 @@
+.add-rewiew-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.add-rewiew-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 2px 0px 15px 0px;
+    margin-right:20px;
+    color: #318cc6 ;
+}
+
+.add-rewiew-tab.active {
+    color: #475669 ;
+}
+
+.add-rewiew-line {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 201px;
+    height: 3px;
+    background: #475669;
+}
+
+.add-rewiew-about {
+    position: relative;
+    display: block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    padding-right: 35px;
+}
+
+.add-rewiew-about__close {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    background: url("/i/tophotels/close-12x12.png");
+}
+
+.add-rewiew-about__close:hover {
+    background: url("/i/tophotels/close-12x12-red.png");
+}

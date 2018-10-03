@@ -1,0 +1,119 @@
+
+.hotel-net-pp {
+    position: relative;
+    z-index: 101;
+    background: #e4e5ea;
+    width: 600px;
+    min-width: 263px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.hotel-net-pp__top {
+    padding: 17px 0px 17px;
+    margin: 0 30px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 13px;
+}
+
+.hotel-net-pp__close {
+    position: absolute;
+    top: 24px;
+    right: 0px;
+    width: 12px;
+    height: 12px;
+    background: url(/i/thpro/close-12x12.png) no-repeat;
+    cursor: pointer;
+}
+
+.hotel-net-pp__ttl2 {
+    color: #475669;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.hotel-net-pp__section {
+    padding: 0px 30px;
+}
+
+.hotel-net-pp .edit-block__inp-block {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.hotel-net-pp .edit-block__inp-block.new-net {
+    margin-top: 5px;
+}
+
+.hotel-net-pp__link {
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.hotel-net-pp__btn-section {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+}
+
+.hotel-net-pp__btn {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #fff;
+    border: 1px solid #ff8e41;
+    background: #ff8e41;
+    padding: 10px 0px;
+    border-radius: 2px;
+    width: 200px;
+}
+
+.hotel-net-pp__btn:hover {
+    background: #F88741;
+    border: 1px solid #F88741;
+}
+
+.ov-hidden {
+    overflow: hidden !important;
+}
+
+
+.hotel-net-pp__inp-block.focus {
+    box-shadow:  inset 0px -3px 0px 0px orange;
+}
+
+.hotel-net-pp__step2 {
+    /*padding-top: 40px;*/
+}
+
+@media screen and (max-width: 768px) {
+    .hotel-net-pp {
+        width: 100%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 479px) {
+    .hotel-net-pp {
+        height: 350px;
+    }
+    .hotel-net-pp__top {
+        margin: 0 10px 20px;
+    }
+    .hotel-net-pp__section {
+        padding: 0px 10px;
+    }
+    .hotel-net-pp__btn-section {
+        left: 10px;
+        right: 10px;
+    }
+    .hotel-net-pp__btn {
+        width: 100%;
+    }
+}

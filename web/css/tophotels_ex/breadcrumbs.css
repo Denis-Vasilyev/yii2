@@ -1,0 +1,102 @@
+.breadcrumbs {
+    position: relative;
+    display: block;
+    padding: 10px 25px 10px 215px;
+    border-bottom: 1px solid #f1ebd3;
+}
+
+.breadcrumbs__cnt-block {
+    position: relative;
+    padding-bottom: 1px;
+}
+
+.breadcrumbs__arr {
+    white-space: nowrap;
+    color: #318cc6;
+    text-decoration: none;
+    margin-right: 10px;
+    position: relative;
+    margin-left: 20px;
+    font-family: 'apercu_pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.breadcrumbs__arr:before {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    content: '\2190';
+}
+
+.breadcrumbs__link {
+    white-space: nowrap;
+    color: #318cc6;
+    text-decoration: none;
+    position: relative;
+    font-family: 'apercu_pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: none;
+    left: initial;
+}
+
+
+.breadcrumbs .header-hotels {
+    position: relative;
+}
+
+.breadcrumbs .header-hotels_searches {
+    padding: 0 0 1px 0;
+}
+
+.breadcrumbs-header .header-hotels-arr ,
+.breadcrumbs .header-hotels-arr {
+    white-space: nowrap;
+    color: #318cc6;
+    text-decoration: none;
+    margin-right: 10px;
+    position: relative;
+    margin-left: 20px;
+    font-family: 'apercu_pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.breadcrumbs .header-hotels-arr:before {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    content: '\2190';
+}
+
+.breadcrumbs-header {
+    position: relative;
+    display: block;
+    padding: 10px 25px 10px 189px;
+    background: #f1ebd3;
+    padding-top: 0;
+    margin-top: 8px;
+    margin-bottom: -17px;
+}
+
+.breadcrumbs-header .header-hotels-arr {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.breadcrumbs-header .header-hotels-arr:before {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    content: '\2190';
+}
+
+@media screen and (max-width: 1023px) {
+    .breadcrumbs {
+        padding-left: 15px;
+    }
+    .breadcrumbs-header {
+        padding: 0px 15px 10px 5px;
+    }
+}

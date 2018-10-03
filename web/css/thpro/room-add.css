@@ -1,0 +1,241 @@
+.room-add__tbl .bth__cell {
+    padding: 15px 0;
+    vertical-align: middle;
+}
+
+.room-add__tbl .bth__cell:first-child {
+    width: 200px;
+}
+
+.room-add__tbl .bth__inp-block.room-name {
+    width: 100%;
+}
+
+.room-add__tbl .bth__inp-block.short-inp {
+    width: 300px;
+}
+
+.inp-arr {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    background-image: none;
+    transition: 0.3s;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 19px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    opacity: 1;
+}
+
+.inp-arr:before {
+    content: "\f107";
+    color: #999;
+    right: 8px;
+    position: absolute;
+    top: 8px;
+}
+
+.inp-arr.active {
+    transform: rotate(180deg);
+}
+
+.guest-room__ctrl {
+    position: absolute;
+    top: 36px;
+    width: 300px;
+    left: 0;
+    background: #fff;
+    z-index: 101;
+    padding: 15px 15px 10px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+.guest-room__select {
+    position: relative;
+    border: 1px solid #ccc;
+    height: 36px;
+    line-height: 34px;
+    box-sizing: border-box;
+    /* text-align: center; */
+    margin-bottom: 10px;
+}
+
+.guest-room__add-btn {
+    position: absolute;
+    border: 1px solid #ccc;
+    font-size: 26px;
+    width: 36px;
+    height: 36px;
+    top: -1px;
+    line-height: 31px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+.guest-room__add-btn--right {
+    right: -1px;
+    padding-top: 2px;
+}
+
+.guest-room__add-btn--left {
+    left: -1px;
+}
+
+.guest-room__num {
+    text-align: center;
+    color: #475669;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.guest-room__close {
+    display: block;
+    text-align: right;
+    color: #999;
+}
+
+.room-add__section {
+    margin-top: 5px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    border-top: 1px solid #fff;
+}
+
+.equipment-room__block {
+    padding-top:10px;
+}
+
+.equipment-room__section {
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.equipment-room__section:last-child {
+    margin-bottom: 10px;
+}
+
+
+.equipment-room__section .cbx-cnt,
+.equipment-room__section .rbt-cnt {
+    font-weight: normal;
+}
+
+.equipment-room__block .rbt-block {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 8px;
+    margin-right: 0;
+}
+
+.equipment-room__block .cbx-block {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 10px;
+    margin-right: 0;
+}
+
+.equipment-room__block .cbx-block  .cbx + .label-cbx {
+    padding-left: 27px;
+}
+
+.room-add__tbl .bth__cell.val-top {
+    vertical-align: top;
+    padding-top: 19px;
+}
+
+.room-add__tbl .bth__cell.add-photo .bth__inp-block.short-inp {
+    margin-bottom: 10px;
+}
+
+.room-add__tbl .hotel-descr-ta {
+    height: 42px;
+}
+
+.room-add__photo-prev-block {
+    display: block;
+    margin-top: 10px;
+}
+
+.room-add__photo-prev {
+    position: relative;
+    width: 150px;
+    height: 90px;
+    box-sizing: border-box;
+    /*margin-right: 10px;*/
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.room-add__photo-del {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background: #fff url(/i/close-12x12.png) no-repeat center;
+    border-radius: 50%;
+}
+
+.room-add__photo-del:hover {
+    background: #fff url(/i/close-12x12-red.png) no-repeat center;
+}
+
+.add-photo__cnt {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.add-photo__link {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+
+.add-photo__link .add-photo-icon {
+    font-size: 26px;
+    color: #318cc6;
+}
+
+.room-add__photo-prev-block .sortable-block {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .room-add__tbl .bth__cell {
+        display: block;
+    }
+    .room-add__tbl .bth__cell:first-child {
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+    .room-add__tbl .bth__cell:last-child {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    .equipment-room__block .rbt-block,
+    .equipment-room__block .cbx-block {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 639px){
+    .equipment-room__block .rbt-block,
+    .room-add__tbl .bth__inp-block.short-inp ,
+    .equipment-room__block .cbx-block {
+        width: 100%;
+    }
+}

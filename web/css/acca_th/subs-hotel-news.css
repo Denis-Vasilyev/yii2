@@ -1,0 +1,131 @@
+.subs-hotelNews-tbl th:first-of-type {
+    width: 80px;
+}
+
+.subs-hotelNews-tbl th:nth-child(2) {
+    width: 60px;
+}
+
+.subs-hotelNews-tbl td:nth-child(3) a {
+    max-width: 295px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+}
+
+.subs-hotelNewsStat-tbl td:last-of-type,
+.subs-hotelNewsStat-tbl th:last-of-type {
+    text-align: right;
+}
+
+.subs-hotelNews-tbl td:last-of-type,
+.subs-hotelNews-tbl th:last-of-type {
+    text-align: right;
+}
+
+.subs-hotelNews-tbl .subs-hotelNews-tbl__act {
+    position: absolute;
+    right: 90px;
+    display: none;
+    top: 15px;
+}
+
+.subs-hotelNews-tbl .subs-hotelNews-tbl__act a {
+    font-size: 21px;
+    margin-top: 3px;
+    color: #475669 !important;
+    margin-right: 15px;
+}
+
+.subs-hotelNews-tbl__link {
+    color: white !important;
+    background-color: #bbb;
+    padding: 5px 15px;
+    margin-top: 2px;
+    display: inline-block;
+    border-radius: 2px;
+    position: absolute;
+
+}
+
+.subs-hotelNews-tbl td:nth-child(4) {
+    overflow: visible;
+}
+
+.subs-hotelNews-tbl__link--red {
+    position: relative;
+    background-color: #e03a3a;
+}
+
+.subs-hotelNews-tbl__link--green {
+    background-color: #00a551;
+}
+
+.subs-hotelNews-tbl__link--red:hover .hint {
+    display: block;
+    top: 34px;
+    right: 0;
+}
+
+.subs-hotelNews-tbl tr:hover .subs-hotelNews-tbl__link {
+    background-color: #3687c5
+}
+
+.subs-hotelNews-tbl td:last-of-type img {
+    margin-right: 0;
+}
+
+.subs-hotelNews-tbl .tr:hover .subs-hotelNews-tbl__link {
+    color: #3687c5 !important;
+}
+
+.subs-hotelNews-tbl tr td .hotel__flag {
+    border-radius: 2px;
+}
+
+.subs-hotelNews-tbl td:last-of-type a:hover {
+    color: #e03a3a !important;
+}
+
+.subs-hotelNewsStat-tbl th:first-of-type {
+    width: 40px;
+}
+
+.subs-hotelNews-tbl .relative {
+    display: inline-block;
+}
+
+.gual-hotels-loc {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    position: relative;
+
+}
+
+.subs-hotelNews-tbl td {
+    overflow: visible;
+}
+
+.subs-hotelNews-tbl .relative:hover .hint {
+    display: block;
+    right: 0;
+    top: 32px;
+    width: 282px;
+    overflow: visible;
+    white-space: normal;
+}
+
+.subs-hotelNews-tbl .gual-hotels-loc-icon {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #9f9f9f;
+    cursor: pointer;
+}
+
+.subs-hotelNews-tbl .gual-hotels-loc-icon.active {
+    color: #e03a3a;
+}

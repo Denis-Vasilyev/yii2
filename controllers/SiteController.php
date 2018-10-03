@@ -9,6 +9,8 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\SimpleFeedbackForm;
+use yii\helpers\VarDumper;
 
 class SiteController extends Controller
 {
@@ -126,13 +128,17 @@ class SiteController extends Controller
         return $this->render('about');
     }
 	
-	/**
-     * Says Hello.
-     *
-     * @return string
-     */
-	public function actionSay($message = 'Привет')
+	public function actionSimpleFeedback()
     {
-        return $this->render('say', ['message' => $message]);
+        $model = new SimpleFeedbackForm();
+        if ($model->load(Yii::$app->request->post()) && $validate = $model->validate()) {
+            $mail = 'test.th.welcome@gmail.com';
+            $guid = $model->GUID();
+            $model->addApplication($guid);
+            $model->sendNewAppMail($mail,$guid);
+            return $this->render('simple-feedback', ['model' => $model, 'successfullSending' => $validate]);
+        } else {
+            return $this->render('simple-feedback', ['model' => $model]);
+        }
     }
 }

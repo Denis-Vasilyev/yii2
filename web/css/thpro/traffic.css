@@ -1,0 +1,214 @@
+.line.traffic-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 157px;
+    height: 3px;
+    background: #475669;
+}
+
+.traffic-month__tbl .bth__cell,
+.traffic-week__tbl .bth__cell,
+.traffic-days__tbl .bth__cell {
+    position: relative;
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+}
+
+.traffic-week__tbl .bth__row.head__tbl .bth__cell,
+.traffic-sum__tbl .bth__row.head__tbl .bth__cell,
+.traffic-years__tbl .bth__row.head__tbl .bth__cell,
+.traffic-month__tbl .bth__row.head__tbl .bth__cell,
+.traffic-days__tbl .bth__row.head__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 7px;
+}
+
+.traffic-week__tbl .bth__row.head__tbl .bth__cnt,
+.traffic-sum__tbl .bth__row.head__tbl .bth__cnt,
+.traffic-years__tbl .bth__row.head__tbl .bth__cnt,
+.traffic-month__tbl .bth__row.head__tbl .bth__cnt,
+.traffic-days__tbl .bth__row.head__tbl .bth__cnt {
+    font-size: 12px;
+    color: #999;
+}
+
+.traffic-week__tbl .bth__row.summary .bth__cell,
+.traffic-sum__tbl .bth__row.summary .bth__cell,
+.traffic-years__tbl .bth__row.summary .bth__cell,
+.traffic-month__tbl .bth__row.summary .bth__cell,
+.traffic-days__tbl .bth__row.summary .bth__cell {
+    background: #e4e5ea;
+}
+
+.traffic-week__tbl .bth__row.summary .bth__cnt,
+.traffic-sum__tbl .bth__row.summary .bth__cnt,
+.traffic-years__tbl .bth__row.summary .bth__cnt,
+.traffic-month__tbl .bth__row.summary .bth__cnt,
+.traffic-days__tbl .bth__row.summary .bth__cnt {
+    font-weight: bold;
+}
+
+.traffic-days__tbl .bth__cell:nth-child(2) {
+    width: 95px;
+    text-align: right;
+}
+
+.traffic-days__tbl .bth__cell:nth-child(4),
+.traffic-days__tbl .bth__cell:nth-child(3) {
+    width: 150px;
+    text-align: right;
+}
+
+.traffic-days__tbl .bth__cell:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+.traffic-month__tbl .bth__cell:nth-child(2) {
+    width: 120px;
+    text-align: right;
+}
+
+.traffic-month__tbl .bth__cell:nth-child(3),
+.traffic-month__tbl .bth__cell:nth-child(4) {
+    width: 150px;
+    text-align: right;
+}
+
+.traffic-month__tbl .bth__cell:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+.traffic-years__tbl .bth__cell:nth-child(2) {
+    width: 150px;
+    text-align: right;
+}
+
+.traffic-years__tbl .bth__cell:nth-child(3),
+.traffic-years__tbl .bth__cell:nth-child(4) {
+    width: 150px;
+    text-align: right;
+}
+
+.traffic-years__tbl .bth__cell:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+.traffic-sum__tbl .bth__cell:nth-child(2) {
+    width: 150px;
+    text-align: right;
+}
+
+.traffic-sum__tbl .bth__cell:nth-child(3) {
+    width: 150px;
+    text-align: right;
+}
+
+.traffic-sum__tbl .bth__cell:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+.traffic-week__tbl .bth__cell:nth-child(2) {
+    width: 95px;
+    text-align: right;
+}
+
+.traffic-week__tbl .bth__cell:nth-child(3) ,
+.traffic-week__tbl .bth__cell:nth-child(4) {
+    width: 150px;
+    text-align: right;
+}
+
+.traffic-week__tbl .bth__cell:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+
+.hint--big .bth__cnt {
+    line-height: 20px;
+}
+
+.hint .bth__cnt {
+    color: #475669 !important;
+}
+
+.day-block {
+    display: inline-block;
+    width: 23px;
+}
+
+@media screen and (max-width: 1023px) {
+    .traffic-week__tbl .bth__cell:nth-child(3),
+    .traffic-week__tbl .bth__cell:nth-child(4),
+    .traffic-week__tbl .bth__cell:last-child {
+        width: 120px;
+    }
+    .traffic-month__tbl .bth__cell:nth-child(3),
+    .traffic-month__tbl .bth__cell:nth-child(4),
+    .traffic-month__tbl .bth__cell:last-child {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .traffic-week__tbl .bth__row.head__tbl,
+    .traffic-days__tbl .bth__row.head__tbl,
+    .traffic-month__tbl .bth__row.head__tbl {
+        display: none;
+    }
+    .traffic-days__tbl .bth__cell,
+    .traffic-week__tbl .bth__cell,
+    .traffic-month__tbl .bth__cell {
+        display: block;
+        padding: 5px 7px;
+        border-bottom: none;
+    }
+    .traffic-days__tbl .bth__cell:first-child,
+    .traffic-week__tbl .bth__cell:first-child {
+        padding-top: 7px;
+    }
+    .traffic-days__tbl .bth__cell:nth-child(2),
+    .traffic-days__tbl .bth__cell:nth-child(3),
+    .traffic-days__tbl .bth__cell:nth-child(4) {
+        width:100%;
+        text-align: left;
+    }
+    .traffic-days__tbl .bth__cell:last-child {
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        padding-bottom: 7px;
+        text-align: left;
+    }
+    .traffic-week__tbl .bth__cell:nth-child(2),
+    .traffic-week__tbl .bth__cell:nth-child(3),
+    .traffic-week__tbl .bth__cell:nth-child(4) {
+        width:100%;
+        text-align: left;
+    }
+    .traffic-week__tbl .bth__cell:last-child {
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        padding-bottom: 7px;
+        text-align: left;
+    }
+    .traffic-month__tbl .bth__cell:first-child {
+        padding-top: 7px;
+    }
+    .traffic-month__tbl .bth__cell:nth-child(2),
+    .traffic-month__tbl .bth__cell:nth-child(3),
+    .traffic-month__tbl .bth__cell:nth-child(4){
+        width:100%;
+        text-align: left;
+    }
+    .traffic-month__tbl .bth__cell:last-child {
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        padding-bottom: 7px;
+        text-align: left;
+    }
+}

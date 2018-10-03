@@ -1,0 +1,214 @@
+/*1*/
+.users-line {
+    width: 187px;
+}
+
+.profile-ava {
+    width: 210px;
+    height: 220px;
+    position: absolute;
+    top: 10px;
+    left: -2px;
+}
+
+.profile-wrap {
+    background: #efefef;
+    padding: 15px
+}
+
+.profile-ava img {
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-tbl div .profile-tbl__more {
+    display: inline-block;
+    position: absolute;
+    right: -6px;
+    bottom: -15px;
+    color: #ff8e41;
+    font-weight: normal;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.profile-tbl {
+    margin-left: 216px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+}
+
+.profile-tbl > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.profile-tbl > div:first-of-type {
+    position: relative;
+}
+
+.profile-tbl > div:first-of-type::after {
+    background-color: #ffffff;
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 119%;
+    top: -15px;
+    right: -6px;
+
+}
+
+.profile-tbl > div:last-of-type {
+    padding-left: 20px;
+}
+
+.profile-tbl div span:first-child {
+    width: 162px;
+}
+
+.profile-tbl div span:last-of-type {
+    font-weight: bold;
+}
+
+.profile-tbl div span {
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    padding: 5px;
+    display: inline-block;
+    max-width: 259px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.profile-analysis {
+    border-top: 1px solid #bcbcbc;
+}
+
+.profile-analysis__ttl {
+    font-size: 20px;
+}
+
+.profile-tbl .contacts__minus:before {
+    left: 4px;
+    top: 19px;
+    width: 16px;
+}
+
+.profile-tbl .profile-tbl__ttl {
+
+}
+
+/*2*/
+
+.profile-tbl--v2 {
+    margin-left: 0px;
+}
+
+.profile-tbl--v2 .block {
+    margin-bottom: 15PX;
+    border-bottom: 2px solid #efefef;    padding-bottom: 8px;
+
+}
+
+.profile-tbl--v2 > div:last-of-type {
+    padding-left: 235px;
+}
+
+.profile-tbl--v2 > div:first-of-type::after {
+    display: none;
+}
+
+.profile-wrap--2 {
+    border: 5px solid #efefef;
+    background-color: white;
+    padding: 15px;
+}
+
+.profile-wrap--2 .profile-ava {
+    left: 1px;
+    top: 5px;
+}
+
+.profile-tbl__bottom {
+    margin-left: 0;
+}
+
+.profile-tbl--v2 > div:last-of-type {
+    margin-left: 0;
+}
+
+.profile-tbl__bottom div span:first-child {
+    width: auto;
+    font-weight: bold;
+    padding-right: 0;
+}
+
+.profile-tbl__bottom div span:last-of-type {
+    font-size: 13px;
+    font-weight: normal;
+    padding-left: 3px;
+    text-transform: lowercase;
+}
+
+.profile-tbl__bottom .profile-tbl__bottom-big {
+    width: 100%;
+    display: block;
+}
+
+
+.profile-tbl__bottom div span {
+    max-width: none;
+    overflow: visible;
+}
+
+
+.profile-tbl__bottom .contacts__minus:before {
+    left: 8px;
+    top: 5px;
+    width: 13px;}
+
+
+/*3*/
+.detail-booking {
+    font-size: 14px;
+    padding: 15px 0;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    margin-bottom: 20px;
+    border: 3px solid #bcbcbc;
+    width: 80%;
+    position: relative;
+}
+
+.detail-booking h2 {
+    margin-bottom: 8px;
+    font-size: 17px;
+    border-bottom: 1px solid #bcbcbc;
+    padding-top: 0;
+    padding-bottom: 15px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+
+}
+
+.detail-booking > * {
+    padding: 7px 16px;
+}
+
+.detail-booking__item span:last-of-type {
+    font-weight: bold;
+}
+
+.detail-booking__item > span:first-of-type {
+    display: inline-block;
+    width: 174px;
+}
+
+.detail-booking .profile-ava {
+    top: 70px;
+    right: 0px;
+    left: auto;    width: 230px;
+    height: 230px;
+}

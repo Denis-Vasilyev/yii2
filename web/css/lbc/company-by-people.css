@@ -1,0 +1,45 @@
+
+.people__tbl {
+    border-top: 1px solid #ccc;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.people__tbl .lbc__cell {
+    padding: 7px;
+}
+
+.people__user-block {
+    white-space: nowrap;
+}
+
+.people__ava-block,
+.people__info-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.people__ava-block {
+    width: 67px;
+    height: 67px;
+    margin-right: 7px;
+}
+
+.people__ava-block img {
+    border-radius: 2px;
+}
+
+.lbc__link.people-name {
+    font-size: 18px;
+}
+
+.people__tbl .lbc__cnt {
+    margin-bottom: 0;
+}
+
+.people__tbl .lbc__link {
+    margin-bottom: 2px;
+}
+
+.people__tbl .lbc__cell .hint {
+    top: 37px;
+}

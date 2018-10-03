@@ -1,0 +1,336 @@
+.distr-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.distr-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 2px 0px 15px 0px;
+    margin-right:20px;
+    color: #318cc6 ;
+}
+
+.distr-tab.active {
+    color: #475669 ;
+}
+
+.distr-line {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 102px;
+    height: 3px;
+    background: #475669;
+}
+
+.distr__tbl .bth__cell {
+    border-bottom: 1px solid #cccccc;
+    padding: 7px;
+    vertical-align: top;
+}
+
+.distr__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.distr__tbl .head__tbl .bth__cnt {
+    font-size: 12px;
+    color: #999;
+}
+
+.distr__tbl .bth__cell:first-child {
+    width: 150px;
+}
+
+.distr__tbl .bth__cell:nth-child(2) {
+    width: 200px;
+}
+
+.distr__tbl .bth__cell:nth-child(2) .user-name {
+    display: inline-block;
+    max-width: 185px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.distr__tbl .bth__cell:nth-child(4) {
+    width: 110px;
+}
+
+.distr__tbl .bth__cell:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+.distr-icon {
+    display: inline-block;
+    margin-left: 7px;
+    font-size: 16px;
+    color: #475669;
+}
+
+.section--grey.contacts {
+    padding-bottom: 0;
+}
+
+.contacts .edit-block__inp-block:first-child {
+    margin-right: 20px;
+}
+
+.contacts .edit-block__inp-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 383px;
+    margin-bottom: 10px;
+}
+
+.contacts .inp-down {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    font-size: 19px;
+    color: #999;
+}
+
+
+.contacts .from__dropdown {
+    display: none;
+    position: absolute;
+    top: 35px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.11);
+    z-index:2;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contacts .from__dropdown.active {
+    display: block;
+}
+
+.contacts .from__dropdown-item {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.contacts .from__dropdown-item:hover {
+    background: #E4E4E4;
+}
+
+.subs__cnt {
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.subs__col {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.subs__col--right {
+    float: right;
+    display: block;
+    width: 180px;
+}
+
+.subs__col--left {
+    width: calc(100% - 200px);
+}
+
+.select__row {
+    border: 1px solid #ccc;
+    padding: 10px 7px;
+    text-align: right;
+}
+
+.select__row .bth__cnt,
+.select__row .cbx-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.subs-list__ava-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 7px;
+}
+
+.subs-list__user-info-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.subs-list__tbl .bth__cell {
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.subs-list__tbl .bth__cell:first-child {
+    border-left: 1px solid #ccc;
+}
+
+.subs-list__tbl .bth__cell:nth-child(2) {
+    width: 90px;
+    text-align: center;
+}
+
+
+.subs-list__tbl .bth__cell:last-child {
+    border-right: 1px solid #ccc;
+    width: 40px;
+    text-align: right;
+}
+
+.subs-list__tbl .bth__cell:nth-child(2) .bth__cnt {
+    line-height: 16px;
+}
+
+.subs-list__btn-more.disabled {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 11px 0px 10px 0px;
+    width: 180px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    background: #b5b5b5;
+    border: 1px solid #b5b5b5;
+    color: #fff;
+    z-index: 10;
+}
+
+.contact__link-block {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.subs-btn-block {
+
+}
+.subs-btn-block.fixed {
+    position: fixed;
+    top: 20px;
+}
+
+@media screen and (max-width: 1279px) {
+    .distr-tab {
+        font-size: 15px;
+        margin-right: 16px;
+    }
+    .distr-line {
+        width: 148px;
+    }
+    .distr__tbl .bth__cell:last-child {
+        width: 100px;
+    }
+    .distr__tbl .bth__cell:first-child {
+        width: 105px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .subs__col--right {
+        float: none;
+        margin-bottom: 10px;
+    }
+    .subs-btn-block.fixed {
+        position: relative;
+        top: auto;
+    }
+    .subs__col--left {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .distr-tab {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 5px 0;
+    }
+    .distr-tabs-bar {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .distr-line {
+        display: none;
+    }
+
+    .distr__tbl .bth__row {
+        display: block;
+        position: relative;
+    }
+    .distr__tbl .head__tbl {
+        display: none;
+    }
+    .distr__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0;
+    }
+    .distr__tbl .bth__cell:first-child {
+        width: 100%;
+        padding-top: 7px;
+    }
+    .distr__tbl .bth__cell:nth-child(2),
+    .distr__tbl .bth__cell:nth-child(4)  {
+        width: 100%;
+    }
+    .distr__tbl .bth__cell:last-child {
+        width: 100%;
+        text-align: left;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #ccc;
+    }
+    .distr-icon__block {
+        position: absolute;
+        top: 8px;
+        right: 0;
+    }
+    .subs-list__tbl .bth__row {
+        display: block;
+        position: relative;
+    }
+    .subs-list__tbl .bth__cell {
+        display: block;
+        border-top: none;
+        border-bottom: none;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+    }
+
+    .subs-list__tbl .bth__cell:first-child {
+        border-top: 1px solid #ccc;
+        padding-top: 7px;
+    }
+    .subs-list__tbl .bth__cell:nth-child(2) {
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+    }
+    .subs-list__tbl .bth__cell:last-child {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        border-left: none;
+        border-right: none;
+    }
+
+}

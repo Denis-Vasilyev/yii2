@@ -1,0 +1,93 @@
+.kpd-tbl__item--preference .bth__cell:last-child {
+    width: auto !important;
+}
+
+.preferevce__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 11px 7px;
+    vertical-align: top;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    line-height: 20px;
+    width: 50px;
+    max-width: 50px;
+    min-width: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.preferevce__tbl .bth__cell:last-of-type {
+
+    border-right: 1px solid #ccc;
+}
+
+.my-preference-wrap .SumoSelect > .CaptionCont > span {
+    font-size: 18px;
+}
+
+.my-preference-wrap .bth__inp-block {
+    width: 400px;
+}
+
+.box-heart {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    line-height: 20px;
+}
+
+.box-heart .box-heart__inp:checked + .box-heart__lb span {
+    background-image: url("/i/tophotels/like-red.svg");
+}
+
+.box-heart .box-heart__inp {
+    display: none;
+}
+
+.box-heart__icon {
+    cursor: pointer;
+    width: 23px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-image: url("/i/tophotels/like-grey-2.svg");
+    display: inline-block;
+}
+
+.box-heart__icon:hover {
+    background-image: url("/i/tophotels/like-red.svg");
+}
+
+.preferevce__tbl--month .box-heart__icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.preferevce__tbl--2 .box-heart__icon {
+    display: block;
+}
+
+.preferevce__tbl-top {
+    background-image: url("/images/bth-img2.jpg");
+    background-repeat: no-repeat;
+    width: 220px;
+    background-size: cover;
+}
+
+.preferevce__tbl--2 .bth__cell {
+    padding: 0;
+}
+
+.preferevce__tbl-bottom {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+

@@ -1,0 +1,98 @@
+.monitoring-tabs-bar {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.monitoring-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.monitoring-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 108px;
+    height: 3px;
+    background: #475669;
+}
+
+.monitoring-tab.active {
+    color: #475669;
+}
+
+.notice__close {
+    width: 12px;
+    height: 12px;
+    background-image: url("../../i/close-12x12.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+}
+
+.notice__close:hover {
+    background-image: url("../../i/close-12x12-red.png");
+}
+
+/*Адаптив таблиц*/
+@media screen and (max-width: 659px) {
+
+    .monitoring-notif td:nth-child(1)::before {
+        content: 'Дата';
+    }
+
+    .monitoring-notif td:nth-child(2)::before {
+        content: 'Приоритет';
+    }
+
+    .monitoring-notif td:nth-child(3)::before,
+    .monitoring-activity-log td:nth-child(2)::before,
+    .monitoring-by-user td:nth-child(2)::before {
+        content: 'Пользователь';
+    }
+
+    .monitoring-notif td:nth-child(4)::before {
+        content: 'Сообщение';
+    }
+
+    .monitoring-activity-log td:nth-child(1)::before,
+    .monitoring-by-user td:nth-child(1)::before {
+        content: ' Проект';
+    }
+
+    .monitoring-activity-log td:nth-child(3)::before,
+    .monitoring-by-user td:nth-child(3)::before {
+        content: ' Активность';
+    }
+
+    .monitoring-activity-log td:nth-child(4)::before {
+        content: ' Параметры запроса';
+    }
+
+    .monitoring-activity-log td:nth-child(5)::before {
+        content: ' Переходы на отели';
+    }
+
+    .monitoring-activity-log td:nth-child(6)::before,
+    .monitoring-by-user td:nth-child(6)::before {
+        content: ' Отработано';
+    }
+
+    .monitoring-by-user td:nth-child(4)::before {
+        content: ' Количество запросов';
+    }
+
+    .monitoring-by-user td:nth-child(5)::before {
+        content: ' Переходы на отели';
+    }
+}

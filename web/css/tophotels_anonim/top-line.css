@@ -1,0 +1,18 @@
+
+.registration-form {
+    min-height: 205px;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .header-anonim-stat__wrap {
+        width: 80%;
+    }
+
+    .header-anonim-stat {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 99%;
+
+    }
+}

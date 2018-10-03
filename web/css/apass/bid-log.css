@@ -1,0 +1,69 @@
+.bid-log-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.bid-log-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.bid-log-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 87px;
+    height: 3px;
+    background: #475669;
+}
+
+.bid-log .user img {
+    border-radius: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bid-log-tab.active {
+    color: #475669;
+}
+
+.bid-log tbody img {
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 659px) {
+    .bid-log tr td:nth-child(1):before {
+        content: 'Дата';
+    }
+
+    .bid-log tr td:nth-child(2):before {
+        content: 'Турагент';
+    }
+
+    .bid-log tr td:nth-child(3):before {
+        content: 'Распределение';
+    }
+
+    .bid-log tr td:nth-child(4):before {
+        content: 'Заявка';
+    }
+
+    .bid-log tr td:nth-child(5):before {
+        content: 'Пользователь';
+    }
+
+    .bid-log tr td:nth-child(6):before {
+        content: 'Заявок';
+    }
+}

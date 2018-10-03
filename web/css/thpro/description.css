@@ -1,0 +1,147 @@
+.description-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+
+}
+
+.description-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    /*cursor: pointer;*/
+    padding: 2px 0px 15px 0px;
+    margin-right:20px;
+}
+
+.description-tab .description__link {
+    color: #318cc6 ;
+    font-size: 17px;
+    font-family: 'apercu_pro', sans-serif;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.description-tab.active .description__link {
+    color: #475669;
+}
+
+.description-line {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 129px;
+    height: 3px;
+    background: #475669;
+}
+
+.descr__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.descr__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 12px;
+}
+
+.descr__tbl .bth__cell {
+    padding: 7px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #999;
+}
+
+.descr__tbl .bth__cell:first-child {
+    width: 40px;
+}
+
+.descr__tbl .bth__cell:nth-child(3) {
+    width: 160px;
+}
+
+.descr__tbl .bth__cell:nth-child(4) {
+    width: 160px;
+}
+
+.descr__tbl .bth__cell:nth-child(5) {
+    width: 150px;
+}
+
+.descr__tbl .bth__cell:last-child {
+    width: 110px;
+    text-align: right;
+}
+
+.descr__tbl .bth__link.user-name {
+    display: inline-block;
+    max-width: 135px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1279px) {
+    .descr__tbl .bth__cell:last-child {
+        width: 90px;
+    }
+    .descr__tbl .bth__cell:nth-child(4) {
+        width: 115px;
+    }
+    .descr__tbl .bth__cell:nth-child(3) {
+        width: 115px;
+    }
+    .description-tab {
+        margin-right: 16px;
+    }
+    .description-tab .description__link {
+        font-size: 15px;
+    }
+    .description-line {
+        width: 114px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .descr__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        text-align: left;
+        padding: 5px 0;
+    }
+    .descr__tbl .head__tbl,
+    .descr__tbl .bth__cell:first-child {
+        display: none;
+    }
+    .descr__tbl .bth__cell:nth-child(2) {
+        width: 100%;
+        padding-top: 7px;
+    }
+    .descr__tbl .bth__cell:nth-child(3),
+    .descr__tbl .bth__cell:nth-child(4),
+    .descr__tbl .bth__cell:nth-child(5) {
+        width: 100%;
+    }
+    .descr__tbl .bth__cell:last-child {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+        text-align: left;
+    }
+    .descr-line {
+        display: none;
+    }
+    .description-tab {
+        display: block;
+        padding: 5px 0;
+        width: 100%;
+        text-align: left;
+    }
+    .description-tabs-bar {
+        padding-bottom: 10px;
+    }
+    .descr__tbl .bth__link.user-name {
+        white-space: normal;
+        max-width: initial;
+    }
+
+    }

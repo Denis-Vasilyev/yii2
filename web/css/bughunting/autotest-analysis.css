@@ -1,0 +1,30 @@
+.autotests-page-analysis td > span {
+    display: inline-block;
+}
+
+.autotests-page-analysis td:last-child, .autotests-page-analysis th:last-child {
+    text-align: left;
+}
+
+.autotests-page-analysis td:nth-child(2) {
+    cursor: pointer;
+}
+
+.ranking-param {
+    font-size: 16px;
+    font-weight: bold;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.ranking img {
+    border-radius: 50px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+
+.autotests-page-analysis tr:not(.title-row) td:nth-child(2) {
+    color: #318cc6;
+}

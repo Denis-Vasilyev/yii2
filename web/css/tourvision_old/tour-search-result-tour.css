@@ -1,0 +1,108 @@
+.search-item-tour {
+    text-align: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.search-item-tour__col {
+    position: relative;
+    display: table-cell;
+    vertical-align: top;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.search-item-tour__col-1 {
+    width: 170px;
+}
+
+.search-item-tour__col-3 {
+    text-align: left;
+    width: 200px;
+}
+
+.search-item-tour__col-4 {
+    width: 153px;
+    padding-right: 0;
+    text-align: right;
+    /*vertical-align: middle;*/
+}
+
+.search-item-tour__col-5 {
+    width: 40px;
+    text-align: center;
+}
+
+.search-item-tour__rate {
+    margin: 4px 0 3px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.search-item-tour__name {
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: #318cc6;
+    margin-bottom: 2px;
+    font-weight: bold;
+    max-width: 330px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.search-item-tour .search-item__fav {
+    margin-top: 22px;
+}
+
+@media screen and (max-width: 1023px) {
+    .search-item-tour__col-1 {
+        width: 160px;
+    }
+    .search-item-tour__col-4 {
+        width: 120px;
+    }
+    .search-item-tour__col-3 {
+        width: 180px;
+    }
+    .search-item-tour__name {
+        max-width: 175px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .search-item-tour {
+        display: block;
+        position: relative;
+    }
+    .search-item-tour__col {
+        display: block;
+    }
+    .search-item-tour__col-1,
+    .search-item-tour__col-3,
+    .search-item-tour__col-4 {
+        width: 100%;
+        text-align: left;
+    }
+    .search-item-tour__col-5 {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .search-item-tour__name {
+        max-width: 100%;
+        white-space: normal;
+    }
+}

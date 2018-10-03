@@ -1,0 +1,98 @@
+.mfp-container {
+    padding: 20px;
+}
+
+.modal{
+    position: relative;
+    max-width: 750px;
+    height: auto;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    background: #e4e5ea;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 40px auto;
+}
+
+.modal__top {
+    padding: 17px 0px 17px;
+    margin: 0 30px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+.thx-pp__ttl2 {
+    display: inline-block;
+    color: #475669;
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+.modal__close {
+    position: absolute;
+    top: 27px;
+    right: 0px;
+    width: 12px;
+    height: 12px;
+    background: url(/i/close-12x12.png) no-repeat;
+    cursor: pointer;
+}
+
+.thx-pp__close:hover,
+.modal__close:hover {
+    background: url(/i/close-12x12-red.png) no-repeat;
+}
+
+.modal__section {
+    position: relative;
+    padding: 0px 30px 0px;
+    /* margin-top: 5px; */
+}
+
+.modal__btn-block {
+    display: inline-block;
+    padding: 0px 30px 0px;
+}
+
+.modal__btn {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'OpenSansRegular', sans-serif;
+    color: #fff;
+    border: 1px solid #ff8e41;
+    background: #ff8e41;
+    padding: 18px 0px 18px;
+    border-radius: 2px;
+    width: 276px;
+}
+
+.modal .modal__title {
+    text-align: center;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 17px;
+    margin-bottom: 8px;
+    line-height: 24px;    font-weight: bold;
+}
+
+
+@media screen and (max-width: 639px) {
+    .thx-pp__link-del {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width: 639px) {
+    .modal__btn-block {
+        display: block;
+
+    }
+    .modal__btn {
+        width: 100%;
+    }
+}

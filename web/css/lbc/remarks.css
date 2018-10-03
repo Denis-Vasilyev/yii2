@@ -1,0 +1,40 @@
+.remarks-tbl tr td img {
+    border-radius: 2px;
+}
+
+.remarks-tbl tr td:last-of-type,
+.remarks-tbl tr th:last-of-type {
+    text-align: left;
+}
+
+.remarks-tbl tr td:nth-child(2) {
+    width: 120px;
+}
+
+.remarks-tbl tr th:first-of-type {
+    width: 90px;
+}
+
+.remarks-tbl tr td:nth-child(2):hover .hint {
+    display: block;
+    left: 0;   top: 73px;
+    right: auto;
+
+}
+
+.remarks-tbl tr td {
+    overflow: visible;
+    position: relative;
+}
+
+.remarks-tbl tr td:last-of-type div {
+    margin-top: 2px;
+}
+
+.remarks-tbl i {
+    font-size: 38px;
+}
+
+.remarks-tbl tr th:nth-child(3) {
+    width: 100px;
+}

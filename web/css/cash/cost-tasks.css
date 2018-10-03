@@ -1,0 +1,23 @@
+.form-add--costTasks input {
+    width: 100px;
+}
+
+.list-cost td:not(:first-of-type):not(:nth-child(2)) {
+    font-weight: bold;
+}
+
+.list-cost td:last-of-type,
+.list-cost th:last-of-type {
+    text-align: left;
+}
+
+.form-add--costTasks h2 {
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.list-cost--edit tr:not(.title-row) td:nth-child(2) {
+    color: #318cc6;
+    cursor: pointer;
+}

@@ -1,0 +1,101 @@
+.distribution-structure-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.distribution-structure-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.distribution-structure-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 65px;
+    height: 3px;
+    background: #475669;
+}
+
+.distribution-structure-tab.active {
+    color: #475669;
+}
+
+.total-stroke td {
+    font-weight: bold;
+    font-size: 15px;
+    background: #e4e5ea;
+}
+
+.distrib-struct__perc {
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.distrib-struct__count {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.distrib-struct.days th:nth-child(1) {
+    width: 50px;
+}
+
+.distrib-struct.city th:nth-child(1) {
+    width: 100px;
+}
+
+.distrib-struct td:nth-child(2),
+.distrib-struct td:nth-child(3),
+.distrib-struct td:nth-child(4),
+.distrib-struct td:nth-child(5),
+.distrib-struct td:nth-child(6),
+.distrib-struct th:nth-child(2),
+.distrib-struct th:nth-child(3),
+.distrib-struct th:nth-child(4),
+.distrib-struct th:nth-child(5),
+.distrib-struct th:nth-child(6) {
+    text-align: right;
+}
+
+@media screen and (max-width: 659px) {
+    .distrib-struct tr td:nth-child(2):before {
+        content: 'Распределено';
+    }
+
+    .distrib-struct tr td:nth-child(3):before {
+        content: 'Взяли сами';
+    }
+
+    .distrib-struct tr td:nth-child(4):before {
+        content: 'Ручное';
+    }
+
+    .distrib-struct tr td:nth-child(5):before {
+        content: 'Демо';
+    }
+
+    .distrib-struct tr td:nth-child(6):before {
+        content: 'Прочее';
+    }
+
+    .distrib-struct.days tr td:nth-child(1):before {
+        content: 'День';
+    } .distrib-struct.city tr td:nth-child(1):before {
+        content: 'Город';
+    }.distrib-struct.project tr td:nth-child(1):before {
+        content: 'Проект';
+    }
+}

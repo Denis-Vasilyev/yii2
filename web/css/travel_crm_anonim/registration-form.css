@@ -1,0 +1,263 @@
+.line.reg-line {
+    width: 102px;
+    bottom: -1px;
+}
+
+.registration-form {
+    background: #e4e5ea;
+    padding: 20px;
+    padding-left: 238px;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 14px;
+    height: 315px;
+}
+
+.registration-form .tabs-bar {
+    border-bottom: 1px solid #fff;
+}
+
+.registration-form .bth__ttl-h2 {
+    margin-bottom: 20px;
+}
+
+.registration-form .registration__line {
+    display: block;
+    margin-top: 30px;
+}
+
+.registration__file-abs {
+
+}
+.bth__inp-lbl {
+    display: block;
+    color: #999;
+    font-size: 14px;
+    position: absolute;
+    margin-left: 7px;
+    top: 18px;
+    transition: 0.3s;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.bth__inp-lbl.active {
+    top: -21px;
+}
+.hint-block--abs {
+    position: absolute;
+    right: 6px;
+    top: 7px;
+}.bth__inp-block.error, .edit-block__inp-block.error, .bth__ta-block.error {
+     border-color: #da4c4c!important;
+     box-shadow: 0px 0px 0px 1px #da4c4c;
+ }
+.registration-form .registration__btn:hover {
+    background: #e27200;
+}
+
+.registration-form .bth__inp-block {
+    height: 56px;
+    box-sizing: border-box;
+    width: 550px;
+    border: 1px solid #f1ebd3;
+}
+
+.registration__btn-block {
+    text-align: left;
+}
+
+.registration-form .registration__btn {
+    background: #ff8e41;
+    width: 290px;
+    color: #fff;
+}
+
+.registration__btn-block .registration__btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.registration__btn-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.registration__btn-text .bth__cnt {
+    line-height: 18px;
+}
+
+.reg-step2,
+.pass-step2 {
+    padding: 50px 0;
+}
+
+.registration-form .accredit__line .bth__inp-block {
+    width: 430px;
+}
+
+.registration-form .accredit-add {
+    position: absolute;
+    right: -30px;
+    top: 15px;
+    font-size: 20px;
+}
+
+.registration-form .hint-block--abs {
+    top: 18px;
+}
+
+.registration-form .SumoSelect {
+    height: 51px;
+}
+
+.registration-form .SumoSelect > .CaptionCont {
+    height: 40px;
+    border-radius: 0;
+}
+
+.registration--border {
+    border-top: 1px solid #fff;
+    margin-top: 25px;
+}
+
+.registration .bth__inp {
+    font-size: 18px;
+}
+
+.registration-form .SumoSelect > .CaptionCont > span {
+    margin-top: 11px;
+}
+
+.registration-form .auth-form__eye {
+    position: absolute;
+    top: 23px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    width: 20px;
+    height: 8px;
+    right: 10px;
+    background: url(/i/closed-eye-fine.png) no-repeat;
+}
+
+.registration-form .auth-form__eye.active {
+    background: url(/i/tourvision/opened-eye-fine.png) no-repeat;
+}
+
+.registration-form .SumoSelect > .CaptionCont > span.placeholder {
+    color: #999;
+    font-weight: normal;
+}
+
+.registration-form .SumoSelect + .bth__inp-lbl {
+    opacity: 0;
+}
+
+.registration-form .SumoSelect.open + .bth__inp-lbl {
+    opacity: 1;
+    top: -21px;
+}
+
+.registration-form .SumoSelect + .bth__inp-lbl.active {
+    opacity: 1;
+}
+
+.registration__btn-text.registration__btn-text--abs {
+    position: absolute;
+    left: 0;
+    bottom: -45px;
+}
+
+.registration__lb-normal {
+    display: block;
+    color: #999;
+    font-size: 14px;
+    margin-left: 7px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.cbx-mark__block .cbx:checked + .label-cbx .cbx-cnt {
+    color: #fff;
+}
+
+.cbx-mark__block .cbx:checked + .label-cbx i {
+    color: #fff;
+}
+
+.cbx-mark__block .cbx + .label-cbx::after,
+.cbx-mark__block .cbx + .label-cbx::before {
+    display: none;
+}
+.panel {
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1023px) {
+    .registration-form {
+        padding-left: 20px;
+    }
+
+    .header-bot-cnt {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .auth__anonim-img {
+        display: none;
+    }
+    .header-bot-cnt {
+        margin-left: 0px;
+        padding: 18px 15px;
+    }
+}
+@media screen and (max-width: 537px) {
+    .auth__body-new {
+        height: auto;
+    }
+
+    .auth__auth-btn, .auth__search-btn {
+        height: 50px;
+    }
+
+    .header-bot-noauth .auth__item:first-of-type {
+        width:calc(100% - 50px);
+    }
+    .header-bot-noauth .auth__item:nth-child(3) {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .header-bot-noauth  .auth__item_submit {
+        margin-top: 10px;    width: 100%;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .registration-form .bth__inp-block {
+        width: 100%;
+    }
+
+    .registration-form .accredit-add {
+        right: 10px;
+    }
+
+    .registration__btn-text {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .registration-form .registration__btn {
+        width: 100%;
+    }
+
+    .registration-form {
+        padding-bottom: 100px;
+    }
+}

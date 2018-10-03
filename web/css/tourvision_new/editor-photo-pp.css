@@ -1,0 +1,302 @@
+.cropper-wrapp.cropper-wrapp-pp {
+    -ms-flex: 0 0 90%;
+    -webkit-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
+    max-height: 620px;
+    min-height: 250px;
+}
+
+.modal.modal-photo-edit {
+    padding: 15px;
+    max-width: 1200px;
+}
+
+.cropper-container.cropper-container--pp {
+    margin: 0;
+}
+
+.filter-pp__btn.filter-pp__btn--big {
+    width: 250px;
+    padding: 15px 0;
+}
+
+.cropper-panel.cropper-panel--pp {
+    -ms-flex: 0 0 10%;
+    flex: 0 0 10%;
+    -webkit-flex: 0 0 10%;
+    max-width: 10%;
+    border: none;
+    background-color: inherit;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.cropper-panel__act .editorMsg__inp-block {
+    position: absolute;
+    left: -104px;
+    top: 41px;
+    display: none;
+}
+
+.cropper-panel__act .editorMsg__inp-block input {
+    position: relative;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 2px;
+    height: 37px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0;
+    background: #fff;
+    padding-bottom: 3px;
+    padding: 5px;
+}
+
+.cropper-wrapp.cropper-wrapp-pp {
+    -ms-flex: 0 0 90%;
+    -webkit-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
+    max-height: 620px;
+    min-height: 250px;
+}
+
+.modal.modal-photo-edit {
+    padding: 15px;
+    max-width: 1200px;
+    position: relative;
+
+    height: auto;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    background: #e4e5ea;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 40px auto;
+}
+
+.cropper-container.cropper-container--pp {
+    margin: 0;
+}
+
+.filter-pp__btn.filter-pp__btn--big {
+    width: 250px;
+    padding: 15px 0;
+}
+
+.cropper-panel.cropper-panel--pp {
+    -ms-flex: 0 0 10%;
+    flex: 0 0 10%;
+    -webkit-flex: 0 0 10%;
+    max-width: 10%;
+    border: none;
+    background-color: inherit;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.cropper-panel__act .editorMsg__inp-block {
+    position: absolute;
+    left: -81px;
+    right: auto;
+    top: 41px;
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .cropper-panel__act__block {
+        height: 50px;
+        padding-top: 12px;
+    }
+
+
+    .cropper-panel__dbl-act__block {
+        width: 60px;
+        padding-top: 11px;
+        height: 50px;
+        margin-right: 2px;
+
+    }
+    .cropper-panel__flex-box > div:nth-child(2) > div:last-of-type {
+        position: static!important;
+    }
+    .img-editor-actions__btn {
+        width: 154px;
+        height: 50px;
+    }
+
+    .cropper-panel .fa {
+        font-size: 28px;
+    }
+
+    .cropper-panel.cropper-panel--pp {
+        -ms-flex: 0 0 100%;
+        -webkit-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+        width: auto;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+
+    }
+
+    .modal.modal-photo-edit {
+        margin-top: 0;
+    }
+
+    .cropper-wrapp.cropper-wrapp-pp {
+        -ms-flex: 0 0 100%;
+        -webkit-flex: 0 0 90%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .editorMsg__photo-shadow {
+        display: block !important;
+        box-shadow: none;
+        background-color: inherit;
+        height: auto;
+        left: 248px;
+        top: 104px;
+        width: 225px;
+    }
+
+    .editorMsg__photo-shadow > * {
+        display: inline-block;
+        text-transform: uppercase;
+
+    }
+
+    .editorMsg__photo-shadow a {
+        color: #ff8e41;
+    }
+
+    .editorMsg__photo-del {
+        color: #e03a3a;
+        margin-left: 15px;
+    }
+
+    .filter-small--v2 .rbt-block {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .mfp-content {
+        height: auto !important;
+    }
+
+    .cropper-panel__act--hide1200{
+        display: none !important;
+    }
+
+    .editorMsg__inp-block--show1200 {
+        display: block;
+        position: static;
+        margin-bottom: 0 !important;
+        width: 100%;
+        margin-top: 20px;
+        height: 39px;
+    }
+
+    .editorMsg__btn {
+        display: block;
+        margin-right: 0;
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 713px) {
+    .editorMsg .editorMsg__grey:last-of-type .editorMsg__inp-block--sm:last-of-type {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .cropper-panel.cropper-panel--pp .cropper-panel__flex-box > div:last-of-type {
+        width: 100%;
+    }
+
+    .avablock-preview-img {
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .editorMsg__img-wrap .editorMsg__photo {
+        display: block;
+        padding-bottom: 40px;
+    }
+
+    .editorMsg .box-radio {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+
+    .editorMsg__img-wrap .w40p {
+        width: auto !important;
+        margin-left: 0 !important;
+    }
+
+    .editorMsg .editorMsg__inp-block--sm {
+        display: block;
+        width: 100%
+    }
+
+    .editorMsg .editorMsg__inp-block--sm:not(:first-child) {
+        margin-top: 15px;
+    }
+
+    .editorMsg__photo-shadow {
+        left: 0;
+        top: 146px;
+        text-align: left;
+    }
+
+    .editorMsg__file-block {
+        right: -21px;
+    }
+
+    .modal .filter-pp__link-del {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .editorMsg__btn {
+        display: block;
+        margin-right: 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .cropper-panel.cropper-panel--pp.cropper-panel__flex-box {
+        flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        padding: 0;
+
+    }
+
+    .cropper-panel.cropper-panel--pp .cropper-panel__flex-box {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+
+    .cropper-panel.cropper-panel--pp .cropper-panel__flex-box div:last-of-type {
+        flex-basis: 100%;
+        -webkit-flex-basis: 100%;
+        -ms-flex-basis: 100%;
+    }
+
+    .img-editor-actions__btn {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,116 @@
+/*Создать группу скринап*/
+.createGroup {
+    padding: 10px 30px;
+    background-color: white;
+    height: 325px;
+}
+
+.createGroup__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.createGroup__column {
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.createGroup__column:first-child {
+    border-right: 1px solid #c3c3c336;
+}
+
+.createGroup__list {
+    overflow: auto;
+    height: 300px;
+}
+
+.createGroup__ttl {
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 5px;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    flex-basis: 50%;
+}
+
+.createGroup__column {
+    flex-basis: 50%;
+    color: #475669;
+}
+
+.createGroup__item {
+    font-size: 14px;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+}
+
+.section--grey a.create-group-pp {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #fff;
+    border: 1px solid #ff8e41;
+    background: #ff8e41;
+    padding: 10px 0px;
+    border-radius: 2px;
+    width: 215px;
+    text-align: center;
+}
+
+.createGroup__item:first-of-type {
+    margin-top: 0;
+}
+
+.createGroup__item:hover {
+    background-color: #ffffffb0;
+}
+
+.createGroup__item img {
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.createGroup__item > div {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.createGroup__item > div a {
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 250px;
+}
+
+.createGroup__column.createGroup__column--r {
+    padding-left: 15px;
+}
+
+.createGroup__item-del {
+    background-image: url(/i/lbc/close-sm-grey.svg);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 17px;
+}
+
+@media screen and (max-width: 825px) {
+    .createGroup__item > div a {
+        white-space: normal;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 639px) {
+
+
+    .createGroup__item img {
+        display: none;
+    }
+
+}

@@ -1,0 +1,34 @@
+.leftbar__in {
+    padding: 20px;
+}
+
+.menu__block {
+    margin-bottom: 20px;
+}
+
+.menu__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__link {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #475669;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu__link--green {
+    color: #5c8927;
+    font-weight: bold
+}
+
+.menu__ttl {
+    font-size: 18px;
+    padding: 0px 10px 5px 10px;
+    color: #475669;
+    margin: 0;
+    font-weight: bold;
+}

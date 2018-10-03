@@ -1,0 +1,222 @@
+.topline-hotel-big {
+    position: relative;
+    display: table;
+    width: 100%;
+    /*padding: 20px 215px 20px 234px;*/
+    border-bottom: 1px solid #f1ebd3;
+    /*min-height: 151px;*/
+    /*box-sizing: border-box;*/
+}
+
+.topline-hb__cell {
+    display: table-cell;
+    position: relative;
+    padding: 15px 25px 15px 0;
+    vertical-align: top;
+}
+
+
+.topline-hb__cell:first-child {
+    width: 240px;
+    box-sizing: border-box;
+    padding: 15px 25px;
+}
+
+.topline-hb__cell:nth-child(2) {
+    padding-bottom: 58px;
+}
+
+.topline-hb__cell:last-child {
+    width: 285px;
+}
+
+.topline-hb__hotel-photo {
+    width: 190px;
+    height: 120px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.topline-hb__star .hotel-star {
+    display: inline-block;
+    margin-right: 2px;
+    font-size: 14px;
+    color: #e7ba06;
+}
+
+.topline-hotel-big .bth__ttl-h2 {
+    display: inline-block;
+    margin: 3px 0 0 0;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.topline-hotel-big .hotel-place {
+    display: inline-block;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.topline-hotel-big .hotel-place__cnt {
+    margin-top: 5px;
+    color: #999;
+}
+
+.topline-hb__rating-block {
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+}
+
+.topline-hb__rating-cnt {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    font-size: 35px;
+    padding-left: 26px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-right: 10px;
+    width: 94px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.topline-hb__rating-block.grey-rate .topline-hb__rating-cnt {
+    color: #c2c2c2;
+}
+
+.topline-hb__rating-block.red-rate .topline-hb__rating-cnt {
+    color: #e03a3a;
+}
+
+.topline-hb__rating-block.yellow-rate .topline-hb__rating-cnt {
+    color: #dfa918;
+}
+
+.topline-hb__rating-block.green-rate .topline-hb__rating-cnt {
+    color: #00a551;
+}
+
+.topline-hb__rating-block .topline-hb__rating-cnt:before {
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 17px;
+
+    bottom: 3px;
+    left: 0;
+    background: url(/i/sprite-rate-crown-20-new.png) no-repeat;
+}
+
+.topline-hb__rating-block.grey-rate .topline-hb__rating-cnt:before {
+    background-position: 0px 0px;
+}
+.topline-hb__rating-block.green-rate .topline-hb__rating-cnt:before {
+    background-position: 0px -26px;
+}
+.topline-hb__rating-block.yellow-rate .topline-hb__rating-cnt:before {
+    background-position: 0px -52px;
+}
+.topline-hb__rating-block.red-rate .topline-hb__rating-cnt:before {
+    background-position: 0px -77px;
+}
+
+.topline-hb__rating-num-block {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -3px;
+    width: 48px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.topline-hb__rating-num-block .num-mark {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 0;
+}
+
+
+.topline-hb__hotel-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    width: 31px;
+    height: 31px;
+    margin-top: -2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.topline-hb__hotel-icon .topline__hotel-heart {
+    color: #c83831;
+    font-size: 29px;
+}
+
+.topline-hb__hotel-price-block {
+    background: #e5f6ed;
+    padding: 1px 10px 3px 10px;
+    text-align: left;
+    border-radius: 2px;
+    margin-top: 25px;
+}
+
+.topline-hb__hotel-price-block .bth__cnt {
+    margin-bottom: 0;
+}
+
+.topline-hb__link-block {
+    position: absolute;
+    bottom: 9px;
+    left: 10px;
+}
+
+.topline-hb__description-arrow {
+    margin-top: 6px;
+}
+
+.topline-hb__hotel-price-block .bth__cnt.night {
+    margin-top: -1px;
+}
+
+.topline-hb__hotel-price-block .topline-hb__cnt {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.topline-hb__hotel-price-block .topline-arr {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 16px;
+    background: url(/i/arr-green.png) no-repeat 0 0px;
+    -webkit-background-size: 25px;
+    background-size: 12px;
+    margin-top: 1px;
+}
+
+.topline-hb__hotel-price-block .night-num {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1023px){
+    .topline-hb__cell:first-child,
+    .topline-hb__cell:last-child {
+        display: none;
+    }
+    .topline-hb__cell {
+        display: block;
+        padding: 15px;
+    }
+    .topline-hb__rating-block {
+        left: 15px;
+    }
+}

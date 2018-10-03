@@ -1,0 +1,80 @@
+.details-small--processingQuality .details-small__marker {
+    height: 45px;
+    vertical-align: middle;
+    padding-top: 11px;
+    width: 55px;
+    text-align: center;
+}
+
+.details-small--processingQuality .details-small__item .details-small__item-bt p {
+    margin-bottom: 15px;
+}
+
+.details-small--processingQuality .details-small__marker i {
+    font-size: 22px;
+}
+
+.details-small--processingQuality .yinyan20 {
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+}
+
+.processing-speed-tbl td:nth-child(4) div div {
+    font-size: 13px;
+}
+
+.processing-speed-tbl td:nth-child(1),
+.processing-speed-tbl td:nth-child(2),
+.processing-speed-tbl td:nth-child(3) {
+    width: 120px;
+}
+
+.processing-speed-tbl td:nth-child(5) div.fz12,
+.processing-speed-tbl td:nth-child(4) div div {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 659px) {
+
+    .details-small--processingQuality .details-small__marker ,
+    .details-small--processingQuality .details-small__marker + .middle{
+        margin-bottom: 15px;
+    }
+
+    .processing-speed-tbl td:nth-child(1), .processing-speed-tbl td:nth-child(2), .processing-speed-tbl td:nth-child(3) {
+        width: auto;
+    }
+
+    .myBooking-item .myBooking-item__bubbles-price {
+        font-size: 13px;
+    }
+
+    .myBooking-item__bubbles {
+        padding: 5px 10px;
+        background-color: white;
+        height: 60px;
+        min-width: 100px;
+        margin-left: 10px;
+        max-width: 50px;
+        font-size: 13px;
+        padding-top: 10px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        border-radius: 1px;
+        display: inline-block;
+    }
+    .myBooking-item  .myBooking-item__bubbles-price + .grey {
+        font-size: 11px;
+    }
+
+}
+@media screen and (max-width: 425px) {
+    .details-small--processingQuality .details-small__marker + .middle{
+        margin-bottom: 0px;
+        display: block!important;    margin-left: 5px;
+    }
+}

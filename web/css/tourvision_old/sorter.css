@@ -1,0 +1,29 @@
+
+.sorter-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sorter-item {
+    display: inline-block;
+    /*margin-right: 20px;*/
+}
+
+.sorter-item:first-child .sorter__link {
+    padding-left: 0;
+}
+
+.sorter-item .sorter__link {
+    display: block;
+    padding: 7px 15px 7px 0px;
+    color: #ff8e41;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.sorter-item .sorter__link.active {
+    color: #475669;
+}
+

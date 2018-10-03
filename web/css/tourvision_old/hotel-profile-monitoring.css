@@ -1,0 +1,152 @@
+.chartjs-render-monitor {
+    height: 250px!important;
+}
+
+.about-tour__block {
+    background: rgb(228, 229, 234);
+    padding: 0 2px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.about-tour__tbl .tv__cell {
+    /*border-bottom: none;*/
+    padding: 7px;
+}
+
+.about-tour__tbl .tv__cell:first-child {
+    width: 200px;
+}
+
+.about-tour__tbl .tv__cell:nth-child(3) {
+    width: 250px;
+}
+
+.about-tour__tbl .tv__cell:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+.about-tour__tbl .search-item__rate {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.search-history__tbl .tv__cell {
+    padding: 7px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.search-history__tbl .head__tbl .tv__cell {
+    padding: 5px 7px;
+    border-top: none;
+    border-bottom: none;
+}
+
+.search-history__tbl .head__tbl .tv__cell:first-child {
+    border-left: none;
+}
+
+.search-history__tbl .head__tbl .tv__cell:last-child {
+    border-right: none;
+}
+
+.search-history__tbl .head__tbl .tv__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.search-history__tbl .tv__cell:first-child {
+    width: 170px;
+    border-left: 1px solid #ccc;
+}
+
+.search-history__tbl .tv__cell:nth-child(3) {
+    width: 250px;
+}
+
+.search-history__tbl .tv__cell:nth-child(4) {
+    width: 135px;
+}
+
+.search-history__tbl .tv__cell:last-child {
+    width: 150px;
+    text-align: right;
+    border-right: 1px solid #ccc;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .about-tour__tbl .tv__cell:first-child {
+        width: 175px;
+    }
+
+    .about-tour__tbl .tv__cell:nth-child(3) {
+        width: 210px;
+    }
+
+    .about-tour__tbl .tv__cell:last-child {
+        width: 105px;
+        text-align: right;
+    }
+
+    .search-history__tbl .tv__cell:first-child {
+        width: 160px;
+    }
+    .search-history__tbl .tv__cell:nth-child(3) {
+        width: 210px;
+    }
+    .search-history__tbl .tv__cell:nth-child(4) {
+        width: 100px;
+    }
+    .search-history__tbl .tv__cell:last-child {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-tour__tbl .tv__cell {
+        display: block;
+        padding: 5px 7px;
+    }
+    .about-tour__tbl .tv__cell:first-child {
+        padding-top: 7px;
+        width: 100%;
+    }
+    .about-tour__tbl .tv__cell:nth-child(3){
+        width: 100%;
+    }
+    .about-tour__tbl .tv__cell:last-child {
+        width: 100%;
+        text-align: left;
+        padding-bottom: 7px;
+    }
+    .search-history__tbl .tv__row.head__tbl {
+        display: none;
+    }
+    .search-history__tbl .tv__row  {
+        display: block;
+        border: 1px solid #ccc;
+    }
+    .search-history__tbl .tv__cell {
+        display: block;
+        border-bottom: none;
+        border-top: none;
+        padding: 5px 7px;
+    }
+    .search-history__tbl .tv__cell:first-child {
+        width: 100%;
+        border-left: none;
+        padding-top: 7px;
+    }
+    .search-history__tbl .tv__cell:nth-child(3),
+    .search-history__tbl .tv__cell:nth-child(4) {
+        width: 100%;
+    }
+    .search-history__tbl .tv__cell:last-child {
+        width: 100%;
+        border-right: none;
+        padding-bottom: 7px;
+        text-align: left;
+    }
+}

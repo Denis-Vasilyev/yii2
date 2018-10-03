@@ -1,0 +1,41 @@
+.city-pp {
+    position: relative;
+    max-width: 430px;
+    height: auto;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    background: #e4e5ea;
+    padding-bottom: 20px;
+    text-align: left;
+    margin: 40px auto;
+}
+
+.city-pp .filter-pp__btn,
+.city-pp .bth__inp-block {
+    width: 100%;
+}
+
+.city-pp .selectize-control.single .selectize-input, .selectize-control.single .selectize-input input  {
+    padding: 15px 8px 7px 10px;    height: 100%;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+}
+.city-pp  .filter-pp__section {
+    font-family: 'apercu_pro', sans-serif;
+}
+.city-pp .selectize-control{
+    height: 100%;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+}
+.city-pp .filter-pp__btn {
+    width: 160px;
+}
+
+.filter-pp__cancel {
+    color: grey;
+    font-size: 15px;    font-family: 'apercu_pro', sans-serif;
+    margin-left: 15px;
+    cursor: pointer;
+}

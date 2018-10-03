@@ -1,0 +1,246 @@
+.line.rate-hotel-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 143px;
+    height: 3px;
+    background: #475669;
+}
+
+
+.thpro-rating-hotels__tbl .bth__row.head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.thpro-rating-hotels__tbl .bth__row.head__tbl .bth__cnt{
+    font-size: 12px;
+    color: #999;
+}
+
+.thpro-rating-hotels__tbl .bth__cell {
+    padding: 7px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #cccccc;
+}
+
+.thpro-rating-hotels__tbl .bth__cell:first-child {
+     width: 50px;
+ }
+
+.thpro-rating-hotels__tbl .bth__cell:nth-child(3) {
+    width: 150px;
+}
+
+.thpro-rating-hotels__tbl .bth__cell:nth-child(4) {
+    width: 150px;
+    text-align: right;
+}
+
+.thpro-rating-hotels__tbl .bth__cell:nth-child(5) {
+    width: 150px;
+    text-align: right;
+}
+
+.thpro-rating-hotels__tbl .bth__cell:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+.right-info {
+    position: absolute;
+    right: 0;
+    top: -45px;
+}
+
+.sum-position__tbl .head__tbl .bth__cell,
+.position__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+
+.sum-position__tbl .head__tbl .bth__cnt,
+.position__tbl .head__tbl .bth__cnt {
+    font-size: 12px;
+    color: #999;
+}
+
+.sum-position__tbl .bth__cell,
+.position__tbl .bth__cell {
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sum-position__tbl .bth__cell:first-child,
+.position__tbl .bth__cell:first-child {
+    width: 50px;
+}
+
+
+.position__tbl .bth__cell:nth-child(3) {
+    width: 190px;
+}
+
+.position__tbl .bth__cell:nth-child(4) {
+    width: 100px;
+    text-align: right;
+}
+
+.position__tbl .bth__cell:last-child {
+    width: 100px;
+    text-align: right;
+}
+
+.sum-position__tbl .bth__cell:nth-child(2) {
+    width: 300px;
+}
+
+.sum-position__tbl .bth__cell:nth-child(3) {
+    width: 210px;
+}
+
+.sum-position__tbl .bth__cell:nth-child(4) {
+    width: auto;
+    text-align: left;
+}
+.sum-position__tbl .bth__cell:last-child {
+    width: 85px;
+    text-align: right;
+}
+
+.sum-position__tbl .bth__link.rating-name {
+    display: inline-block;
+    max-width: 280px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.thpro-rating-hotels__tbl .bth__cnt.hotel-place {
+    display: inline-block;
+    max-width: 135px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1279px) {
+    .thpro-rating-hotels__tbl .bth__cell:last-child,
+    .thpro-rating-hotels__tbl .bth__cell:nth-child(5),
+    .thpro-rating-hotels__tbl .bth__cell:nth-child(4) {
+        width: 100px;
+    }
+    .sum-position__tbl .bth__cell:nth-child(2) {
+        width: 270px;
+    }
+    .sum-position__tbl .bth__cell:nth-child(3) {
+        width: 170px;
+    }
+    .sum-position__tbl .bth__link.rating-name {
+        max-width: 255px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .thpro-rating-hotels__tbl .bth__cell:last-child {
+        width: 60px;
+    }
+    .thpro-rating-hotels__tbl .bth__cell:nth-child(5) {
+        width: 90px;
+    }
+    .sum-position__tbl .bth__cell:nth-child(2) {
+        width: 240px;
+    }
+    .sum-position__tbl .bth__cell:nth-child(3) {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .thpro-rating-hotels__tbl .bth__row.head__tbl,
+    .thpro-rating-hotels__tbl .bth__cell:first-child {
+        display: none;
+    }
+    .thpro-rating-hotels__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 7px 5px 0;
+    }
+    .thpro-rating-hotels__tbl .bth__cell:nth-child(2) {
+        padding-top: 7px;
+    }
+    .thpro-rating-hotels__tbl .bth__cell:nth-child(3),
+    .thpro-rating-hotels__tbl .bth__cell:nth-child(4),
+    .thpro-rating-hotels__tbl .bth__cell:nth-child(5) {
+        width: 100%;
+        text-align: left;
+    }
+    .thpro-rating-hotels__tbl .bth__cell:last-child {
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+    }
+    .sum-position__tbl .head__tbl,
+    .position__tbl .head__tbl,
+    .sum-position__tbl .bth__cell:first-child,
+    .position__tbl .bth__cell:first-child {
+        display: none;
+    }
+    .sum-position__tbl .bth__cell,
+    .position__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 7px 5px 0;
+    }
+    .sum-position__tbl .bth__cell:nth-child(2),
+    .position__tbl .bth__cell:nth-child(2) {
+        padding-top: 7px;
+    }
+    .sum-position__tbl .bth__cell:nth-child(3),
+    .sum-position__tbl .bth__cell:nth-child(4),
+    .position__tbl .bth__cell:nth-child(3),
+    .position__tbl .bth__cell:nth-child(4),
+    .position__tbl .bth__cell:nth-child(5) {
+        width: 100%;
+        text-align: left;
+    }
+    .sum-position__tbl .bth__cell:last-child,
+    .position__tbl .bth__cell:last-child {
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        text-align: left;
+        padding-bottom: 7px;
+    }
+
+    .filter-rating-hotels .filter-pp__btn {
+        display: block;
+        width: 100%;
+    }
+    .filter-rating-hotels .filter-pp__link-del {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .thpro-rating-hotels__tbl .bth__cnt.hotel-place,
+    .sum-position__tbl .bth__link.rating-name {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 639px) {
+    .filter-rating-hotels .filter-pp {
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+        left: initial;
+        margin-left: 0;
+    }
+    .right-info {
+        position: relative;
+        right: initial;
+        top: initial;
+        margin-top: 10px;
+    }
+
+}

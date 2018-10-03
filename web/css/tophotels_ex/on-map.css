@@ -1,0 +1,101 @@
+.on-map__map-block {
+    position: relative;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.on-map__map-block .jqvmap-zoomin,
+.on-map__map-block .jqvmap-zoomout {
+    left: auto;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    color: #999;
+    font-size: 20px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, 0.1em 0.1em 0.2em rgba(71, 86, 105, 0.25098039215686274);
+}
+
+.on-map__map-block .jqvmap-zoomout {
+    top: 42px;
+}
+
+.on-map__legend {
+    margin-top: 15px;
+}
+
+.on-map__color {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 6px;
+    margin-right: 20px;
+}
+
+.on-map__color:before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 15px;
+    left: 0;
+    top: 2px;
+    border: 1px solid #ccc;
+}
+
+.on-map__color.legend-green:before {
+    background: #00a551;
+}
+.on-map__color.legend-orange:before {
+    background: #ffbd91;
+}
+.on-map__color.legend-light-orange:before {
+    background: #ea7d7d;
+}
+
+#vmap2,
+#vmap {
+    /*position: relative;*/
+    /*width: auto;*/
+    height: 400px;
+    margin: auto;
+}
+
+.on-map__bubble-show {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: #00a551;
+    padding: 20px;
+}
+
+.on-map__bubble {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: -92px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    background: #fff;
+    padding: 5px;
+    width: 200px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.on-map__bubble-show:hover .on-map__bubble {
+    display: block;
+}
+
+@media screen and (max-width: 1023px){
+    .on-map__color {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

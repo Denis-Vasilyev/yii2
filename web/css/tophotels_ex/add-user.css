@@ -1,0 +1,127 @@
+.add-user__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+    vertical-align: top;
+}
+
+.add-user__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.add-user__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px
+}
+
+.add-user__tbl .bth__cell:nth-child(2) {
+    width: 280px;
+}
+
+.add-user__tbl .bth__cell:last-child {
+    width: 135px;
+    text-align: right;
+}
+
+.bth__btn.add-user__btn {
+    width: 120px;
+    padding: 5px 0px 8px 0px;
+}
+
+.find-user__block {
+    margin-top: 20px;
+}
+
+.user-statys__rbt {
+    margin-top: 20px;
+}
+
+.find-user__btn-block {
+    margin-top: 10px;
+}
+
+.user-statys__rbt  .rbt-block {
+     margin-bottom: 10px;
+    width: 150px;
+}
+
+.bth__btn.find__btn {
+    border: none;
+    background: #ff8e41;
+    color: #fff;
+    margin-right: 10px;
+    width: 150px;
+}
+
+.bth__btn.find__btn:hover {
+    background: #e27200;
+}
+
+.bth__btn.find__btn,
+.bth__link.find__link {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+@media screen and (max-width: 1279px){
+    .add-user__tbl .bth__cell:nth-child(2) {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .add-user__tbl .bth__cell:nth-child(2) {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .add-user__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0;
+    }
+    .add-user__tbl .head__tbl {
+        display: none;
+    }
+    .add-user__tbl .bth__cell:first-child {
+        padding-top: 10px;
+    }
+    .add-user__tbl .bth__cell:nth-child(2) {
+        width: 100%;
+    }
+    .add-user__tbl .bth__cell:last-child {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    .filter__inp-block.add-user {
+        width: 390px;
+    }
+}
+@media screen and (max-width: 639px) {
+    .filter__inp-block.add-user {
+        display: block;
+        width: 97%;
+        padding-right: 0px;
+    }
+    .filter__btn {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .bth__btn.find__btn {
+        display: block;
+        width: 100%;
+    }
+    .find-user__btn-block {
+        text-align: center;
+    }
+    .bth__link.find__link {
+        display: block;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,374 @@
+.header * {
+    box-sizing: border-box; }
+
+.header {
+    position: relative;
+    box-sizing: border-box;
+    color: #fff;
+    background: linear-gradient(135deg, #00b1df 0%, #006ec1 100%);
+    background: rgba(0, 0, 0, 0.3);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.header .header-topmenu:last-child {
+    margin-bottom: 0;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.header--big {
+    height: 447px;
+}
+
+.header--palm {
+    background-image: url(/images/tourvision/header-bg.jpg);
+}
+
+.header--malta {
+    background-image: url(/images/tourvision/malta.jpg);
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 40px;
+}
+
+.header-informer + .header__ttl {
+    margin-top: 30px;
+}
+
+.header__call {
+    float: right;
+    position: relative;
+    padding-left: 39px;
+    font-size: 18px;
+    color: #fff;
+    text-align: right;
+}
+
+.header__call-link {
+    position: relative;
+    top: -3px;
+    color: #fff;
+    display: inline-block;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.header__call-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header__call-icon svg {
+    width: 30px;
+    height: 30px;
+}
+
+.header__call-icon svg path {
+    fill: #fff;
+}
+
+.header__ttl {
+    color: #fff;
+    font-weight: 600;
+    padding-top: 19px;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.header__subtitle {
+    color: #fff;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 19px;
+    text-decoration: none;
+    display: block;
+}
+
+.header__subtitle_ta {
+    /*padding-top: 13px;*/
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.header__btn-block {
+    position: relative;
+    display: inline-block;
+}
+
+.header__btn {
+    margin-top: 48px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 40px 4px;
+    line-height: 59px;
+    height: 59px;
+    background: #44B2FF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 18px;
+    z-index: 1;
+    transition: background .15s ease;
+}
+
+.header__btn:hover {
+    background: #169ffe;
+}
+
+.header__btn_orange:hover {
+    background: #ffa353;
+}
+
+.header__btn_orange:active {
+    background: #ed7a18;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.27), inset 0 1px 0 0 #bc5f10;
+}
+
+.header__btn_orange {
+    background: #ff8e41;
+    color: #fff;
+    z-index: 10;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 1px 0 0 #bc5f10, inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
+}
+
+.newyear-btn {
+    position: absolute;
+    right: -58px;
+    z-index: 1;
+    top: 10px;
+}
+
+.header__count {
+    margin-top: 35px;
+}
+
+.header__count-v3 {
+    margin-top: 20px;
+}
+
+.header__bot-line {
+    position: relative;
+}
+
+.header__place {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.header__place i {
+    font-size: 20px;
+    margin-right: 6px;
+}
+
+.header__count-num {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.header__count-desc {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.header-anchor__link {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 1;
+    color: #fff;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.newyear-snow {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    min-height: 72px;
+    object-fit: cover;
+}
+
+.newyear-snow-header {
+    min-height: 55px;
+}
+
+.newyear-footer {
+    padding-bottom: 55px!important;
+}
+
+.header__counter {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.header__counter .flip-clock-wrapper {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+}
+
+.header__counter .flip-clock-wrapper ul {
+    box-shadow: none;
+    margin: 1px;
+    width: 35px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.header__counter .flip-clock-wrapper ul:nth-child(3) {
+    margin-right: 8px;
+}
+
+.header__counter .flip-clock-wrapper ul li {
+    border-radius: 3px;
+    line-height: 45px;
+}
+
+.header__counter .flip-clock-wrapper ul li a div.down {
+    border-radius: 0 0 3px 3px;
+}
+
+.header__counter .flip-clock-wrapper ul li a div div.inn {
+    border-radius: 3px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: none;
+    background: linear-gradient(to top, #006BD1 30%, #00AAFB 100%);
+}
+
+.header__counter .flip-clock-wrapper ul li a div.up:after {
+    display: none;
+}
+
+.header__counter-desc {
+    font-size: 12px;
+    color: #fff;
+}
+
+
+
+.header__manager-ava-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.header__manager-info-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header__manager-ava {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header__manager-link {
+    display: inline-block;
+    font-size: 28px;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.header__manager-cnt {
+    font-size: 16px;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.header__manager-cnt + .header__manager-cnt {
+    margin-top: 17px;
+}
+
+@media screen and (max-width: 1279px) {
+
+}
+
+@media screen and (max-width: 1023px) {
+    .header__subtitle {
+        font-size: 16px;
+    }
+
+    .header__ttl {
+        font-size: 26px;
+    }
+    .header-content {
+        padding: 0px 20px;
+    }
+
+
+    .header_big {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 80px;
+        padding-bottom: 60px;
+        height: auto;
+    }
+
+    .header__counter {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-content {
+        padding: 75px 20px 0;
+    }
+    .header__place {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .header__call {
+        display: block;
+        float: none;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .header__subtitle {
+        margin-bottom: 5px;
+    }
+    .header__count {
+        margin-top: 20px;
+    }
+}

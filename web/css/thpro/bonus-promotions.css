@@ -1,0 +1,120 @@
+.discount-section {
+    border: 2px solid #bcbcbc;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 14px;
+    color: #475669;
+}
+
+.discount-section__ava-block {
+    border-radius: 50px;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+.discount-section__item .user-block-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.discount-section__item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px 0;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.discount-section__circle {
+    width: 21px;    background-color: #dadada;
+    height: 21px;
+    display: inline-block;
+    text-align: center;
+    color: white !important;
+    font-size: 15px;
+    font-weight: normal;
+    border-radius: 50px;
+}
+
+.discount-section .discount-section__item:not(:last-of-type) {
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.discount-section__bubbles {
+
+}
+
+.discount-section .discount-section__bubble.discount-section__bubble--time {
+    width: auto;
+}
+
+.discount-section.discount-section--green .discount-section__bubble {
+    background-color: #e5f6ed;
+}
+
+.discount-section.discount-section--red .discount-section__bubble {
+    background-color: #F4CBCB;
+}
+
+.discount-section.discount-section--yellow .discount-section__bubble {
+    background-color: #FFF2CD;
+}
+
+.discount-section.discount-section--grey .discount-section__bubble {
+    background-color: #EEEEEE;
+}
+
+.discount-section__bubble {
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    height: 60px;
+    font-size: 30px;
+    position: relative;
+    padding: 11px;
+    color: #475669;
+    padding-top: 11px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.discount-section .discount-section__item.discount-section__item--start {
+    justify-content: flex-start;
+}
+
+.discount-section .relative:hover .hint {
+    display: block;    top: 46px;
+    min-width: 100px;
+    width: auto;
+}
+
+.discount-section__act-block {
+    position: relative;
+}
+
+.discount-section__act {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    font-size: 17px;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.discount-section:hover .discount-section__act {
+    display: block;
+}
+
+.hi__logo .relative:hover .hint {
+    display: block;
+
+}

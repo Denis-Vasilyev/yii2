@@ -1,0 +1,110 @@
+.section--grey {
+    border: 1px solid #e4e5ea;
+    background: #e4e5ea;
+}
+
+.edit-site__tbl .tv__cell {
+    padding: 12px 0 ;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
+}
+
+.edit-site__tbl .tv__cell:first-child {
+    width: 250px;
+}
+
+.edit-site__tbl .tv__inp-block {
+    width: 500px;
+}
+
+.edit-site__tbl .tv__inp-block.short-block {
+    width: 251px;
+}
+
+.edit-site__tbl .SumoSelect {
+    width: 100%;
+    height: 100%;
+}
+
+.edit-site__tbl .SumoSelect:focus > .CaptionCont,
+.edit-site__tbl .SumoSelect:hover > .CaptionCont,
+.edit-site__tbl .SumoSelect.open > .CaptionCont {
+    box-shadow: none;
+    border-color: #ccc;
+}
+
+.edit-site__tbl .SumoSelect > .CaptionCont {
+    height: 100%;
+    border: none;
+}
+
+.edit-site__tbl .SumoSelect > .CaptionCont > span {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #475669;
+    font-size: 14px;
+}
+
+.edit-site__tbl .SelectBox {
+    padding: 6px 8px 4px 8px;
+}
+
+.edit-site__tbl .SumoSelect > .CaptionCont > label > i {
+    width: 12px;
+    height: 18px;
+    top: 3px;
+    right: 0px;
+    border-right: none;
+    border-bottom: none;
+    transform: rotate(0deg);
+    transition: 0.3s;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 19px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    opacity: 1;
+    background-image: none;
+}
+
+.edit-site__tbl .SumoSelect > .CaptionCont > label > i:before {
+    content: "\f107";
+    color: #2c9cdc;
+}
+
+.edit-site__tbl .SumoSelect.open > .optWrapper {
+    top: 35px;
+}
+
+.edit-site__tbl .SumoSelect > .optWrapper > .options li.opt {
+    padding: 10px 6px;
+}
+
+.edit-site__tbl .SumoSelect > .optWrapper > .options li label {
+    color: #475669;
+    font-size: 14px;
+}
+
+.tv__btn.edit-site__btn {
+    width: 180px;
+    height: 46px;
+
+}
+
+@media screen and (max-width: 768px){
+    .edit-site__tbl .tv__cell {
+        display: block;
+        border-bottom: none;
+    }
+    .edit-site__tbl .tv__cell:first-child {
+        padding: 12px 0;
+        width: 100%;
+    }
+    .edit-site__tbl .tv__cell:last-child {
+        padding: 0px 5px 12px 0;
+        border-bottom: 1px solid #ccc;
+    }
+    .edit-site__tbl .tv__inp-block.short-block,
+    .edit-site__tbl .tv__inp-block {
+        width: 100%;
+    }
+}

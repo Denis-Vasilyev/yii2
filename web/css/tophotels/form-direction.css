@@ -1,0 +1,357 @@
+.formDirections {
+    position: absolute;
+    left: 0;
+    background: #fff;
+    font-family: 'apercu_pro', sans-serif;
+    z-index: 101;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+    display: none;
+    width: max-content;
+    width: -moz-max-content;
+    color: #475669;
+    font-size: 14px;
+    top: 0px;
+}
+
+.formDirections .formDirections__wrap {
+    position: relative;
+
+}
+
+.formDirections .formDirections__top {
+    background-color: #faf6e5;
+    padding-right: 50px;
+}
+
+.formDirections .formDirections__top.formDirections__top--white {
+    background-color: white;
+}
+
+.formDirections .formDirections__top.formDirections__top--white .formDirections__bottom-close {
+    background-image: url(/i/tophotels/cross-thin.svg);
+}
+
+.formDirections .formDirections__top-tab {
+    display: inline-block;
+    padding: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    color: #2c9cdc;
+}
+
+.formDirections .formDirections__top-tab.active {
+    color: #475669;
+    background-color: white;
+}
+
+.formDirections .formDirections__top-tab i {
+    margin-right: 7px;
+    font-size: 17px;
+}
+
+.formDirections .formDirections__top-tab:first-of-type {
+    padding-left: 20px;
+}
+
+.formDirections .formDirections__bottom {
+
+}
+
+.formDirections__top-tab .bth__inp-flag {
+    display: none;
+}
+
+.formDirections__top-line {
+    border-bottom: 1.5px solid #ff8e41;
+    background-color: white !important;
+}
+
+.formDirections .formDirections__search input {
+    padding: 11px;
+    padding-left: 20px;
+    border-bottom: 1.5px solid #ff8e41;
+    font-weight: bold;
+}
+
+.formDirections .formDirections__bottom-blocks {
+    max-height: 290px;
+    overflow-x: auto;
+}
+
+.formDirections__bottom-close {
+    background-image: url(/i/tophotels/cross-thin.svg);
+    width: 25px;
+    height: 20px;
+    background-repeat: no-repeat;
+    right: 12px;
+    top: 14px;
+    cursor: pointer;
+    background-position: right top;
+    background-size: 19px;
+    display: inline-block;
+    /* margin-left: 10px; */
+    position: absolute;
+    background-color: white;
+}
+
+.formDirections__close-red {
+    padding-left: 27px;
+    color: #e03a3a;
+
+}
+
+.formDirections .formDirections_plus-circle.active {
+    background-image: url("/i/tophotels/minus15.png");
+}
+
+.formDirections .formDirections_plus-circle {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-image: url(/i/tophotels/plus15.png);
+}
+
+.formDirections .formDirections_plus-hidden {
+    background-image: none !important;
+}
+
+.formDirections .formDirections__bottom-btn {
+    margin: 15px;
+}
+
+.formDirections .formDirections__top-tab.active .formDirections__hotel-icon {
+
+    background-image: url(/i/tophotels/house-black-building-shape.svg);
+}
+
+.formDirections__drop-city.pl73 {
+    padding-left: 73px;
+}
+
+.formDirections__hotel-icon {
+    background-image: url(/i/tophotels/house-black-building-shape-blue.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right: 5px !important;
+    margin-bottom: -3px;
+}
+
+.formDirections .formDirections__top .formDirections__bottom-close {
+    background-color: transparent;
+}
+
+.formDirections .formDirections__bottom-item {
+    border-bottom: 1px solid #faf6e5;
+    cursor: pointer;
+    padding: 8px 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bth__inp-direction {
+    height: 50px !important;
+}
+
+.formDirections .formDirections__bottom-item:hover {
+
+    background-color: #faf6e5;
+}
+
+.formDirections .formDirections__city {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.formDirections .formDirections__count {
+    color: #999;
+    text-align: right;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.formDirections__city .formDirections__bottom-item .formDirections__city {
+    width: 245px;
+    display: inline-block;
+}
+
+.formDirections__cbx-item .cbx-block {
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+.formDirections__cbx-item .cbx-cnt {
+    font-weight: normal;
+}
+
+.formDirections__cbx-item {
+    margin-bottom: 0px;
+    border-bottom: 1px solid #f1ebd3;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+
+.formDirections__cbx-ttl {
+    color: #ccc;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'apercu_pro', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.formDirections__city .formDirections__bottom-item .formDirections__count {
+    width: 100px;
+    display: inline-block;
+}
+
+.formDirections .form-durability__select {
+    display: block;
+    position: static;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+}
+
+.formDirections .form-durability__select {
+    width: 100%;
+}
+
+.formDirections .form-durability__select .form-durability__durability .form-durability__select-row {
+    display: block;
+    margin-bottom: 0;
+}
+
+.formDirections .form-adults {
+    display: block;
+    position: static;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+}
+
+.formDirections .cbx + .label-cbx {
+    padding-left: 28px;
+}
+
+.formDirections__bottom-blocks.h-auto {
+    max-height: none;
+    overflow: visible;
+}
+
+.formDirections .formDirections__arr {
+    font-size: 21px;
+    z-index: 2;
+    /* position: absolute; */
+    right: 15px;
+    color: #ff8e41;
+    transition: 0.3s;
+    margin-left: 10px;
+
+}
+
+.formDirections__crown {
+    background-repeat: no-repeat;
+    width: 21px;
+    background-image: url("/i/tophotels/crown-blue-20.png");
+    height: 14px;
+    display: inline-block;
+    background-size: contain;
+}
+
+.formDirections .formDirections__top-tab.active .formDirections__crown {
+
+    background-image: url(/i/tophotels/crown-grey-20.png);
+}
+
+.formDirections .formDirections__arr.active {
+
+    transform: rotate(180deg);
+}
+
+.formDirections__bottom-city .cbx-block {
+    padding-left: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.formDirections .formDirections__cut {
+    display: inline-block;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+}
+
+.formDirections__drop-city .bth__cnt {
+    margin-top: 5px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.formDirections .formDirections__bottom-item:hover,
+.formDirections__drop-city .bth__cnt:hover {
+    color: #2c9cdc;
+    cursor: pointer;
+}
+
+.formDirections__drop-city .cbx-cnt {
+    font-size: 14px;
+    font-weight: normal;
+
+}
+
+.formDirections__bottom-city .formDirections__bottom-item:hover {
+    background-color: white;
+}
+
+.formDirections__drop-city {
+
+    padding-left: 30px;
+    display: none;
+}
+
+.formDirections .formDirections__bottom-item--white:hover {
+    background-color: white;
+}
+
+.formDirections .formDirections__top-tab i.fa-bars {
+    width: 30px;
+}
+
+.formDirections .rbt + .label-rbt {
+    padding-left: 30px;
+}
+
+.formDirections .formDirections__city .formDirections__bottom-item {
+}
+
+@media screen and (max-width: 870px) {
+    .formDirections {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .formDirections {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .formDirections .cbx-cnt {
+        max-width: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

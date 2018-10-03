@@ -1,0 +1,39 @@
+.half-row {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    padding: 0px 0;
+}
+
+.contact__cnt-block {
+    margin-bottom: 10px;
+}
+
+.contact-soc-icon {
+    font-size: 18px;
+    margin-right: 5px;
+    color: #475669;
+    display: inline-block;
+    width: 20px;
+    text-align: left;
+}
+
+.social__row {
+    margin-bottom: 7px;
+}
+
+.ya-map-rr iframe {
+    width: 100%;
+    min-height: 380px;
+}
+
+@media screen and (max-width: 1023px){
+    .half-row {
+        display: block;
+        margin-bottom: 20px;
+        width:100%;
+    }
+    .half-row:last-child {
+        margin-bottom: 0;
+    }
+}

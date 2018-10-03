@@ -1,0 +1,225 @@
+.request__tbl .bth__cell {
+    vertical-align: top;
+    padding: 5px 0px;
+}
+
+.request__tbl .bth__row.mdl-cell .bth__cell {
+    vertical-align: middle;
+}
+
+.request__tbl .bth__cell:first-child {
+    width: 200px;
+}
+
+.request__link {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.request__tbl .bth__inp-block {
+    width: 400px;
+}
+
+.request__tbl .bth__inp-block.request-guest {
+    width: 332px;
+}
+
+.request__tbl .bth__inp-block.request-date {
+    width: 332px;
+}
+
+.request__rbt-block {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.request__tbl .bth__cell.rbt__cell {
+    padding-top: 18px;
+}
+
+.request__tbl .request__ta-block {
+    height: 60px;
+    transition: 0.3s;
+}
+
+.request__cbx-block {
+    margin-top: 3px;
+}
+
+.request__cbx-block .cbx-block {
+    margin-bottom: 10px;
+}
+
+.request__cbx-block .cbx + .label-cbx {
+    padding-left: 27px;
+}
+
+.request__tbl .bth__inp-block.birthday-day {
+    display: inline-block;
+    vertical-align: top;
+    width: 90px;
+    margin-right: 8px;
+}
+
+.request__tbl .bth__inp-block.birthday-month {
+    display: inline-block;
+    vertical-align: top;
+    width: 130px;
+    margin-right: 7px;
+}
+
+.request__tbl .bth__inp-block.birthday-year {
+    display: inline-block;
+    vertical-align: top;
+    width: 90px;
+}
+
+.request-guest__block {
+    position: relative;
+    display: inline-block;
+}
+
+.request-guest__dropdown {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50px;
+    padding: 15px;
+    background: #fff;
+    z-index: 10;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.request-guest__dropdown-line {
+    position: relative;
+    border: 1px solid #ccc;
+    height: 50px;
+    line-height: 34px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.request-guest__dropdown-btn {
+    position: absolute;
+    border: 1px solid #ccc;
+    font-size: 30px;
+    width: 36px;
+    height: 50px;
+    top: -1px;
+    line-height: 41px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+}
+
+.request-guest__dropdown-btn.min-adult {
+    left: -1px;
+}
+
+.request-guest__dropdown-btn.plus-adult {
+    right: -1px;
+    padding-top: 3px;
+}
+
+.form-popup__adult-num {
+    padding-top: 8px;
+}
+
+.request-guest__dropdown-line.child {
+    margin-bottom: 30px;
+}
+
+.request-guest__dropdown-close {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.request-guest__dropdown .SelectBox {
+    padding: 11px 8px 0px 12px;
+}
+
+.request-guest__dropdown .SumoSelect > .optWrapper > .options li.opt {
+    text-align: left;
+    padding: 10px 12px;
+}
+
+.request-guest-val {
+    position: absolute;
+    left: 8px;
+    top: 13px;
+}
+
+.num-night {
+    position: absolute;
+    left: 192px;
+    top: 14px;
+}
+
+.bth__btn.request-btn {
+    width: 255px;
+    margin-bottom: 15px;
+}
+
+.request-overflow {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+.request-loader__img {
+    margin-top: 220px;
+    display: inline-block;
+}
+
+
+
+@media screen and (max-width: 1023px) {
+    .request__tbl .request__ta-block {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .request__tbl .bth__cell {
+        display: block;
+    }
+
+    .request__tbl .bth__cell:first-child {
+        padding-bottom: 0;
+    }
+
+    .request__tbl .bth__cell:last-child {
+        padding-top: 0;
+    }
+
+    .request__rbt-block {
+        margin-top: 3px;
+        margin-bottom: 0;
+    }
+
+    .request__tbl .bth__cell.rbt__cell {
+        padding-top: 9px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .request__tbl .request__ta-block,
+    .request__tbl .bth__inp-block.request-date,
+    .request-guest__block,
+    .request__tbl .bth__inp-block.request-guest {
+        width: 100%;
+    }
+
+    .request__rbt-block .rbt-block {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+}

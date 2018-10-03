@@ -1,0 +1,139 @@
+.log-msg__tbl .bth__cell {
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
+}
+
+.log-msg__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.log-msg__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+
+.log-msg__tbl .bth__cell:first-child {
+    width: 100px;
+}
+
+.log-msg__tbl .bth__cell:nth-child(2) {
+    width: 300px;
+}
+
+.log-msg__tbl .bth__cell:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+.log-msg__user-ava {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    margin-right: 7px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.log-msg__info-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.log-msg__info-block .bth__cnt,
+.log-msg__info-block .bth__link {
+    display: block;
+    white-space: nowrap;
+    max-width: 180px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.log-msg__eye {
+    display: inline-block;
+    width: 21px;
+    height: 9px;
+    background-size: 30px;
+    background: url("/i/thpro/opened-eye-fine.png") no-repeat;
+}
+
+.green-row .bth__cell {
+    background: #D8EAD2;
+}
+.red-row .bth__cell {
+    background: #F4CBCB;
+}
+.yellow-row .bth__cell {
+    background: #FFF2CD;
+}
+
+@media screen and (max-width: 1279px){
+    .log-msg__tbl .bth__cell:last-child {
+        width: 110px;
+    }
+    .log-msg__tbl .bth__cell:first-child {
+        width: 80px;
+    }
+    .log-msg__tbl .bth__cell:nth-child(2) {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .log-msg__tbl .bth__cell:last-child {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .log-msg__tbl .bth__row {
+        display: block;
+        position: relative;
+    }
+    .log-msg__tbl .head__tbl {
+        display: none;
+    }
+    .log-msg__tbl .bth__cell {
+        display: block;
+        padding: 5px 7px;
+        border-bottom: none;
+    }
+    .log-msg__tbl .bth__cell:first-child {
+        width: 100%;
+        padding-top: 7px;
+    }
+    .log-msg__tbl .bth__cell:nth-child(2) {
+        width: 100%;
+    }
+    .log-msg__tbl .bth__cell:nth-child(3) {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+    }
+    .log-msg__tbl .bth__cell:last-child {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .log-msg__info-block .bth__cnt,
+    .log-msg__info-block .bth__link {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .log-msg__info-block .bth__cnt,
+    .log-msg__info-block .bth__link {
+        max-width: 200px;
+    }
+}
+@media screen and (max-width: 639px) {
+    .log-msg__info-block {
+        display: block;
+        margin-top:7px;
+    }
+    .log-msg__info-block .bth__cnt,
+    .log-msg__info-block .bth__link {
+        max-width: 255px;
+    }
+}

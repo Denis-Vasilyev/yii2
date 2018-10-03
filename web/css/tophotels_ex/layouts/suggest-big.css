@@ -1,0 +1,260 @@
+
+.suggest-big {
+    position: absolute;
+    top: -530px;
+    /*top: 132px;*/
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: #fff;
+    min-height: 390px;
+    box-shadow: 0px 11px 15px -1px rgba(0, 0, 0, 0.1);
+    /*padding-top: 110px;*/
+    padding-bottom: 30px;
+    display: none;
+    transition: 1s;
+}
+
+.suggest-big.active {
+    top: 132px;
+}
+
+.header-bot.header-bot-suggest-big {
+    padding: 18px 25px;
+}
+
+.suggest-big__header-bot-cnt {
+    border-bottom: 2px solid #ff8e41;
+    height: 52px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.suggest-big .header__news-left {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 2px 0 0 2px;
+    width: 50px;
+    position: relative;
+    height: 98%;
+    background: #fff;
+    text-align: right;
+    padding-right: 7px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header__news-left-suggest .burger-icon {
+    color: #ff8e41;
+}
+
+.suggest-big__container {
+    padding: 0 25px;
+    position: relative;
+    max-width: 955px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.suggest-big .header__news {
+    height:52px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 2px solid #ff8e41;
+}
+
+
+.suggest-big .header__news-center.active {
+    box-shadow: none;
+}
+
+.suggest-big .header__news-btn {
+    top:0;
+    bottom: 1px;
+    height: auto;
+    border:  none;
+    width: auto;
+    padding: 0 11px;
+}
+
+.suggest-big .header__dropdown {
+    position: relative;
+    display: block;
+    box-shadow: none;
+    top:0;
+    width: auto;
+    margin-left: 52px;
+}
+
+
+
+
+.suggest-big__close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    z-index:11;
+    background: url("/i/tophotels/close-12x12.png") no-repeat;
+}
+
+.suggest-big__close:hover {
+    background: url("/i/tophotels/close-12x12-red.png") no-repeat;
+}
+
+.suggest-big .sugg-map {
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    margin-left: 0;
+    font-size: 19px;
+}
+
+.suggest-big .hotel-heart {
+    position: absolute;
+    left: -20px;
+    top: 12px;
+    margin-left: 0;
+}
+
+.suggest-big .star-icon {
+    position: absolute;
+    left: -20px;
+    top: 11px;
+    margin-left: 0;
+    color: #ff8e41;
+    font-size: 17px;
+}
+
+.header__dropdown__ava-block {
+    position: absolute;
+    left: -30px;
+    top: 3px;
+    width: 30px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.suggest-big .header__dropdown-item .search-result {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 330px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.suggest-big .header__dropdown-place .bth__cnt {
+    width: 135px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.header__dropdown-item-block {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 8px 0;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header__dropdown-item {
+    padding: 0 148px 0 10px;
+}
+
+.header__dropdown-place {
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}
+
+.suggest-big .star-icon {
+    position: absolute;
+    left: -20px;
+    top: 11px;
+    margin-left: 0;
+    color: #ff8e41;
+    font-size: 17px;
+}
+
+.suggest-big .hotel-heart {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #c83831;
+    font-weight: bold;
+    position: absolute;
+    left: -20px;
+    top: 12px;
+    margin-left: 0;
+}
+
+.suggest-big .sugg-map {
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    color: #475669;
+    font-weight: bold;
+    margin-left: 0;
+    font-size: 19px;
+}
+
+@media screen and (max-width: 1023px) {
+    .header-bot.header-bot-suggest-big {
+        padding: 18px 15px;
+    }
+    .suggest-big.active {
+        top: 180px;
+    }
+    .suggest-big__container {
+        padding: 0px 15px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .header-bot-suggest-big .header__news-left {
+        width: 50px;
+    }
+    .suggest-big .header__news-left {
+        width: 28px;
+    }
+    .suggest-big .header__dropdown {
+        margin-left: 30px;
+    }
+    .suggest-big .header__dropdown-item .search-result {
+        max-width: 190px;
+    }
+    .suggest-big .header__dropdown-place .bth__cnt {
+        width: 120px;
+    }
+    .header__dropdown-place {
+        display: none;
+    }
+    .suggest-big .header__news-center {
+        width: calc(100% - 67px);
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .suggest-big .header__dropdown-place {
+        display: none;
+    }
+    .suggest-big .header__dropdown-item {
+        padding: 0 10px 0 10px;
+    }
+    .suggest-big .header__dropdown-item .search-result {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,62 @@
+.bana__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+    vertical-align: top;
+}
+
+.bana__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.bana__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px
+}
+
+.bana__tbl .bth__cell:nth-child(2) {
+    width: 280px;
+}
+
+.bana__tbl .bth__cell:last-child {
+    width: 151px;
+}
+
+.bth__btn.bana__btn {
+    width: 150px;
+    padding: 5px 0px 8px 0px;
+}
+
+@media screen and (max-width: 1279px){
+    .bana__tbl .bth__cell:nth-child(2) {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .bana__tbl .bth__cell:nth-child(2) {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bana__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0;
+    }
+    .bana__tbl .head__tbl {
+        display: none;
+    }
+    .bana__tbl .bth__cell:first-child {
+        padding-top: 10px;
+    }
+    .bana__tbl .bth__cell:nth-child(2) {
+        width: 100%;
+    }
+    .bana__tbl .bth__cell:last-child {
+        width: 100%;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+        text-align: left;
+    }
+}

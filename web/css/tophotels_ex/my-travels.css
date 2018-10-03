@@ -1,0 +1,257 @@
+.my-travels-line.line {
+    width: 141px;
+}
+
+.my-travels__tbl-head {
+    display: block;
+    position: relative;
+    padding: 30px 0 10px 15px;
+}
+
+.trips-anchor {
+    font-size: 26px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.trips-anchor span {
+    font-size: 20px;
+}
+
+.number-trips {
+    position: absolute;
+    right: 15px;
+    top: 49px;
+    cursor: pointer;
+}
+
+.number-trips .add-travel {
+    display: none;
+}
+
+.number-trips:hover .num-travel {
+    display: none;
+}
+
+.number-trips:hover .add-travel {
+    display: inline-block;
+}
+
+
+.my-travels__tbl .bth__cell {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.my-travels__tbl .bth__cell:first-child {
+    border-left: 1px solid #ccc;
+    width: 120px;
+}
+
+.my-travels__tbl .bth__cell:nth-child(2) {
+    width: 100px;
+    text-align: center;
+}
+
+
+.my-travels__tbl .bth__cell:nth-child(4) {
+    width: 150px;
+}
+
+
+.my-travels__tbl .bth__cell:last-child {
+    width: 75px;
+    vertical-align: middle;
+    text-align: right;
+    border-right: 1px solid #ccc;
+}
+
+.my-travels__tbl .month-name {
+    display: inline-block;
+    margin-top: -2px;
+    font-size: 19px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.my-travels__tbl .bth__row:hover .month-date,
+.my-travels__tbl .bth__row:hover .month-name {
+    color: #318cc6;
+}
+
+.my-travels__tbl .month-date {
+    font-size: 14px;
+    /*margin-top: 5px;*/
+}
+
+.my-travels__tbl .hotel-name-dark  {
+    color: #475669;
+}
+
+.my-travels__tbl .bth__row:hover .hotel-name-dark {
+    color: #318cc6;
+}
+
+.my-travels__tbl .hotel-name {
+    display: inline-block;
+    margin-top: -2px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.my-travels__tbl .bth__cnt.with {
+    font-size: 15px;
+    /*margin-top: 4px;*/
+}
+
+.my-travels__tbl .flag__img-block {
+    display: inline-block;
+    text-align: right;
+    width: 60px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    overflow: hidden;
+}
+
+.my-travels__tbl .bth__cnt.resort-name {
+    display: inline-block;
+    margin-top: -2px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+.my-travels__tbl .hotel-star {
+    font-size: 14px;
+    color: #e7ba06;
+
+}
+
+.cloud-year {
+    background: rgba(228, 229, 234, 0.46);
+    padding: 20px 15px 10px 15px;
+}
+
+
+.cloud-link {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+    color: #F8A53A;
+    margin-bottom: 10px;
+}
+
+.club__status {
+    height: 39px;
+    width: 33px;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+
+    text-align: center;
+}
+
+.club__status--gold {
+    background: url(/i/tophotels/pos_gold_v2.png) no-repeat;
+}
+
+.travel-heart {
+    color: #e03a3a;
+    font-size: 26px;
+}
+
+.my-travels__tbl .hint {
+    top: 31px;
+}
+
+.my-travel-quest-icon {
+    font-size: 26px;
+    color: #e03a3a;
+}
+
+.my-travels__tbl .hint-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.my-travels__tbl .hint-block + .hint-block {
+    margin-left: 3px;
+}
+
+@media screen and (max-width: 1023px){
+    .my-travels__tbl .bth__cell {
+        padding: 10px;
+    }
+    .my-travels__tbl .bth__cell:first-child {
+        border-left: 1px solid #ccc;
+        width: 130px;
+    }
+    .my-travels__tbl .bth__cell:nth-child(2) {
+        width: 90px;
+    }
+    .my-travels__tbl .bth__cell:nth-child(4) {
+        width: 130px;
+    }
+    .my-travels__tbl .bth__cell:nth-child(4) .bth__cnt.resort-name {
+        width: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .my-travels__tbl .bth__row {
+        display: block;
+        position: relative;
+    }
+
+    .my-travels__tbl .bth__cell {
+        display: block;
+        border-top: none;
+        border-bottom: none;
+        border-right: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+    }
+
+    .my-travels__tbl .bth__cell:first-child {
+        border-top: 1px solid #ccc;
+        width: 100%;
+    }
+
+    .my-travels__tbl .bth__cell:nth-child(2) {
+        position: absolute;
+        top: 0px;
+        right: 0;
+        border-right: none;
+        border-left: none;
+        width: 86px;
+        text-align: right;
+    }
+
+    .my-travels__tbl .bth__cell:nth-child(4) {
+        width: 100%;
+    }
+
+    .my-travels__tbl .bth__cell:last-child {
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .my-travels__tbl-head {
+        padding: 30px 0 10px 10px;
+    }
+
+    .number-trips {
+        right: 10px;
+    }
+    .my-travels__tbl .hint,
+    .my-travels__tbl .hint-block:hover .hint {
+        display: none;
+    }
+
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width: 659px) {
+
+    .available-services tbody tr td:nth-child(1),
+    .available-services-edit tbody tr td:nth-child(1) {
+        padding-top: 19px!important;
+        padding-left: 32px;
+    }
+
+    .available-services  tbody tr  td:nth-child(1)::before,
+    .available-services-edit  tbody tr  td:nth-child(1)::before {
+        content: '№';
+        left: 7px;
+        top: 19px;
+    }
+
+    .available-services td:nth-child(2)::before, .available-services-edit td:nth-child(2)::before {
+        content: 'Название проекта';
+    }
+
+    .available-services td:nth-child(3)::before, .available-services-edit td:nth-child(3)::before {
+        content: '	Условия доступа';
+    }
+
+    .available-services td:nth-child(4)::before {
+        content: 'Изменить';
+    }
+
+    .available-services-edit__btn {
+        float: none;
+    }
+
+}

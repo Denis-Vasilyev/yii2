@@ -1,0 +1,848 @@
+.pro-line {
+    width: 108px;
+}
+
+.proj {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pro.big-table th:nth-child(2) {
+    width: 60%;
+}
+
+.circle-ava.accepted {
+    border: 3px solid #00a551;
+}
+
+.bootom-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+
+.bootom-flex .task__cnt--big {
+    font-weight: bold;
+}
+
+.task__cnt-deatil p {
+    line-height: 22px;
+}
+.detail-booking__timer  {
+    margin-top: 20px;
+}
+.detail-booking__timer b {
+    color: #475669;
+    font-size: 24px;    display: inline-block;
+    vertical-align: middle;
+}
+
+.task__user-no-ava {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 17px;
+    font-weight: bold;
+    background-color: #ff8e41;
+    margin-right: 5px;
+}
+
+.task__plase-big-changed {
+    text-decoration: line-through;
+}
+
+.detail-booking {
+    font-size: 14px;
+    padding: 10px 0;
+    color: #475669;
+    font-family: 'apercu_pro', sans-serif;
+    margin-bottom: 20px;
+    border: 3px solid #bcbcbc;
+    width: 80%;
+}
+
+.detail-booking__left .detail-booking__looks {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 35px;
+    color: #e03a3a;
+    padding-left: 15px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.detail-booking > * {
+    padding: 7px 16px;
+}
+
+.detail-booking__item > span:first-of-type {
+    display: inline-block;
+    width: 145px;
+}
+
+.detail-booking__item span:last-of-type {
+    font-weight: bold;
+}
+
+.detail-booking .lbc-ttl-h2 {
+    margin-bottom: 8px;
+    font-size: 17px;
+    border-bottom: 1px solid #bcbcbc;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+.detail-booking .lbc-ttl-h2 > div:last-of-type {
+    text-align: right;
+}
+
+.detail-booking__item > div {
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.viewd-hotel-tbl {
+    width: 96%;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+
+.viewd-hotel-tbl tbody tr td {
+    border-bottom: none;
+}
+
+.viewd-hotel-tbl tbody tr td:first-of-type {
+    width: 80px;
+}
+
+.viewd-hotel-tbl .fa-search {
+    font-size: 17px;
+}
+
+.detail-booking.detail-booking--contact div {
+    display: inline-block;
+}
+
+.detail-booking__left-block {
+    width: 213px;
+    font-family: 'apercu_pro', sans-serif;
+    background: #e5f6ed;
+    padding: 10px 15px;
+    height: 75px;
+    text-align: left;
+    padding-top: 15px;
+    border-radius: 2px;
+
+}
+
+.detail-booking__left-price {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.detail-booking__left-btn {
+    position: relative;
+    display: none;
+    float: right;
+}
+
+.detail-booking__left-btn button.fixed {
+    position: fixed;
+}
+
+.detail-booking__left-block button {
+
+    width: 100%;
+    font-size: 17px;
+    outline: none;
+}
+
+.detail-booking__left {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 25px;
+    float: right;
+    width: 185px;
+    color: #475669;
+}
+
+.detail-booking_fixed-txta {
+    padding: 6px;
+    border: 1px solid #bcbcbc;
+    font-size: 14px;
+    width: 100%;
+    height: 80px;
+    resize: vertical;
+    color: #475669;
+    margin-top: 13px;
+}
+
+.detail-booking_fixed-lb {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.detail-booking__left-block button:hover {
+    background: #e27200;
+}
+
+.detail-booking__left-block button:hover {
+    background: #e27200;
+}
+
+.detail-booking__left-block div {
+    font-size: 14px;
+    color: #475669;
+}
+
+.fixed {
+    position: fixed;
+    top: 20px;
+}
+
+.detail-booking--contact__right {
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.viewd-hotel-tbl--sm tr td:first-of-type {
+    width: 200px;
+}
+
+.viewd-hotel-tbl--sm td:last-of-type {
+    text-align: left;
+}
+
+.details-small__item-ava--not {
+
+}
+
+.tours-wrap {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.tours-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detail-booking .dropdown-block--agent {
+
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.detail-booking__add-agent {
+    padding-top: 2px;
+    padding-bottom: 0
+}
+
+.detail-booking__add-agent > div > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.detail-booking__add-agent-pl {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-image: url(/images/travel_crm/close-white.svg);
+    background-color: #ff8e41;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.detail-booking__add-agent-all {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    background-image: url(/images/travel_crm/group.svg);
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.detail-booking__add-agent-all:hover {
+    background-image: url(/images/travel_crm/group-hov.svg);
+}
+
+.detail-booking__add-agent-all .hint {
+    right: 0;
+}
+
+.detail-booking__add-agent-pl:hover {
+    background-color: #e27200;
+}
+
+.detail-booking__add-agent-all--blue {
+    background-image: url(/images/travel_crm/group-blue.svg);
+}
+
+.detail-booking__add-agent-all--blue:hover {
+    background-image: url(/images/travel_crm/group-blue-hov.svg);
+
+}
+
+.detail-booking__add-agent-select {
+    box-shadow: none;
+    border: 1px solid #475669;
+    height: 45px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-weight: normal;
+    text-align: left;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    width: 400px;
+}
+
+.detail-booking__add-agent-img {
+    position: relative
+}
+
+.detail-booking__add-agent-img:hover::before {
+    position: absolute;
+    content: "-";
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    top: 0px;
+    border-radius: 50px;
+    background-color: #e3e3e3b0;
+    text-align: center;
+    font-size: 56px;
+    line-height: 34px;
+}
+
+.radius-2 {
+    border-radius: 2px;
+}
+
+.detail-booking_fixed_border {
+    border: 3px solid #bcbcbc;
+}
+
+.detail-booking_fixed__ttl {
+    border-bottom: 1px solid #bcbcbc;
+    margin-bottom: 10px;
+    padding: 12px 7px;
+    text-transform: uppercase;
+}
+
+.detail-booking_fixed_act {
+    padding: 10px 7px;
+}
+
+.detail-booking__add-agent-select .selectize-control.single .selectize-input, .selectize-control.single .selectize-input input {
+    width: 93%;
+    height: 100%;
+    box-shadow: none;
+    border: none;
+    padding-top: 11px;
+    font-size: 14px;
+    margin-left: 15px;
+    color: #475669;
+    margin-top: 1px;
+}
+
+.detail-booking__add-agent-select .selectize-control {
+    width: 100%;
+}
+
+.detail-booking__add-agent-select .selectize-dropdown {
+    margin-left: 14px;
+    box-shadow: none;
+}
+
+.detail-booking__add-agent-select .selectize-close {
+    display: inline-block;
+    background-image: url("/images/travel_crm/close-grey.svg");
+    height: 19px;
+    width: 19px;
+    position: absolute;
+    top: 15px;
+    right: 12px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.detail-booking__add-agent-select .user-form__ava {
+    vertical-align: middle;
+}
+
+.detail-booking__add-agent-select .user-form__info-link {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.bth__cell .selectize-input {
+    padding-top: 8px;
+}
+
+.detail-booking__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+}
+
+.detail-booking__top h2 {
+    font-size: 17px;
+}
+
+.detail-booking__top-right {
+
+    display: flex;
+}
+
+.detail-booking__top .filter-pp__btn {
+    font-size: 16px;
+    height: 45px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.filter-pp__btn.filter-pp__btn--count {
+    background-color: white;
+    color: #ff8e41;
+    margin-right: 10px;
+}
+
+.filter-pp__btn.filter-pp__btn--count:hover,
+a.pro-pp:hover,
+a.transferBooking-pp:hover {
+    background-color: #e27200;
+    color: white;
+}
+
+a.pro-pp,
+a.transferBooking-pp {
+    background-color: white;
+    color: #ff8e41;
+    margin-right: 10px;
+    font-size: 16px;
+    height: 45px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'apercu_pro', sans-serif;
+    border: 1px solid #ff8e41;
+    padding: 10px 0px;
+    border-radius: 2px;
+    width: 215px;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.exchange-wrapper .myBooking-long {
+    position: relative;
+    padding-right: 230px;
+
+}
+
+.exchange-wrapper .myBooking-long .detail-booking__left {
+    float: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.exchange-wrapper .detail-booking__left-price.price-cross {
+    text-decoration: line-through;
+}
+
+.exchange-wrapper .lite-green {
+    background-color: #e5f6ed;
+}
+
+.exchange-wrapper .myBooking-item__flag {
+    width: 35px;
+    height: 22px;
+}
+
+.detail-booking__circle {
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.exchange-wrapper .detail-booking__looks .relative {
+    display: inline-block;
+}
+
+.exchange-wrapper .detail-booking__looks .relative:hover .hint {
+    display: block;
+}
+
+.exchange-wrapper .blue-bg {
+    background-color: #b2cce780 !important;
+}
+
+.exchange-wrapper .yellowLite-bg {
+    background-color: rgb(250, 246, 229) !important;
+}
+
+.exchange-wrapper .myBooking-item__block a.s-grey:hover {
+    color: #3687c5 !important;
+}
+
+.exchange-wrapper .red-bg {
+    background-color: rgb(249, 235, 234) !important;
+}
+
+.exchange-wrapper .myBooking-item__clock {
+    background-image: url("/i/travel_crm/timer-red.svg");
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-bottom: -1px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.myBooking-item .myBooking-item__price-768 {
+    display: none;
+}
+
+/*скринап передать заявку*/
+.transferBooking-pp {
+    padding: 10px 30px;
+    padding-right: 0;
+    background-color: white;
+    height: 325px;
+}
+
+.transferBooking-pp__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.transferBooking-pp__column {
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.transferBooking-pp__list {
+    overflow: auto;
+    height: 300px;
+}
+
+.transferBooking-pp__ttl {
+    display: inline-block;
+    font-size: 15px !important;
+    margin-left: 5px;
+    color: #475669;
+    flex-basis: 50%;
+    margin-bottom: 0 !important;
+}
+
+.transferBooking-pp__column {
+    flex-basis: 50%;
+    color: #475669;
+}
+
+.transferBooking-pp .transferBooking-pp__flex .transferBooking-pp__item {
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.section--grey a.create-group-pp {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #fff;
+    border: 1px solid #ff8e41;
+    background: #ff8e41;
+    padding: 10px 0px;
+    border-radius: 2px;
+    width: 215px;
+    text-align: center;
+}
+
+.transferBooking-pp__item:first-of-type {
+    margin-top: 0;
+}
+
+.transferBooking-pp__item:hover {
+    background-color: #ffffffb0;
+}
+
+.transferBooking-pp__item img {
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.transferBooking-pp__item > div {
+    vertical-align: middle;
+    margin-bottom: 0 !important;
+}
+
+.transferBooking-pp__item > div a {
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 250px;
+}
+
+.transferBooking-pp__item > div div {
+    margin-bottom: 0 !important;
+}
+
+.transferBooking-pp__btn {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #ff8e41;
+    border: 1px solid #ff8e41;
+    background: white;
+    height: 40px;
+    padding: 10px 0px;
+    border-radius: 2px;
+    width: 200px;
+}
+
+.transferBooking-pp .transferBooking-pp__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #bcbcbc;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    padding-bottom: 10px;
+}
+
+.transferBooking-pp .transferBooking-pp__item b {
+    font-size: 16px;
+    text-transform: uppercase;
+    max-width: 400px;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.transferBooking-pp__btn:hover {
+    background: #ff8e41;
+    color: #fff;
+}
+
+@media screen and (max-width: 1088px) {
+    .detail-booking__left-block {
+        position: static;
+        margin-left: 0;
+        text-align: left;
+        width: 213px;
+        margin-top: 0;
+        display: inline-block;
+        margin-bottom: 20px;
+
+    }
+
+    .detail-booking__left-btn {
+        display: none !important;
+    }
+
+    .detail-booking__left .detail-booking__looks {
+        margin-top: 0;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .exchange-wrapper .detail-booking__left {
+        width: 185px;
+
+    }
+
+
+    .detail-booking__left-block .detail-booking__looks {
+        margin-top: 0;
+    }
+
+    .detail-booking {
+        width: 100%;
+    }
+
+    .detail-booking--contact__right {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .detail-booking__item > span:first-of-type {
+        display: block;
+    }
+
+    .detail-booking__left {
+        float: none;
+    }
+
+    .detail-booking__left {
+        width: auto;
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width: 825px) {
+
+    .detail-booking__top div:last-of-type {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 820px) {
+    .detail-booking__top div:first-of-type > * {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .transferBooking-pp .transferBooking-pp__item {
+        flex-direction: column;
+        justify-content: start;
+        align-items: end;
+    }
+    .transferBooking-pp__btn {
+        margin-top: 10px;
+    }
+    .exchange-wrapper .myBooking-long .detail-booking__left {
+        display: none;
+
+    }
+    .transferBooking-pp .transferBooking-pp__item b {
+        display: block;
+        max-width: none;
+        overflow: visible;
+        white-space: normal;
+    }
+
+    .exchange-wrapper .myBooking-long {
+        padding-right: 0;
+    }
+
+    .myBooking-item .myBooking-item__price-768 {
+        display: flex;
+        font-size: 14px;
+        border-top: 1px solid #bcbcbc;
+        align-items: flex-end;
+    }
+
+    .myBooking-item__block--sale .uppercase {
+        display: block;
+    }
+
+    .myBooking-item__block--sale .uppercase .ml15 {
+        margin-left: 0 !important;
+    }
+
+    .myBooking-item__price-768 .detail-booking__left-price {
+        font-size: 20px;
+    }
+
+    .myBooking-item__price-768 .fz20 {
+        font-size: 15px !important;
+    }
+
+    .myBooking-item__price-768 .grey {
+        text-align: right;
+    }
+    .detail-booking__left-block {
+        margin-top: 10px;
+    }
+    .detail-booking .viewd-hotel-tbl tbody tr td {
+
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+}
+
+@media screen and (max-width: 705px) {
+
+    .detail-booking__add-agent {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .detail-booking__add-agent > div:last-of-type {
+        margin-top: 10px;
+    }
+
+    .detail-booking__add-agent-select {
+        width: 100%;
+    }
+
+    .detail-booking__add-agent-select .selectize-control {
+        width: 91%;
+    }
+
+    .detail-booking__add-agent-select {
+        margin-bottom: 10px;
+    }
+
+    .detail-booking .hint {
+        opacity: 0;
+    }
+
+    .detail-booking h2 .fz14 {
+        display: block;
+    }
+
+
+
+    .detail-booking .viewd-hotel-tbl tr td {
+        padding-top: 1px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .exchange-wrapper .myBooking-item .myBooking-item__block:nth-child(2) div .fz13:first-of-type {
+        display: block;
+    }
+
+    .exchange-wrapper .red.uppercase .ml15 {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 685px) {
+    .detail-booking .viewd-hotel-tbl tbody tr td {
+        padding-top: 7px;
+        white-space: normal;
+        padding-bottom: 7px;
+    }
+
+    .exchange-wrapper .myBooking-item .myBooking-item__block:last-of-type {
+        flex-direction: row;
+    }
+
+}

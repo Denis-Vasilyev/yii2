@@ -1,0 +1,105 @@
+.side-nav {
+    margin-bottom: 20px;
+    font-family: 'apercu_pro',sans-serif;
+}
+
+.side-nav-li {
+    position: relative;
+    font-size: 12px;
+    color: #999;
+    line-height: 21px;
+}
+
+.side-nav-li-ttl {
+    font-size: 18px;
+    color: #475669;
+    line-height: 19px;
+    font-weight: bolder;
+    padding: 0px 0 9px;
+}
+
+.side-nav-li-a {
+    font-size: 14px;
+    color: #318cc6;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.side-nav-li-a.active {
+    color: #da4c4c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.side-nav-li-a-red-arrow,
+.side-nav-li-a-red-arrow {
+    position: relative;
+    font-weight: bold;
+}
+.side-nav-li-a.active:before {
+    background-image: url(../../i/red-arr.png);
+    display: block;
+    width: 6px;
+    height: 9px;
+    position: absolute;
+    top: 7px;
+    left: -13px;
+    content: '';
+}
+
+.side-nav-li ul {
+    margin: 12px 0;
+}
+.content-left {
+    display: table-cell;
+    vertical-align: top;
+    width: 205px;
+    padding-right: 16px;
+}
+.content-left-ttl {}
+.content {
+    display: table-cell;
+    vertical-align: top;
+}
+.content-left__close {
+    display: none;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: url("../../i/close-12x12.png");
+}
+
+@media screen and (max-width: 1023px) {
+
+    .leftbar-close {
+        display: block;
+        background-image: url("../../i/icon-close-999-lg.png");
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 20px;
+        right: 14px;
+        z-index: 5;
+    }
+
+    .content-left {
+        width: 205px;
+        position: fixed;
+        overflow: auto;
+        display: none;
+        padding-right: 15px;
+        z-index: 1;
+        background: #fff;
+        top: 0;
+        bottom: 0;
+        padding-top: 20px;
+        padding-left: 20px;
+        box-shadow: 0 0 5px #696969;
+        transition: 0.3s;
+    }
+
+}
+

@@ -1,0 +1,43 @@
+
+.bonus-points__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.bonus-points__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.bonus-points__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+    vertical-align: top;
+}
+
+.bonus-points__tbl .bth__cell:last-child {
+    text-align: right;
+}
+
+.country__block {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.flag__block {
+    /*position: absolute;*/
+    /*top: 10px;*/
+    /*left: 150px;*/
+
+}
+
+.flag__block-img {
+    display: inline-block;
+    margin-right: 15px;
+    width: 60px;
+}
+
+.resort-cnt {
+    font-size: 20px;
+    padding-right: 15px;
+}

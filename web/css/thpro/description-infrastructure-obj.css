@@ -1,0 +1,107 @@
+.description-infra-line {
+    position: absolute;
+    bottom: -1px;
+    left: 149px;
+    width: 205px;
+    height: 3px;
+    background: #475669;
+}
+
+.infra-obj__tbl .bth__cell {
+    padding: 7px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+.infra-obj__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.infra-obj__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.infra-obj__tbl .bth__cell:first-child {
+    width: 40px;
+}
+
+.infra-obj__tbl .bth__cell:nth-child(3) {
+    width:215px;
+}
+
+.infra-obj__tbl .bth__cell:nth-child(4) {
+    width:90px;
+}
+
+.infra-obj__tbl .bth__cell:nth-child(5) {
+    width:140px;
+}
+
+.infra-obj__tbl .bth__cell:nth-child(6) {
+    width:140px;
+}
+.infra-obj__tbl .bth__link.user-name {
+    display: inline-block;
+    max-width: 125px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.infra-obj__tbl .bth__cell:last-child {
+    width:90px;
+    text-align: right;
+}
+
+@media screen and (max-width: 1279px){
+    .infra-obj__tbl .bth__cell:nth-child(4) {
+        width: 50px;
+    }
+    .infra-obj__tbl .bth__cell:nth-child(5) {
+        width: 115px;
+    }
+    .infra-obj__tbl .bth__cell:last-child {
+        width: 75px;
+    }
+    .infra-obj__tbl .bth__cell:nth-child(3) {
+        width: 150px;
+    }
+    .description-infra-line {
+        left: 130px;
+        width: 181px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .infra-obj__tbl .bth__cell {
+        display: block;
+        padding: 5px 0;
+        border-bottom: none;
+    }
+    .infra-obj__tbl .head__tbl,
+    .infra-obj__tbl .bth__cell:first-child {
+        display: none;
+    }
+    .infra-obj__tbl .bth__cell:nth-child(2) {
+        padding-top: 7px;
+    }
+    .infra-obj__tbl .bth__cell:nth-child(3),
+    .infra-obj__tbl .bth__cell:nth-child(4),
+    .infra-obj__tbl .bth__cell:nth-child(5),
+    .infra-obj__tbl .bth__cell:nth-child(6) {
+        width: 100%;
+        text-align: left;
+    }
+    .infra-obj__tbl .bth__cell:last-child {
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+    }
+    .infra-obj__tbl .bth__link.user-name {
+        white-space: normal;
+        max-width: initial;
+    }
+}

@@ -1,0 +1,65 @@
+.hotel-search-tbl td:nth-child(4) {
+    overflow: visible;
+    white-space: normal;
+}
+
+.hotel-search-tbl td:first-of-type {
+    width: 80px;
+}
+
+.hotel-search-tbl td:nth-child(4) {
+    width: 50px;
+}
+
+.hotel-search-tbl td:nth-child(3) {
+    width: 50%;
+}
+
+.hotel-search-tbl td.relative .hint {
+    right: 0;
+    top: 36px;
+
+}
+
+
+.filter-big__block .rbt__btn-block .cbx-block--big {
+    width: 166px;
+}
+@media screen and (max-width: 659px) {
+
+    .bth__inp-block, .bth__cell .selectize-control {
+        width: 100%;
+    }
+
+    .hotel-search-tbl td:nth-child(2):before {
+        content: "Пользователь";
+    }
+
+    .hotel-search-tbl td:nth-child(3):before {
+        content: "Текст";
+        width: auto;
+    }
+
+    .hotel-search-tbl td:nth-child(4):before {
+        content: "Отказы";
+    }
+
+    .hotel-search-tbl td:nth-child(5):before {
+        content: "Переходы";
+    }
+
+    .hotel-search-tbl td.relative .hint {
+        position: static;
+        max-width: none;
+        overflow: visible;
+        background: none;
+        box-shadow: none;
+        /* left: 0; */
+        /* right: 0; */
+        display: inline-block;
+        padding-left: 0;
+        font-size: 13px;
+        padding-top: 0;
+    }
+
+}

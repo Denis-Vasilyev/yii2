@@ -1,0 +1,78 @@
+.crush-smile img {
+    border-radius: 2px;
+}
+.crush-smile {
+    width: 170px;
+    height: 170px;
+    margin-right: 45px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.topline-crush button {
+    margin-top: 35px;
+}
+
+.topline-crush p {
+    font-size: 20px;
+    margin-top: 20px;    line-height: 27px;
+}
+
+.topline-crush h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.topline-crush {
+    color: #475669;
+    position: relative;
+    padding: 40px 20px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+
+}
+
+.topline-crush__d-ib {
+    display: inline-block;    width: calc(80% - 219px);
+    vertical-align: top;
+}
+.topline-crush--matrix-layout {
+    background-image: url(/i/tophotels/matr.gif);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    background-size: cover;
+    display: none;
+    width: 100%;
+    height: calc(100% - 296px);
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 197px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 1023px) {
+    .topline-crush {
+        padding: 25px 15px;
+    }
+
+    .crush-smile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1004px) {
+    .crush-smile {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 765px) {
+    .topline-crush__d-ib {    width: 100%;
+        display: block;
+    }
+
+    .topline-crush p {
+        line-height: 25px;
+    }
+}

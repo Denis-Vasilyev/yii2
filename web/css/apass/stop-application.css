@@ -1,0 +1,76 @@
+.stop-appl-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.stop-appl-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.stop-appl-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 170px;
+    height: 3px;
+    background: #475669;
+}
+.stop-appl-tab.active {
+    color: #475669;
+}
+
+.analysis-stop-hour td:last-of-type,
+.analysis-stop-hour th:last-of-type {
+    text-align: left;
+}
+
+.analysis-stop-hour th:first-child {
+    width: 80px;
+}
+
+.analysis-stop-appl tr td {
+    max-width: 160px;
+}
+
+
+.analysis-stop-hour .total-title  td {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.analysis-stop-hour .table-title-str td:last-of-type {
+    padding-left: 33px;
+}
+
+.analysis-stop-appl tr td:last-of-type,
+.analysis-stop-appl tr td:nth-child(6) {
+    color: #e03a3a;
+}
+
+.analysis-stop-appl tr td:nth-child(3),
+.analysis-stop-appl tr td:nth-child(4),
+.analysis-stop-appl tr td:nth-child(5),
+.analysis-stop-appl tr td:nth-child(6),
+.analysis-stop-appl tr td:nth-child(7),
+.analysis-stop-appl tr th:nth-child(3),
+.analysis-stop-appl tr th:nth-child(4),
+.analysis-stop-appl tr th:nth-child(5),
+.analysis-stop-appl tr th:nth-child(6),
+.analysis-stop-appl tr th:nth-child(7) {
+    text-align: right;
+}
+.log-appl img {
+    border-radius: 50px;
+}

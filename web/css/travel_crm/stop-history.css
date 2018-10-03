@@ -1,0 +1,156 @@
+.user-block__ava-empty {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #00a551;
+    font-size: 22px;
+    color: white;
+    padding-top: 9px;
+}
+
+.user-block__ava-empty.user-block__ava-empty--45 {
+    width: 45px;
+    height: 45px;
+    padding-top: 12px;
+}
+
+.add-agent-wrap.add-agent-wrap--stop {
+    margin-bottom: 15px;
+
+}
+
+.add-agent-wrap.add-agent-wrap--stop .user-block__ava,
+.add-agent-wrap.add-agent-wrap--stop .user-block-info {
+    vertical-align: middle;
+}
+
+.add-agent__on {
+    width: 40px;
+    height: 40px;
+    margin-top: 6px;
+
+}
+
+.add-agent-wrap .add-agent__on .add-agent__on-lb {
+    width: 100%;
+    background-color: white;
+    border-radius: 2px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.add-agent-wrap .add-agent__on .add-agent__on-inp {
+    display: none;
+}
+
+.add-agent__on-inp:checked + .add-agent__on-lb {
+    background-color: #00a65a;
+}
+
+.add-agent__on-inp:checked + .add-agent__on-lb .add-agent__on-lb-img {
+    background-image: url(/i/travel_crm/on-white.svg);
+}
+
+.add-agent__on-lb-img {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/i/travel_crm/on-green.svg);
+    background-position: center;
+    display: block;
+}
+
+.add-agent-wrap--stop .flr .hint {
+    right: 0;
+}
+
+.targeting-form .selectize-control {
+    width: 50%;
+}
+
+.targeting-form .selectize-input input::placeholder {
+    font-weight: normal;
+}
+
+.targeting-form .filter__tag {
+    background-color: white;
+
+}
+
+.targeting-form .add-agent__title {
+    border-bottom: 1px solid white;
+    padding-bottom: 13px;
+}
+
+.targeting-form .form-btn {
+    background: #ff8e41;
+    color: #fff;
+    border: 1px solid #ff8e41;
+}
+
+.targeting-form .filter__tag {
+    padding: 7px 33px 9px 8px;
+    vertical-align: bottom;
+    margin-top: 15px;
+
+}
+
+.targeting-form .selectize-input,
+.targeting-form .selectize-input.focus {
+    box-shadow: none;
+    border-radius: 2px;
+    font-weight: normal;
+}
+
+.targeting-form .guests__dropdown-open {
+    display: inline-block;
+}
+
+.add-agent-wrap__sm-block {
+    width: 205px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.add-agent__b-top {
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 659px) {
+    .targeting-form .selectize-control {
+        width: 100%;
+    }
+
+    .add-agent-wrap__sm-block {
+        display: block;
+        margin-top: 20px;
+    }
+    .stop-history-tbl  tbody tr td:nth-child(1) {
+        padding-top: 19px!important;
+        padding-left: 32px;
+    }
+    .stop-history-tbl tbody tr td:nth-child(1)::before {
+        content: '№';
+        left: 7px;
+        top: 19px;
+    }
+
+    .stop-history-tbl td:nth-child(2)::before {
+        content: 'Дата';
+    }
+
+    .stop-history-tbl td:nth-child(3)::before {
+        content: 'Пользователь';
+    }
+
+    .stop-history-tbl td:nth-child(4)::before {
+        content: 'Агенство';
+    }
+
+    .stop-history-tbl td:nth-child(5)::before {
+        content: 'Изменение стопов заявок';
+    }
+}

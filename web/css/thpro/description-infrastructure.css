@@ -1,0 +1,10 @@
+.in-hotel__block .cbx-block {
+    display: inline-block;
+    vertical-align: middle;
+    width: 280px;
+    margin-bottom: 15px;
+}
+
+.in-hotel__block .cbx + .label-cbx {
+    padding-left: 30px;
+}

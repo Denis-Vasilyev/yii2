@@ -1,0 +1,147 @@
+.topSection-wide {
+    background: #faf6e5;
+    padding: 20px;
+    padding-left: 241px;
+}
+
+.topSection-wide .tabs-bar {
+    border-bottom: 1px solid #fff;
+}
+
+.topSection-wide__section {
+    display: block;
+    margin-top: 20px;
+}
+
+.topSection-wide .bth__inp-block {
+    border-color: #f1ebd3;
+}
+
+.topSection-wide .search-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 2px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.topSection-wide--abs .topSection-wide {
+    padding-left: 235px;
+}
+
+.topSection-wide--abs {
+    position: absolute;
+    z-index: 10;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    padding-top: 0;
+}
+
+.topSection-wide .search-tab.active {
+    color: #475669;
+}
+
+.topSection-wide .search-line {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 113px;
+    height: 3px;
+    background: #475669;
+}
+
+.topSection-wide__tabs-block {
+    position: relative;
+}
+
+.topSection-wide__tabs-bar {
+
+    border-bottom: 1px solid #fff;
+    position: relative;
+    font-size: 0;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.topSection-wide--abs .hotelFilter {
+    margin-left: 0 !important;
+}
+
+.topSection-wide__section--550 {
+    width: 650px;
+}
+
+.topSection-wide .topSection-wide__section .bth__ta-block {
+    border-color: #f1ebd3;
+}
+
+.topSection-wide__section .bth__ta-block {
+    padding: 7px;
+    font-size: 16px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    resize: none;
+    height: 100px;
+    overflow: hidden;
+    padding-top: 14px;
+}
+
+.topSection-wide__section--550 .relative .bth__inp-block {
+    width: 100%;
+}
+
+.topSection-wide__section--550 .bth__ta-block {
+    width: 100%;
+}
+
+.topSection-wide__section--dbl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topSection-wide__section--dbl > div {
+    width: 49%;
+    display: inline-block;
+}
+
+.topSection-wide__section--550 .bth__ta-block:focus {
+    height: 170px;
+}
+
+.topSection-wide__border {
+    border-top: 1px solid white;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 1023px) {
+    .topSection-wide {
+        padding-left: 15px;
+    }
+
+    .topSection-wide__section--500 {
+        width: auto;
+    }
+
+    .topSection-wide__section--550 {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .topSection-wide__section--dbl {
+        display: block;
+
+    }
+    .topSection-wide__section--dbl > div {
+        width: 100%;
+    }
+    .topSection-wide__section--dbl > div:last-of-type {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,8 @@
+.ep-recomendation__tbl .bth__cell {
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+}
+
+.ep-recomendation__tbl .bth__cell:first-child {
+    width: 50px;
+}

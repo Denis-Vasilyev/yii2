@@ -1,0 +1,169 @@
+.data {
+    width: 58%;
+}
+
+.accreditation-users td:last-of-type {
+    overflow: visible;
+}
+
+.accreditation-tooltip {
+    position: absolute;
+    right: 0;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    top: 11px;
+}
+
+.accreditation-tooltip i {
+    font-size: 18px;
+    margin-left: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.accreditation-tooltip i:hover {
+    color: #e03a3a;
+}
+
+.accreditation-tooltip__delete {
+    background-image: url("/i/close-12x12.png");
+    display: inline-block;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+}
+
+.accreditation-tooltip__delete:hover {
+    background-image: url("/i/close-12x12-red.png");
+}
+
+.change-type {
+    position: absolute;
+    right: 0px;
+    top: 21px;
+    font-size: 13px;
+    color: #ff8e41;
+
+}
+
+.accreditation-basket th:first-of-type {
+    width: 100px;
+}
+
+.accreditation-basket td:last-of-type {
+    width: 65px;
+    overflow: visible;
+}
+
+.accreditation-basket td:last-of-type .hint {
+    display: none;
+    right: 0;
+    overflow: visible;
+    white-space: normal;
+    min-width: 156px;top: 34px
+}
+
+.accreditation-basket img {
+    border-radius: 2px;
+}
+
+.accreditation-basket td.user-cell .user-block__info * {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;min-width: 156px;
+}
+
+
+.circle25 {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.circle25.circle25--green {
+    background-color: #00a551;
+}
+
+.circle25.circle25--lgreen {
+    background-color: #30f590;
+}
+
+.circle25.circle25--red {
+    background-color: #e03a3a;
+}
+
+.deactivation-tbl th:first-of-type {
+    width: 75px;
+}
+
+
+
+@media screen and (max-width: 659px) {
+    .accreditation-tooltip {
+        display: block !important;
+        width: auto;
+        position: static;
+    }
+
+    .accreditation-log td:nth-child(1):before {
+        content: 'Дата';
+    }
+
+    .accreditation-log td:nth-child(2):before {
+        content: 'Тип действия';
+    }
+
+    .accreditation-log td:nth-child(3):before,
+    .accreditation-users td:nth-child(2):before,
+    .accreditation-basket td:nth-child(2):before {
+        content: 'Пользователь';
+    }
+
+    .accreditation-log td:nth-child(4):before {
+        content: 'Название отеля';
+    }
+
+    .accreditation-log td:nth-child(5):before {
+        content: 'Менеджер / доверитель';
+    }
+
+    .accreditation-users td:nth-child(3):before {
+        content: 'Статус';
+    }
+
+    .accreditation-users td:nth-child(4):before {
+        content: 'Дата активации';
+    }
+
+    .accreditation-users td:nth-child(5):before {
+        content: 'Кол-во отелей';
+    }
+
+    .accreditation-hotels td:nth-child(2):before {
+        content: 'Отель';
+    }
+
+    .accreditation-hotels td:nth-child(3):before {
+        content: 'Город';
+    }
+
+    .accreditation-hotels td:nth-child(4):before {
+        content: 'Страна';
+    }
+
+    .accreditation-hotels td:nth-child(5):before {
+        content: 'Пользователи отеля';
+    }
+
+    .accreditation-hotels td:nth-child(6):before {
+        content: 'Наши пользователи';
+    }
+
+    .accreditation-basket td:nth-child(4):before {
+        content: 'Удалил';
+    }
+}

@@ -1,0 +1,144 @@
+.order__tbl .bth__cell {
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+}
+.order__tbl .head__tbl {
+    display: table-header-group;
+}
+
+.order__tbl .body__tbl {
+    display: table-row-group;
+}
+
+.order__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.order__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.order__tbl .bth__cell:first-child {
+    width: 78px;
+}
+
+.order__tbl .bth__cell:nth-child(2) {
+    width: 280px;
+}
+
+.order__tbl .bth__cell:nth-child(3) {
+    width: 75px;
+}
+
+/*.order__tbl .bth__cell:nth-child(4) {*/
+    /*width: 240px;*/
+/*}*/
+
+.order__tbl .bth__cell:last-child {
+    width: 135px;
+    text-align: right;
+}
+
+.order__tbl .order__user-ava {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    margin-right: 7px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.order__tbl .order__user-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.order__tbl .order__flag-block {
+    /*margin-top: 0px;*/
+}
+
+.order__tbl .bth__flag {
+    display: block;
+    position: relative;
+    margin-bottom: 1px;
+    height: 31px;
+    width: 45px;
+    background: url("/i/flag.png") no-repeat;
+}
+
+.order__tbl .bth__flag.russia-flag {
+    background-position: -820px -278px;
+
+}
+.order__tbl .bth__flag.usa-flag {
+    background-position: -52px -6px;
+
+}
+.order__tbl .bth__flag.canada-flag {
+    background-position: -100px -6px;
+
+}
+
+.order__tbl .order__flag-block .bth__cnt {
+    display: block;
+    max-width: 160px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.order__tbl .order__user-info .bth__link,
+.order__tbl .order__user-info .bth__cnt {
+    display: block;
+    max-width: 190px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.order__tbl .order__flag-block .hint {
+    top: 51px;
+}
+
+@media screen and (max-width: 768px){
+    .order__tbl .head__tbl {
+        display: none;
+    }
+    .order__tbl .bth__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0px;
+    }
+    .order__tbl .bth__cell:first-child {
+        width: 100%;
+        padding-top: 7px;
+    }
+    .order__tbl .bth__cell:nth-child(2),
+    .order__tbl .bth__cell:nth-child(3) {
+        width: 100%;
+    }
+    .order__tbl .bth__cell:last-child {
+        width:100%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 7px;
+        text-align: left;
+    }
+    .order__tbl .order__flag-block .bth__cnt {
+        max-width: 100%;
+        white-space: normal;
+        overflow: initial;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .order__tbl .order__user-info {
+        display: block;
+        margin-top: 7px;
+    }
+    .order__tbl .order__user-info .bth__link,
+    .order__tbl .order__user-info .bth__cnt {
+        max-width: 260px;
+    }
+}

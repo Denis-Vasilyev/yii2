@@ -1,0 +1,56 @@
+
+
+
+
+.bth__btn.registration__btn {
+    width: 200px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .registration__tbl .bth__cell {
+        display: block;
+    }
+    .registration__tbl .bth__cell:first-child {
+        padding-bottom: 0;
+        padding-top: 5px;
+    }
+    .registration__tbl .bth__cell:last-child {
+        padding-top: 0;
+        padding-bottom: 5px;
+    }
+    .accredit__line {
+        display: inline-block;
+    }
+    .accredit__line:not(:first-child) {
+        margin-bottom: 20px;
+    }
+    .accredit__line .bth__inp-block {
+        display: block;
+        width: 400px;
+    }
+    .accredit__line .bth__inp-block.hotel-name {
+        margin-bottom: 20px;
+    }
+    .accredit-add {
+        position: absolute;
+        right: -10px;
+        bottom: 4px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .registration__tbl .bth__inp-block,
+    .accredit__line,
+    .accredit__line .bth__inp-block {
+        width: 100%;
+    }
+    .accredit-add {
+        right: 11px;
+    }
+    .accredit__line .bth__inp-block.hotel-link {
+        padding-right: 30px;
+    }
+}

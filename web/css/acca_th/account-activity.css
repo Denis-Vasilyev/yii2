@@ -1,0 +1,75 @@
+.account-activity-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.account-activity-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.account-activity-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 66px;
+    height: 3px;
+    background: #475669;
+}
+
+.account-activity-tab.active {
+    color: #475669;
+}
+
+.activity-by-month th:nth-child(1),
+.activity-by-days th:nth-child(2){
+    width: 100px;
+}
+
+.activity-by-days th:nth-child(1) {
+    width: 40px;
+}
+
+
+
+@media screen and (max-width: 659px) {
+
+    .activity-by-days td:nth-child(4):before {
+        content: "Действия";
+    }
+
+    .activity-by-days td:nth-child(5):before, .activity-by-month td:nth-child(4):before {
+        content: "Отели";
+    }
+
+    .activity-by-days td:nth-child(6):before {
+        content: "Действие";
+    }
+
+    .activity-by-month td:nth-child(1):before {
+        content: 'Месяц';
+    }
+
+    .activity-by-days td:nth-child(3):before, .activity-by-month td:nth-child(2):before {
+        content: "Профиль";
+    }
+
+    .activity-by-month td:nth-child(3):before {
+        content: 'Действия';
+    }
+
+    .activity-by-month td:nth-child(5):before {
+        content: 'Отчет';
+    }
+}

@@ -1,0 +1,629 @@
+
+.search-tabs-block .tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #fff;
+    /*margin-bottom: 20px;*/
+    margin-top: 0px;
+}
+
+.search-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 15px;
+    padding: 15px 0px 15px;
+    margin-right: 37px;
+    color: #318cc6 ;
+}
+.section-wrapper {
+    background-color: white;    color: #475669;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.search-tab.active {
+    color: #475669 ;
+    border-bottom: none;
+}
+
+.search-line {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 124px;
+    height: 3px;
+    background: #475669;
+}
+
+.filter-line {
+    background: #e4e5ea;
+}
+
+.filter-line__top {
+    padding: 0 40px;
+
+}
+.filter-line__bot {
+    padding: 20px 40px;
+}
+
+.tour-filter {
+    position: relative;
+    padding-bottom: 0px;
+    min-height: initial;
+    min-height: auto;
+}
+
+.tour-filter__required {
+    position: relative;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    padding-right: 45px;
+}
+
+.tour-filter__required .tour-filter__item {
+    display: inline-block;
+    vertical-align: middle;
+    background: #fff;
+    border-radius: 2px;
+    padding-right: 0px;
+    margin: 0px;
+    cursor: pointer;
+    padding-left: 0px;
+}
+
+.tour-filter__required .tour-filter__box {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0px;
+    background: #fff;
+    padding: 18px 10px;
+    margin-bottom: 0;
+}
+
+.tour-filter__val {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tour-filter__required .tour-filter__val-text {
+    font-weight: bold;
+    color: #475669;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.tour-filter__required .fa-sliders {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ff8e41;
+}
+
+.tour-filter__required .tour-filter__item:first-child {
+    padding-left: 10px;
+}
+
+.tour-filter__required .filter-prix .tour-filter__box {
+    padding: 11px 10px 11px 3px;
+}
+
+.search-val-icon {
+    font-size: 15px;
+}
+
+.tour-filter__required .filter-adday {
+    font-weight: normal;
+    font-size: 15px;
+    vertical-align: inherit;
+    margin-left: 5px;
+}
+
+.tour-filter__required .tour-filter__text {
+    display: inline-block;
+    color: #475669;
+    vertical-align: middle;
+    font-size: 16px;
+    margin-right: 0px;
+    padding: 5px 0 5px 7px;
+}
+
+.search__line {
+    border-bottom: 1px solid #e4e5ea;
+    padding: 10px 40px;
+}
+
+.filter-operator-link {
+    font-size: 14px;
+    color: #2c9cdc;
+    vertical-align: middle;
+    line-height: 26px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.filter-operator-link.operator-hide {
+    display: block;
+}
+
+.tour-filter__box {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 3px;
+    background: #f1f1f1;
+    padding: 6px 5px 7px 10px;
+    margin-bottom: 12px;
+}
+
+.tour-filter__val {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tour-filter__val-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 13px;
+    color: #475669;
+}
+
+.search-operator-list {
+    display: none;
+}
+
+.filter-operator-btn-block {
+    display: none;
+}
+
+.tour-filter__link {
+    position: relative;
+    bottom: initial;
+    left: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #ff8e41;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 4px 0;
+}
+
+.group-result-block {
+    display: inline-block;
+    margin-top: 4px;
+    float: right;
+}
+
+.group-result {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #475669;
+}
+
+.group-result__link {
+    color: #2c9cdc;
+    font-weight: bold;
+}
+
+.group-result__link.active {
+    color: #475669;
+}
+
+.page-stars {
+    background: url(/i/tourvision/page-stars-orange.png) no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    height: 10px;
+    margin-right: 13px;
+}
+
+.page-stars--0 {
+    width: 0;
+}
+
+.page-stars--1 {
+    width: 12px;
+}
+
+.page-stars--2 {
+    width: 25px;
+}
+
+.page-stars--3 {
+    width: 37px;
+}
+
+.page-stars--4 {
+    width: 51px;
+}
+
+.page-stars--5 {
+    width: 64px;
+}
+
+.page-rate {
+    display: inline-block;
+    vertical-align: top;
+    color: #00b44f;
+    height: 10px;
+    padding-left: 18px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    background: url(/i/tourvision/crown_green.png) no-repeat;
+}
+
+.search-item__fav {
+    cursor: pointer;
+    height: 100%;
+    margin-top: 4px;
+}
+
+.search-item__fav i {
+    color: #999;
+    position: relative;
+    font-size: 20px;
+}
+
+.search-item__fav .onfav {
+    display: block;
+}
+
+.search-item__fav .unfav {
+    display: none;
+}
+
+.search-item__fav.active .onfav {
+    display: none;
+}
+
+.search-item__fav.active .unfav {
+    color: #ff4f4d;
+    display: block;
+}
+
+.section-search-block span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#idxTourSearchBtn, #idxHotelSuggestSearch {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: -2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 197px;
+    transition: all .0s;
+}
+
+#idxTourSearchBtn .btn-cnt, #idxHotelSuggestSearch .btn-cnt {
+    position: absolute;
+    top: 18px;
+    width: 83px;
+    height: 20px;
+    left: 46px;
+    overflow: hidden;
+    color: #ff8e41;
+}
+
+#idxTourSearchBtn.disabled .btn-cnt,
+#idxHotelSuggestSearch.disabled .btn-cnt {
+    color: #b5b5b5;
+}
+
+#idxTourSearchBtn:hover,
+#idxHotelSuggestSearch:hover {
+    background-color: #ff8e41;
+    border-color: #dfdfdf;
+}
+
+#idxTourSearchBtn.disabled,
+#idxHotelSuggestSearch.disabled {
+    background: #fff;
+    cursor: auto;
+}
+
+#idxTourSearchBtn.disabled i,
+#idxHotelSuggestSearch.disabled i {
+    background: url(/i/tourvision/next-grey.png) no-repeat center center;
+    -webkit-background-size: 18px;
+    background-size: 18px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    margin-left: 75px;
+    top: -2px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.3s;
+}
+
+.hide-h {
+    display: block;
+    top: -1px;
+    line-height: 20px;
+    height: 20px;
+    position: absolute;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.show-h {
+    display: block;
+    top: 17px;
+    line-height: 20px;
+    height: 20px;
+    position: absolute;
+    opacity: 0;
+    margin-left: 22px;
+    transition: 0.3s;
+}
+
+#idxTourSearchBtn.disabled:hover i,
+#idxHotelSuggestSearch.disabled:hover i {
+    transform: rotate(-180deg);
+}
+
+.tour-order__item.search-hotel .form__label {
+    font-weight: 600;
+    color: #666666;
+    font-size: 14px;
+}
+
+.last-search__tbl .tv__cell {
+    padding: 12px 10px;
+    border-bottom: 1px solid #ccc;
+}
+.last-search__tbl .head__tbl .tv__cell {
+    padding: 5px 10px;
+}
+
+
+.last-search__tbl .head__tbl .tv__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.last-search__tbl .tv__cell:first-child {
+    width: 180px;
+}
+
+.last-search__tbl .tv__cell:nth-child(2) {
+    width: 180px;
+}
+
+.last-search__tbl .tv__cell:nth-child(3) {
+    width: 80px;
+    text-align: center;
+}
+
+.last-search__tbl .tv__cell:last-child {
+    padding-left: 75px;
+}
+
+.interest-tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.interest-tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 15px 0px;
+    margin-right:20px;
+    color: #318cc6 ;
+}
+
+
+.interest-tab.active {
+    color: #475669 ;
+}
+
+
+.interest-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 153px;
+    height: 3px;
+    background: #475669;
+}
+
+.interest-hotel-search__tbl .tv__cell,
+.interest-last-search__tbl .tv__cell {
+    padding: 12px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.interest-hotel-search__tbl .head__tbl .tv__cell,
+.interest-last-search__tbl .head__tbl .tv__cell {
+    padding: 5px 10px;
+}
+
+.interest-hotel-search__tbl .head__tbl .tv__cnt,
+.interest-last-search__tbl .head__tbl .tv__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.interest-last-search__tbl .tv__cell:first-child {
+    width: 210px;
+}
+
+.interest-last-search__tbl .tv__cell:nth-child(2) {
+    width: 210px;
+}
+
+.interest-last-search__tbl .tv__cell:nth-child(3) {
+    width: 250px;
+}
+
+.interest-hotel-search__tbl .tv__cell:first-child {
+    width: 160px;
+}
+
+.interest-hotel-search__tbl .tv__cell:nth-child(2) {
+    width: 160px;
+}
+
+.interest-hotel-search__tbl .tv__cell:nth-child(3) {
+    width: 160px;
+}
+
+.interest-hotel-search__tbl .tv__cell:nth-child(4) {
+    width: 115px;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .filter-line__top {
+        padding: 0 20px;
+    }
+    .filter-line__bot {
+        padding: 20px 20px;
+    }
+    .search__line {
+        padding: 10px 20px;
+    }
+    .search-tab {
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    .interest-last-search__tbl .tv__cell:first-child,
+    .interest-last-search__tbl .tv__cell:nth-child(2) {
+        width: 185px;
+    }
+    .interest-last-search__tbl .tv__cell:nth-child(3) {
+        width: 210px;
+    }
+    .interest-hotel-search__tbl .tv__cell,
+    .interest-last-search__tbl .tv__cell {
+        padding: 10px 7px;
+    }
+    .interest-hotel-search__tbl .tv__cell:first-child,
+    .interest-hotel-search__tbl .tv__cell:nth-child(2),
+    .interest-hotel-search__tbl .tv__cell:nth-child(3) {
+        width: 145px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .group-result-block {
+        float: none;
+        display: block;
+        margin-top: 10px;
+    }
+    .group-result {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .group-result {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .interest-hotel-search__tbl .head__tbl,
+    .interest-last-search__tbl .head__tbl {
+        display: none;
+    }
+    .interest-last-search__tbl .tv__cell {
+        display: block;
+        padding: 5px 0px;
+        border-bottom: none;
+    }
+    .interest-last-search__tbl .tv__cell:first-child {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .interest-last-search__tbl .tv__cell:nth-child(2),
+    .interest-last-search__tbl .tv__cell:nth-child(3) {
+        width: 100%;
+    }
+    .interest-last-search__tbl .tv__cell:last-child {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+    }
+    .interest-hotel-search__tbl .tv__cell {
+        display: block;
+        border-bottom: none;
+        padding: 5px 0px;
+    }
+    .interest-hotel-search__tbl .tv__cell:first-child {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .interest-hotel-search__tbl .tv__cell:nth-child(2),
+    .interest-hotel-search__tbl .tv__cell:nth-child(3),
+    .interest-hotel-search__tbl .tv__cell:nth-child(4) {
+        width: 100%;
+    }
+    .interest-hotel-search__tbl .tv__cell:last-child {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+    }
+    .interest-tab {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 5px 0;
+    }
+    .interest-line {
+        display: none;
+    }
+    .interest-tabs-bar {
+        padding-bottom: 10px ;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .search-tab {
+        display: block;
+        text-align: left;
+        padding: 5px 0;
+    }
+    .search-line {
+        display: none;
+    }
+    .search-tabs-block .tabs-bar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #idxTourSearchBtn.disabled .btn-cnt,
+    #idxHotelSuggestSearch.disabled .btn-cnt {
+        display: none;
+    }
+    #idxTourSearchBtn, #idxHotelSuggestSearch {
+        width: 60px;
+    }
+    #idxTourSearchBtn.disabled i,
+    #idxHotelSuggestSearch.disabled i {
+        margin-left: 0;
+    }
+}

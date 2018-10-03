@@ -1,0 +1,90 @@
+.edit-block__inp-block.add-file-field {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.edit-block__inp-block.filename {
+    width: 370px;
+}
+
+.add-file-field .add-file__block {
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+
+.edit-block__btn.add-file__btn {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    padding: 6px 66px 7px 66px;
+}
+
+.add-file__tbl .bth__cell {
+    padding: 7px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: top;
+}
+
+.add-file__tbl .head__tbl .bth__cell {
+    padding: 5px 7px;
+}
+
+.add-file__tbl .head__tbl .bth__cnt {
+    color: #999;
+    font-size: 12px;
+}
+
+.add-file__tbl .bth__cell:nth-child(2) {
+    width: 65px;
+    padding-top: 10px;
+}
+
+.add-file__tbl .bth__cell:nth-child(3) {
+    width: 160px;
+}
+
+.add-file__tbl .bth__cell:nth-child(5) {
+    width: 90px;
+}
+
+.add-file__tbl .bth__cell:nth-child(6) {
+    width: 150px;
+}
+
+.add-file__tbl .bth__cell:nth-child(7) {
+    width: 90px;
+}
+
+.add-file__tbl .file__img-block {
+    width: 25px;
+    height: 25px;
+}
+
+.add-file__tbl .bth__cell:last-child {
+    width: 20px;
+    text-align: right;
+}
+
+.add-file-link__block.add-file {
+    padding: 8px 0 8px 50px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.edit-block__del {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    z-index: 1;
+    background: url(/i/close-12x12.png);
+}
+
+.edit-block__del:hover {
+    background: url(/i/close-12x12-red.png);
+}
+

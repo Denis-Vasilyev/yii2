@@ -1,0 +1,811 @@
+.bth__ttl-h2 {
+    font-size: 19px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+}
+
+.bth__ttl-h2--small {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.bth__ttl-h3 {
+    font-size: 16px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+}
+
+.bth__ttl-h2--abs {
+    position: absolute;
+    font-size: 19px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    top: -25px;
+    left: 5px;
+}
+
+.bth__tbl {
+    display: table;
+    width: 100%;
+}
+
+.bth__row {
+    display: table-row;
+}
+
+.bth__cell {
+    display: table-cell;
+    box-sizing: border-box;
+}
+
+.bth__cnt {
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    line-height: 22px;
+}
+
+.bth__cnt--sm {
+    font-size: 12px;
+}
+
+.bth__cnt--big {
+    font-size: 16px;
+}
+
+.bth__link {
+    position: relative;
+    font-size: 14px;
+    color: #318CC6;
+    font-family: 'apercu_pro', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 22px;
+}
+
+.bth__link--bg {
+    font-size: 16px;
+}
+
+.bth__link--sm {
+    font-size: 12px;
+}
+
+.bth__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bth__inp-block {
+    position: relative;
+    border: 1px solid #ccc;
+    width: 500px;
+    border-radius: 2px;
+    height: 36px;
+    box-sizing: border-box;
+    background: #fff;
+    padding-bottom: 3px;
+}
+.bth__inp-block.bth__inp-block--60 {
+    width: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.bth__inp {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 7px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+}
+
+.bth__ta-block {
+    position: relative;
+    height: 146px;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.bth__ta-block.error {
+    border-color: #da4c4c !important;
+    box-shadow: 0px 0px 0px 1px #da4c4c;
+}
+
+.bth__inp-block.error {
+
+    border-color: #da4c4c !important;
+    box-shadow: 0px 0px 0px 1px #da4c4c;
+}
+
+
+.bth__ta {
+    border: none;
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #475669;
+    padding: 10px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.bth__btn {
+    display: block;
+    width: 180px;
+    background: #fff;
+    border: 1px solid #ff8e41;
+    padding: 11px 0px 13px 0px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #ff8e41;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.bth__btn.bth__btn--fill {
+    background: #ff8e41;
+    color: white;
+}
+
+.bth__btn:hover {
+    background: #ff8e41;
+    color: #fff;
+}
+
+.separator {
+    height: 20px;
+}
+
+.edit-block__tbl {
+    display: table;
+    width: 100%;
+}
+
+.edit-block__row {
+    display: table-row;
+}
+
+.edit-block__cell {
+    position: relative;
+    display: table-cell;
+    padding: 15px 0px 15px 0px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.edit-block__inp-block {
+    position: relative;
+    border: 1px solid #ccc;
+    width: 300px;
+    border-radius: 2px;
+    height: 36px;
+    box-sizing: border-box;
+    background: #fff;
+    padding-bottom: 3px;
+}
+
+.edit-block__inp {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 3px 10px 2px;
+    border: none;
+    line-height: 36px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.edit-block__ta-block {
+    position: relative;
+    height: 146px;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: #fff;
+    /*margin-bottom: 10px;*/
+    /*margin-top: 10px;*/
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+.edit-block__ta {
+    border: none;
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #475669;
+    padding: 7px 10px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.bth__inp-block.focus,
+.edit-block__inp-block.focus,
+.bth__inp-block .SumoSelect.open > .CaptionCont,
+.edit-block__inp-block .SumoSelect.open > .CaptionCont {
+    box-shadow: inset 0px -3px 0px 0px orange;
+}
+
+.rating-block {
+    display: inline-block;
+    background: url("/i/sprite-rate-crown2.png") no-repeat;
+    padding-left: 20px;
+}
+
+.crown-green {
+    background-position: 0 -16px;
+}
+
+.crown-green .bth__cnt {
+    color: #00a650;
+}
+
+.crown-red {
+    background-position: 0 -55px;
+}
+
+.crown-red .bth__cnt {
+    color: #da4c4c;
+}
+
+.crown-grey {
+    background-position: 0 -75px;
+}
+
+.crown-grey .bth__cnt {
+    color: #475669;
+}
+
+.crown-yellow {
+    background-position: 0 -35px;
+}
+
+.crown-yellow .bth__cnt {
+    color: #dfa919;
+}
+
+.show-1279 {
+    display: none !important;
+}
+
+.show-1023 {
+    display: none !important;
+}
+
+.show-768 {
+    display: none !important;
+}
+
+.show-479 {
+    display: none !important;
+}
+
+.color-block .edit-block__cell:first-child {
+    width: 200px;
+}
+
+.bth__inp-block.error,
+.edit-block__inp-block.error,
+.bth__ta-block.error {
+    border-color: #da4c4c !important;
+    box-shadow: 0px 0px 0px 1px #da4c4c;
+}
+
+.hint-block {
+    position: relative;
+    margin-top: 0;
+    z-index: 10;
+    color: #475669;
+}
+
+.hint-block--abs {
+    position: absolute;
+    right: 6px;
+    top: 7px;
+}
+
+.hint {
+    position: absolute;
+    display: none;
+    padding: 5px 9px 6px 9px;
+    background: rgba(255, 255, 255, 1);
+    color: #475669;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    border-radius: 3px;
+    top: 24px;
+    right: 0;
+    width: 164px;
+    text-align: left;
+}
+
+.hint--big {
+    width: 230px;
+}
+
+.hint--left {
+    left: 0;
+    right: auto;
+}
+
+.hint-block:hover .hint {
+    display: block;
+}
+
+.question-error {
+    display: block;
+    color: #da4c4c;
+    background: #fff;
+    font-size: 19px;
+}
+
+.SelectBox {
+    padding: 5px 8px 5px 10px;
+}
+
+.SumoSelect > .optWrapper > .options li.opt {
+    padding: 6px 10px;
+}
+
+.SumoSelect > .CaptionCont > span {
+    font-size: 14px;
+    color: #475669;
+    margin-top: 1px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'apercu_pro', sans-serif;
+    padding-right: 13px;
+}
+
+.SumoSelect > .optWrapper > .options li label {
+    color: #475669;
+}
+
+.SumoSelect > .CaptionCont > label {
+    width: 30px;
+}
+
+.SumoSelect > .CaptionCont > label > i {
+    background-image: none;
+    width: 13px;
+    height: 18px;
+    top: -1px;
+    right: -1px;
+    border-right: none;
+    border-bottom: none;
+    transition: 0.3s;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 19px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    opacity: 1;
+}
+
+.SumoSelect > .CaptionCont > label > i:before {
+    content: "\f107";
+    color: #999;
+}
+
+.SumoSelect {
+    height: 36px;
+    padding: 0;
+}
+
+.SumoSelect > .CaptionCont {
+    height: 24px;
+    border-radius: 0;
+}
+
+.SumoSelect:focus > .CaptionCont,
+.SumoSelect:hover > .CaptionCont {
+    box-shadow: none;
+    border-color: #ccc;
+}
+
+.SumoSelect.open > .optWrapper {
+    top: 35px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.SumoSelect.open > .CaptionCont > label > i {
+    transform: rotate(180deg);
+    top: 0px;
+}
+
+.selectize-input {
+    border: none;
+    box-shadow: none;
+    padding: 8px 8px 7px 10px;
+    border-radius: 0;
+}
+
+.selectize-input.dropdown-active::before {
+    transform: rotate(180deg);
+}
+
+.edit-block__inp-block .selectize-control {
+    height: 100%;
+}
+
+.edit-block__inp-block .selectize-dropdown {
+    margin: 2px 0 0 0;
+}
+
+.edit-block__inp-block .selectize-control.single .selectize-input:after {
+    display: none;
+}
+
+.edit-block__inp-block .selectize-dropdown [data-selectable],
+.edit-block__inp-block .selectize-dropdown .optgroup-header {
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 14px;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 6px 10px;
+}
+
+.edit-block__inp-block .selectize-dropdown .active {
+    background-color: #E4E4E4;
+}
+
+.edit-block__inp-block .selectize-control.single .selectize-input.input-active,
+.edit-block__inp-block .selectize-control.single .selectize-input.input-active input {
+    box-shadow: inset 0px -3px 0px 0px orange;
+}
+
+.edit-block__inp-block .selectize-control.single .selectize-input::before,
+.selectize-input.dropdown-active::before {
+    content: "\f107";
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: #999;
+    display: inline-block;
+    font: normal normal normal 19px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    left: initial;
+    bottom: initial;
+    background: #fff;
+    height: auto;
+    transition: 0.3s;
+}
+
+.edit-block__inp-block .selectize-input > * {
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*чекбоксы*/
+.cbx-block {
+    position: relative;
+    display: block;
+    font-family: 'apercu_pro', sans-serif;
+    font-size: 15px;
+    width: auto;
+}
+
+.cbx {
+    display: none;
+}
+
+.cbx + .label-cbx {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    font-size: 14px;
+    line-height: normal;
+    padding-left: 19px
+}
+
+.cbx + .label-cbx::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 2px;
+    border: 2px solid #475669;
+}
+
+.cbx:checked + .label-cbx::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -20px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border: 2px solid #475669;
+    border-radius: 2px;
+}
+
+.cbx:checked + .label-cbx::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    width: 15px;
+    height: 13px;
+    background: url(/i/check-bold-15.png);
+    border-bottom: none;
+    border-left: none;
+    transform: initial;
+}
+
+.cbx:checked + .label-cbx {
+    color: #475669;
+}
+
+.cbx-cnt {
+    display: inline-block;
+    vertical-align: top;
+    color: #475669;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    font-weight: bold;
+}
+
+/*радио*/
+.rbt-block {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin-right: 22px;
+    line-height: 21px;
+}
+
+.rbt {
+    display: none;
+}
+
+.rbt + .label-rbt {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    font-size: 14px;
+    line-height: normal;
+    padding-left: 20px
+}
+
+.rbt + .label-rbt::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border: 2px solid #475669;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.rbt:checked + .label-rbt::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    background: #475669;
+    border-radius: 50%;
+}
+
+.rbt:checked + .subs-rbt {
+    color: #475669;
+}
+
+.rbt-cnt {
+    display: inline-block;
+    vertical-align: top;
+    color: #475669;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    font-weight: bold;
+}
+
+.rbt-block:last-child {
+    margin-right: 0;
+}
+
+.section--grey {
+    position: relative;
+    padding: 15px;
+    background: #e4e5ea;
+}
+
+.section--green {
+    position: relative;
+    padding: 15px;
+    background: #e5f6ed;
+}
+
+.section--red {
+    position: relative;
+    padding: 15px;
+    background: #f9ebea;
+}
+
+.section--yellow {
+    position: relative;
+    padding: 15px;
+    background: #faf6e5;
+}
+
+.section--transparent {
+    position: relative;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.tabs-bar {
+    position: relative;
+    font-size: 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.tab {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 2px 0px 15px 0px;
+    margin-right: 20px;
+    color: #318cc6;
+}
+
+.tab.active {
+    color: #475669;
+}
+
+.line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 120px;
+    height: 3px;
+    background: #475669;
+}
+
+.bth__inp-lbl {
+    display: block;
+    color: #999;
+    font-size: 14px;
+    position: absolute;
+    margin-left: 7px;
+    top: 18px;
+    transition: 0.3s;
+    font-family: 'apercu_pro', sans-serif;
+}
+
+.bth__inp-lbl.active {
+    top: -21px;
+}
+
+.bth__datepicker-block + div {
+    position: absolute;
+    top: 62px !important;
+    left: 0 !important;
+    background: #fff;
+    z-index: 101;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bth__datepicker-block {
+    padding-left: 10PX;
+    PADDING-TOP:9PX;
+}
+
+.bth__datepicker-block .super-grey {
+    font-size: 14px !important;
+}
+
+@media screen and (max-width: 1279px) {
+    .show-1279 {
+        display: inline-block !important;
+    }
+
+    .hide-1279 {
+        display: none !important;
+    }
+
+    .tab {
+        font-size: 15px;
+        margin-right: 16px;
+    }
+
+    .line {
+        width: 148px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+    .hide-1023 {
+        display: none !important;
+    }
+
+    .show-1023 {
+        display: inline-block !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bth__inp-block {
+        width: 100%;
+    }
+    .hide-768 {
+        display: none !important;
+    }
+
+    .show-768 {
+        display: inline-block !important;
+    }
+
+    .tab {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .tabs-bar {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .line {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .hide-479 {
+        display: none;
+    }
+
+    .show-479 {
+        display: inline-block;
+    }
+}

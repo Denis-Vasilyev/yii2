@@ -1,0 +1,209 @@
+
+.rename-pp {
+    position: relative;
+    z-index: 101;
+    background: #e4e5ea;
+    width: 800px;
+    /* height: 100%; */
+    height: 338px;
+    margin-left: -400px;
+    left: 50%;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.rename-pp__top {
+    padding: 17px 0px 17px;
+    margin: 0 30px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 13px;
+}
+
+.rename-pp__close {
+    position: absolute;
+    top: 24px;
+    right: 0px;
+    width: 12px;
+    height: 12px;
+    background: url(/i/thpro/close-12x12.png) no-repeat;
+    cursor: pointer;
+}
+
+.rename-pp__ttl2 {
+    color: #475669;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.rename-pp__section {
+    padding: 0px 30px;
+}
+
+.rename-pp__tbl {
+    display: table;
+    width: 100%;
+}
+
+.rename-pp__row {
+    display: table-row;
+}
+
+.rename-pp__cell {
+    display: table-cell;
+    position: relative;
+    width:50%;
+    padding: 12px 10px 12px 0;
+}
+
+.rename-pp__cell:last-child {
+    padding-right: 0;
+}
+
+.rename-pp__lbl {
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+}
+
+.rename-pp__cnt {
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+}
+
+.rename-pp__cnt--big {
+    font-size: 17px;
+}
+
+.rename-pp__inp-block {
+    position: relative;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 2px;
+    height: 36px;
+    box-sizing: border-box;
+    background: #fff;
+    padding-bottom: 3px;
+}
+
+.rename-pp__inp {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: 'apercu_pro', sans-serif;
+    color: #475669;
+    padding: 3px 10px 2px;
+    border: none;
+    line-height: 36px;
+    font-weight: bold;
+    z-index: 1;
+    background: #fff;
+}
+
+.rename-pp__cell:first-child .rename-pp__inp-block {
+    padding-right: 30px;
+}
+
+.rename-pp .edit-block__inp-block {
+    padding-right: 30px;
+}
+
+.rename-pp__btn {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'apercu_pro', sans-serif;
+    color: #fff;
+    border: 1px solid #ff8e41;
+    background: #ff8e41;
+    padding: 10px 0px;
+    border-radius: 2px;
+    width: 200px;
+}
+
+.rename-pp__btn:hover {
+    background: #F88741;
+    border: 1px solid #F88741;
+}
+
+.ov-hidden {
+    overflow: hidden !important;
+}
+
+
+.show-639 {
+    display: none;
+}
+
+.rename-pp__inp-block.focus {
+    box-shadow:  inset 0px -3px 0px 0px orange;
+}
+.rename-pp__inp-block.error {
+    border-color: #da4c4c;
+    box-shadow: 0px 0px 0px 1px #da4c4c;
+}
+
+.rename-pp__step2 {
+    /*padding-top: 40px;*/
+}
+
+@media screen and (max-width: 1023px) {
+    .rename-pp__container {
+        padding: 0 40px;
+    }
+    .rename-pp {
+        width: 100%;
+        margin-left: 0;
+        left: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rename-pp {
+        height: 526px;
+    }
+    .rename-pp__cell {
+        display: block;
+        width: 100%;
+    }
+    .rename-pp__lbl.new-name {
+        display: none;
+    }
+    .rename-pp__cell:first-child {
+        padding-bottom: 3px;
+    }
+    .rename-pp__cell:last-child {
+        padding-top: 3px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .hide-639 {
+        display: none;
+    }
+    .show-639 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .rename-pp__container {
+        padding: 0 20px;
+    }
+    .rename-pp__top {
+        margin: 0 10px 20px;
+    }
+    .rename-pp__section {
+        padding: 0px 10px;
+    }
+    .rename-pp__btn {
+        /*width: 100%;*/
+        left: 10px;
+    }
+}
